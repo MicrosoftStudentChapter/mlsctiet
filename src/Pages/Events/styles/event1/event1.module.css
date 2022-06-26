@@ -1,0 +1,79 @@
+@import '../fonts.css';
+
+.body{
+    background-color: #0D1213;
+    z-index: -1;
+    height: 100vh;
+    margin: 0;
+}
+
+.content{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    user-select: all;
+}
+
+.back{
+    margin: 0;
+    position: absolute;
+    z-index: 0;
+    height: 100vh;
+    width: 100vw;
+    user-select: none;
+}
+
+.header{
+    height: 10vh;
+    display: flex;
+}
+
+.mid{
+    height: 59vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    height: 31vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.text{
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.heading{
+    font-family: 'Head';
+    font-weight: bold;
+    font-size: 6rem;
+    color: white;
+    display: flex;
+    
+}
+
+.subhead{
+    font-family: "Head";
+    font-size: 3rem;
+    color: white;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 860px) {
+    .heading{
+        font-size: 400%;
+    }
+}
