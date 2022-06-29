@@ -44,7 +44,8 @@
 }
 
 .text{
-    margin-right: 1rem;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -75,5 +76,9 @@
 @media screen and (max-width: 860px) {
     .heading{
         font-size: 400%;
+    }
+    .text{
+        margin-right: 0.5rem;
+        margin-top:0.5rem;
     }
 }
