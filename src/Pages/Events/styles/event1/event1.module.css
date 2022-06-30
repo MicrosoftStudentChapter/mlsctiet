@@ -24,12 +24,12 @@
 }
 
 .header{
-    height: 10vh;
+    height: 20vh;
     display: flex;
 }
 
 .mid{
-    height: 59vh;
+    height: 49vh;
     display: flex;
     text-align: center;
     align-items: center;
@@ -37,7 +37,7 @@
 }
 
 .footer{
-    height: 31vh;
+    height: 21vh;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;

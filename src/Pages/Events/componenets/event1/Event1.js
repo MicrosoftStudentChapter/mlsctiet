@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../../styles/event1/event1.module.css'
 import Backsvg from './Backsvg';
+import EventsCarousel from './Carousel';
 
 function Event1() {
   return (
@@ -12,7 +13,7 @@ function Event1() {
         <div className={styles.header}></div>
         <div className={styles.mid}>
           <div className={styles.carousel}>
-
+            <EventsCarousel />
           </div>
         </div>
         <div className={styles.footer}>

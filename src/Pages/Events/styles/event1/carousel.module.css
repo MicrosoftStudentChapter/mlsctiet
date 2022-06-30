@@ -1,0 +1,16 @@
+.carouselContainer{
+    margin: 0 auto;
+    display: flex;
+    /* transform: rotate(68deg); */
+    flex-direction: column;
+    width: 70vw;
+    height: 59vh;
+    justify-content: center;
+    justify-self: flex-end;
+    align-self: flex-end;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    transform: rotate(-20deg);
+    user-select: none;
+}

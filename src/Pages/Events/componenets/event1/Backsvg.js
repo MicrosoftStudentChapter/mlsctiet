@@ -7,10 +7,10 @@ import line from '../../assets/event1/images/line.svg';
 function Backsvg() {
   return (
     <div>
-        <img src={Uparrow} className={svgStyle.upArrow} />
-        <img src={Downarrow} className={svgStyle.downArrow} />
-        <img src={line} className={svgStyle.downline} />
-        <img src={line} className={svgStyle.upline} />
+        <img src={Uparrow} className={svgStyle.upArrow} alt="upArrow" />
+        <img src={Downarrow} className={svgStyle.downArrow} alt="downArrow" />
+        <img src={line} className={svgStyle.downline} alt="downline" />
+        <img src={line} className={svgStyle.upline} alt="upline" />
     </div>
   )
 }
