@@ -1,0 +1,59 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+    background-color: #0d1213;
+}
+
+.left{
+    min-width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.leftImage{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.right{
+    min-width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: 'myanmar-khyay-regular', sans-serif;
+    font-size: 3rem;
+}
+
+.polygon{
+    position: absolute;
+    left: -10%;
+    border-radius: 60px;
+    transform: skew(-25deg);
+    background: rgba(255, 246, 235, 0.68);
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sheild{
+    transform: skew(25deg);
+    width: 50%;
+    height: 50%;
+}
