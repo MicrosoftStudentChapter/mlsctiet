@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../../styles/event1/event1.module.css'
 import Backsvg from './Backsvg';
 import EventsCarousel from './Carousel';
+import YearSelector from './YearSelector';
 
 function Event1() {
   return (
@@ -10,7 +11,9 @@ function Event1() {
         <Backsvg />
       </div>
       <div className={styles.content}>
-        <div className={styles.header}></div>
+        <div className={styles.header}>
+          <YearSelector />
+        </div>
         <div className={styles.mid}>
           <div className={styles.carousel}>
             <EventsCarousel />

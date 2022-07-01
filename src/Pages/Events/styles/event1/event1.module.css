@@ -5,6 +5,8 @@
     z-index: -1;
     height: 100vh;
     margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 .content{
