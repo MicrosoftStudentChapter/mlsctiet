@@ -2,7 +2,8 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.069));
     color: white;
     padding: 2vh 0.5vw;
     backdrop-filter: blur(10px);
@@ -11,6 +12,7 @@ nav{
     width: 100%;
     z-index: 3;
     height: 60px;
+    font-family: 'myanmar-khyay-regular', sans-serif;
   }
   
   nav img{
