@@ -2,14 +2,14 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.332);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.069));
     color: white;
     padding: 2vh 0.5vw;
     backdrop-filter: blur(10px);
     position: fixed;
     top:0;
-    width: 100%;
+    width: 100vw;
     z-index: 3;
     height: 60px;
     font-family: 'myanmar-khyay-regular', sans-serif;
