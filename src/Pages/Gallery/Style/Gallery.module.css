@@ -10,14 +10,14 @@ body{
 }
 
 /* page */
-.page-wrapper{
+.pagewrapper{
     display:flex;
     flex-direction:column;
     justify-content:center;
     width:100vw;
     height:100vh;
   }
-  .align-center{
+  .aligncenter{
     height:100vh;
     display:flex;
     flex-direction:row;
@@ -93,7 +93,7 @@ body{
     
   }
   
-  #image-placeholder{
+  #imageplaceholder{
     width:400px;
     height:600px;
   }
