@@ -87,4 +87,11 @@
         margin-right: 0.5rem;
         margin-top:0.5rem;
     }
+    .text{
+        margin-top: 3rem;
+        font-size: 0.5rem;
+    }
+    .subhead{
+        font-size: 1rem;
+    }
 }

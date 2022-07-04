@@ -30,3 +30,12 @@
     background-color: #0D1213;
     user-select: none;
 }
+
+@media screen and (max-width: 768px) {
+    .carouselContainer{
+        margin-top: 2rem;
+    }
+    .carouselContainerNoTilt{
+        margin-top: 2rem;
+    }
+}

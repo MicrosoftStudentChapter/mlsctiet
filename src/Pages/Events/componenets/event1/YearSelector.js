@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import styles from '../../styles/event1/yearSel.module.css';
 
-function YearSelector() {
+function YearSelector({chngYear, chngData, yearData}) {
 
     const [prevVal, setPrevVal] = useState(20);
     const [curVal, setCurVal] = useState(21);
@@ -21,6 +21,9 @@ function YearSelector() {
             setPrevVal(22)
         }
         setCurVal(selectedVal)
+        chngYear(selectedVal)
+        // console.log(yearData[selectedVal])
+        chngData(yearData[selectedVal])
     }
                 
     return (

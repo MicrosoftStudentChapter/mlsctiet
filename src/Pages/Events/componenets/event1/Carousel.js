@@ -17,7 +17,7 @@ import { config } from "react-spring";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 
-function EventsCarousel() {
+function EventsCarousel({yearData}) {
 
   const [isMobile, setIsMobile] = useState(false);
   const [tilt, setTilt] = useState(true);
@@ -25,78 +25,74 @@ function EventsCarousel() {
   useEffect(() => {
     if(window.screen.width <= 760){setIsMobile(true); setTilt(false);}else{setIsMobile(false); setTilt(false);};
   }, []);
-
-  let cards = [
-    {
-      key: uuidv4(),
-      content: <EventCard tilt={tilt}/>
-    },
-    {
-      key: uuidv4(),
-      content: <EventCard tilt={tilt}/>
-    },
-    {
-      key: uuidv4(),
-      content: <EventCard tilt={tilt}/>
-    },
-    {
-      key: uuidv4(),
-      content: <EventCard tilt={tilt}/>
-    },
-    {
-      key: uuidv4(),
-      content: <EventCard tilt={tilt}/>
-    },
-    {
-      key: uuidv4(),
-      content: <EventCard tilt={tilt}/>
-    },
-    {
-      key: uuidv4(),
-      content: <EventCard tilt={tilt}/>
+  
+  const [data, setData] = useState(yearData);
+  const [cards, setCards] = useState(() => {
+    let card = []
+    for (let i = 0; i < data.length; i++) {
+      card.push({
+        key: uuidv4(),
+        content: <EventCard tilt={tilt} title={data[i]} />
+      })
     }
-  ];
+    return card;
+  })
+  useEffect(() => {
+    setData(yearData);
+    console.log("data",yearData)
+    let card = []
+    for (let i = 0; i < yearData.length; i++) {
+      card.push({
+        key: uuidv4(),
+        content: <EventCard tilt={true} title={yearData[i]} />
+      })
+    }
+    console.log(card)
+    setCards(card)
+    console.log(cards == card)
+  }, [yearData]);
 
   const table = cards.map((element, index) => {
     return { ...element, onClick: () => setGoToSlide(index) };
   });
-
   const [goToSlide, setGoToSlide] = useState(null);
   const [cardS] = useState(table)
-  if(isMobile){
-    return (
-    <div className={styles.carouselContainerNoTilt}>
-      <div>
-        <Swiper
-          effect={"cards"}
-          grabCursor={true}
-          modules={[EffectCards]}
-        >
-          <SwiperSlide>
-            <EventCard tilt={false} />
-          </SwiperSlide>
-          <SwiperSlide>
-          <EventCard tilt={false}/>
-          </SwiperSlide>
-          <SwiperSlide>
-          <EventCard tilt={false} />
-          </SwiperSlide>
-          <SwiperSlide>
-          <EventCard tilt={false} />
-          </SwiperSlide>
-          ...
-        </Swiper>
-      </div>
-    </div>
-    )
-  }
-  else{
+  // if(isMobile){
+  //   return (
+  //   <div className={styles.carouselContainerNoTilt}>
+  //     <div>
+  //       <Swiper
+  //         effect={"cards"}
+  //         grabCursor={true}
+  //         modules={[EffectCards]}
+  //       >
+  //         {cardS.map((element, index) => {
+  //           return (
+  //             <SwiperSlide key={element.key}>
+  //               <EventCard title={yearData[index]} />
+  //             </SwiperSlide>
+  //           );
+  //         })}
+  //         ...
+  //       </Swiper>
+  //     </div>
+  //   </div>
+  //   )
+  // }
+  // else{
     return (
       <div
         className={styles.carouselContainer}
       >
         <Carousel
-          slides={cardS}
+          slides={
+            cards.map((element, index) => {
+              return {
+                ...element,
+                onClick: () => setGoToSlide(index)
+              };
+            })
+          }
           goToSlide={goToSlide}
           offsetRadius={40}
           showNavigation={false}
@@ -107,6 +103,6 @@ function EventsCarousel() {
       </div>
     )
   }
-}
+// }
 
 export default EventsCarousel

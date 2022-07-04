@@ -51,3 +51,23 @@
 .notSelected:hover{
     color: #ffffff;
 }
+
+@media screen and (max-width: 768px) {
+    .container{
+        margin-top: -8rem;
+        margin-left: 4rem;
+    }
+    .selectedYear{
+        font-size: 3rem;
+    }
+    .yearPrefix{
+        font-size: 3rem;
+    }
+    .yearSuffix{
+        font-size: 3rem;
+    }
+    .notSelected{
+        font-size: 3rem;
+    }
+}
+    
