@@ -9,10 +9,20 @@ function YearSelector() {
     const [nextVal, setNextVal] = useState(22);
 
     const setVals = (selectedVal) => {
-        console.log("OK")
-        setCurVal(selectedVal);
+        if(selectedVal === 22){
+            setNextVal(21)
+            setPrevVal(20)
+        }else if(selectedVal === 21){
+            setNextVal(22)
+            setPrevVal(20)
+        }
+        else if(selectedVal === 20){
+            setNextVal(21)
+            setPrevVal(22)
+        }
+        setCurVal(selectedVal)
     }
-
+                
     return (
         <div className={styles.container}>
             <div className={styles.notSelected}><span onClick={() => setVals(nextVal)}>{nextVal}</span></div>

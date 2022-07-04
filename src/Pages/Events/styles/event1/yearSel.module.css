@@ -5,14 +5,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 15rem;
+    margin-top: 11rem;
     margin-left: 4rem;
 }
 
 .selectedYear{
     font-family: 'Head';
     font-weight: bold;
-    font-size: 6rem;
+    font-size: 4rem;
     color: white;
 }
 
@@ -20,7 +20,7 @@
     flex-direction: row;
     text-align: left;
     vertical-align: top;
-    font-size: 6.5rem;
+    font-size: 4.5rem;
     font-family: "Head";
     line-height: auto;
     color: #ffffff;
@@ -30,7 +30,7 @@
 .yearSuffix{
     text-align: left;
     vertical-align: top;
-    font-size: 6.5rem;
+    font-size: 4.5rem;
     font-family: "Head";
     line-height: auto;
     color: #ffffff;
@@ -41,7 +41,7 @@
 
 .notSelected{
     align-self: flex-end;
-    font-size: 6rem;
+    font-size: 4rem;
     font-family: "Head";
     color: #585858;
     margin-top: 1rem;

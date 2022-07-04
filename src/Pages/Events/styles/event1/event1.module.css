@@ -26,8 +26,12 @@
 }
 
 .header{
-    height: 20vh;
+    margin-top: 10vh;
+    height: 10vh;
     display: flex;
+    z-index: 0;
+    user-select: none;
+    cursor: pointer;
 }
 
 .mid{
@@ -47,7 +51,7 @@
 
 .text{
     margin-right: 3rem;
-    margin-top: 1.5rem;
+    margin-top: 0rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

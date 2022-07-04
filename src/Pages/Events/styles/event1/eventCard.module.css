@@ -1,14 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
 .cardContainer{
-    height: 25rem;
-    width: 18rem;
+    height: 20rem;
+    width: 13rem;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    align-items: center;
+}
+
+.cardContainerTilt{
+    height: 20rem;
+    width: 13rem;
     background-color: transparent;
     display: flex;
     flex-direction: column;
     flex-grow: 2;
     align-items: center;
     transform: rotate(20deg);
+}
+
+.cardContainer:hover{
+    cursor:pointer;
 }
 
 .content{
@@ -28,7 +42,7 @@
     justify-content: center;
     background-color: transparent;
     font-family: 'Poppins', sans-serif;
-    font-size: 3.7rem;
+    font-size: 2.5rem;
     color: #dbe5ef;
     margin-bottom: 0.5rem;
     height: 15%;
