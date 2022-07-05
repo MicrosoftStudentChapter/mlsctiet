@@ -14,12 +14,14 @@ function Event1() {
     20 : ["Ideadthon 1#20", "Ideathon 2#20", "Ideathon 3#20", "Ideathon 4#20"]
   }
 
-  const [data, setData] = useState(yearWiseData[21]);
+  const [data, setData] = useState(yearWiseData[year]);
 
   return (
     <div className={styles.body}>
-      <div className={styles.back}>
-        <Backsvg />
+      <div>
+        <div className={styles.back}>
+          <Backsvg />
+        </div>
       </div>
       <div className={styles.content}>
         <div className={styles.header}>

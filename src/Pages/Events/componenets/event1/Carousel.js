@@ -1,12 +1,12 @@
 import React from 'react'
-import {
-  Keyboard,
-  Mousewheel,
-  Navigation,
-  Controller,
-  Autoplay,
-  EffectCards,
-} from "swiper";
+// import {
+//   Keyboard,
+//   Mousewheel,
+//   Navigation,
+//   Controller,
+//   Autoplay,
+//   EffectCards,
+// } from "swiper";
 import 'swiper/css';
 import { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from "uuid";
@@ -14,7 +14,7 @@ import styles from '../../styles/event1/carousel.module.css';
 import EventCard from './EventCard';
 import Carousel from "react-spring-3d-carousel-2";
 import { config } from "react-spring";
-import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
 
 
 function EventsCarousel({yearData}) {
