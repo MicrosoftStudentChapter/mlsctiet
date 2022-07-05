@@ -3,10 +3,10 @@
 name: React build test
 
 on:
-  push: |
-    ["main", "events1"]
-  pull_request: |
-    ["main"]
+  push:
+    branches: ["main", "events1"]
+  pull_request:
+    branches: ["main"]
 
 jobs:
   build:
