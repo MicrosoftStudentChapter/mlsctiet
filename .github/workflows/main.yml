@@ -14,7 +14,7 @@ jobs:
     
     strategy:
       matrix:
-        node-version: [10.X, 12.X, 14.X, 15.X]
+        node-version: [10.X, 12.X, 14.X, 15.X, 16.X]
     steps:
       - uses: actions/checkout@v3
       - name: Using Node js ${{ matrix.node-version }}
