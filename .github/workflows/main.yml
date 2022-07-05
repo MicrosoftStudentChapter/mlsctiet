@@ -23,4 +23,29 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       - run: npm run build --if-present
-      - run: npm test
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Get code from repository
+      - name: Checkout code
+        uses: actions/checkout@v1
+      # Install Node
+      - name: Using Node  16.X
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.X
+      # Run npm install and build code
+      - run: npm install
+      - run: npm run build --if-present
+      # Deploy to netlify
+      - name: Deploy to netlify
+        uses: netlify/actions/cli@master
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.DEV_NETLIFY_SITE_ID }}
+        with:
+          args: deploy --dir=build --prod
+          secrets: '["DEV_NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'
+      
+      
