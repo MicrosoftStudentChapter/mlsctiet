@@ -1,0 +1,51 @@
+# This is a basic workflow to help you get started with Actions
+
+name: React build test
+
+on:
+  push:
+    branches: ["main", "events1"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [16.X]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Using Node js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run build --if-present
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Get code from repository
+      - name: Checkout code
+        uses: actions/checkout@v1
+      # Install Node
+      - name: Using Node  16.X
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.X
+      # Run npm install and build code
+      - run: npm install
+      - run: npm run build --if-present
+      # Deploy to netlify
+      - name: Deploy to netlify
+        uses: netlify/actions/cli@master
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.DEV_NETLIFY_SITE_ID }}
+        with:
+          args: deploy --dir=build --prod
+          secrets: '["DEV_NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'
+      
+      
