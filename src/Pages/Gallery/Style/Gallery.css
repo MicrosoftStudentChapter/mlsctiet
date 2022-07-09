@@ -77,20 +77,19 @@ body{
     left: 0;
     right: 0;
     filter:blur(10px);
-    transform:translateX(-50vw);
+    transform:translateX(100vw);
     transition:all 1s;
       
   }
   #img4{
+
     position:absolute;
     margin:0 auto;
     left: 0;
     right: 0;
     filter:blur(10px);
     transform:translateX(-50vw);
-    transition:all 1s;
-    
-    
+    transition:all 1s;  
   }
   
   #imageplaceholder{
