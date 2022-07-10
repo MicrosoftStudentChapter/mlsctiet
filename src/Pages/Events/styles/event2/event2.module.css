@@ -1,0 +1,26 @@
+*{
+    background-color: #0D1213;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Description card styling */
+
+.container{
+    background-color: #FFF6EB;
+    color: black;   
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    margin-top: 12vh;
+    margin-left: 20vw;
+    z-index: 2;
+}
+
+.cardTitle{
+    background-color: inherit;
+}
+
+.cardDescription{
+    background-color: inherit;
+}
