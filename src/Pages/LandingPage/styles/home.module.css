@@ -57,3 +57,64 @@
     width: 50%;
     height: 50%;
 }
+
+@media screen and (max-width: 1730px) {
+    .sheild{
+        margin-left:5%;
+        height:45%;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .sheild{
+        margin-left:10%;
+        height:40%;
+    }
+}
+@media screen and (max-width: 1300px){
+    .sheild{
+        margin-left:15%;
+        height:35%;
+    }
+    .polygon{
+        height: 50%;
+    }
+}
+@media screen and (max-width: 1150px){
+    .sheild{
+        margin-left:20%;
+       
+    }
+    .polygon{
+        height: 45%;
+    }
+}
+@media screen and (max-width: 950px){
+    .sheild{
+        
+        height: 35%;
+       
+    }
+    .polygon{
+        height: 40%;
+    }
+}
+@media screen and (max-width: 800px){
+    .sheild{
+       
+        height: 30%;
+       
+    }
+    .right{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 666px){
+    .polygon{
+        height: 35%;
+    }
+    .right{
+        font-size: 2rem;
+    }
+}
