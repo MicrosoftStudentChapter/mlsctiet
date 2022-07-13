@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     background-color: #0D1213;
     margin: 0px;
@@ -33,7 +35,9 @@
 
 .cardDescription{
     background-color: inherit;
-    padding:1rem;    
+    margin: 1rem 1rem 1rem 2rem;  
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;  
 }
 
 .gradientRed{
@@ -53,4 +57,12 @@
     z-index: 3;
     background-color: white;
     border: 2px solid #0078D4;
+}
+
+.vectorCross{
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 10%;
+    height: 20%;
 }

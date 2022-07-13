@@ -3,6 +3,9 @@ import styles from '../styles/event2/event2.module.css';
 import boxShadow from '../assets/Event2/BoxShadow.svg';
 import blueGradient from '../assets/Event2/BlueGradient.svg';
 import redGradient from '../assets/Event2/RedGradient.svg';
+import crossVector from '../assets/Event2/CrossVector.svg';
+import arrowVector from '../assets/Event2/Arrow.svg';
+import arrowBackVector from '../assets/Event2/ArrowBack.svg';
 
 const Event2 = () => {
 
@@ -31,6 +34,10 @@ const Event2 = () => {
             {/* Vector corresponding to the event */}
 
             <img src= {imageUrl} alt={altText} className= {styles.eventImage}/>
+
+            {/* Cross Vector */}
+
+            <img src= {crossVector} alt="" className= {styles.vectorCross} />
         </div>
 
         
