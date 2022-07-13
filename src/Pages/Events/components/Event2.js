@@ -1,24 +1,39 @@
 import React from "react";
 import styles from '../styles/event2/event2.module.css';
+import boxShadow from '../assets/Event2/BoxShadow.svg';
+import blueGradient from '../assets/Event2/BlueGradient.svg';
+import redGradient from '../assets/Event2/RedGradient.svg';
 
 const Event2 = () => {
 
     let title = "TITLE";
     let description = "Description";
+    let imageUrl = "https://unsplash.com/photos/_6oI5KLEsj0";
+    let altText = "Unable to fetch resource!"
     return (
+
         <div className={styles.eventCard}>
+
+            {/* Container element */}
+
             <div className={styles.container}>
                 <div className={styles.cardTitle}>
                 {title}
                 </div>
-                {/* <img src="../assets/Event2/BlueGradient.svg" alt="" className="gradient" id="gradientBlue" /> */}
+                <img src={blueGradient} alt="" className={styles.gradientBlue} />
                 <div className={styles.cardDescription}>
                 {description}
                 </div>
-                {/* <img src="../assets/Event2/RedGradient.svg" alt="" className="gradient" id="gradientRed"/> */}
+                <img src={redGradient} alt="" className={styles.gradientRed} />
             </div>
-            {/* <img src="../assets/Event2/BoxShadow.svg" alt="" className="boxShadow" /> */}
+            <img src={boxShadow} alt="" className={styles.containerShadow} />
+
+            {/* Vector corresponding to the event */}
+
+            <img src= {imageUrl} alt={altText} className= {styles.eventImage}/>
         </div>
+
+        
     );
 }
 
