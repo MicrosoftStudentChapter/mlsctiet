@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
 *{
     background-color: #0D1213;
@@ -12,7 +12,7 @@
     background-color: #FFF6EB;
     color: black;   
     width: 45vw;
-    height: 50vh;
+    height: 55vh;
     position: absolute;
     margin-top: 12vh;
     margin-left: 30vw;
@@ -21,10 +21,10 @@
 
 .containerShadow{
     width: 60vw;
-    height: 50vh;
+    height: 55vh;
     position: absolute;
-    margin-top: 15vh;
-    margin-left: 28vw;
+    margin-top: 18vh;
+    margin-left: 25vw;
     z-index: 1;
 }
 
@@ -51,7 +51,7 @@
 .eventImage{
     position: absolute;
     bottom: 2.5rem;
-    left: 2.5rem;
+    left: 4rem;
     width: 30vw;
     height: 35vh;
     z-index: 3;
@@ -65,4 +65,20 @@
     right: 1.5rem;
     width: 10%;
     height: 20%;
+}
+
+.vectorArrowBack{
+    position:absolute;
+    left: -5vw;
+    top: -1.25rem;
+    height: 70%;
+    z-index: 0;
+}
+
+.vectorArrow{
+    position:absolute;
+    left: -6.5vw;
+    top: 2rem;
+    height: 70%;
+    z-index: 0;
 }

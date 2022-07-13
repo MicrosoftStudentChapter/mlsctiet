@@ -20,6 +20,13 @@ const Event2 = () => {
             {/* Container element */}
 
             <div className={styles.container}>
+
+                {/* Arrow Vectors */}
+
+                <img src= {arrowBackVector} alt="" className={styles.vectorArrowBack} />
+                <img src= {arrowVector} alt="" className={styles.vectorArrow} />
+
+
                 <div className={styles.cardTitle}>
                 {title}
                 </div>
