@@ -14,7 +14,6 @@
 
 .slide {
     height: 100%;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +30,6 @@
     position: absolute;
     top: 0;
     cursor: pointer;
-    z-index: 1;
 }
 
 .swiper-pagination-bullet-active,
@@ -45,8 +43,8 @@
 }
 
 .swiper-slide .slide {
-    filter: blur(10px);
-    -webkit-filter: blur(10px);
+    filter: blur(4px);
+    -webkit-filter: blur(3px);
 }
 
 .swiper-slide-active .slide {

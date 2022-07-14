@@ -16,6 +16,22 @@ import 'swiper/css/pagination';
 import {Autoplay, Pagination} from 'swiper';
 
 function Projects () {
+  var slides = window.innerWidth;
+  var page;
+  if (slides > 1400) {
+    page = 5;
+  } else if (slides < 1400 && slides > 992) {
+    page = 4;
+  } else if (slides < 992 && slides > 768) {
+    page = 3.5;
+  } else if (slides < 768 && slides > 576) {
+    page = 2.5;
+  } else if (slides < 576 && slides > 300) {
+    page = 1.5;
+  } else {
+    page = 1;
+  }
+
   return (
     <Fragment>
       <div className="projects-container">
@@ -34,7 +50,7 @@ function Projects () {
           <Fade bottom>
             <Swiper
               loop={true}
-              slidesPerView={5}
+              slidesPerView={page}
               centeredSlides={true}
               spaceBetween={30}
               autoplay={{
@@ -80,23 +96,6 @@ function Projects () {
                   </Link>
                 </SwiperSlide>
 
-                <SwiperSlide>
-                  <Link to="/project1" className="slide">
-                    Slide 6
-                  </Link>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                  <Link to="/project1" className="slide">
-                    Slide 7
-                  </Link>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                  <Link to="/project1" className="slide">
-                    Slide 8
-                  </Link>
-                </SwiperSlide>
               </swiperContainer>
             </Swiper>
           </Fade>
