@@ -6,6 +6,7 @@ import redGradient from '../assets/Event2/RedGradient.svg';
 import crossVector from '../assets/Event2/CrossVector.svg';
 import arrowVector from '../assets/Event2/Arrow.svg';
 import arrowBackVector from '../assets/Event2/ArrowBack.svg';
+import eventImage from '../assets/Event2/EventImage.svg';
 
 const Event2 = () => {
 
@@ -40,7 +41,7 @@ const Event2 = () => {
 
             {/* Vector corresponding to the event */}
 
-            <img src= {imageUrl} alt={altText} className= {styles.eventImage}/>
+            <img src= {eventImage} alt={altText} className= {styles.eventImage}/>
 
             {/* Cross Vector */}
 

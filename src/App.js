@@ -12,15 +12,15 @@ import React from "react";
 function App() {
   return (
     <div className="App">
-      {/* <LandingPage />
+      <LandingPage />
       <AboutUs />
       <OurTeam />
-      <Projects /> */}
+      <Projects />
       <Events />
-      {/* <Gallery />
+      <Gallery />
       <Sponsors />
       <Alumni />
-      <Community /> */}
+      <Community />
     </div>
   );
 }
