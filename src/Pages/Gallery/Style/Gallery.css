@@ -11,9 +11,11 @@ body{
 
 /* page */
 .pagewrapper{
+    margin: 0 auto;
     display:flex;
     flex-direction:column;
     justify-content:center;
+    align-items: center;
     width:100vw;
     height:100vh;
   }
@@ -35,7 +37,12 @@ body{
     border: solid 0px;
     border-radius:50px;
   }
-  
+  #btn1phn{
+    display: none;
+  }
+  #btn2phn{
+    display: none;
+  }
   .btn:hover{
     height:40px;
     width:40px;
@@ -45,9 +52,11 @@ body{
     border: solid 2px;
     border-radius:50px;
   }
+
   .image{
     width:400px;
     height:500px;
+    border-radius: 2px;
   }
   
   #img1{
@@ -57,7 +66,8 @@ body{
     left: 0;
     right: 0;
     transform:translateX(0vw);
-    transition:all 1s;
+    visibility: visible;
+    transition:all 0.85s;
     transform:scale(1);
   }
   #img2{
@@ -67,8 +77,8 @@ body{
     right: 0;
     filter:blur(10px);
     transform:translateX(50vw);
-    transition:all 1s;
-    
+    visibility: visible;
+    transition:all 0.85s;
     
   }
   #img3{
@@ -78,7 +88,8 @@ body{
     right: 0;
     filter:blur(10px);
     transform:translateX(100vw);
-    transition:all 1s;
+    visibility: visible;
+    transition:all 0.85s;
       
   }
   #img4{
@@ -89,10 +100,55 @@ body{
     right: 0;
     filter:blur(10px);
     transform:translateX(-50vw);
-    transition:all 1s;  
+    visibility: visible;  
+    transition:all 0.85s;
   }
   
   #imageplaceholder{
     width:400px;
     height:600px;
+  }
+
+  @media (max-width: 900px) {
+    .pagewrapper{
+      margin: 0 auto;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      width:100vw;
+      height:100vh;
+    }
+    .btn{
+      height:40px;
+      width:40px;
+      margin: 20px;
+      font-size: 30px;
+      color:white;
+      background: rgb(0, 0, 0,0);
+      color: white;
+      border: solid 0px;
+      border-radius:50px;
+    }
+    #btn1{
+      display: none;
+    }
+    #btn2{
+      display: none;
+    }
+    #btn1phn{
+      display: block;
+    }
+    #btn2phn{
+      display: block;
+    }
+    .image{
+        visibility: hidden;
+        opacity: 0;
+        display: none;
+    }
+    #img1{
+      display: block;
+      opacity: 1;
+      visibility: visible;
+    }
   }
