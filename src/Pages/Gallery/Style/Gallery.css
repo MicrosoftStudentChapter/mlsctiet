@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Playfair+Display+SC&display=swap');
+
 *{
     margin:0;
     padding:0;
     overflow-x: hidden;
+    overflow-y: hidden;
     z-index: 1;
+
 }
 body{
     background:#0D1213;
-    height: 200vw;
 }
-
 /* page */
 .pagewrapper{
     margin: 0 auto;
@@ -69,13 +71,15 @@ body{
     visibility: visible;
     transition:all 0.85s;
     transform:scale(1);
+    filter:saturate(0);
+    z-index: 2;
   }
   #img2{
     position:absolute;
     margin:0 auto;
     left: 0;
     right: 0;
-    filter:blur(10px);
+    filter:blur(13px) saturate(0);
     transform:translateX(50vw);
     visibility: visible;
     transition:all 0.85s;
@@ -86,7 +90,7 @@ body{
     margin:0 auto;
     left: 0;
     right: 0;
-    filter:blur(10px);
+    filter:blur(13px) saturate(0);
     transform:translateX(100vw);
     visibility: visible;
     transition:all 0.85s;
@@ -98,7 +102,7 @@ body{
     margin:0 auto;
     left: 0;
     right: 0;
-    filter:blur(10px);
+    filter:blur(13px) saturate(0);
     transform:translateX(-50vw);
     visibility: visible;  
     transition:all 0.85s;
@@ -109,7 +113,34 @@ body{
     height:600px;
   }
 
-  @media (max-width: 900px) {
+  .YearTags{
+    position: absolute;
+    z-index: 3;
+    color: #FFA500;
+    font-size: 9vh;
+    font-family: 'Playfair Display SC', sans-serif;;
+    font-weight: 200px;
+  }
+  #twenty19{
+    transform: translateY(240px);
+    transition: all 1s;
+  }
+  #twenty20{
+    transform: translateY(100vh);
+    transition: all 1s;
+  }
+  #twenty21{
+    transform: translateY(100vh);
+    transition: all 1s;
+  }
+  #twenty22{
+    transform: translateY(100vh);
+    transition: all 1s;
+  }
+
+
+
+  @media (max-width: 450px) {
     .pagewrapper{
       margin: 0 auto;
       display:flex;
@@ -124,8 +155,7 @@ body{
       margin: 20px;
       font-size: 30px;
       color:white;
-      background: rgb(0, 0, 0,0);
-      color: white;
+      background: rgb(255, 255, 255,0);
       border: solid 0px;
       border-radius:50px;
     }
@@ -142,13 +172,65 @@ body{
       display: block;
     }
     .image{
-        visibility: hidden;
+        /* visibility: hidden;
         opacity: 0;
-        display: none;
+        display: none; */
+        width:250px;
+        height:350px;
+        
+
     }
     #img1{
       display: block;
       opacity: 1;
       visibility: visible;
+      filter: blur(0px );
+      transform:translateX(0vw);
+      z-index: 2;
+    }
+    #img2{
+      display: block;
+      opacity: 0;
+      visibility: visible;
+      filter: blur(0px);
+      transform:translateX(0vw);
+    }
+    #img3{
+      display: block;
+      opacity: 0;
+      visibility: visible;
+      filter: blur(0px);
+      transform:translateX(0vw);
+    }
+    #img4{
+      display: block;
+      opacity: 0;
+      visibility: visible;
+      filter: blur(0px);
+      transform:translateX(0vw);
+    }
+    #imageplaceholder{
+      width:250px;
+      height:400px;
+    }
+    #twenty19{
+      transform: translateY(240px);
+      transition: all 1s;
+      opacity: 1;
+    }
+    #twenty20{
+      transform: translateY(240px);
+      transition: all 1s;
+      opacity: 0;
+    }
+    #twenty21{
+      transform: translateY(240px);
+      transition: all 1s;
+      opacity: 0;
+    }
+    #twenty22{
+      transform: translateY(240px);
+      transition: all 1s;
+      opacity: 0;
     }
   }
