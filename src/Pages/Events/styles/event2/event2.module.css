@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+*{
+    background-color: #0D1213;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Description card styling */
+
+.container{
+    background-color: #FFF6EB;
+    color: black;   
+    width: 45vw;
+    height: 55vh;
+    position: absolute;
+    margin-top: 12vh;
+    margin-left: 30vw;
+    z-index: 2;
+}
+
+.containerShadow{
+    width: 60vw;
+    height: 55vh;
+    position: absolute;
+    margin-top: 18vh;
+    margin-left: 25vw;
+    z-index: 1;
+}
+
+.cardTitle{
+    background-color: inherit;
+    padding:1rem;
+}
+
+.cardDescription{
+    background-color: inherit;
+    margin: 1rem 1rem 1rem 2rem;  
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;  
+}
+
+.gradientRed{
+    position: absolute;
+    bottom: 1.5rem;
+    right: 0rem;
+}
+
+/* Vector styling */
+
+.eventImage{
+    position: absolute;
+    bottom: 2.5rem;
+    left: 4rem;
+    height: 35vh;
+    z-index: 3;
+    background-color: white;
+    border: 2px solid #0078D4;
+}
+
+.vectorCross{
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 10%;
+    height: 20%;
+}
+
+.vectorArrowBack{
+    position:absolute;
+    left: -5vw;
+    top: -1.25rem;
+    height: 70%;
+    z-index: 0;
+}
+
+.vectorArrow{
+    position:absolute;
+    left: -6.5vw;
+    top: 2rem;
+    height: 70%;
+    z-index: 0;
+}
