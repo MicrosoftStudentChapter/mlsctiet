@@ -1,0 +1,60 @@
+.upArrow{
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    width: 10%;
+    height: 30%;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.downArrow{
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    width: 10%;
+    height: 30%;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.downline{
+    position: absolute;
+    bottom: 0rem;
+    right: 0;
+    width: 30%;
+    height: 10%;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.upline{
+    position: absolute;
+    bottom: 15rem;
+    right: 0;
+    width: 30%;
+    height: 10%;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media screen and (max-width: 768px) {
+    .upArrow{
+        width: 20%;
+    }
+    .downArrow{
+        width: 20%;
+    }
+    .downline{
+        width: 20%;
+    }
+    .upline{
+        width: 20%;
+    }
+}
