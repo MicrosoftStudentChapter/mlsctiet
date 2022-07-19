@@ -22,10 +22,10 @@ function EventsCarousel({yearData, toggle}) {
 
   // const [isMobile, setIsMobile] = useState(false);
   const [tilt, setTilt] = useState(true);
+  const [title, setTitle] = useState("Title");
+  const [desc, setDesc] = useState("Description");
+  const [showDesc, setShowDesc] = useState(false);
 
-  // useEffect(() => {
-  //   if(window.screen.width <= 760){setIsMobile(true); setTilt(false);}else{setIsMobile(false); setTilt(false);};
-  // }, []);
   
   const [data, setData] = useState(yearData);
   const [cards, setCards] = useState(() => {
@@ -33,7 +33,7 @@ function EventsCarousel({yearData, toggle}) {
     for (let i = 0; i < data.length; i++) {
       card.push({
         key: uuidv4(),
-        content: <EventCard tilt={tilt} title={data[i]} />
+        content: <EventCard tilt={tilt} title={data[i]} setShowDesc={showDesc} toggle = {() => {setShowDesc(false); console.log("OKK")}} toggle2={toggle} setDescirption={setDesc}/>
       })
     }
     return card;
@@ -45,7 +45,7 @@ function EventsCarousel({yearData, toggle}) {
     for (let i = 0; i < yearData.length; i++) {
       card.push({
         key: uuidv4(),
-        content: <EventCard tilt={true} title={yearData[i]} />
+        content: <EventCard tilt={true} title={yearData[i]} setShowDesc={setShowDesc} toggle = {() => {setShowDesc(false); console.log("OKK")}} setTitle={setTitle} toggle2={toggle} setDescirption={setDesc} />
       })
     }
     console.log(card)
@@ -53,14 +53,8 @@ function EventsCarousel({yearData, toggle}) {
     console.log(cards == card)
   }, [yearData]);
 
-  const table = cards.map((element, index) => {
-    return { ...element, onClick: () => setGoToSlide(index) };
-  });
-  const [goToSlide, setGoToSlide] = useState(null);
 
-  const [title, setTitle] = useState("Title");
-  const [desc, setDesc] = useState("Description");
-  const [showDesc, setShowDesc] = useState(false);
+  const [goToSlide, setGoToSlide] = useState(null);
 
   // const [cardS] = useState(table)
   // if(isMobile){
@@ -87,24 +81,20 @@ function EventsCarousel({yearData, toggle}) {
   // }
   // else{
     if(showDesc){
+      console.log("Ok")
       return (
         <Event2
           title_main={title}
           desc={desc}
           toggle = {() => {setShowDesc(false); console.log("OKK")}}
           toggle2 = {toggle}
-          setTitle = {setTitle}
-          setDesc = {setDesc}
         />
       )
     }
     return (
       <div
         className={styles.carouselContainer}
-        onClick={() =>{
-          toggle();
-          setShowDesc(true);
-        } }
+        
       >
         <Carousel
           slides={

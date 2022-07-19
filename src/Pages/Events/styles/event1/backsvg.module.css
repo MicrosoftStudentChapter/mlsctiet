@@ -19,6 +19,19 @@
     z-index: 0;
     display: flex;
     justify-content: flex-start;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.cross{
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    width: 20%;
+    height: 30%;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-start;
+    animation: fadeIn 0.5s ease-in-out;
 }
 
 .downline{
@@ -30,6 +43,7 @@
     z-index: 0;
     display: flex;
     justify-content: flex-start;
+    animation: fadeIn 0.5s ease-in-out;    
 }
 
 .upline{
@@ -41,30 +55,38 @@
     z-index: 0;
     display: flex;
     justify-content: flex-end;
+    animation: fadeIn 0.5s ease-in-out;
 }
 
 
 @media screen and (max-width: 768px) {
     .upArrow{
-        width: 15%;
+        width: 10%;
     }
     .downArrow{
-        width: 15%;
+        width: 10%;
     }
-    .downline{
-        width: 40%;
-        height: 20rem;
+}
 
-    }
-    .upline{
-        width: 40%;
-        height: 1rem;
-    }
-}@media screen and (max-width: 380px) {
+@media screen and (max-width: 380px) {
     .downArrow{
-        width: 12%;
+        width: 10%;
     }
     .upArrow{
-        width: 12%;
+        width: 10%;
     }
+}
+
+.fade-in {
+	animation: fadeIn 2s;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
 }

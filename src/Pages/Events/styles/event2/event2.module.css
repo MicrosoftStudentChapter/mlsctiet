@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
-
+@import url('../fonts.css');
 /* Description card styling */
 
 .eventCard{
     user-select: none;
     z-index: 3;
+    margin: 2rem;
+    border-radius: 10px;
+    animation: fadeIn 0.5s ease-in-out;
 }
 
 .container{
-    background-color: #FFF6EB;
+    background-color: #faffd3;
     color: black;   
-    width: 45vw;
-    height: 55vh;
+    width: 55vw;
+    height: 65vh;
     z-index: 2;
+    margin-top: 5rem;
+    box-shadow: 0 10px 10px 0 rgba(227, 217, 217, 0.19), 15px 16px 15px 0 rgba(227, 217, 217, 0.19);
+    border-radius: 15px 50px 30px; 
 }
 
 /* .containerShadow{
@@ -26,20 +32,22 @@
     background-color: inherit;
     padding:1rem;
     z-index: 2;
+    border-radius: 15px 50px 0px;
+    font-family: 'Head';
+    font-size: 4rem;
 }
 
 .cardDescription{
     background-color: inherit;
     margin: 1rem 1rem 1rem 2rem;  
     font-family: 'Poppins', sans-serif;
-    font-weight: 1000;  
+    font-weight: 500; 
+    font-size: 1.5rem;
     z-index: 2;
 }
 
-.gradientRed{
-    position: absolute;
-    bottom: 1.5rem;
-    right: 0rem;
+.gradientBlue{
+    width: 90%;
 }
 
 /* Vector styling */
@@ -76,4 +84,30 @@
     top: 2rem;
     height: 70%;
     z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        margin-top: 8rem;
+        width: 80vw;
+        height: 60vh;
+        margin-left: 1.5rem;
+    }
+    .cardTitle{
+        font-size: 2rem;
+    }
+}
+
+.fade-in {
+	animation: fadeIn 2s;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
 }

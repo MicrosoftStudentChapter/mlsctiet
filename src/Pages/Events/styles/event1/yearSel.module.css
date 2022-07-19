@@ -37,6 +37,7 @@
     margin: 0;
     border-bottom: 18px #fa3966 solid;
     margin-top: 0;
+    animation: fadeIn 0.5s ease-in-out;
 }
 
 .notSelected{
@@ -93,4 +94,16 @@
     }
 }
 
-    
+.fade-in {
+	animation: fadeIn 2s;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}

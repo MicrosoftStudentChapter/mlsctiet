@@ -19,6 +19,8 @@
     flex-grow: 2;
     align-items: center;
     transform: rotate(20deg);
+    cursor: pointer;
+    animation: fadeIn 1s ease-in-out;
 }
 
 .cardContainer:hover{
@@ -82,4 +84,18 @@
     .title{
         font-size: 2.1rem;
     }
+}
+
+.fade-in {
+	animation: fadeIn 2s;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
 }

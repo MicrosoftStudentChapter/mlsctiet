@@ -1,18 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import styles from '../styles/event2/event2.module.css';
-import boxShadow from '../assets/Event2/BoxShadow.svg';
 import blueGradient from '../assets/Event2/BlueGradient.svg';
-import redGradient from '../assets/Event2/RedGradient.svg';
-import crossVector from '../assets/Event2/CrossVector.svg';
-import arrowVector from '../assets/Event2/Arrow.svg';
-import arrowBackVector from '../assets/Event2/ArrowBack.svg';
 import eventImage from '../assets/Event2/EventImage.svg';
 
 const Event2 = ({title_main, desc, toggle, toggle2}) => {
 
     const [title, setTile] = useState(title_main);
     const [description, setDesc] = useState(desc);
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(()=>{
+        if(window.innerWidth < 768){
+            setIsMobile(true);
+        }
+    },[])
 
     return (
 
@@ -38,7 +40,7 @@ const Event2 = ({title_main, desc, toggle, toggle2}) => {
                 </div>
                 <div>
                     <button onClick={() => {toggle();toggle2();}} style={{backgroundColor:"transparent"}}>
-                        Close
+                        X
                     </button>
                 </div>
                 {/* <img src={redGradient} alt="" className={styles.gradientRed} /> */}
@@ -47,7 +49,7 @@ const Event2 = ({title_main, desc, toggle, toggle2}) => {
 
             {/* Vector corresponding to the event */}
 
-            {/* <img src= {eventImage} alt={altText} className= {styles.eventImage}/> */}
+           {!isMobile && <img src= {eventImage} alt={"event"} className= {styles.eventImage}/>}
 
             {/* Cross Vector */}
 
