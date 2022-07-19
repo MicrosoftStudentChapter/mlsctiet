@@ -3,6 +3,7 @@
     width: 100%;
     background: #26282A;
     color: white;
+    overflow: hidden;
 }
 
 .projects-header {
