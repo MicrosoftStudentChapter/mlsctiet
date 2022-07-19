@@ -45,9 +45,12 @@
   /* margin-left: 2.5%; */
   width: 75%;
   height: 90%;
-  background: rgb(150, 67, 75);
   border-radius: 2rem;
   overflow-y: scroll;
+  background: radial-gradient(100% 365.83% at 0% 8.89%);
+  box-shadow: 0px 3.95117px 3.95117px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15.8047px);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 .items {

@@ -59,7 +59,7 @@ figure:after {
 figcaption img {
   height: 48px;
   width: auto;
-  align-items: flex-end;
-  margin-top: 20px;
-  padding-left: 250px;
+  /* align-items: flex-end;
+  margin-top: 20px; */
+  padding-left: 160px;
 }
