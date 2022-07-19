@@ -54,8 +54,8 @@
 
 @media screen and (max-width: 768px) {
     .container{
-        margin-top: -8rem;
-        margin-left: 4rem;
+        margin-top: 0rem;
+        margin-left: 1rem;
     }
     .selectedYear{
         font-size: 3rem;
@@ -70,4 +70,27 @@
         font-size: 3rem;
     }
 }
+
+@media screen and (max-width: 380px){
+    .container{
+        margin-top: 0rem;
+        margin-left: 1rem;
+    }
+    .selectedYear{
+        font-size: 2rem;
+    }
+    .yearPrefix{
+        font-size: 2.25rem;
+    }
+    .yearSuffix{
+        font-size: 2.25rem;
+        border-bottom: 13.5px #fa3966 solid;
+        
+
+    }
+    .notSelected{
+        font-size: 2.25rem;
+    }
+}
+
     

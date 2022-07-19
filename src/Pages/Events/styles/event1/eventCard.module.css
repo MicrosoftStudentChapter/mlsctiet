@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 860px) {
     .cardContainer{
-        height: 20rem;
+        height: 30rem;
         width: 15rem;
     }
     .content{
