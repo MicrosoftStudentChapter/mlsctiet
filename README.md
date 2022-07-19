@@ -11,4 +11,4 @@
 styles.modules.css
 ```
 6) DO NOT USE ANY CSS LIBRARY OR FRAMEWORK IN YOUR CODE
-7) Clean your code by removing redundent code before making PR.
+7) Clean your code by removing redundant code before making PR.
