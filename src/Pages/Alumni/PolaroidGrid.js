@@ -43,7 +43,12 @@ const PolaroidGrid = () => {
         <div className={PolaroidGridCSS.mainContainer} id="rectangle">
           <div className={PolaroidGridCSS.firstContainer}>
             <div className={PolaroidGridCSS.Circles}>
-              <img src={Circles}></img>
+              <img
+                src={Circles}
+                style={{
+                  stroke: color[selected % 3],
+                }}
+              ></img>
             </div>
             <h1>{items[0].year}</h1>
             <img src={Lines}></img>

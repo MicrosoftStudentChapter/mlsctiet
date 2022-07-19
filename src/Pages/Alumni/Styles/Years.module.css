@@ -3,7 +3,7 @@
   background-color: #fa3966;
   display: block;
   transform: rotate(-90deg);
-  padding: 2em;
+  padding: 2.3rem;
   place-items: right;
   border-radius: 20px 20px 0px 0px;
 }
@@ -14,14 +14,14 @@
   background-color: #0078d4;
   display: block;
   transform: rotate(-90deg);
-  padding: 2em;
+  padding: 2.3rem;
   place-items: right;
 }
 .buttons:nth-child(4n) {
   background-color: #fa3966;
   display: block;
   transform: rotate(-90deg);
-  padding: 2em;
+  padding: 2.3rem;
   place-items: right;
   border-radius: 20px 20px 0px 0px;
 }
@@ -29,7 +29,7 @@
   background-color: #0078d4;
   display: block;
   transform: rotate(-90deg);
-  padding: 2em;
+  padding: 2.3rem;
   place-items: right;
 }
 
@@ -39,7 +39,7 @@
   background-color: #fff6eb;
   display: block;
   transform: rotate(-90deg);
-  padding: 2em;
+  padding: 2.3rem;
   place-items: right;
 }
 

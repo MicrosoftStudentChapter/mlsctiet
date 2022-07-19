@@ -1,4 +1,3 @@
-// import Images from "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg";
 const Alumni = [
   {
     id: 1,

@@ -7,9 +7,9 @@
 }
 .bdy {
   /* background-color: #0a0a0a; */
-  height: 100vh;
+  /* height: 100vh; */
   width: auto;
-  display: grid;
+  /* display: grid; */
   place-items: center;
   margin: 2rem;
 }
@@ -43,8 +43,8 @@ figure:before,
 figure:after {
   content: "";
   position: absolute;
-  height: 50px;
-  width: 180px;
+  height: 40px;
+  width: 120px;
   background-color: rgba(102, 102, 102, 0.6);
   transform: rotate(-40deg);
 }
