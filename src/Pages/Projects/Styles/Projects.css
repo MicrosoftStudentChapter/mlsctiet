@@ -1,0 +1,88 @@
+.projects-container {
+    height: 100vh;
+    width: 100%;
+    background: #26282A;
+    color: white;
+    overflow: hidden;
+}
+
+.projects-header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.projects-container img {
+    height: 35vh;
+    width: auto;
+    padding: 13vh 0 0 0;
+}
+
+@media screen and (max-width: 1500px) {
+
+    .projects-container img {
+        height: 30vh;
+        width: auto;
+        padding: 15vh 0 0 0;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .projects-container img {
+        height: 25vh;
+        width: auto;
+        padding: 15vh 0 0 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .projects-container img {
+        height: 18vh;
+        width: auto;
+        padding: 15vh 0 0 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .projects-container img {
+        height: 16vh;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .projects-container img {
+        height: 13vh;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .projects-container img {
+        height: 10vh;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .projects-container img {
+        height: 9vh;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .projects-container img {
+        height: 7vh;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .projects-container img {
+        height: 5vh;
+        width: auto;
+    }
+}

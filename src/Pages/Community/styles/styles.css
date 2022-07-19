@@ -1,94 +1,150 @@
-.container{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    background-color: #0D1213;
-    color: white;
-    overflow: hidden;
-    overflow-y: scroll;
+
+.communitySwiper .swiper-pagination-bullet-active,
+.swiper-pagination-bullet-active-main {
+  --swiper-theme-color: #FA3966;
+}
+
+.communitySwiper .swiper-pagination-bullet {
+  --swiper-pagination-bullet-inactive-color: white;
+  --swiper-pagination-bullet-inactive-opacity: 1;
 }
 
 
-.main-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    overflow: hidden;
+.communitySwiper .swiper {
+  width: 70%;
+  height: 600px;
 }
 
-.left-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
+.communitySwiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgba(31, 31, 31, 0.63);
 
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
-::-webkit-scrollbar{
-    width: 0;
+
+.cardImage{
+  width: 70%;
 }
 
-.left-container img{
-    margin: 20px;
-    width: 480px;
+.card-div{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
 }
 
-.left-container h2{
-    font-size: 90px;
-    font-weight: bolder;
-    margin: 20px;
+.card-div > div{
+  font-size: 24px;
 }
 
-.right-container{
-    margin:0 20px;
-    padding: 0 20px;
-    font-size: 25px;
-    width: 50%;
+.card-heading{
+  font-size: 40px;
+  font-weight: 600;
 }
 
-.right-container ul{
-    padding: 0;
+.card-sub-div{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
-button{
-    background-color: transparent;
-    border: white 2px solid;
-    outline: none;
-    padding: 10px;
-    font-size: 20px;
-    cursor: pointer;
-}
 
-button a{
-    color: white;
-    text-decoration: none;
-}
-
-button:hover{
-    background-color: #00CDBC;
-    border: #0D1213;
-}
-
-button:hover a{
-    color: black;
-}
 
 /* Media queries */
-@media screen and (max-width: 1024px) {
-    .main-container{
-        margin-top: auto;
-        flex-direction: column;
-        padding: 0 10vw;
-    }
-    .left-container{
-        width: 100%;        
-        margin-top: 100px;
-    }
-    .right-container{
-        width: 100%;
-    }
+
+@media screen and (max-width: 1390px){
+  .communitySwiper .card-div{
+    grid-template-columns: none;
+    grid-template-rows: 50% 50%;
   }
 
+  .communitySwiper .swiper {
+    width: 100%;
+    height: 1000px;
+  }
 
+  .card-sub-div{
+    order: 2;
+  }
+
+  .cardImage{
+    order: 1;
+    width: 500px;
+  }
+
+}
+
+@media screen and (max-width: 664px){
+  .cardImage{
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 572px){
+  .cardImage{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 543px){
+
+  .card-div{
+    padding: 2px;
+    align-items: flex-start;
+    gap: 0px;
+  }
+
+  .card-sub-div{
+    margin-top: -40px;
+  }
+}
+
+@media screen and (max-width: 497px){
+  .communitySwiper .swiper{
+    height: 1000px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .communitySwiper .swiper{
+    height: 800px;
+  }
+  .card-content{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 896px){
+  .card-content{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 884px){
+  .communitySwiper .swiper{
+    height: 900px;
+  }
+
+}
+
+@media screen and (max-width: 740px){
+  .communitySwiper .swiper{
+    height: 1000px;
+  }
+
+}
