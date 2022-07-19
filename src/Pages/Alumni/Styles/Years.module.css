@@ -1,8 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@font-face {
+  font-family: "Khyay";
+  src: url(../../../fonts/myanmar-khyay.ttf);
+}
 .buttons:nth-child(n),
 .buttons:nth-child(7n) {
   background-color: #fa3966;
   display: block;
   transform: rotate(-90deg);
+  font-family: "Poppins";
   padding: 2.3rem;
   place-items: right;
   border-radius: 20px 20px 0px 0px;
