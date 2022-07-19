@@ -1,0 +1,73 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .rectangle {
+  display: flex;
+  height: 100em;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+} */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #0d1213;
+  padding-top: 20%;
+  color: white;
+  /* overflow: hidden; */
+  overflow-y: scroll;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  /* overflow: hidden; */
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.firstContainer h1 {
+  font-size: 6rem;
+  transform: rotate(90deg);
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.secondContainer {
+  margin: 0 20px;
+  padding: 0 20px;
+  font-size: 25px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.secondContainer p {
+  display: block;
+}
+
+.thirdContainer {
+  display: flex;
+  flex-direction: column;
+}

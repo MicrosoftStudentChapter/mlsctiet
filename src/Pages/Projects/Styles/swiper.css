@@ -1,18 +1,18 @@
 .slider-wrapper {
-    background: #26282A;
-    z-index: 1;
+  background: #26282a;
+  z-index: 1;
 }
 
 .swiper-slide {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .swiper {
-    width: 100%;
-    height: 30em;
+  width: 100%;
+  height: 30em;
 }
 
-.slide {
+/* .slide {
     height: 100%;
     display: flex;
     justify-content: center;
@@ -24,32 +24,32 @@
     margin: 50px 0 0 0;
     border-radius: 15px;
     cursor: pointer;
-}
+} */
 
 .projectsSwiper .swiper-pagination {
-    position: absolute;
-    top: 0;
-    cursor: pointer;
+  position: absolute;
+  top: 0;
+  cursor: pointer;
 }
 
 .swiper-pagination-bullet-active,
 .swiper-pagination-bullet-active-main {
-    --swiper-theme-color: #FA3966;
+  --swiper-theme-color: #fa3966;
 }
 
 .swiper-pagination-bullet {
-    --swiper-pagination-bullet-inactive-color: white;
-    --swiper-pagination-bullet-inactive-opacity: 1;
+  --swiper-pagination-bullet-inactive-color: white;
+  --swiper-pagination-bullet-inactive-opacity: 1;
 }
 
 .swiper-slide .slide {
-    filter: blur(4px);
-    -webkit-filter: blur(3px);
+  filter: blur(4px);
+  -webkit-filter: blur(3px);
 }
 
 .swiper-slide-active .slide {
-    transform: translate(30px, 20px) rotate(20deg);
-    z-index: -1;
-    filter: blur(0);
-    -webkit-filter: blur(0);
+  transform: translate(30px, 20px) rotate(20deg);
+  z-index: -1;
+  filter: blur(0);
+  -webkit-filter: blur(0);
 }

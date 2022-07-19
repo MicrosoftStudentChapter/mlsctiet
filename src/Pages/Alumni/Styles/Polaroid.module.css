@@ -1,0 +1,65 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bdy {
+  /* background-color: #0a0a0a; */
+  height: 100vh;
+  width: auto;
+  display: grid;
+  place-items: center;
+  margin: 2rem;
+}
+figure {
+  width: 15rem;
+  height: 20rem;
+  position: relative;
+  background-color: #eaeaea;
+  padding: 19px 19px 85px 19px;
+  transform: rotate(-12deg);
+}
+figure img {
+  width: 100%;
+}
+figcaption {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+figcaption {
+  position: absolute;
+  font-family: "Poppins";
+  font-size: 25px;
+  text-align: Left;
+  color: #232121;
+  margin-top: 22px;
+  width: 50px;
+  height: 100px;
+}
+figure:before,
+figure:after {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 180px;
+  background-color: rgba(102, 102, 102, 0.6);
+  transform: rotate(-40deg);
+}
+figure:before {
+  top: 3px;
+  left: -55px;
+}
+figure:after {
+  bottom: 3px;
+  right: -60px;
+}
+figcaption img {
+  height: 48px;
+  width: auto;
+  align-items: flex-end;
+  margin-top: 20px;
+  padding-left: 250px;
+}

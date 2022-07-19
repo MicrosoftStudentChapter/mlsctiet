@@ -1,0 +1,50 @@
+.buttons:nth-child(n),
+.buttons:nth-child(7n) {
+  background-color: #fa3966;
+  display: block;
+  transform: rotate(-90deg);
+  padding: 2em;
+  place-items: right;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.buttons:nth-child(2n),
+.buttons:nth-child(5n),
+.buttons:nth-child(8n) {
+  background-color: #0078d4;
+  display: block;
+  transform: rotate(-90deg);
+  padding: 2em;
+  place-items: right;
+}
+.buttons:nth-child(4n) {
+  background-color: #fa3966;
+  display: block;
+  transform: rotate(-90deg);
+  padding: 2em;
+  place-items: right;
+  border-radius: 20px 20px 0px 0px;
+}
+.buttons:nth-child(8n) {
+  background-color: #0078d4;
+  display: block;
+  transform: rotate(-90deg);
+  padding: 2em;
+  place-items: right;
+}
+
+.buttons:nth-child(3n),
+.buttons:nth-child(6n),
+.buttons:nth-child(10n) {
+  background-color: #fff6eb;
+  display: block;
+  transform: rotate(-90deg);
+  padding: 2em;
+  place-items: right;
+}
+
+.buttons:active {
+  /* transform: rotate(-90deg); */
+  transform: scale(1.3);
+  transition: all 0.2s;
+}
