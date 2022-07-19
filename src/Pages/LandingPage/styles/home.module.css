@@ -57,3 +57,12 @@
     width: 50%;
     height: 50%;
 }
+
+@media screen and (max-width:540px){
+    .container{
+        flex-direction: column;
+    }
+    .polygon{
+        display: none;
+    }
+}
