@@ -7,6 +7,7 @@ import LandingPage from "./Pages/LandingPage";
 import OurTeam from "./Pages/OurTeam";
 import Projects from "./Pages/Projects";
 import Sponsors from "./Pages/Sponsors";
+import Error from "./Pages/Errorpage/Errorpage";
 import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -25,6 +26,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/alumni" element={<Alumni />} />
+        <Route path="*" element={<Error/>}/>
       </Routes>
     </Router>
   );
