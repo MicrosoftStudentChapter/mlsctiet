@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 860px) {
     .cardContainer{
-        height: 20rem;
+        height: 30rem;
         width: 15rem;
     }
     .content{
@@ -68,5 +68,18 @@
     }
     .title{
         font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .cardContainerTilt{
+        height: 16rem;
+        width: 11rem;
+    }
+    .content{
+        height: 70%;
+    }
+    .title{
+        font-size: 2.1rem;
     }
 }

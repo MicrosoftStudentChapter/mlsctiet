@@ -46,15 +46,25 @@
 
 @media screen and (max-width: 768px) {
     .upArrow{
-        width: 20%;
+        width: 15%;
     }
     .downArrow{
-        width: 20%;
+        width: 15%;
     }
     .downline{
-        width: 20%;
+        width: 40%;
+        height: 20rem;
+
     }
     .upline{
-        width: 20%;
+        width: 40%;
+        height: 1rem;
+    }
+}@media screen and (max-width: 380px) {
+    .downArrow{
+        width: 12%;
+    }
+    .upArrow{
+        width: 12%;
     }
 }

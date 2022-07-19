@@ -85,13 +85,20 @@
     }
     .text{
         margin-right: 0.5rem;
-        margin-top:0.5rem;
+        margin-top: 0.5rem;
     }
     .text{
-        margin-top: 3rem;
+        margin-top: 4rem;
         font-size: 0.5rem;
     }
     .subhead{
         font-size: 1rem;
     }
+    .header{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        z-index: 1;
+
+    }
+    
 }
