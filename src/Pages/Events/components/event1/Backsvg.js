@@ -9,8 +9,8 @@ function Backsvg() {
     <div>
         <img src={Uparrow} className={svgStyle.upArrow} alt="upArrow" />
         <img src={Downarrow} className={svgStyle.downArrow} alt="downArrow" />
-        <img src={line} className={svgStyle.downline} alt="downline" />
-        <img src={line} className={svgStyle.upline} alt="upline" />
+        {/* <img src={line} className={svgStyle.downline} alt="downline" /> */}
+        {/* <img src={line} className={svgStyle.upline} alt="upline" /> */}
     </div>
   )
 }

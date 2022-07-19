@@ -15,6 +15,11 @@ function Event1() {
   }
 
   const [data, setData] = useState(yearWiseData[year]);
+  const [remSub, setRemSub] = useState(false);
+
+  const toggle = () => {
+    setRemSub(!remSub);
+  }
 
   return (
     <div className={styles.body}>
@@ -25,11 +30,13 @@ function Event1() {
       </div>
       <div className={styles.content}>
         <div className={styles.header}>
-          <YearSelector chngYear={setYear} chngData={setData} yearData={yearWiseData} />
+          {!remSub &&
+            <YearSelector chngYear={setYear} chngData={setData} yearData={yearWiseData} />
+          }
         </div>
         <div className={styles.mid}>
           <div className={styles.carousel}>
-            <EventsCarousel yearData={data} />
+            <EventsCarousel yearData={data} toggle={toggle} />
           </div>
         </div>
         <div className={styles.footer}>
