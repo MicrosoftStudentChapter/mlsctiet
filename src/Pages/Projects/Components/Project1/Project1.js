@@ -12,7 +12,7 @@ function Project1 () {
           <img src={main_img} alt="" />
           <div className="content">
             <div className="text">
-              <h6>We Design Oppurtunities to grow</h6>
+              <h6>We Design Opportunities to grow</h6>
               <p>
                 <span> Debut –</span>
                 {' '}

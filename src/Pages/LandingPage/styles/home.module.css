@@ -118,3 +118,37 @@
         font-size: 2rem;
     }
 }
+@media screen and (max-width: 320px){
+    .polygon{
+        height: 25%;
+    }
+    .sheild{
+        height: 50%;
+        width: 80%;
+    }
+    .right{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:  480px){
+    .polygon{
+        height: 35%;
+    }
+    .sheild{
+        height:50%;
+        width: 80%;
+    }
+    .right{
+        font-size: 1.75rem;
+    }
+}
+@media screen and (max-width: 540px){
+    .polygon{
+        height: 15rem;
+        width:  10rem;
+    }
+    .sheild{
+        height: 50%;
+        width: 80%;
+    }
+}
