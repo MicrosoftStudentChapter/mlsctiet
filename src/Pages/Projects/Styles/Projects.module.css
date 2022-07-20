@@ -1,0 +1,85 @@
+.projectsContainer {
+  height: 100vh;
+  width: 100%;
+  background: #26282a;
+  color: white;
+  overflow: hidden;
+}
+
+.projectsHeader {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.projectsContainer img {
+  height: 35vh;
+  width: auto;
+  padding: 13vh 0 0 0;
+}
+
+@media screen and (max-width: 1500px) {
+  .projectsContainer img {
+    height: 30vh;
+    width: auto;
+    padding: 15vh 0 0 0;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .projectsContainer img {
+    height: 25vh;
+    width: auto;
+    padding: 15vh 0 0 0;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .projectsContainer img {
+    height: 18vh;
+    width: auto;
+    padding: 15vh 0 0 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .projectsContainer img {
+    height: 16vh;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .projectsContainer img {
+    height: 13vh;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .projectsContainer img {
+    height: 10vh;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .projectsContainer img {
+    height: 9vh;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .projectsContainer img {
+    height: 7vh;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .projectsContainer img {
+    height: 5vh;
+    width: auto;
+  }
+}
