@@ -20,22 +20,21 @@
   display: flex;
 }
 
-.firstContainer{
+.firstContainer {
   display: flex;
   flex-direction: column;
 }
 
-
-.zebra{
+.zebra {
   width: 80%;
   position: relative;
   top: 7.2rem;
-  left: 5rem
+  left: 5rem;
 }
 
 .firstContainer h1 {
   transform: rotate(-90deg);
-  font-family: 'Cabin';
+  font-family: "Cabin";
   font-style: normal;
   font-weight: 700;
   font-size: 120px;
@@ -50,8 +49,9 @@
   height: 75%;
   border-radius: 2rem;
   overflow-y: scroll;
-  background: radial-gradient(100% 365.83% at 0% 8.89%, rgba(250, 57, 102, 0.27) 0%, rgba(250, 57, 102, 0.5) 0.01%, rgba(250, 57, 102, 0.435) 100%);
-  /* background: radial-gradient(100% 365.83% at 0% 8.89%); */
+  /* background: radial-gradient(100% 365.83% at 0% 8.89%, rgba(250, 57, 102, 0.27) 0%, rgba(250, 57, 102, 0.5) 0.01%, rgba(250, 57, 102, 0.435) 100%); */
+  /* background: radial-gradient(100% 365.83% at 0% 8.89%, 0%, 0.01%); */
+  opacity: 90%;
   box-shadow: 0px 3.95117px 3.95117px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(15.8047px);
   transform: matrix(1, 0, 0, 1, 0, 0);

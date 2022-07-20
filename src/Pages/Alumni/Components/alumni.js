@@ -13,7 +13,7 @@ const Alumni = [
     year: 2022,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -21,7 +21,7 @@ const Alumni = [
     year: 2022,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
 
@@ -30,7 +30,7 @@ const Alumni = [
     year: 2022,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
 
@@ -39,7 +39,7 @@ const Alumni = [
     year: 2022,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -47,7 +47,7 @@ const Alumni = [
     year: 2021,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -55,7 +55,7 @@ const Alumni = [
     year: 2021,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -63,7 +63,7 @@ const Alumni = [
     year: 2021,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -71,7 +71,7 @@ const Alumni = [
     year: 2021,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -79,7 +79,7 @@ const Alumni = [
     year: 2021,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -87,7 +87,7 @@ const Alumni = [
     year: 2020,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -95,7 +95,7 @@ const Alumni = [
     year: 2020,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -103,7 +103,7 @@ const Alumni = [
     year: 2020,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -111,7 +111,7 @@ const Alumni = [
     year: 2020,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -119,7 +119,7 @@ const Alumni = [
     year: 2020,
     image:
       "https://media.discordapp.net/attachments/860744459406147618/998936557648085024/alumni.jpg?width=662&height=662",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -127,7 +127,7 @@ const Alumni = [
     year: 2019,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -135,7 +135,7 @@ const Alumni = [
     year: 2019,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -143,7 +143,7 @@ const Alumni = [
     year: 2019,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -151,7 +151,7 @@ const Alumni = [
     year: 2019,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -159,7 +159,7 @@ const Alumni = [
     year: 2018,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -167,7 +167,7 @@ const Alumni = [
     year: 2018,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -175,7 +175,7 @@ const Alumni = [
     year: 2018,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -183,7 +183,7 @@ const Alumni = [
     year: 2018,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -191,7 +191,7 @@ const Alumni = [
     year: 2018,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -199,7 +199,7 @@ const Alumni = [
     year: 2017,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -207,7 +207,7 @@ const Alumni = [
     year: 2017,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -215,7 +215,7 @@ const Alumni = [
     year: 2017,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -223,7 +223,7 @@ const Alumni = [
     year: 2017,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -231,7 +231,7 @@ const Alumni = [
     year: 2017,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -239,7 +239,7 @@ const Alumni = [
     year: 2016,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -247,7 +247,7 @@ const Alumni = [
     year: 2016,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -255,7 +255,7 @@ const Alumni = [
     year: 2016,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -263,7 +263,7 @@ const Alumni = [
     year: 2016,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -271,7 +271,7 @@ const Alumni = [
     year: 2016,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -279,7 +279,7 @@ const Alumni = [
     year: 2015,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -287,7 +287,7 @@ const Alumni = [
     year: 2015,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -295,7 +295,7 @@ const Alumni = [
     year: 2015,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -303,7 +303,7 @@ const Alumni = [
     year: 2015,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -311,7 +311,7 @@ const Alumni = [
     year: 2015,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
   {
@@ -319,7 +319,7 @@ const Alumni = [
     year: 2015,
     image:
       "https://res.cloudinary.com/yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "xyz",
+    name: "Yashvi",
     linkedIn: "https://www.linkedin.com/",
   },
 ];

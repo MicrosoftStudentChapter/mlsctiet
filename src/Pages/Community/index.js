@@ -1,11 +1,10 @@
 import React from "react";
-import Main from './Components/main'
-
+import Main from "./components/main.jsx";
 
 const Community = () => {
   return (
     <>
-    <Main></Main>
+      <Main></Main>
     </>
   );
 };

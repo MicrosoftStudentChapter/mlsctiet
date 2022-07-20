@@ -1,3 +1,4 @@
+
 .container{
     width: 100vw;
     height: 100vh;
@@ -17,6 +18,10 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    background-image: url("../image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .leftImage{
@@ -58,7 +63,11 @@
     height: 50%;
 }
 
-@media screen and (max-width: 1730px) {
+
+.mobileTitle{
+    display: none;
+}
+/* @media screen and (max-width: 1730px) {
     .sheild{
         margin-left:5%;
         height:45%;
@@ -88,67 +97,46 @@
     .polygon{
         height: 45%;
     }
-}
+} */
 @media screen and (max-width: 950px){
-    .sheild{
-        
-        height: 35%;
-       
+    .right{
+        display: none;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left{
+        width: 100%;
+        justify-content: space-evenly;
     }
     .polygon{
+        transform: skew(0);
+        position: relative;
+        left: 0;
+        right: 0;
         height: 40%;
     }
-}
-@media screen and (max-width: 800px){
     .sheild{
-       
-        height: 30%;
-       
+        transform: skew(0);
     }
-    .right{
-        font-size: 2.5rem;
+    .mobileTitle{
+        display: inline;
+        color: white;
+        font-size: xx-large;
+        text-align: center;
+        font-family: 'myanmar-khyay-regular', sans-serif;
+        font-weight: bolder;
     }
 }
 
-@media screen and (max-width: 666px){
-    .polygon{
-        height: 35%;
-    }
-    .right{
-        font-size: 2rem;
-    }
-}
-@media screen and (max-width: 320px){
-    .polygon{
-        height: 25%;
-    }
-    .sheild{
-        height: 50%;
-        width: 80%;
-    }
-    .right{
-        font-size: 1rem;
-    }
-}
-@media screen and (max-width:  480px){
-    .polygon{
-        height: 35%;
-    }
-    .sheild{
-        height:50%;
-        width: 80%;
-    }
-    .right{
-        font-size: 1.75rem;
-    }
-}
 @media screen and (max-width: 540px){
-    .polygon{
-        height: 15rem;
-        width:  10rem;
-    }
     .sheild{
-        height: 50%;
-        width: 80%;
+        width: 70%;
+    }
+    .polygon{
+        height: 40%;
+        width: 70%;
     }
 }

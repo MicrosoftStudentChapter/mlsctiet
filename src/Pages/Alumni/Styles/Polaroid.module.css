@@ -48,18 +48,18 @@ figure:before,
 figure:after {
   content: "";
   position: absolute;
-  height: 40px;
-  width: 120px;
-  background-color: rgba(102, 102, 102, 0.6);
+  height: 30px;
+  width: 78px;
+  background-color: rgba(230, 220, 209, 0.8);
   transform: rotate(-40deg);
 }
 figure:before {
-  top: 3px;
-  left: -55px;
+  top: 9px;
+  left: -30px;
 }
 figure:after {
-  bottom: 3px;
-  right: -60px;
+  bottom: 1px;
+  right: -40px;
 }
 figcaption img {
   height: 48px;
@@ -67,4 +67,7 @@ figcaption img {
   /* align-items: flex-end;
   margin-top: 20px; */
   padding-left: 160px;
+  position: absolute;
+  top: 0px;
+  /* margin-bottom: 100px; */
 }
