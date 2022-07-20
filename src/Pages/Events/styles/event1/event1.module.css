@@ -1,0 +1,117 @@
+@import '../fonts.css';
+
+.body{
+    background-color: #0D1213;
+    z-index: -1;
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.content{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    user-select: all;
+}
+
+.back{
+    margin: 0;
+    position: absolute;
+    z-index: 0;
+    height: 100vh;
+    width: 100vw;
+    user-select: none;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.header{
+    margin-top: 10vh;
+    height: 10vh;
+    display: flex;
+    z-index: 0;
+    user-select: none;
+    cursor: pointer;
+}
+
+.mid{
+    height: 49vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    height: 21vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.text{
+    margin-right: 3rem;
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.heading{
+    font-family: 'Head';
+    font-weight: bold;
+    font-size: 6rem;
+    color: white;
+    display: flex;
+}
+
+.subhead{
+    font-family: "Head";
+    font-size: 3rem;
+    color: white;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 860px) {
+    .heading{
+        font-size: 400%;
+    }
+    .text{
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    .text{
+        margin-top: 4rem;
+        font-size: 0.5rem;
+    }
+    .subhead{
+        font-size: 1rem;
+    }
+    .header{
+        padding-top: 12%;
+        padding-bottom: 4rem;
+        z-index: 4;
+    }
+}
+
+.fade-in {
+	animation: fadeIn 2s;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}

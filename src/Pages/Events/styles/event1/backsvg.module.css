@@ -1,0 +1,92 @@
+.upArrow{
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    width: 10%;
+    height: 30%;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.downArrow{
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    width: 10%;
+    height: 30%;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-start;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.cross{
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    width: 20%;
+    height: 30%;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-start;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.downline{
+    position: absolute;
+    bottom: 0rem;
+    right: 0;
+    width: 30%;
+    height: 10%;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-start;
+    animation: fadeIn 0.5s ease-in-out;    
+}
+
+.upline{
+    position: absolute;
+    bottom: 15rem;
+    right: 0;
+    width: 30%;
+    height: 10%;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-end;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+
+@media screen and (max-width: 768px) {
+    .upArrow{
+        width: 10%;
+    }
+    .downArrow{
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .downArrow{
+        width: 10%;
+    }
+    .upArrow{
+        width: 10%;
+    }
+}
+
+.fade-in {
+	animation: fadeIn 2s;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}

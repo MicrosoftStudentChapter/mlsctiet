@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('../fonts.css');
+/* Description card styling */
+
+.eventCard{
+    user-select: none;
+    z-index: 3;
+    margin: 2rem;
+    border-radius: 10px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.container{
+    background-color: #faffd3;
+    color: black;   
+    width: 55vw;
+    height: 65vh;
+    z-index: 2;
+    margin-top: 5rem;
+    box-shadow: 0 10px 10px 0 rgba(227, 217, 217, 0.19), 15px 16px 15px 0 rgba(227, 217, 217, 0.19);
+    border-radius: 15px 50px 30px; 
+}
+
+/* .containerShadow{
+    width: 60vw;
+    height: 55vh;
+    position: absolute;
+    z-index: 2;
+} */
+
+.cardTitle{
+    background-color: inherit;
+    padding:1rem;
+    z-index: 2;
+    border-radius: 15px 50px 0px;
+    font-family: 'Head';
+    font-size: 4rem;
+}
+
+.cardDescription{
+    background-color: inherit;
+    margin: 1rem 1rem 1rem 2rem;  
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; 
+    font-size: 1.5rem;
+    z-index: 2;
+}
+
+.gradientBlue{
+    width: 90%;
+}
+
+/* Vector styling */
+
+.eventImage{
+    position: absolute;
+    bottom: 2.5rem;
+    left: 4rem;
+    height: 35vh;
+    background-color: white;
+    border: 2px solid #0078D4;
+    z-index: 0;
+}
+
+.vectorCross{
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 10%;
+    height: 20%;
+}
+
+.vectorArrowBack{
+    position:absolute;
+    left: -5vw;
+    top: -1.25rem;
+    height: 70%;
+    z-index: 0;
+}
+
+.vectorArrow{
+    position:absolute;
+    left: -6.5vw;
+    top: 2rem;
+    height: 70%;
+    z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        margin-top: 8rem;
+        width: 80vw;
+        height: 60vh;
+        margin-left: 1.5rem;
+    }
+    .cardTitle{
+        font-size: 2rem;
+    }
+}
+
+.fade-in {
+	animation: fadeIn 2s;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}
