@@ -17,7 +17,8 @@
     right: 0;
     z-index: 1;
     max-width: 100%;
-    min-width: 70%;
+    min-width: 82%;
+    height:385px;
     background: #26282A;
 }
 
@@ -37,18 +38,21 @@
 .content h6 {
     width: 15%;
     text-align: left;
-    font-family: Armin Grotesk;
+    font-family: Myanmar Khyay;
     /* font-style: Normal; */
     font-size: 2vw;
+    font-style: normal;
 }
 
 .content p {
     width: 50%;
+    
 }
 
 .content span {
     color: #0078D4;
     text-decoration: underline;
+    font-family: Poppins;
 }
 
 .text {
@@ -67,6 +71,194 @@
     top: 30vh;
     left: -7%;
     font-size: 5vh;
+    font-family:Myanmar Khyay;
     padding: 1%;
     border-radius: 5px;
 }
+
+    
+
+    
+
+@media screen and (max-width: 850px){
+    .project1Container{
+        height: 80 vh;
+        width: auto;
+        display: flex;
+    }
+    .contentContainer img{
+        height:50vh;
+        width:100%;
+    }
+    .content{
+        height:80vh;
+        width:120vh;
+    }
+    .content p{
+        height:58vh;
+        width:auto;
+    }
+    .projectName{
+        top:72vh;
+        left:-10%;
+    }
+
+
+
+}
+@media screen and (max-width: 700px){
+    .project1Container{
+        height: 70 vh;
+        width: auto;
+        display: flex;
+    }
+    .content{
+        height:80vh;
+        width:100vh;
+    }
+    .content p{
+        height:48vh;
+        width:auto;
+    }
+    .projectName{
+        top:70vh;
+        left:-12%;
+    }
+
+}
+@media screen and (max-width: 570px){
+    .project1Container{
+        height: 60 vh;
+        width: auto;
+        display: flex;
+    }
+    .contentContainer img{
+        height: 50vh;
+        width:auto;
+    }
+    .content{
+        height:80vh;
+        width:80vh;
+    }
+    .content p{
+        height:58vh;
+        width:auto;
+    }
+    .projectName{
+        top:71vh;
+        left:-15%;
+    }
+
+
+}
+@media screen and (max-width: 480px){
+    .project1Container{
+        height: 50 vh;
+        width: auto;
+        display: flex;
+    }
+    .contentContainer img{
+        height: 50vh;
+        width:auto;
+    }
+    .content{
+        height:80vh;
+        width:70vh;
+    }
+    .content p{
+        height:58vh;
+        width:auto;
+    }
+    .projectName{
+        top:72vh;
+        left:-18%;
+    }
+
+}
+@media screen and (max-width: 395px){
+    .project1Container{
+        height: 40 vh;
+        width: auto;
+        display: flex;
+    }
+    .contentContainer img{
+        height: 50vh;
+        width: auto;
+    }
+    .content{
+        height: 80vh;
+        width: 60vh;
+    }
+    .content p{
+        height: 58vh;
+        width:auto;
+    }
+    .projectName{
+        top: 70vh;
+        left:-20%;
+    }
+    .content h6{
+        font-size: 0px;
+    }
+
+}
+@media screen and (max-width: 300px){
+    .project1Container{
+        height: 30 vh;
+        width: auto;
+        display: flex;
+    }
+    .contentContainer img{
+        height:40vh;
+        width: auto;
+    }
+    .content{
+        height: 80vh;
+        width: 48vh;
+    }
+    .content p{
+        width:auto;
+        height:80vh;
+        font-size: 90%;
+        word-wrap: break-word;
+    }
+    .projectName{
+        left:-28%;
+        top:65vh;
+    }
+    .content h6{
+        font-size: 0px;
+    }
+
+}
+@media screen and (max-width: 290px){
+    .project1Container{
+        height: 20 vh;
+        width: auto;
+        display: flex;
+    }
+    
+    .contentContainer img {
+        height: 40vh;
+        width: auto;
+    }
+    .content {
+        height: 80vh;
+        width: 45vh;
+    }
+    .content p{
+        width:auto;
+        height: 80vh;
+        font-size:90%;
+        word-wrap: break-word;
+    }
+    .projectName{
+        left:-28%;
+        top:65vh;
+        
+    }
+    .content h6{
+        font-size:0vw;
+    }
+}
+

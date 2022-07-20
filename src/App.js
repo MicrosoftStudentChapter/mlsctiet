@@ -1,3 +1,4 @@
+import React from "react";
 import AboutUs from "./Pages/AboutUs";
 import Alumni from "./Pages/Alumni";
 import Community from "./Pages/Community";
@@ -5,10 +6,14 @@ import Events from "./Pages/Events";
 import Gallery from "./Pages/Gallery";
 import LandingPage from "./Pages/LandingPage";
 import OurTeam from "./Pages/OurTeam";
+// import Projects from "./Pages/Projects";
+import Error from "./Pages/Errorpage/Errorpage";
 import Sponsors from "./Pages/Sponsors";
-import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import Project1 from "./Pages/Projects/Components/Project1/Project1";
+// import Project2 from "./Pages/Projects/Components/Project2/Project2";
+// import Project3 from "./Pages/Projects/Components/Project3/Project3";
 
 function App() {
   return (
@@ -23,6 +28,7 @@ function App() {
         <Route path="/team" element={<OurTeam />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/alumni" element={<Alumni />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </Router>
   );
