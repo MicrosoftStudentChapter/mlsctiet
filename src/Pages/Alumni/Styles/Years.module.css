@@ -9,9 +9,10 @@
   display: block;
   transform: rotate(-90deg);
   font-family: "Poppins";
-  padding: 2.3rem;
+  padding: 60%;
   place-items: right;
   border-radius: 20px 20px 0px 0px;
+  border-top: 20px;
 }
 
 .buttons:nth-child(2n),
@@ -20,14 +21,14 @@
   background-color: #0078d4;
   display: block;
   transform: rotate(-90deg);
-  padding: 2.3rem;
+  padding: 60%;
   place-items: right;
 }
 .buttons:nth-child(4n) {
   background-color: #fa3966;
   display: block;
   transform: rotate(-90deg);
-  padding: 2.3rem;
+  padding: 60%;
   place-items: right;
   border-radius: 20px 20px 0px 0px;
 }
@@ -35,7 +36,7 @@
   background-color: #0078d4;
   display: block;
   transform: rotate(-90deg);
-  padding: 2.3rem;
+  padding: 60%;
   place-items: right;
 }
 
@@ -45,7 +46,7 @@
   background-color: #fff6eb;
   display: block;
   transform: rotate(-90deg);
-  padding: 2.3rem;
+  padding: 60%;
   place-items: right;
 }
 

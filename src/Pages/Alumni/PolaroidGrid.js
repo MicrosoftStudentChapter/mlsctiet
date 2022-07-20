@@ -51,7 +51,7 @@ const PolaroidGrid = () => {
               ></img>
             </div>
             <h1>{items[0].year}</h1>
-            <img src={Lines}></img>
+            <img src={Lines} className={PolaroidGridCSS.zebra}></img>
           </div>
           <div
             className={PolaroidGridCSS.secondContainer}
