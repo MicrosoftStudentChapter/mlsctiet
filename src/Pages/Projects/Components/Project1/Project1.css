@@ -38,9 +38,10 @@
 .content h6 {
     width: 15%;
     text-align: left;
-    font-family: Armin Grotesk;
+    font-family: Myanmar Khyay;
     /* font-style: Normal; */
     font-size: 2vw;
+    font-style: normal;
 }
 
 .content p {
@@ -51,6 +52,7 @@
 .content span {
     color: #0078D4;
     text-decoration: underline;
+    font-family: Poppins;
 }
 
 .text {
@@ -69,6 +71,7 @@
     top: 30vh;
     left: -7%;
     font-size: 5vh;
+    font-family:Myanmar Khyay;
     padding: 1%;
     border-radius: 5px;
 }
