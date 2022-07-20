@@ -36,22 +36,42 @@ const Main = () => {
     <div className={Style.container}>
       <div className={Style.mainContainer}>
         <div className={Style.firstContainer}>
-          <img src={Cross}></img>
-          <img src={Dots}></img>
+          <div className={Style.im1}>
+            <div className={Style.Dots}>
+              <img src={Dots}></img>
+            </div>
+            <div className={Style.Cross}>
+              <img src={Cross}></img>
+            </div>
+            <div className={Style.Arrow}>
+              <img src={Arrow}></img>
+            </div>
+          </div>
           <Carousels />
-          <img src={Arrow}></img>
-          <img src={Lines}></img>
+          <div className={Style.Lines}>
+            <img src={Lines}></img>
+          </div>
         </div>
         <div className={Style.secondContainer}>
-          <h1>Alumni</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mi
-            urna, elementum vitae maximus ut, cursus eu turpis. Cras non libero
-            ut massa tincidunt rutrum et eget ipsum
-          </p>
-          <img src={Lines}></img>
-          <img src={Squarcle}></img>
-          <img src={Broadline}></img>
+          <div className={Style.Alumni}>
+            <h1>Alumni</h1>
+          </div>
+          <div className={Style.p}>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mi
+              urna, elementum vitae maximus ut, cursus eu turpis. Cras non
+              libero ut massa tincidunt rutrum et eget ipsum
+            </p>
+          </div>
+          <div className={Style.Squarcle}>
+            <img src={Squarcle}></img>
+          </div>
+          <div className={Style.Lines2}>
+            <img src={Lines}></img>
+          </div>
+          <div className={Style.Broadline}>
+            <img src={Broadline}></img>
+          </div>
         </div>
       </div>
       <div className={Style.thirdContainer}>
