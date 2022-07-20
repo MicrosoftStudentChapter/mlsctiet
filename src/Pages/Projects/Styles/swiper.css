@@ -12,21 +12,21 @@
   height: 30em;
 }
 
-/* .slide {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #FA3966;
-    color: white;
-    text-decoration: none;
-    transform: translate(30px, 20px) rotate(20deg);
-    margin: 50px 0 0 0;
-    border-radius: 15px;
-    cursor: pointer;
-} */
+.swiper-slide .slide {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fa3966;
+  color: white;
+  text-decoration: none;
+  transform: translate(30px, 20px) rotate(20deg);
+  margin: 50px 0 0 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
 
-.projectsSwiper .swiper-pagination {
+.projects-swiper .swiper-pagination {
   position: absolute;
   top: 0;
   cursor: pointer;
