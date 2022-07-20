@@ -1,4 +1,5 @@
 import styles from "../Style/Gallery.css"
+import { Link } from "react-router-dom";
 
 export default function Page(){
     // JS
@@ -480,10 +481,42 @@ export default function Page(){
       return(
         <div className="pagewrapper">
             {/* try image left and right technique */}
-            <img id="img1" className="image" onMouseOver={mousehover} onMouseOut={unhover} src="https://www.pandotrip.com/wp-content/uploads/2013/05/red-beach-china-740x440.jpg"/>
-            <img id="img2" className="image" onMouseOver={mousehover} onMouseOut={unhover} src="https://hips.hearstapps.com/hbz.h-cdn.co/assets/16/16/mirador-las-torres-gettyimages-512588114.jpg?crop=1.0xw:1xh;center,top&resize=480:*"/>
-            <img id="img3"className="image" onMouseOver={mousehover} onMouseOut={unhover} src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/most-beautiful-places-in-the-world-gettyimages-1042549972.jpg"/>
-            <img id="img4"className="image" onMouseOver={mousehover} onMouseOut={unhover} src="https://media.cntraveler.com/photos/5cb63a4c1a7e7050e8f70959/master/w_4000,h_2667,c_limit/Socotra-Yemen_GettyImages-487703989.jpg"/>
+            
+
+            <div id="img1" className="image">
+            <Link to='/explode_img1'>
+            <img  className="image"  onMouseOver={mousehover} onMouseOut={unhover} src="https://www.pandotrip.com/wp-content/uploads/2013/05/red-beach-china-740x440.jpg"/>
+            </Link>
+            </div>
+
+
+            <div id="img2" className="image">
+              <Link to='/explode_img2'>
+              <img  className="image"  onMouseOver={mousehover} onMouseOut={unhover} src="https://hips.hearstapps.com/hbz.h-cdn.co/assets/16/16/mirador-las-torres-gettyimages-512588114.jpg?crop=1.0xw:1xh;center,top&resize=480:*"/>
+              </Link>
+            </div>
+
+
+
+            <div id="img3" className="image">
+              <Link to='/explode_img3'>
+              <img className="image"  onMouseOver={mousehover} onMouseOut={unhover} src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/most-beautiful-places-in-the-world-gettyimages-1042549972.jpg"/>
+              </Link>
+            </div>
+
+
+            <div id="img4" className="image">
+              <Link to='/explode_img4'>
+              <img className="image"  onMouseOver={mousehover} onMouseOut={unhover} src="https://media.cntraveler.com/photos/5cb63a4c1a7e7050e8f70959/master/w_4000,h_2667,c_limit/Socotra-Yemen_GettyImages-487703989.jpg"/>
+              </Link>
+            </div>
+
+
+            
+            {/* <img id="img2" className="image"  onMouseOver={mousehover} onMouseOut={unhover} src="https://hips.hearstapps.com/hbz.h-cdn.co/assets/16/16/mirador-las-torres-gettyimages-512588114.jpg?crop=1.0xw:1xh;center,top&resize=480:*"/>
+            <img id="img2" className="image"  onMouseOver={mousehover} onMouseOut={unhover} src="https://hips.hearstapps.com/hbz.h-cdn.co/assets/16/16/mirador-las-torres-gettyimages-512588114.jpg?crop=1.0xw:1xh;center,top&resize=480:*"/>
+            <img id="img3"className="image"  onMouseOver={mousehover} onMouseOut={unhover} src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/most-beautiful-places-in-the-world-gettyimages-1042549972.jpg"/>
+            <img id="img4"className="image"  onMouseOver={mousehover} onMouseOut={unhover} src="https://media.cntraveler.com/photos/5cb63a4c1a7e7050e8f70959/master/w_4000,h_2667,c_limit/Socotra-Yemen_GettyImages-487703989.jpg"/> */}
             
             <h1 id="twenty19" className="YearTags">2019</h1>
             <h1 id="twenty20" className="YearTags">2020</h1>
@@ -493,10 +526,17 @@ export default function Page(){
 
             <button id='btn1' className="btn" onClick={subtract}>&lt; </button>
             <button id='btn1phn' className="btn" onClick={subtractphn}>&lt; </button>
+
               <div id="imageplaceholder"></div>
+
             <button id='btn2phn' className="btn" onClick={addphn}>&gt; </button>
             <button id='btn2' className="btn" onClick={add}> &gt; </button>
           </div>
         </div>  
       )
     }
+
+
+
+
+    

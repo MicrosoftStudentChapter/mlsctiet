@@ -30,6 +30,7 @@ body{
   }
   
   .btn{
+    padding: 1px;
     height:40px;
     width:40px;
     margin: 20px;
@@ -51,10 +52,10 @@ body{
     margin: 20px;
     font-size: 30px;
     background: rgb(255, 255, 255,0);
-    border: solid 2px;
+    border: solid 3px;
     border-radius:50px;
   }
-
+  
   .image{
     width:400px;
     height:500px;
@@ -79,7 +80,7 @@ body{
     margin:0 auto;
     left: 0;
     right: 0;
-    filter:blur(13px) saturate(0);
+    filter:blur(10px) saturate(0);
     transform:translateX(50vw);
     visibility: visible;
     transition:all 0.85s;
@@ -90,7 +91,7 @@ body{
     margin:0 auto;
     left: 0;
     right: 0;
-    filter:blur(13px) saturate(0);
+    filter:blur(10px) saturate(0);
     transform:translateX(100vw);
     visibility: visible;
     transition:all 0.85s;
@@ -102,7 +103,7 @@ body{
     margin:0 auto;
     left: 0;
     right: 0;
-    filter:blur(13px) saturate(0);
+    filter:blur(10px) saturate(0);
     transform:translateX(-50vw);
     visibility: visible;  
     transition:all 0.85s;

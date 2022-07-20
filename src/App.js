@@ -9,15 +9,19 @@ import Projects from './Pages/Projects';
 import Sponsors from './Pages/Sponsors';
 import React from 'react';
 import Navbar from './Components/Navbar/Navbar';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Project1 from './Pages/Projects/Components/Project1/Project1';
 import Project2 from './Pages/Projects/Components/Project2/Project2';
 import Project3 from './Pages/Projects/Components/Project3/Project3';
+import Explode_img1 from './Pages/Gallery/Components/explode_img1/explode_img1';
+
+
+
 
 function App () {
   return (
     <Router>
-      <Navbar />
+      <Navbar/>
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
         <Route path="/about" element={<AboutUs />} />
@@ -31,6 +35,10 @@ function App () {
         <Route path="/project3" element={<Project3 />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/alumni" element={<Alumni />} />
+        <Route path="/explode_img1" element={<Explode_img1/>} />
+        {/* <Route path="/explode_img2" element={<explode_img2/>} />
+        <Route path="/explode_img3" element={<explode_img3/>} />
+        <Route path="/explode_img4" element={<explode_img4/>} /> */}
       </Routes>
     </Router>
   );
