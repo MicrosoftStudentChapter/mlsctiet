@@ -1,11 +1,11 @@
 language: node_js
 node_js:
   - 16
-cache: npm
+cache: yarn
 install:
-  - npm ci  
+  - yarn
 script:
-  - npm run build
+  - CI=false && yarn build
 deploy:
   provider: pages
   skip_cleanup: true

@@ -1,3 +1,4 @@
+import React from 'react';
 import AboutUs from './Pages/AboutUs';
 import Alumni from './Pages/Alumni';
 import Community from './Pages/Community';
@@ -6,8 +7,8 @@ import Gallery from './Pages/Gallery';
 import LandingPage from './Pages/LandingPage';
 import OurTeam from './Pages/OurTeam';
 import Projects from './Pages/Projects';
+import Error from "./Pages/Errorpage/Errorpage";
 import Sponsors from './Pages/Sponsors';
-import React from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Project1 from './Pages/Projects/Components/Project1/Project1';
@@ -31,6 +32,7 @@ function App () {
         <Route path="/project3" element={<Project3 />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/alumni" element={<Alumni />} />
+        <Route path="*" element={<Error/>}/>
       </Routes>
     </Router>
   );

@@ -26,7 +26,7 @@
     cursor: pointer;
 }
 
-.swiper-pagination {
+.projectsSwiper .swiper-pagination {
     position: absolute;
     top: 0;
     cursor: pointer;
