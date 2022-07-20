@@ -1,0 +1,109 @@
+@import '../fonts.css';
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11rem;
+    margin-left: 4rem;
+}
+
+.selectedYear{
+    font-family: 'Head';
+    font-weight: bold;
+    font-size: 4rem;
+    color: white;
+}
+
+.yearPrefix{
+    flex-direction: row;
+    text-align: left;
+    vertical-align: top;
+    font-size: 4.5rem;
+    font-family: "Head";
+    line-height: auto;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.yearSuffix{
+    text-align: left;
+    vertical-align: top;
+    font-size: 4.5rem;
+    font-family: "Head";
+    line-height: auto;
+    color: #ffffff;
+    margin: 0;
+    border-bottom: 18px #fa3966 solid;
+    margin-top: 0;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.notSelected{
+    align-self: flex-end;
+    font-size: 4rem;
+    font-family: "Head";
+    color: #585858;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+
+.notSelected:hover{
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        margin-top: 0rem;
+        margin-left: 1rem;
+    }
+    .selectedYear{
+        font-size: 3rem;
+    }
+    .yearPrefix{
+        font-size: 3rem;
+    }
+    .yearSuffix{
+        font-size: 3rem;
+    }
+    .notSelected{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .container{
+        margin-top: 0rem;
+        margin-left: 1rem;
+    }
+    .selectedYear{
+        font-size: 2rem;
+    }
+    .yearPrefix{
+        font-size: 2.25rem;
+    }
+    .yearSuffix{
+        font-size: 2.25rem;
+        border-bottom: 13.5px #fa3966 solid;
+        
+
+    }
+    .notSelected{
+        font-size: 2.25rem;
+    }
+}
+
+.fade-in {
+	animation: fadeIn 2s;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}

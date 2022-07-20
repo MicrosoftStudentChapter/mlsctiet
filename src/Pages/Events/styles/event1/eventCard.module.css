@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+.cardContainer{
+    height: 20rem;
+    width: 13rem;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    align-items: center;
+}
+
+.cardContainerTilt{
+    height: 20rem;
+    width: 13rem;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    align-items: center;
+    transform: rotate(20deg);
+    cursor: pointer;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.cardContainer:hover{
+    cursor:pointer;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color: wheat;
+    width: inherit;
+    height: 85%;
+}
+.title{
+    display: flex;
+    width: inherit;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: #dbe5ef;
+    margin-bottom: 0.5rem;
+    height: 15%;
+    white-space: break-spaces;
+    word-break: break-word;
+    word-spacing: 20px;
+}
+
+.imageTemp{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 860px) {
+    .cardContainer{
+        height: 30rem;
+        width: 15rem;
+    }
+    .content{
+        height: 70%;
+    }
+    .title{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .cardContainerTilt{
+        height: 16rem;
+        width: 11rem;
+    }
+    .content{
+        height: 70%;
+    }
+    .title{
+        font-size: 2.1rem;
+    }
+}
+
+.fade-in {
+	animation: fadeIn 2s;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}

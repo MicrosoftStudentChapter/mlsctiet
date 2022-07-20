@@ -1,0 +1,41 @@
+.carouselContainer{
+    margin: 0 auto;
+    display: flex;
+    /* transform: rotate(68deg); */
+    flex-direction: column;
+    width: 70vw;
+    height: 59vh;
+    justify-content: center;
+    justify-self: flex-end;
+    align-self: flex-end;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    transform: rotate(-20deg);
+    user-select: none;
+}
+.carouselContainerNoTilt{
+    margin-left: 10rem;
+    display: block;
+    text-align: right;
+    align-content: right;
+    width: 100vw;
+    height: 39vh;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    /* transform: rotate(-20deg); */
+    background-color: #0D1213;
+    user-select: none;
+}
+
+@media screen and (max-width: 768px) {
+    .carouselContainer{
+        margin-top: 2rem;
+    }
+    .carouselContainerNoTilt{
+        margin-top: 2rem;
+    }
+}
