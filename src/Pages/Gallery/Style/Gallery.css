@@ -163,8 +163,16 @@ body{
     #btn1{
       display: none;
     }
+    .btnpic1{
+      width:18px;
+
+    }
     #btn2{
       display: none;
+    }
+    .btnpic2{
+      width:18px;
+
     }
     #btn1phn{
       display: block;
