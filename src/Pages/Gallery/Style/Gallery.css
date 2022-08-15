@@ -30,7 +30,9 @@ body{
   }
   
   .btn{
-    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height:40px;
     width:40px;
     margin: 20px;
@@ -47,6 +49,9 @@ body{
     display: none;
   }
   .btn:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height:40px;
     width:40px;
     margin: 20px;

@@ -13,12 +13,32 @@
     width:100vw;
     
   }
-  
+  .backbtn{
+    position: absolute;
+    top:10%;
+    left:5%;
+    width: 100px;
+    cursor: pointer;
+  }
+  .backbtn:hover{
+    position: absolute;
+    top:10%;
+    left:5%;
+    width: 100px;
+    cursor: pointer;
+    animation: wobble 1s alternate linear infinite;
+  }
+  @keyframes wobble{
+    0%{transform: scale(1);}
+    100%{transform: scale(0.8);}
+  }
   #mainimage{
     width:350px;
     height:400px;
     position:absolute;
     opacity:1;
+    transition: 1s all;
+    z-index: 2;
   }
   #mainimage1{
     width:350px;
@@ -35,6 +55,63 @@
     transition:1s all;
   }
   #mainimage3{
+    width:350px;
+    height:400px;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  #mainimage4{
+    width:350px;
+    height:400px;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  
+  #mainimage5{
+    width:350px;
+    height:400px;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  #mainimage6{
+    width:350px;
+    height:400px;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  #mainimage7{
+    width:350px;
+    height:400px;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  #mainimage8{
+    width:350px;
+    height:400px;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  #mainimage9{
+    width:350px;
+    height:400px;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  #mainimage10{
+    width:350px;
+    height:400px;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  #mainimage11{
     width:350px;
     height:400px;
     position:absolute;

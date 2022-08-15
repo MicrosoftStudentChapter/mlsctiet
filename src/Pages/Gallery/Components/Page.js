@@ -1,6 +1,7 @@
 import "../Style/Gallery.css";
 import { Link } from "react-router-dom";
 import greaterthan from "../Assets/greaterthan.png";
+import lessthan from "../Assets/lessthan.png";
 
 export default function Page() {
     // JS
@@ -517,20 +518,20 @@ export default function Page() {
             </h1>
             <div className="aligncenter">
                 <button id="btn1" className="btn" onClick={subtract}>
-                    {/* <img className="btnpic1" src={greaterthan} alt="Logo" />{" "} */}
-                    &lt;
+                    <img className="btnpic1" src={lessthan} alt="Logo" width="18px" />
+                    {/* &lt; */}
                 </button>
                 <button id="btn1phn" className="btn" onClick={subtractphn}>
-                    &lt;{" "}
+                    &lt;
                 </button>
 
                 <div id="imageplaceholder"></div>
 
                 <button id="btn2phn" className="btn" onClick={addphn}>
-                    &gt;{" "}
+                    &gt;
                 </button>
                 <button id="btn2" className="btn" onClick={add}>
-                    {" "}
+                    
                     <img
                         className="btnpic2"
                         src={greaterthan}
