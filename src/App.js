@@ -14,6 +14,9 @@ import Project1 from './Pages/Projects/Components/Project1/Project1';
 import Project2 from './Pages/Projects/Components/Project2/Project2';
 import Project3 from './Pages/Projects/Components/Project3/Project3';
 import Explode_img1 from './Pages/Gallery/Components/explode_img1/explode_img1';
+import Explode_img2 from './Pages/Gallery/Components/explode_img2/explode_img2';
+import Explode_img3 from './Pages/Gallery/Components/explode_img3/explode_img3';
+import Explode_img4 from './Pages/Gallery/Components/explode_img4/explode_img4';
 
 
 
@@ -36,9 +39,9 @@ function App () {
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/alumni" element={<Alumni />} />
         <Route path="/explode_img1" element={<Explode_img1/>} />
-        {/* <Route path="/explode_img2" element={<explode_img2/>} />
-        <Route path="/explode_img3" element={<explode_img3/>} />
-        <Route path="/explode_img4" element={<explode_img4/>} /> */}
+        <Route path="/explode_img2" element={<Explode_img2/>} />
+        <Route path="/explode_img3" element={<Explode_img3/>} />
+        <Route path="/explode_img4" element={<Explode_img4/>} />
       </Routes>
     </Router>
   );

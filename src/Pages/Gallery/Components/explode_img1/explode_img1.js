@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import "../../Style/explode.css";
 import backbutton from "../../Assets/Backbutton.png";
 import { Link } from "react-router-dom";
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/bundle";
+import "../../Style/carouselstyle.css";
+
+// import required modules
+import { Mousewheel, Pagination } from "swiper";
 
 const explode_img1 = () => {
     function loadanimation() {
@@ -30,7 +42,7 @@ const explode_img1 = () => {
             img4.style.transform = "translate(30vw,35vh) scale(0.5)";
         }, 2500);
         setTimeout(() => {
-            img5.style.transform = "translate(7vw,-30vh) scale(0.4)";
+            img5.style.transform = "translate(7vw,-31vh) scale(0.4)";
         }, 3000);
         setTimeout(() => {
             img6.style.transform = "translate(-17vw,-10vh) scale(0.5)";
@@ -63,8 +75,10 @@ const explode_img1 = () => {
     // });
     return (
         <div>
-            <Link to='/gallery'><img src={backbutton} className="backbtn"/></Link>
-            
+            <Link to="/gallery">
+                <img src={backbutton} className="backbtn" />
+            </Link>
+
             <div className="pagewrapper">
                 <div className="imagediv">
                     <img
@@ -127,7 +141,40 @@ const explode_img1 = () => {
                         id="mainimage11"
                         src="https://i.pinimg.com/originals/25/78/61/25786134576ce0344893b33a051160b1.jpg"
                     />
-                </div>   
+                </div>
+                <div className="carouseldiv">
+                    <>
+                        <Swiper
+                            direction={"vertical"}
+                            slidesPerView={1}
+                            spaceBetween={30}
+                            mousewheel={true}
+                            pagination={{
+                                clickable: true,
+                            }}
+                            modules={[Mousewheel, Pagination]}
+                            className="mySwiper"
+                        >
+                            <SwiperSlide>
+                                <h1>Slide 1</h1>
+                            </SwiperSlide>
+                            <SwiperSlide>Slide 2</SwiperSlide>
+                            <SwiperSlide>Slide 3</SwiperSlide>
+                            <SwiperSlide>Slide 4</SwiperSlide>
+                            <SwiperSlide>Slide 5</SwiperSlide>
+                            <SwiperSlide>Slide 6</SwiperSlide>
+
+                            <SwiperSlide>Slide 7</SwiperSlide>
+                            <SwiperSlide>Slide 8</SwiperSlide>
+                            <SwiperSlide>
+                                <img
+                                    id="image9"
+                                    src="https://i.pinimg.com/originals/25/78/61/25786134576ce0344893b33a051160b1.jpg"
+                                />
+                            </SwiperSlide>
+                        </Swiper>
+                    </>
+                </div>
             </div>
         </div>
     );

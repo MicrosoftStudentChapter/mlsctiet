@@ -16,14 +16,14 @@
   .backbtn{
     position: absolute;
     top:10%;
-    left:5%;
+    left:3%;
     width: 100px;
     cursor: pointer;
   }
   .backbtn:hover{
     position: absolute;
     top:10%;
-    left:5%;
+    left:3%;
     width: 100px;
     cursor: pointer;
     animation: wobble 1s alternate linear infinite;
@@ -122,3 +122,116 @@
     width:350px;
     height:400px;
   }
+  .carouseldiv{
+    display: none;
+  }
+  @media(max-width: 1050px) {
+    .carouseldiv{
+      display: block;
+    }
+    .imagediv{
+      display:none;
+      width:350px;
+      height:400px;
+    }
+
+    #mainimage{
+      display: none;
+    width:35vw;
+    height:50vh;
+    position:absolute;
+    opacity:1;
+  }
+    #mainimage1{
+    display:none;
+    width:35vw;
+    height:50vh;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  #mainimage2{
+    display:none;
+    width:35vw;
+    height:50vh;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  #mainimage3{
+    display:none;
+    width:35vw;
+    height:50vh;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  #mainimage4{
+    display:none;
+    width:350px;
+    height:400px;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  
+  #mainimage5{
+    display:none;
+    width:350px;
+    height:400px;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  #mainimage6{
+    display:none;
+    width:350px;
+    height:400px;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  #mainimage7{
+    display:none;
+    width:350px;
+    height:400px;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  #mainimage8{
+    display:none;
+    width:350px;
+    height:400px;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  #mainimage9{
+    display:none;
+    width:350px;
+    height:400px;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  #mainimage10{
+    display:none;
+    width:350px;
+    height:400px;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  #mainimage11{
+    display:none;
+    width:350px;
+    height:400px;
+    position:absolute;
+    transform:translate(0vw);
+    transition:1s all;
+  }
+  }
+
+  
+  
