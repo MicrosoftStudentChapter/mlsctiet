@@ -11,6 +11,7 @@
   flex-direction: row;
   background-color: #0d1213;
   padding-top: 80px;
+  padding-right: 1%;
   color: white;
   overflow: hidden;
   overflow-y: hidden;
@@ -62,13 +63,12 @@
 }
 
 .thirdContainer {
-  /* display: flex;
-  flex-direction: column;
-  width: 10%; */
-  position: relative;
-  right: 1.7rem;
+  
+  margin-top: 5%;
+  
 }
 
 ::-webkit-scrollbar {
   width: 0;
 }
+

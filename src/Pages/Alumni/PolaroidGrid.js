@@ -38,7 +38,7 @@ const PolaroidGrid = () => {
   };
   console.log(items);
   return (
-    <div>
+    // <div>
       <div className={PolaroidGridCSS.container}>
         <div className={PolaroidGridCSS.mainContainer} id="rectangle">
           <div className={PolaroidGridCSS.firstContainer}>
@@ -72,7 +72,7 @@ const PolaroidGrid = () => {
           <Years filterPolaroids={filterPolaroids} yearItems={yearItems} />
         </div>
       </div>
-    </div>
+    // </div>
   );
 };
 
