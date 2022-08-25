@@ -47,7 +47,9 @@ const Main = () => {
               <img src={Arrow}></img>
             </div>
           </div>
-          <Carousels />
+          <div className={Style.Carousels}>
+            <Carousels />
+          </div>
           <div className={Style.Lines}>
             <img src={Lines}></img>
           </div>
