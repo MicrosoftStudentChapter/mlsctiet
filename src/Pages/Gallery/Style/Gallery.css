@@ -9,10 +9,13 @@
 
 }
 body{
-    background:#0D1213;
+    /* background:#0D1213; */
+    background: url('../Assets/crowd.jpg');
 }
 /* page */
 .pagewrapper{
+    background: linear-gradient(rgba(13, 18, 19, 0),rgba(13, 18, 19, 0)) url('../Assets/crowd.jpg');
+    background-size: cover;
     margin: 0 auto;
     display:flex;
     flex-direction:column;

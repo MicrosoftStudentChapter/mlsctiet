@@ -2,6 +2,9 @@ import "../Style/Gallery.css";
 import { Link } from "react-router-dom";
 import greaterthan from "../Assets/greaterthan.png";
 import lessthan from "../Assets/lessthan.png";
+import nineteen from "../Assets/2019.jpg"
+import twentyone from "../Assets/2021.jpg"
+import twentytwo from "../Assets/2022.jpg"
 
 export default function Page() {
     // JS
@@ -461,7 +464,8 @@ export default function Page() {
                         className="image"
                         onMouseOver={mousehover}
                         onMouseOut={unhover}
-                        src="https://www.pandotrip.com/wp-content/uploads/2013/05/red-beach-china-740x440.jpg"
+                        src={nineteen}
+                        // src="https://www.pandotrip.com/wp-content/uploads/2013/05/red-beach-china-740x440.jpg"
                     />
                 </Link>
             </div>
@@ -483,7 +487,8 @@ export default function Page() {
                         className="image"
                         onMouseOver={mousehover}
                         onMouseOut={unhover}
-                        src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/most-beautiful-places-in-the-world-gettyimages-1042549972.jpg"
+                        src={twentyone}
+                        // src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/most-beautiful-places-in-the-world-gettyimages-1042549972.jpg"
                     />
                 </Link>
             </div>
@@ -494,7 +499,8 @@ export default function Page() {
                         className="image"
                         onMouseOver={mousehover}
                         onMouseOut={unhover}
-                        src="https://media.cntraveler.com/photos/5cb63a4c1a7e7050e8f70959/master/w_4000,h_2667,c_limit/Socotra-Yemen_GettyImages-487703989.jpg"
+                        src={twentytwo}
+                        // src="https://media.cntraveler.com/photos/5cb63a4c1a7e7050e8f70959/master/w_4000,h_2667,c_limit/Socotra-Yemen_GettyImages-487703989.jpg"
                     />
                 </Link>
             </div>
