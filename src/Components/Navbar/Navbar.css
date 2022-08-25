@@ -15,6 +15,10 @@ nav{
     font-family: 'myanmar-khyay-regular', sans-serif;
   }
   
+  .hamburger,.side-nav{
+    display: none;
+  }
+
   nav img{
     display: inline;
   }
@@ -64,7 +68,7 @@ nav{
     width: 6vh;
   }
 
-  .nav-btn{
+  /* .nav-btn{
     background: transparent;
     padding: 5px;
     cursor: pointer;
@@ -73,16 +77,44 @@ nav{
     outline: none;
     visibility: hidden;
     opacity: 0;
-  }
+  } */
 
-  @media (max-width: 1200px) {
+  /* @media (max-width: 1200px) {
     .right-nav{
         visibility: hidden;
         opacity: 0;
         display: none;
     }
+  } */
+
+
+  @media screen and (max-width:768px){
+    .right-nav{
+      display: none;
+    }
+
+    .hamburger{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hamburger img{
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      margin-right: 1rem;
+    }
+    .side-nav{
+      height: 100vh;
+      width: 0;
+      position: relative;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      z-index: 10;
+      background-color: pink;
+      transition: width 0.5s;
+    }
   }
-
-
-  
-  

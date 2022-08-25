@@ -8,8 +8,8 @@ const LandingPage = () => {
       <div className={styles.left}>
         <div className={styles.polygon}>
           <img src={sheild} className={styles.sheild} alt="Sheild" />
+          <p className={styles.mobileTitle}>Microsoft Learn Student Chapter</p>
         </div>
-        <p className={styles.mobileTitle}>Microsoft Learn Student Chapter</p>
       </div>
       <div className={styles.right}>
         <div className={styles.microsoft}>MICROSOFT</div>

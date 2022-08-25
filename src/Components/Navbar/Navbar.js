@@ -1,51 +1,89 @@
-import React from 'react'
-import logo from '../../Assets/mlsc_shield_new.png'
-import './Navbar.css'
+import React, { useState } from "react";
+import logo from "../../Assets/mlsc_shield_new.png";
+import HamburgerMenuIcon from "../../Assets/hamburger.svg";
+import "./Navbar.css";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
+  const [nav, setNav] = useState(false);
+
+  function openNav() {
+    if (!nav) {
+      document.querySelector(".side-nav").style.display = "flex";
+    } else {
+      document.querySelector(".side-nav").style.display = "none";
+    }
+    setNav(!nav);
+    console.log("clicked", nav);
+  }
 
   return (
     <>
-    <nav>
-      {/* NavBar MLSC logo */}
-      <div className="left-nav">
-        <Link to="/">
-        <img src={logo} alt="Logo"/>
-        </Link>
-        <h2>MLSC</h2>
-      </div>
-
-      {/* NavBar Menu icons */}
-        <ul className='right-nav'>
-          <li className='nav-item'>
-            <Link to='/about'>About</Link>
+      <nav>
+        <div className="left-nav">
+          <Link to="/">
+            <img src={logo} alt="Logo" />
+          </Link>
+          <h2>MLSC</h2>
+        </div>
+        <ul className="right-nav">
+          <li className="nav-item">
+            <Link to="/about">About</Link>
           </li>
-          <li className='nav-item'>
-            <Link to='/alumni'>Alumni</Link>
+          <li className="nav-item">
+            <Link to="/alumni">Alumni</Link>
           </li>
-          <li className='nav-item'>
-            <Link to='/community'>Community</Link>
+          <li className="nav-item">
+            <Link to="/community">Community</Link>
           </li>
-          <li className='nav-item'>
-            <Link to='/events'>Events</Link>
+          <li className="nav-item">
+            <Link to="/events">Events</Link>
           </li>
-          <li className='nav-item'>
-            <Link to='/gallery'>Gallery</Link>
+          <li className="nav-item">
+            <Link to="/gallery">Gallery</Link>
           </li>
-          <li className='nav-item'>
-            <Link to='/team'>Team</Link>
+          <li className="nav-item">
+            <Link to="/team">Team</Link>
           </li>
-          <li className='nav-item'>
-            <Link to='/projects'>Projects</Link>
+          <li className="nav-item">
+            <Link to="/projects">Projects</Link>
           </li>
-          <li className='nav-item'>
-            <Link to='/sponsors'>Sponsors</Link>
+          <li className="nav-item">
+            <Link to="/sponsors">Sponsors</Link>
           </li>
         </ul>
-
-
-    </nav>
+        <div className="hamburger">
+          <img src={HamburgerMenuIcon} onClick={openNav} alt="menu" />
+        </div>
+      </nav>
+      <div className="side-nav">
+        <ul className="right-nav">
+          <li className="nav-item">
+            <Link to="/about">About</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/alumni">Alumni</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/community">Community</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/events">Events</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/gallery">Gallery</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/team">Team</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/sponsors">Sponsors</Link>
+          </li>
+        </ul>
+      </div>
     </>
-  )
+  );
 }
