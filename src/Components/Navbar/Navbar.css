@@ -74,13 +74,27 @@ nav{
     visibility: hidden;
     opacity: 0;
   }
+  .hamburger{
+    display: none;
+  }
+@media (max-width: 1200px) {
 
-  @media (max-width: 1200px) {
-    .right-nav{
-        visibility: hidden;
-        opacity: 0;
-        display: none;
+  .right-nav{
+      visibility: hidden;
+      opacity: 0;
+      display: none;
     }
+  .left-nav{
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
+  .hamburger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+  }
   }
 
 
