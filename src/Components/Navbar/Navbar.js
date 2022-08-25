@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../../Assets/mlsc_shield_new.png";
 import HamburgerMenuIcon from "../../Assets/hamburger.svg";
+import CloseMenu from "../../Assets/close.svg";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 
@@ -9,12 +10,19 @@ export default function Navbar() {
 
   function openNav() {
     if (!nav) {
-      document.querySelector(".side-nav").style.display = "flex";
+      document.querySelector(".side-nav").style.width = "100vw";
+      document.querySelector(".hamburger").style.display = "none";
     } else {
-      document.querySelector(".side-nav").style.display = "none";
+      document.querySelector(".side-nav").style.width = "0";
     }
     setNav(!nav);
     console.log("clicked", nav);
+  }
+
+  function closeNav() {
+    document.querySelector(".side-nav").style.width = "0";
+    document.querySelector(".hamburger").style.display = "flex";
+    setNav(!nav);
   }
 
   return (
@@ -57,7 +65,13 @@ export default function Navbar() {
         </div>
       </nav>
       <div className="side-nav">
-        <ul className="right-nav">
+        <img
+          src={CloseMenu}
+          className="close-nav"
+          onClick={closeNav}
+          alt="close menu"
+        />
+        <ul className="side-navbar">
           <li className="nav-item">
             <Link to="/about">About</Link>
           </li>

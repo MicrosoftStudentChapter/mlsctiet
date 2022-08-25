@@ -1,19 +1,19 @@
-import React from 'react';
-import { Fragment } from 'react';
-import Fade from 'react-reveal';
-import './Styles/Projects.css';
-import './Styles/swiper.css';
-import { Link } from 'react-router-dom';
-import Logo from './Assets/Projects logo.png';
+import React from "react";
+import { Fragment } from "react";
+import Fade from "react-reveal";
+import "./styles/Projects.css";
+import "./styles/custom-swiper.css";
+import { Link } from "react-router-dom";
+import Logo from "./Assets/Projects logo.png";
 
 //  Swiper react components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 // Swiper Styles
-import 'swiper/css';
-import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/pagination";
 
 // Modules
-import { Autoplay, Pagination } from 'swiper';
+import { Autoplay, Pagination } from "swiper";
 
 function Projects() {
   var slides = window.innerWidth;
@@ -35,11 +35,9 @@ function Projects() {
   return (
     <Fragment>
       <div className="projects-container">
-
         {/* swiper */}
 
         <div className="slider-wrapper">
-
           <div className="projects-header">
             <Fade top>
               {/* <h1 className="projects-title">MLSC</h1> */}
@@ -48,7 +46,7 @@ function Projects() {
           </div>
 
           <Fade bottom>
-            <div className='projectsSwiper'>
+            <div className="projectsSwiper">
               <Swiper
                 loop={true}
                 slidesPerView={page}
@@ -65,7 +63,6 @@ function Projects() {
                 modules={[Autoplay, Pagination]}
                 className="my-swiper"
               >
-
                 <swiperContainer>
                   <SwiperSlide>
                     <Link to="/project1" className="slide">
@@ -96,13 +93,11 @@ function Projects() {
                       Slide 5
                     </Link>
                   </SwiperSlide>
-
                 </swiperContainer>
               </Swiper>
             </div>
           </Fade>
         </div>
-
       </div>
     </Fragment>
   );
