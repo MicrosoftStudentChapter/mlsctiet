@@ -33,6 +33,7 @@ import Explode_img1 from "./Pages/Gallery/components/explode_img1/explode_img1";
 import Explode_img2 from "./Pages/Gallery/components/explode_img2/explode_img2";
 import Explode_img3 from "./Pages/Gallery/components/explode_img3/explode_img3";
 import Explode_img4 from "./Pages/Gallery/components/explode_img4/explode_img4";
+import Error from "./Pages/Errorpage/Errorpage";
 
 function App() {
   return (
@@ -47,7 +48,7 @@ function App() {
         <Route path="/team" element={<OurTeam />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/alumni" element={<Alumni />} />
-        {/* <Route path="*" element={<Error />} /> */}
+        <Route path="*" element={<Error />} />
         <Route path="/explode_img1" element={<Explode_img1 />} />
         <Route path="/explode_img2" element={<Explode_img2 />} />
         <Route path="/explode_img3" element={<Explode_img3 />} />
