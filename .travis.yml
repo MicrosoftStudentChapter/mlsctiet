@@ -5,7 +5,7 @@ cache: yarn
 install:
   - yarn
 script:
-  - CI=false && yarn build
+  - CI=false yarn build
 deploy:
   provider: pages
   skip_cleanup: true
