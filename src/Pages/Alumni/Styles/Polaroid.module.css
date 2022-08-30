@@ -19,8 +19,8 @@
   margin: 2rem;
 }
 figure {
-  width: 15rem;
-  height: 20rem;
+  width: 14rem;
+  height: 19rem;
   position: relative;
   background-color: #eaeaea;
   padding: 19px 19px 85px 19px;
@@ -70,4 +70,25 @@ figcaption img {
   position: absolute;
   top: 0px;
   /* margin-bottom: 100px; */
+}
+
+@media screen and (max-width: 1200px){
+  figure{
+    width: 13rem;
+    height: 18rem;
+  }
+}
+
+@media screen and (max-width: 1050px){
+  figure{
+    width: 12rem;
+    height: 17rem;
+  }
+}
+
+@media screen and (max-width: 550px){
+  figure{
+    width: 10rem;
+    height: 15rem;
+  }
 }

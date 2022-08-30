@@ -12,9 +12,9 @@
 }
 
 .container {
-  width: 100%;
-  height: 100%;
-  padding-right: 1%;
+  /* width: 100%;
+  height: 100%; */
+  /* padding-right: 1%; */
   display: flex;
   background-color: #0d1213;
   padding-top: 4%;
@@ -25,6 +25,7 @@
 
 .mainContainer {
   display: flex;
+  flex-direction: row;
   /* flex-wrap: wrap; */
 }
 
@@ -44,13 +45,13 @@
   bottom: -52px;
 }
 
-.Cross{
+/* .Cross{
   padding-inline: 5%;
 }
 
 .Arrow{
   padding-inline-start: 25%;
-}
+} */
 
 .secondContainer {
   margin-left: 20px;
@@ -62,14 +63,14 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .Lines2{
-  position: relative;
-  top: -300px;
+  /* position: relative; */
+  /* top: -300px; */
   transform: rotate(90deg);
-  left: 430px;
+  /* left: 430px; */
 }
 .Broadline{
   position: relative;
