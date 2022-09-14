@@ -46,11 +46,12 @@
 .polygon{
     position: absolute;
     left: -10%;
-    border-radius: 60px;
+    border-radius: 107px;
     transform: skew(-25deg);
     background: rgba(255, 246, 235, 0.68);
     width: 60%;
     height: 60%;
+    left: -100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
