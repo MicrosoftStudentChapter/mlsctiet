@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: row;
   background-color: #0d1213;
+  height: 100rem;
   padding-top: 80px;
   padding-right: 1%;
   color: white;
@@ -19,26 +20,27 @@
 
 .mainContainer {
   display: flex;
+  padding-right: 4rem;
 }
 
 .firstContainer {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
 }
 
 .zebra {
-  width: 80%;
-  position: relative;
-  top: 7.2rem;
-  left: 5rem;
+  width: 67%;
+  padding-top: 7.6rem;
+  margin-left: 7rem;
 }
 
-.firstContainer h1 {
+.text {
   transform: rotate(-90deg);
   font-family: "Cabin";
   font-style: normal;
   font-weight: 700;
-  font-size: 120px;
+  font-size: 3.5rem;
   line-height: 146px;
 }
 
@@ -46,12 +48,17 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
   width: 75%;
-  height: 75%;
+  height: 35.5rem;
+  margin-right: 1rem;
+  margin-left: -1rem;
+  padding-right: 2.5rem;
   border-radius: 2rem;
   overflow-y: scroll;
-  /* background: radial-gradient(100% 365.83% at 0% 8.89%, rgba(250, 57, 102, 0.27) 0%, rgba(250, 57, 102, 0.5) 0.01%, rgba(250, 57, 102, 0.435) 100%); */
-  /* background: radial-gradient(100% 365.83% at 0% 8.89%, 0%, 0.01%); */
+  overflow-x: hidden;
+  background: radial-gradient(100% 365.83% at 0% 8.89%, rgba(250, 57, 102, 0.27) 0%, rgba(250, 57, 102, 0.5) 0.01%, rgba(250, 57, 102, 0.435) 100%); 
+  background: radial-gradient(100% 365.83% at 0% 8.89%, 0%, 0.01%);
   opacity: 90%;
   box-shadow: 0px 3.95117px 3.95117px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(15.8047px);
@@ -63,12 +70,41 @@
 }
 
 .thirdContainer {
-  
   margin-top: 5%;
-  
 }
 
 ::-webkit-scrollbar {
   width: 0;
 }
 
+@media screen and (max-width: 950px){
+  .text{
+    font-size: 3rem;
+  }
+  .zebra{
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .zebra{
+    margin-left: 0;
+    width: 80%;
+  }
+  .text{
+    font-size: 2.25rem;
+    margin-left: -5.5rem;
+    margin-bottom: -1.5rem;
+  }
+  .secondContainer{
+    margin-right: .5rem;
+  }
+  .mainContainer{
+    padding-right: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 580px){
+  
+}

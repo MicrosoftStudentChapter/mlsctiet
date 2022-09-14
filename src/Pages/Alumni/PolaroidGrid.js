@@ -39,39 +39,40 @@ const PolaroidGrid = () => {
   console.log(items);
   return (
     // <div>
-      <div className={PolaroidGridCSS.container}>
-        <div className={PolaroidGridCSS.mainContainer} id="rectangle">
-          <div className={PolaroidGridCSS.firstContainer}>
-            <div className={PolaroidGridCSS.Circles}>
-              <img
-                src={Circles}
-                style={{
-                  stroke: color[selected % 3],
-                }}
-              ></img>
-            </div>
-            <h1>{items[0].year}</h1>
-            <img src={Lines} className={PolaroidGridCSS.zebra}></img>
+    <div className={PolaroidGridCSS.container}>
+      <div className={PolaroidGridCSS.mainContainer} id="rectangle">
+        <div className={PolaroidGridCSS.firstContainer}>
+          <div className={PolaroidGridCSS.Circles}>
+            <img
+              src={Circles}
+              style={{
+                stroke: color[selected % 3],
+              }}
+            ></img>
           </div>
-          <div
-            className={PolaroidGridCSS.secondContainer}
-            style={{
-              backgroundColor: color[selected % 3],
-            }}
-          >
-            {items.map((items, index) => {
-              return (
-                <div key={index} className={PolaroidGridCSS.items}>
-                  <Polaroid items={items} />
-                </div>
-              );
-            })}
+          <div className={PolaroidGridCSS.text}>
+             <h1>{items[0].year}</h1>
           </div>
+          <img src={Lines} className={PolaroidGridCSS.zebra}></img>
         </div>
-        <div className={PolaroidGridCSS.thirdContainer}>
-          <Years filterPolaroids={filterPolaroids} yearItems={yearItems} />
+        <div className={PolaroidGridCSS.secondContainer}
+          style={{
+            backgroundColor: color[selected % 3],
+          }}
+        >
+          {items.map((items, index) => {
+            return (
+              <div key={index} className={PolaroidGridCSS.items}>
+                <Polaroid items={items} />
+              </div>
+            );
+          })}
         </div>
       </div>
+      <div className={PolaroidGridCSS.thirdContainer}>
+        <Years filterPolaroids={filterPolaroids} yearItems={yearItems} />
+      </div>
+    </div>
     // </div>
   );
 };

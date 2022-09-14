@@ -1,7 +1,7 @@
 .img {
-  width: 10px;
+  width: 100em;
 }
 
-/* .Carousel{
-  width: 95%;
-} */
+.Carousel {
+  width: 100%;
+}
