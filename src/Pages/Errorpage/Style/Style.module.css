@@ -1,0 +1,1033 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@500&family=Eczar:wght@600&family=Montserrat:wght@600&family=Poppins:wght@200&display=swap');
+@font-face {
+    font-family: 'Khyay';
+    src: url(../../../fonts/myanmar-khyay.ttf);
+}
+.Image{
+  height: 100%;
+  width: 100%;
+  
+  background-color: black;
+}
+.Image2{
+  display: none;
+}
+body{
+  background-color: black;
+}
+
+.head1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: azure;
+  font-size: 80px;
+  padding-bottom: 4%;
+  font-family: 'Khyay';
+  color: #FFF6EB;
+  text-align: center;
+}
+.head2{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #FFF6EB;
+  font-size: 25px;
+  font-family: 'Khyay';
+  padding-top: 12%;
+}
+.hello{
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+.RC{
+/* float: right;
+padding-top: 21%; */
+position: sticky;
+left: 1360px;
+   
+}
+.Downtri{
+ position:sticky;
+ bottom: 300px;
+left: 1300px;
+  
+}
+
+.Uptri{
+  display: block;
+position: fixed;
+top:400px;
+left: 130px;
+}
+.LC{
+  position: fixed;
+top:100px;
+}
+.Face{
+  
+  display: block;
+  margin: 0 auto;
+  position: sticky;
+  top:200px;
+
+}
+
+
+@media screen and (max-width:1760px) and (min-width:1509px){
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 1250px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 23%;
+       
+    }
+  
+  
+}
+@media screen and (max-width:1509px) and (min-width:1492px){
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 1150px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 24%;
+       
+    }
+}
+@media screen and (max-width:1492px) and (min-width:1477px){
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 1120px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 25%;
+       
+    }
+  
+  
+}
+@media screen and (max-width:1477px) and (min-width:1470px){
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 1150px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 24%;
+       
+    }
+  
+  
+}
+@media screen and (max-width:1470px) and (min-width:1439px){
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 1150px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 24%;
+       
+    }
+  
+  
+}
+/* heading starts*/
+@media screen and (max-width:1439px) and (min-width:1380px){
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 1100px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 25%;
+       
+    }
+  
+  .head2{
+    padding-top: 15%;
+  }
+}
+@media screen and (max-width:1380px) and (min-width:1345px){
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 1030px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 26%;
+       
+    }
+  
+    .head2{
+      padding-top: 16%;
+    }
+}
+@media screen and (max-width:1345px) and (min-width:1307px){
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 1030px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 26%;
+       
+    }
+  
+    .head2{
+      padding-top: 18%;
+    }
+}
+@media screen and (max-width:1307px) and (min-width:1256px){
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 955px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 27%;
+       
+    }
+  
+    .head2{
+      padding-top: 18%;
+    }
+}
+@media screen and (max-width:1256px) and (min-width:1192px){
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 940px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 28%;
+       
+    }
+  
+    .head2{
+      padding-top: 20%;
+      padding-left: 3%;
+    }
+}
+@media screen and (max-width:1256px) and (min-width:1200px){
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 940px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 28%;
+       
+    }
+  
+    .head2{
+      padding-top: 20%;
+      padding-left: 3%;
+    }
+}
+@media screen and (max-width:1200px) and (min-width:1136px){
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 870px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 30%;
+       
+    }
+  
+    .head2{
+      padding-top: 22%;
+      padding-left: 3%;
+    }
+}
+@media screen and (max-width:1136px) and (min-width:1100px){
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 850px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 32%;
+       
+    }
+  
+    .head2{
+      padding-top: 24%;
+      padding-left: 3%;
+    }
+}
+@media screen and (max-width:1100px) and (min-width:1076px){
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 830px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 34%;
+       
+    }
+  
+    .head2{
+      padding-top: 24%;
+      padding-left: 3%;
+    }
+}
+@media screen and (max-width:1076px) and (min-width:1038px){
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 830px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 34%;
+       
+    }
+  
+    .head2{
+      padding-top: 26%;
+      padding-left: 5%;
+    }
+    .head1{
+      padding-left: 5%;
+    }
+}
+@media screen and (max-width:1038px) {
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 760px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 35%;
+       
+    }
+  
+    .head2{
+      padding-top: 26%;
+      padding-left: 5%;
+    }
+    .head1{
+      padding-left: 5%;
+    }
+}
+@media screen and (max-width:1016px) and (min-width:981px) {
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 730px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 35%;
+       
+    }
+  
+    .head2{
+      padding-top: 15%;
+      padding-left: 5%;
+      font-size: 21px;
+    }
+    
+    .head1{
+      padding-left: 7%;
+      font-size: 55px;
+      padding-bottom: 10%;
+    }
+    .Face{
+      padding-left: 5%;
+    }
+}
+@media screen and (max-width:981px) and (min-width:900px) {
+  .Downtri{
+    position:sticky;
+    bottom: 350px;
+   left: 720px;
+     
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 37%;
+       
+    }
+    .Uptri{
+      padding-top: 3%;
+      padding-right: 7%;
+    }
+    .head2{
+      padding-top: 14%;
+      padding-left: 9%;
+      font-size: 20px;
+    }
+    .head1{
+      padding-bottom: 12%;
+      padding-left: 7%;
+      font-size: 55px;
+    }
+    .Face{
+      padding-left: 7%;
+    }
+}
+@media screen and (max-width:981px) and (min-width:900px) {
+  .Downtri{
+    position:sticky;
+    bottom: 350px;
+   left: 720px;
+     object-fit: scale-down;
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 37%;
+       
+    }
+    .Uptri{
+      height: 40vw;
+         width: 20vw;
+        position: absolute;
+        top: 400px;
+        left: 80px;
+     }
+    .head2{
+      padding-top: 14%;
+      padding-left: 9%;
+      font-size: 20px;
+    }
+    .head1{
+      padding-bottom: 12%;
+      padding-left: 7%;
+      font-size: 55px;
+    }
+    .Face{
+      padding-left: 7%;
+    }
+}
+@media screen and (max-width:900px) and (min-width:755px) {
+  .Downtri{
+    position:sticky;
+    bottom: 350px;
+   left: 720px;
+   height: 40vw;
+       width: 20vw;
+   }
+   .Uptri{
+    height: 40vw;
+       width: 20vw;
+      position: absolute;
+      top: 400px;
+      left: 80px;
+   }
+   .LC{
+    height: 40vw;
+       width: 20vw;
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 43%;
+       height: 40vw;
+       width: 20vw;
+    }
+    
+    .head2{
+      padding-top: 18%;
+      padding-left: 9%;
+      font-size: 18px;
+      
+    }
+    .head1{
+      padding-bottom: 12%;
+      padding-left: 7%;
+      font-size: 53px;
+    }
+    .Face{
+      padding-left: 7%;
+    }
+}
+@media screen and (max-width:755px) and (min-width:680px) {
+  .Downtri{
+    position:sticky;
+    bottom: 400px;
+   left: 720px;
+   height: 40vw;
+       width: 20vw;
+   }
+   .Uptri{
+    height: 40vw;
+       width: 20vw;
+      position: absolute;
+      top: 450px;
+      left: 50px;
+   }
+   .LC{
+    height: 40vw;
+       width: 20vw;
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 56%;
+       height: 40vw;
+       width: 20vw;
+    }
+    
+    .head2{
+      padding-top: 18%;
+      padding-left: 9%;
+      font-size: 18px;
+      
+    }
+    .head1{
+      padding-bottom: 12%;
+      padding-left: 7%;
+      font-size: 53px;
+    }
+    .Face{
+      padding-left: 7%;
+    }
+}
+@media screen and (max-width:680px) and (min-width:600px) {
+  .Downtri{
+    position:sticky;
+    bottom: 400px;
+   left: 720px;
+   height: 40vw;
+       width: 20vw;
+   }
+   .Uptri{
+    height: 40vw;
+       width: 20vw;
+      position: absolute;
+      top: 450px;
+      left: 50px;
+   }
+   .LC{
+    height: 40vw;
+       width: 20vw;
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 65%;
+       height: 40vw;
+       width: 20vw;
+    }
+    
+    .head2{
+      padding-top: 30%;
+      padding-left: 9%;
+      font-size: 18px;
+      
+    }
+    .head1{
+      padding-bottom: 12%;
+      padding-left: 7%;
+      font-size: 53px;
+    }
+    .Face{
+      padding-left: 7%;
+    }
+}
+/* @media screen and (max-width:530px) and (min-width:460px){
+  .Image2{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  .Image{
+    display: none;
+  }
+  .head1{
+    font-size: 38px;
+    padding-bottom: 20%;
+  }
+  .head2{
+    font-size: 18px;
+    padding-top: 30%;
+  }
+}
+@media screen and (max-width:460px) and (min-width:360px){
+  .Image2{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  .Image{
+    display: none;
+  }
+  .head1{
+    font-size: 35px;
+    padding-bottom: 37%;
+  }
+  .head2{
+    font-size: 18px;
+    padding-top: 37%;
+  }
+}
+ */
+
+@media screen and (max-width:600px) and (min-width:560px) {
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 700px;
+   height: 40vw;
+       width: 20vw;
+   }
+   .Uptri{
+    height: 40vw;
+       width: 20vw;
+      position: absolute;
+      top: 480px;
+      left: 50px;
+   }
+   .LC{
+    height: 40vw;
+       width: 20vw;
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 73%;
+       height: 40vw;
+       width: 20vw;
+    }
+    
+    .head2{
+      padding-top: 35%;
+      padding-left: 9%;
+      font-size: 18px;
+      
+    }
+    .head1{
+      padding-bottom: 12%;
+      padding-left: 7%;
+      font-size: 50px;
+    }
+    .Face{
+      padding-left: 7%;
+    }
+}
+@media screen and (max-width:560px) and (min-width:525px) {
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 700px;
+   height: 40vw;
+       width: 20vw;
+   }
+   .Uptri{
+    height: 40vw;
+       width: 20vw;
+      position: absolute;
+      top: 480px;
+      left: 50px;
+   }
+   .LC{
+    height: 40vw;
+       width: 20vw;
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 73%;
+       height: 40vw;
+       width: 20vw;
+    }
+    
+    .head2{
+      padding-top: 37%;
+      padding-left: 9%;
+      font-size: 18px;
+      
+    }
+    .head1{
+      padding-bottom: 14%;
+      padding-left: 7%;
+      font-size: 47px;
+    }
+    .Face{
+      padding-left: 7%;
+      width: 20vw;
+      height: 20vw;
+    }
+}
+@media screen and (max-width:525px) and (min-width:500px) {
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 700px;
+   height: 40vw;
+       width: 20vw;
+   }
+   .Uptri{
+    height: 40vw;
+       width: 20vw;
+      position: absolute;
+      top: 480px;
+      left: 50px;
+   }
+   .LC{
+    height: 40vw;
+       width: 20vw;
+   }
+   
+   .RC{
+    float: right;
+    padding-top: 90%;
+       height: 40vw;
+       width: 20vw;
+    }
+    
+    .head2{
+      padding-top: 25%;
+      padding-left: 9%;
+      font-size: 18px;
+      
+    }
+    .head1{
+      padding-bottom: 25%;
+      padding-left: 7%;
+      font-size: 45px;
+    }
+    .Face{
+      padding-left: 7%;
+      width: 20vw;
+      height: 20vw;
+    }
+}
+@media screen and (max-width:500px) and (min-width:447px) {
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 700px;
+   height: 40vw;
+       width: 20vw;
+   }
+   .Uptri{
+    height: 40vw;
+       width: 20vw;
+      position: absolute;
+      top: 480px;
+      left: 50px;
+   }
+   .LC{
+    height: 40vw;
+       width: 20vw;
+   }
+   
+   .RC{
+    
+    float: right;
+    padding-top: 100%;
+       height: 40vw;
+       width: 20vw;
+    }
+    
+    .head2{
+      padding-top: 35%;
+      padding-left: 9%;
+      font-size: 18px;
+      
+    }
+    .head1{
+      padding-bottom: 25%;
+      padding-left: 7%;
+      font-size: 40px;
+    }
+    .Face{
+      padding-left: 7%;
+      width: 20vw;
+      height: 20vw;
+    }
+}
+@media screen and (max-width:447px) and (min-width:416px) {
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 700px;
+   height: 40vw;
+       width: 20vw;
+   }
+   .Uptri{
+    height: 40vw;
+       width: 20vw;
+      position: absolute;
+      top: 540px;
+      left: 20px;
+   }
+   .LC{
+    height: 40vw;
+       width: 20vw;
+   }
+   
+   .RC{
+    
+    float: right;
+    padding-top: 120%;
+       height: 40vw;
+       width: 20vw;
+    }
+    
+    .head2{
+      padding-top: 30%;
+      padding-left: 9%;
+      font-size: 18px;
+      
+    }
+    .head1{
+      padding-bottom: 36%;
+      padding-left: 7%;
+      font-size: 37px;
+    }
+    .Face{
+      padding-left: 7%;
+      width: 20vw;
+      height: 20vw;
+    }
+}
+@media screen and (max-width:416px) and (min-width:378px) {
+  .Downtri{
+    position:sticky;
+    bottom: 300px;
+   left: 700px;
+   height: 40vw;
+       width: 20vw;
+   }
+   .Uptri{
+    height: 40vw;
+       width: 20vw;
+      position: absolute;
+      top: 540px;
+      left: 20px;
+   }
+   .LC{
+    height: 40vw;
+       width: 20vw;
+   }
+   
+   .RC{
+    
+    float: right;
+    padding-top: 140%;
+       height: 40vw;
+       width: 20vw;
+    }
+    
+    .head2{
+      padding-top: 30%;
+      padding-left: 9%;
+      font-size: 18px;
+      
+    }
+    .head1{
+      padding-bottom: 40%;
+      padding-left: 7%;
+      font-size: 33px;
+    }
+    .Face{
+      padding-left: 7%;
+      width: 20vw;
+      height: 20vw;
+    }
+}
+@media screen and (max-width:378px) and (min-width:280px) {
+  .Downtri{
+    position:sticky;
+    bottom: 0px;
+   left: 700px;
+   padding-top: 50px;
+   height: 40vw;
+       width: 20vw;
+       
+   }
+   .Uptri{
+    height: 40vw;
+       width: 20vw;
+      position: absolute;
+      top: 540px;
+      left: 20px;
+      
+   }
+   .LC{
+    height: 40vw;
+       width: 20vw;
+       display: none;
+   }
+   
+   .RC{
+    
+    float: right;
+    padding-top: 140%;
+       height: 40vw;
+       width: 20vw;
+       display: none;
+    }
+    
+    .head2{
+      padding-top: 40%;
+      padding-left: 9%;
+      font-size: 14px;
+      
+    }
+    .head1{
+      padding-bottom: 30%;
+      padding-left: 7%;
+      font-size: 25px;
+    }
+    .Face{
+      padding-left: 7%;
+      width: 30vw;
+      height: 30vw;
+    }
+} 
+/* @media screen and (max-height:784px) and (min-height:723px) {
+  .RC{
+    float: right;
+    padding-top: 17%;
+  }
+
+} */
+/* @media screen and (max-height:723px) and (min-height:676px) {
+  .RC{
+    float: right;
+    padding-top: 18%;
+    height: 15vw;
+    width: 10vw;
+  }
+  .Downtri{
+    position:sticky;
+    bottom: 200px;
+   left: 1300px;
+   height: 20vw;
+   width: 10vw;
+     
+   }
+   
+   .Uptri{
+     display: block;
+   position: absolute;
+   top:350px;
+   left: 130px;
+   height: 20vw;
+   width: 10vw;
+   }
+   .LC{
+     position: fixed;
+   top:100px;
+   height: 15vw;
+    width: 10vw;
+   }
+.head1{
+  padding-top: 5%;
+}
+.head2{
+  padding-top: 15%;
+}
+}
+
+
+ */
+@media screen and (max-height:1368px) and (min-height:1360px) {
+  .head1{
+    padding-bottom: 70%;
+
+  }
+  .head2{
+    padding-bottom: 50%;
+  }
+}
+@media screen and (max-height:670px)and (min-height:660px){
+  .head1{
+    padding-top: 20%;
+  }
+  .head2{
+    padding-top: 50%;
+  }
+}
+@media screen and (max-height:700px) and (min-height:690px) {
+  .head1{
+    padding-top: 20%;
+  }
+  .head2{
+    padding-top: 50%;
+  }
+}
+@media screen and (max-height:600px) and (min-height:580px) {
+  .head1{
+    padding-top: 7%;
+    padding-right: 5%;
+font-size: 60px;
+  }
+  .head2{
+   padding-top: 30%;
+  }
+}
+@media screen and (max-height:1180px) and (min-height:1024px){
+  .head1{
+    padding-bottom: 50%;
+  }
+  .head2{
+    padding-bottom: 40%;
+  }
+}
