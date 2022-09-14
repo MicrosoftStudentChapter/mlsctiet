@@ -10,6 +10,15 @@
     align-items: center;
 }
 
+.backLot{
+    z-index: 0;
+    width: 90%;
+    opacity: 0.3;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
 .downArrow{
     position: absolute;
     bottom: 2rem;
@@ -66,6 +75,7 @@
     .downArrow{
         width: 10%;
     }
+    
 }
 
 @media screen and (max-width: 380px) {
