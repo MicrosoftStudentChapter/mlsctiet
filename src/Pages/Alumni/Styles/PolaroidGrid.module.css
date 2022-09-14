@@ -57,7 +57,7 @@
   border-radius: 2rem;
   overflow-y: scroll;
   overflow-x: hidden;
-  background: radial-gradient(100% 365.83% at 0% 8.89%, rgba(250, 57, 102, 0.27) 0%, rgba(250, 57, 102, 0.5) 0.01%, rgba(250, 57, 102, 0.435) 100%); 
+  /* background: radial-gradient(100% 365.83% at 0% 8.89%, rgba(250, 57, 102, 0.27) 0%, rgba(250, 57, 102, 0.5) 0.01%, rgba(250, 57, 102, 0.435) 100%);  */
   background: radial-gradient(100% 365.83% at 0% 8.89%, 0%, 0.01%);
   opacity: 90%;
   box-shadow: 0px 3.95117px 3.95117px rgba(0, 0, 0, 0.25);
@@ -77,34 +77,32 @@
   width: 0;
 }
 
-@media screen and (max-width: 950px){
-  .text{
+@media screen and (max-width: 950px) {
+  .text {
     font-size: 3rem;
   }
-  .zebra{
+  .zebra {
     margin-left: 5rem;
   }
 }
 
 @media screen and (max-width: 680px) {
-  .zebra{
+  .zebra {
     margin-left: 0;
     width: 80%;
   }
-  .text{
+  .text {
     font-size: 2.25rem;
     margin-left: -5.5rem;
     margin-bottom: -1.5rem;
   }
-  .secondContainer{
-    margin-right: .5rem;
+  .secondContainer {
+    margin-right: 0.5rem;
   }
-  .mainContainer{
+  .mainContainer {
     padding-right: 1rem;
   }
-
 }
 
-@media screen and (max-width: 580px){
-  
+@media screen and (max-width: 580px) {
 }
