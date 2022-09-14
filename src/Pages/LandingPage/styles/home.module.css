@@ -19,6 +19,7 @@
     align-items: center;
     position: relative;
     background-image: url("../image.png");
+    background-color: rgba(39, 101, 146, 0.82);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,7 +47,7 @@
 .polygon{
     position: absolute;
     left: -10%;
-    border-radius: 107px;
+    border-radius: 50px;
     transform: skew(-25deg);
     background: rgba(255, 246, 235, 0.68);
     width: 60%;
@@ -118,17 +119,20 @@
         left: 0;
         right: 0;
         height: 40%;
+        padding: 1.5rem;
     }
     .sheild{
         transform: skew(0);
     }
     .mobileTitle{
         display: inline;
-        color: white;
+        color: black;
+        /* letter-spacing: 0.2rem; */
         font-size: xx-large;
         text-align: center;
         font-family: 'myanmar-khyay-regular', sans-serif;
         font-weight: bolder;
+        padding-top: 1rem;
     }
 }
 
