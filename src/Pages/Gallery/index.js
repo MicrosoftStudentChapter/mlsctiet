@@ -1,19 +1,15 @@
 import React from "react";
-// import styles from "./Style/style.css"
-// import Navbar from "../../Components/Navbar.js"
-// import Page from "./Components/Page.js"
 
+import Page from "./components/Page.js";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
+import Exp1 from "./components/explode_img1/explode_img1";
 
 const Gallery = () => {
-  return(
-  <div>
-    Gallery
-    {/* <Navbar/>
-    <Page/> */}
-  </div>
-  
-  
+  return (
+    <div>
+      <Page />
+    </div>
   );
 };
 
