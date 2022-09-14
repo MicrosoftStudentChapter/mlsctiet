@@ -101,14 +101,7 @@ nav{
   .right-nav{
       display: none;
     }
-
-    .hamburger{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
+    
     .hamburger img{
       width: 40px;
       height: 40px;
@@ -117,7 +110,7 @@ nav{
     }
     .side-nav{
       height: 100vh;
-      width: 0;
+      width: 0 !important;
       display: flex;
       flex-direction: column;
       justify-content: center;
