@@ -30,22 +30,23 @@ function EventsCarousel({yearData, toggle}) {
   const [data, setData] = useState(yearData);
   const [cards, setCards] = useState(() => {
     let card = []
-    for (let i = 0; i < data.length; i++) {
+    for (let i = 0; i < Object.keys(data).length; i++) {
       card.push({
         key: uuidv4(),
-        content: <EventCard tilt={tilt} title={data[i]} setShowDesc={showDesc} toggle = {() => {setShowDesc(false); console.log("OKK")}} toggle2={toggle} setDescirption={setDesc}/>
+        content: <EventCard tilt={tilt} data={data[i]} setShowDesc={showDesc} toggle = {() => {setShowDesc(false); console.log("OKK")}} toggle2={toggle} setDescirption={setDesc}/>
       })
     }
     return card;
   })
   useEffect(() => {
     setData(yearData);
-    console.log("data",yearData)
+    console.log("data: ",yearData)
     let card = []
-    for (let i = 0; i < yearData.length; i++) {
+    for (let i = 1; i <= Object.keys(yearData).length; i++) {
+      console.log("dataaa", yearData[i]);
       card.push({
         key: uuidv4(),
-        content: <EventCard tilt={true} title={yearData[i]} setShowDesc={setShowDesc} toggle = {() => {setShowDesc(false); console.log("OKK")}} setTitle={setTitle} toggle2={toggle} setDescirption={setDesc} />
+        content: <EventCard tilt={true} data={yearData[i]} setShowDesc={setShowDesc} toggle = {() => {setShowDesc(false); console.log("OKK")}} setTitle={setTitle} toggle2={toggle} setDescirption={setDesc} />
       })
     }
     console.log(card)
@@ -55,31 +56,6 @@ function EventsCarousel({yearData, toggle}) {
 
 
   const [goToSlide, setGoToSlide] = useState(null);
-
-  // const [cardS] = useState(table)
-  // if(isMobile){
-  //   return (
-  //   <div className={styles.carouselContainerNoTilt}>
-  //     <div>
-  //       <Swiper
-  //         effect={"cards"}
-  //         grabCursor={true}
-  //         modules={[EffectCards]}
-  //       >
-  //         {cards.map((element, index) => {
-  //           return (
-  //             <SwiperSlide key={element.key}>
-  //               <EventCard title={yearData[index]} />
-  //             </SwiperSlide>
-  //           );
-  //         })}
-  //         ...
-  //       </Swiper>
-  //     </div>
-  //   </div>
-  //   )
-  // }
-  // else{
     if(showDesc){
       console.log("Ok")
       return (
@@ -110,7 +86,7 @@ function EventsCarousel({yearData, toggle}) {
           showNavigation={false}
           autoPlay={true}
           animationConfig={config.stiff}
-          interval={2}
+          interval={1.5}
         />
       </div>
     )

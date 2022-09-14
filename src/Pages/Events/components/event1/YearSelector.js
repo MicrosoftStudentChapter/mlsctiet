@@ -5,8 +5,8 @@ import styles from '../../styles/event1/yearSel.module.css';
 function YearSelector({chngYear, chngData, yearData}) {
 
     const [prevVal, setPrevVal] = useState(20);
-    const [curVal, setCurVal] = useState(21);
-    const [nextVal, setNextVal] = useState(22);
+    const [curVal, setCurVal] = useState(22);
+    const [nextVal, setNextVal] = useState(21);
 
     const setVals = (selectedVal) => {
         if(selectedVal === 22){

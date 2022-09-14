@@ -44,13 +44,12 @@
     justify-content: center;
     background-color: transparent;
     font-family: 'Poppins', sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     color: #dbe5ef;
     margin-bottom: 0.5rem;
     height: 15%;
     white-space: break-spaces;
     word-break: break-word;
-    word-spacing: 20px;
 }
 
 .imageTemp{

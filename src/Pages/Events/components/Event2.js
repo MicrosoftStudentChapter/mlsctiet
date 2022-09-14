@@ -3,6 +3,7 @@ import { useState } from "react";
 import styles from '../styles/event2/event2.module.css';
 import blueGradient from '../assets/Event2/BlueGradient.svg';
 import eventImage from '../assets/Event2/EventImage.svg';
+import cross from '../assets/Event2/cross.svg';
 
 const Event2 = ({title_main, desc, toggle, toggle2}) => {
 
@@ -21,16 +22,13 @@ const Event2 = ({title_main, desc, toggle, toggle2}) => {
         <div 
             className={styles.eventCard}
             onKeyDown = {(e) => {
-                if(e.key === "Escape"){
+                console.log(e);
+                if(e.key === "Esc"){
                     toggle();
                 }
             }}
         >
-
-            {/* Container element */}
-
-            <div className={styles.container}>
-                {/* Arrow Vectors */}
+          <div className={styles.container}>
                 <div className={styles.cardTitle}>
                 {title}
                 </div>
@@ -38,26 +36,14 @@ const Event2 = ({title_main, desc, toggle, toggle2}) => {
                 <div className={styles.cardDescription}>
                 {description}
                 </div>
-                <div>
-                    <button onClick={() => {toggle();toggle2();}} style={{backgroundColor:"transparent"}}>
-                        X
+                <div className={styles.footer}>
+                    <button onClick={() => {toggle();toggle2();}} className={styles.cross}>
+                        <img src={cross} className={styles.crossImg}/>
                     </button>
                 </div>
-                {/* <img src={redGradient} alt="" className={styles.gradientRed} /> */}
             </div>
-            {/* <img src={boxShadow} alt="" className={styles.containerShadow} /> */}
-
-            {/* Vector corresponding to the event */}
-
            {!isMobile && <img src= {eventImage} alt={"event"} className= {styles.eventImage}/>}
-
-            {/* Cross Vector */}
-
-            {/* <img src= {crossVector} alt="" className= {styles.vectorCross} /> */}
-            
         </div>
-
-        
     );
 }
 
