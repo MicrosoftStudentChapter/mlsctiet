@@ -11,6 +11,8 @@
 }
 
 .container{
+    display: flex;
+    flex-direction: column;
     background-color: #faffd3;
     color: black;   
     width: 55vw;
@@ -18,7 +20,36 @@
     z-index: 2;
     margin-top: 5rem;
     box-shadow: 0 10px 10px 0 rgba(227, 217, 217, 0.19), 15px 16px 15px 0 rgba(227, 217, 217, 0.19);
-    border-radius: 15px 50px 30px; 
+    border-radius: 10px 10px 10px; 
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+}
+
+.cross{
+    font-size: 2rem;
+    background-color: inherit;
+    border: none;
+    color: red;
+    font-weight: bold;
+    font: "Head";
+    cursor: pointer;
+    box-shadow: red;
+}
+
+.crossImg{
+    width: 70%;
+    height: 70%;
+    transition: transform .3s ease-in-out;
+    opacity: 0.7;
+}
+.crossImg:hover{
+	opacity: 1;
+	transform: rotate(90deg);
 }
 
 /* .containerShadow{
@@ -29,7 +60,6 @@
 } */
 
 .cardTitle{
-    background-color: inherit;
     padding:1rem;
     z-index: 2;
     border-radius: 15px 50px 0px;
@@ -38,12 +68,12 @@
 }
 
 .cardDescription{
-    background-color: inherit;
     margin: 1rem 1rem 1rem 2rem;  
     font-family: 'Poppins', sans-serif;
     font-weight: 500; 
-    font-size: 1.5rem;
+    font-size: 1rem;
     z-index: 2;
+    overflow: auto;
 }
 
 .gradientBlue{
@@ -58,7 +88,7 @@
     left: 4rem;
     height: 35vh;
     background-color: white;
-    border: 2px solid #0078D4;
+    border: 2px solid #1f9effb0;
     z-index: 0;
 }
 
@@ -88,13 +118,30 @@
 
 @media screen and (max-width: 768px) {
     .container{
-        margin-top: 8rem;
+        margin-top: 10rem;
         width: 80vw;
-        height: 60vh;
+        height: 65vh;
         margin-left: 1.5rem;
+        border-radius: 4px;
     }
     .cardTitle{
         font-size: 2rem;
+        margin-bottom: 2px;
+    }
+    .cardDescription{
+        /* margin-top: 2px; */
+        text-align: left;
+        font-size: 1rem;
+    }
+    .footer{
+        position: relative;
+        display: flex;
+        padding-bottom: 0rem;
+        justify-content: center;
+        height: 5rem;
+    }
+    .crossImg{
+        width: 50%;
     }
 }
 

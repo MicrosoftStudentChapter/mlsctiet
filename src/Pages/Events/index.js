@@ -5,7 +5,6 @@ import Event1 from "./components/event1/Event1";
 const Events = () => {
   return (
     <div>
-      <Navbar />
       <Event1 />
     </div>
   );
