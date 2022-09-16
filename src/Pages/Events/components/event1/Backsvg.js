@@ -4,6 +4,7 @@ import Downarrow from '../../assets/event1/images/downarrow.svg';
 import svgStyle from '../../styles/event1/backsvg.module.css';
 import line from '../../assets/event1/images/line.svg';
 import cross from '../../assets/Event2/CrossVector.svg';
+import Lottie2 from './backlot';
 
 function Backsvg({rem, mob}) {
 
@@ -21,6 +22,9 @@ function Backsvg({rem, mob}) {
   }
   return (
     <div>
+        {/* <div className={svgStyle.backLot}>
+          <Lottie2 />
+        </div> */}
         <img src={Uparrow} className={svgStyle.upArrow} alt="upArrow" />
         {!rem && <img src={Downarrow} className={svgStyle.downArrow} alt="downArrow" />}
         {!rem &&(<img src={line} className={svgStyle.downline} alt="downline" />)}
