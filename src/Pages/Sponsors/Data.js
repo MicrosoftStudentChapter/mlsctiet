@@ -1,0 +1,113 @@
+export const data = 
+[
+    {
+      tierName: "Power Sponsors",
+      data: [
+        {
+          sponsorName: "YHills",
+          webp: "sponsors/silver/webp/yhills.webp",
+          src: "sponsors/silver/yhills.png",
+          url: "https://yhills.com/",
+          id: "silver_0",
+        },
+        {
+          sponsorName: "Celo",
+          webp: "sponsors/silver/webp/celo.webp",
+          src: "sponsors/silver/celo.png",
+          url: "https://celo.org/",
+          id: "silver_1",
+        },
+        {
+          sponsorName: "Filecoin",
+          webp: "sponsors/silver/webp/filecoin.webp",
+          src: "sponsors/silver/filecoin.png",
+          url: "https://filecoin.io/",
+          id: "silver_2",
+        },
+        {
+          sponsorName: "Tezos",
+          webp: "sponsors/silver/webp/tezos.webp",
+          src: "sponsors/silver/tezos.png",
+          url: "https://tezos.com/",
+          id: "silver_3",
+        },
+        {
+          sponsorName: "Github",
+          webp: "sponsors/silver/webp/github.webp",
+          src: "sponsors/silver/github.png",
+          url: "https://www.github.com/",
+          id: "silver_4",
+        },
+        {
+          sponsorName: "Stickermule",
+          webp: "sponsors/silver/webp/stickermule.webp",
+          src: "sponsors/silver/stickermule.png",
+          url: "http://hackp.ac/mlh-stickermule-hackathons",
+          id: "silver_5",
+        },
+        {
+          sponsorName: "Leading learners",
+          webp: "sponsors/silver/webp/leadinglearners.webp",
+          src: "sponsors/silver/leadinglearners.png",
+          url: "https://www.leadlearners.ca/",
+          id: "silver_6",
+        },
+        {
+          sponsorName: "Coding Blocks",
+          webp: "sponsors/silver/webp/codingblocks.webp",
+          src: "sponsors/silver/codingblocks.png",
+          url: "https://codingblocks.com/",
+          id: "silver_7",
+        },
+        {
+          sponsorName: "Coding Minutes",
+          webp: "sponsors/gold/webp/CodingMinutes.webp",
+          src: "sponsors/gold/CodingMinutes.png",
+          url: "https://www.codingminutes.com/",
+          id: "silver_8",
+        },
+      ],
+      id: "1",
+    },
+    {
+        tierName: "Title Sponsors",
+        data: [
+          {
+            sponsorName: "MLH",
+            webp: "sponsors/title/webp/mlh.webp",
+            src: "sponsors/title/mlh.png",
+            url: "https://mlh.io/",
+            id: "title_0",
+          },
+          {
+            sponsorName: "Devfolio",
+            webp: "sponsors/title/webp/devfolio.webp",
+            src: "sponsors/title/devfolio.png",
+            url: "https://devfolio.co/",
+            id: "title_1",
+          },
+          {
+            sponsorName: "Polygon",
+            webp: "sponsors/title/webp/polygon.webp",
+            src: "sponsors/title/polygon.png",
+            url: "https://polygon.technology/",
+            id: "title_2",
+          },
+          {
+            sponsorName: "TechAnalogy",
+            webp: "sponsors/title/webp/techanalogy.webp",
+            src: "sponsors/title/techanalogy.png",
+            url: "https://polygon.technology/",
+            id: "title_3",
+          },
+          {
+            sponsorName: "Juspay",
+            webp: "sponsors/title/webp/juspay.webp",
+            src: "sponsors/title/juspay.png",
+            url: "https://juspay.in/",
+            id: "title_4",
+          },
+        ],
+        id: "0",
+      },
+];

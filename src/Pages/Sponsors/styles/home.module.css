@@ -1,0 +1,594 @@
+.main{
+    padding-left: 5rem;
+    background-color: black;
+    height: 450vh;
+    /* width: fit-content; */
+    padding-right: 5rem;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Adding the animation part here */
+
+
+/* ------------------------------------ 
+---------------------------------------
+------Animation-----------------------*/
+
+
+/* swiper js part */
+.mySwiper{
+  width: 88vw;
+  height: 40vw;
+  background: linear-gradient(180deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);
+  border-radius: 30px;
+
+  /* following are the properties for flex box */
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+}
+/* .swiper-button-prev {
+  opacity:0;
+  display: none;
+}
+.swiper-button-next {
+  opacity:0;
+  display: none;
+} */
+
+/*----------------*/
+
+.heading{
+    padding-top: 5rem;
+    /* padding-bottom: 5rem; */
+    color: white;
+    font-size: 400%;
+}
+
+.sponsorUsHead{
+  /* padding-bottom: 5rem; */
+  color: white;
+  font-size: 400%;
+}
+
+/* making of the flex box in carousel 1*/
+
+.carousel1{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    background: linear-gradient(180deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);
+    width: 87vw;
+    height: 40vw;
+    position: relative;
+    border-radius: 30px;
+    /* following are the properties for flex box */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.spnsrlogo1{
+    /* padding-left: 2vw; */
+    height: 30vh;
+    position: fixed;
+    left: 10vw;
+    top: 20vh;
+    z-index: 4;
+}
+
+.circle{
+  position: fixed;
+  display: block;
+  top: 4vh;
+  left: 2.8vw;
+  height: 36vw;
+  z-index: 3;
+  -webkit-transition: -webkit-transform 1s;
+  transition: 1.5s;
+}
+
+.circle:hover{
+  --webkit-transform: rotate(360deg) translateZ(0);
+}
+
+.container1{
+    order:1;
+    position:relative;
+    flex-basis: 33%;
+    max-width: fit-content;
+}
+
+.containerSpace{
+    order: 2;
+    flex-basis: 33%;
+}
+
+.container2{
+    order: 3;
+    flex-basis:33%;
+    padding-right: 5vw;
+    padding-bottom: 4vh;
+}
+
+.container2 h2{
+    color: #ffffff;
+    font-size: 2.5vw;
+    max-height: fit-content;
+    padding-right: 1vw;
+}
+
+/* --------------------------- */
+.subheading{
+    font-size: 400%;
+    color:white;
+
+}
+
+p{
+  color:white;
+}
+
+.sponsorText{
+    color:white;
+    display:inline-block;
+}
+
+.sponsorPara{
+    color: white;
+    display:inline-block;
+    font-size: 130%;
+}
+
+.carousel2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(90deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);
+    width: 87vw;
+    height: 40vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding-left: 5vw;
+
+    /* ------- flex properties ------- */
+
+    /* display: flex; */
+    /* flex-direction :row ; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around;
+    align-items: center;
+    align-content: space-around; */
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+}
+
+.box1{
+  flex-basis: 33%;
+}
+.box2{
+  flex-basis: 33%;
+}
+.box3{
+  flex-basis: 33%;
+}
+.box4{
+  flex-basis: 33%;
+}
+.box5{
+  flex-basis: 33%;
+}
+.box6{
+  flex-basis: 33%;
+}
+
+
+.box1 img{
+  height: 40%;
+}
+
+.box2 img{
+  height: 40%;
+}
+
+.box3 img{
+  height: 40%;
+}
+
+.box4 img{
+  height: 40%;
+}
+
+.box5 img{
+  height: 40%;
+}
+
+.box6 img{
+  height: 40%;
+}
+
+
+.spnsorformsubmit{
+    padding-left: 30vw;
+}
+
+.errormssg{
+  color: red;
+}
+
+.success{
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+/* the following are used to set the background color as black of form fields */
+input[type="text"], textarea {
+    border-color: rgb(0, 187, 255);
+    border-radius: 1rem;
+    background-color : #000000; 
+    height: 3rem;
+    width: 50%;
+    padding: 1vw;
+    font-size: 3vh;
+}
+input[type="email"], textarea {
+    border-color: rgb(0, 187, 255);
+    border-radius: 1rem;
+    background-color : #000000; 
+    height: 3rem;
+    width: 50%;
+    padding: 1vw;
+    font-size: 3vh;
+}
+
+textarea{
+    height: 8rem;
+    width: 80vw;
+    font-size: large;
+    padding: 1vw;
+    font-size: 3vh;
+    line-height: 1.2em;
+}
+
+/* whenever text is written now, text will be white in color */
+
+input, select, textarea{
+    color: #ffffff;
+}
+
+input[type="submit"]{
+    background-color:rgb(0, 187, 255);
+    border-radius:2.5rem;
+    border-color:rgb(0, 187, 255);
+    
+    height:4.5rem;
+    width:12rem;
+    font-size:1.75rem;
+}
+
+.spnsorformsubmit{
+  margin-left: 5vw;
+}
+
+
+/* 
+  -------
+  Media Queries 
+  For 
+  Responsiveness 
+  --------
+*/
+
+@media screen and (max-width: 1472px) {
+  .spnsrlogo1{
+    top:18vh;
+    height:21vw;
+  }
+  .container1{
+    padding-right: 10vw;
+  }
+  .carousel2 img{
+    height: 19vh;
+  }
+}
+
+
+/* @media screen and (max-width: 1328px) {
+.spnsrlogo1{
+    height: 28vh;
+}
+  .carousel2 img{
+    height: 17vh;
+  }
+} */
+
+
+/* @media screen and (max-width: 1200px) {
+  .spnsrlogo1{
+    padding-left: 7vw;
+    height: 27vh;
+}
+  .carousel2 img{
+    height: 16vh;
+  }
+} */
+
+
+/* @media screen and (max-width: 1095px) {
+  .main{
+    padding-left: 4.5rem;
+  }
+
+  .spnsrlogo1{
+    padding-left: 7vw;
+    height: 24vh;
+}
+  .carousel2 img{
+    height: 14vh;
+  }
+} */
+
+@media screen and (max-width: 861px) {
+  .main{
+    padding-left: 3.5rem;
+  }
+  .heading{
+    text-align: center;
+  }
+  .subheading{
+    text-align: center;
+  }
+  .sponsorUsHead{
+    text-align: center;
+  }
+  .carousel2 img{
+    height: 13vh;
+  }
+  input[type="text"], input[type="email"] {
+    width: 80vw;
+  }
+  .spnsrlogo1{
+    top:11vh;
+    left:10.69vw;
+    height:19vw;
+  }
+  .circle{
+    top:3vh;
+    left:4vw;
+    height:34vw;
+  }
+  .container2{
+    padding-bottom: 10vh;
+  }
+}
+
+/* @media screen and (max-width: 762px) {
+  .spnsrlogo1{
+    padding-left: 9vw;
+    height: 16vh;
+    padding-bottom: 2vh;
+  }
+  .carousel2 img{
+    height: 10vh;
+  }
+} */
+
+@media screen and (max-width: 676px) {
+  .main{
+    padding-left: 3rem;
+  }
+  .heading{
+    font-size: 320%;
+  }
+  .subheading{
+    font-size: 300%;
+  }
+  .sponsorUsHead{
+    font-size: 280%;
+  }
+  .container1{
+    margin-right: 7vw;
+  }
+  .spnsrlogo1{
+    top:11vh;
+    left:16vw;
+    height:17vw;
+  }
+  .circle{
+    top:3.5vh;
+    left:8.69vw;
+    height:33vw;
+  }
+  .carousel2 img{
+    height: 9vh;
+  }
+  .spnsorformsubmit{
+    padding-left: 0vw;
+  }
+  input[type="submit"]{
+    border-radius:2.5rem;
+    height:3rem;
+    width:8rem;
+    font-size:1.3rem;
+  }
+}
+
+
+/* @media screen and (max-width: 609px) {
+  .spnsrlogo1{
+    padding-left: 8vw;
+    height: 12vh;
+    padding-bottom: 2vh;
+  }
+  .carousel2 img{
+    height: 8vh;
+  }
+} */
+
+
+/* @media screen and (max-width: 583px) {
+  .heading{
+    font-size: 300%;
+  }
+  
+  .subheading{
+    font-size: 300%;
+    text-align: center;
+  }
+} */
+
+@media screen and (max-width: 576px) {
+  .main{
+    padding-left: 2.5rem;
+  }
+  .heading{
+    font-size: 240%;
+  }
+  .subheading{
+    font-size: 240%;
+  }
+  .sponsorUsHead{
+    font-size: 200%;
+  }
+  .carousel2{
+    padding-left: 3vw;
+  }
+  .carousel2 img{
+    height: 10vh;
+  }
+  .sponsorPara{
+    padding-left: 4vw;
+    font-size: 110%;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .main{
+    padding-left: 2rem;
+  }
+  .heading{
+    font-size: 240%;
+  }
+  .subheading{
+    font-size: 200%;
+  }
+  .sponsorUsHead{
+    font-size: 200%;
+  }
+  .spnsrlogo1{
+    top:10vh;
+    left:16vw;
+    height:14vw;
+  }
+  .circle{
+    top:3.5vh;
+    left:8.69vw;
+    height:30vw;
+  }
+  .container1{
+    margin-right: 3vw;
+  }
+  .carousel2{ 
+    width: 70vw;
+    height: 43vw;
+    padding-top: 2vh;
+    padding-right: 2vw;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    padding-left: 5vw;
+    flex-direction: column;
+  }
+  .mySwiper{
+    flex-direction: column;
+  }
+  .carousel2 img{
+    height: 8vh;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .heading{
+    font-size: 200%;
+  }
+  .subheading{
+    font-size: 180%;
+  }
+  .sponsorUsHead{
+    font-size: 160%;
+  }
+  .carousel2 img{
+    height: 8vh;
+  }
+  .sponsorPara{
+    padding-left: 4vw;
+    font-size: 90%;
+  }
+}
+
+/* @media screen and (max-width: 404px) {
+  .carousel2 img{
+    height: 7vh;
+  }
+} */
+
+@media screen and (max-width: 372px) {
+  .heading{
+    font-size: 160%;
+  }
+  .subheading{
+    font-size: 140%;
+  }
+  .sponsorUsHead{
+    font-size: 100%;
+  }
+  .sponsorPara{
+    font-size: 60%;
+  }
+  .spnsrlogo1{
+    top:6vh;
+    left:16vw;
+    height:18vw;
+  }
+  .container1{
+    margin-right: 0px;
+    padding: 0 0 0 0;
+  }
+  .circle{
+    display: none;
+  }
+  .mySwiper{
+    width: 80vw;
+  }
+  .carousel1{
+    margin-right: 50vw;
+  }
+  .carousel2{
+    margin-left: 3vw;
+    padding-left: 0px;
+  }
+  .carousel2 img{
+    height: 6vh;
+  }
+}
+
+@media screen and (max-width: 322px) {
+  .carousel2{
+    width: 65vw;
+    padding-left: 0vw;
+    margin-left: 0px;
+  }
+  .carousel2 img{
+    height: 5vh;
+  }
+}
