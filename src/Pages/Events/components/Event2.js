@@ -42,7 +42,7 @@ const Event2 = ({title_main, desc, toggle, toggle2}) => {
                     </button>
                 </div>
             </div>
-           {!isMobile && <img src= {eventImage} alt={"event"} className= {styles.eventImage}/>}
+           {/* {!isMobile && <img src= {eventImage} alt={"event"} className= {styles.eventImage}/>} */}
         </div>
     );
 }
