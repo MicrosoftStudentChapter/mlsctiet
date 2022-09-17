@@ -41,21 +41,21 @@ export default function Navbar() {
           {/* <li className="nav-item">
             <Link to="/alumni">Alumni</Link>
           </li> */}
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link to="/community">Community</Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link to="/events">Events</Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link to="/gallery">Gallery</Link>
-          </li>
-          <li className="nav-item">
+          </li> */}
+          {/* <li className="nav-item">
             <Link to="/team">Team</Link>
-          </li>
-          <li className="nav-item">
+          </li> */}
+          {/* <li className="nav-item">
             <Link to="/projects">Projects</Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link to="/sponsors">Sponsors</Link>
           </li>
