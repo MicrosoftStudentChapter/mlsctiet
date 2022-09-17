@@ -45,9 +45,9 @@ function App() {
 				{/*<Route path="/community" element={<Community />} />*/}
         <Route path="/events" element={<Events />} />
 				{/* <Route path="/gallery" element={<Gallery />} /> */}
-        <Route path="/team" element={<OurTeam />} />
+        {/* <Route path="/team" element={<OurTeam />} /> */}
         <Route path="/sponsors" element={<Sponsors />} />
-        <Route path="/alumni" element={<Alumni />} />
+        {/* <Route path="/alumni" element={<Alumni />} /> */}
         <Route path="*" element={<Error />} />
 				{/*<Route path="/explode_img1" element={<Explode_img1 />} />
         <Route path="/explode_img2" element={<Explode_img2 />} />

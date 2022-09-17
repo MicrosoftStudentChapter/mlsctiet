@@ -317,7 +317,7 @@ const Sponsors = () => {
 
     {/* why sponsor us div ends here and second corousel div starts */}
 
-    <Swiper
+    {/* <Swiper
         pagination={{
           dynamicBullets: true,
         }}
@@ -332,27 +332,27 @@ const Sponsors = () => {
             <div className={styles.carousel2}>
 
               <div className={styles.box1}>
-                <img id={styles.spnsrlogo11} src={celologo} alt="sponsor logo"></img>
+                <img className={styles.spnsrlogo11} src={celologo} alt="sponsor logo"></img>
               </div>
 
               <div className={styles.box2}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
+                <img className={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
               </div>
 
               <div className={styles.box3}>
-                <img id={styles.spnsrlogo11} src={fclogo} alt="sponsor logo"></img>
+                <img className={styles.spnsrlogo11} src={fclogo} alt="sponsor logo"></img>
               </div>
 
               <div className={styles.box4}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
+                <img className={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
               </div>
 
               <div className={styles.box5}>
-                <img id={styles.spnsrlogo11} src={lllogo} alt="sponsor logo"></img>
+                <img className={styles.spnsrlogo11} src={lllogo} alt="sponsor logo"></img>
               </div>
 
               <div className={styles.box6}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
+                <img className={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
               </div>
             
             </div> 
@@ -478,7 +478,7 @@ const Sponsors = () => {
             </div> 
         </SwiperSlide>
 
-      </Swiper>
+      </Swiper> */}
 
     {/*Second carousel ends, Form begins*/}
     
