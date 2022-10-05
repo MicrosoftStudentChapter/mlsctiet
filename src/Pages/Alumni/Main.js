@@ -63,9 +63,15 @@ const Main = () => {
           </div>
           <div className={Style.p}>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mi
-              urna, elementum vitae maximus ut, cursus eu turpis. Cras non
-              libero ut massa tincidunt rutrum et eget ipsum
+              “The most valuable thing about an accelerator are the people
+              behind it.”
+              <br />
+              <br />
+              MLSC’s alumni are key to its growth. Our alumni have established
+              themselves as successful individuals in almost every field of
+              their lives, and we could not be any prouder. They have been the
+              backbone of our society, and they deserve to be cherished and
+              remembered.
             </p>
           </div>
           <div className={Style.Squarcle}>

@@ -66,28 +66,28 @@ figcaption img {
   width: auto;
   /* align-items: flex-end;
   margin-top: 20px; */
-  padding-left: 160px;
+  padding-left: 140px;
   position: absolute;
   top: 0px;
   /* margin-bottom: 100px; */
 }
 
-@media screen and (max-width: 1200px){
-  figure{
+@media screen and (max-width: 1200px) {
+  figure {
     width: 13rem;
     height: 18rem;
   }
 }
 
-@media screen and (max-width: 1050px){
-  figure{
+@media screen and (max-width: 1050px) {
+  figure {
     width: 12rem;
     height: 17rem;
   }
 }
 
-@media screen and (max-width: 550px){
-  figure{
+@media screen and (max-width: 550px) {
+  figure {
     width: 10rem;
     height: 15rem;
   }

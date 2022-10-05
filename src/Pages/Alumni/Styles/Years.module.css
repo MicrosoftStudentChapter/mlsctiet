@@ -5,58 +5,115 @@
 }
 .buttons:nth-child(n),
 .buttons:nth-child(7n) {
-  background-color: #fa3966;
+  background: #fa3966;
   display: block;
-  transform: rotate(-90deg);
+  height: 55px;
+  /* margin-top: 55px; */
   font-family: "Poppins";
   font-size: 25px;
-  padding: 30%;
-  place-items: right;
-  border-radius: 20px 20px 0px 0px;
-  border-top: 20px;
+  position: relative;
+  width: 100px;
+  transform: rotate(-90deg);
+}
+.buttons:nth-child(n):before,
+.buttons:nth-child(7n):before {
+  border-bottom: 35px solid #fa3966;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -35px;
+  width: 0;
 }
 
 .buttons:nth-child(2n),
 .buttons:nth-child(5n),
 .buttons:nth-child(8n) {
-  background-color: #0078d4;
+  background: #0078d4;
   display: block;
+  height: 55px;
+  margin-top: 55px;
   font-family: "Poppins";
-  transform: rotate(-90deg);
   font-size: 25px;
-  padding: 30%;
-  place-items: right;
+  position: relative;
+  width: 100px;
+  transform: rotate(-90deg);
 }
+.buttons:nth-child(2n):before,
+.buttons:nth-child(5n):before,
+.buttons:nth-child(8n)::before {
+  border-bottom: 35px solid #0078d4;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -35px;
+  width: 0;
+}
+
 .buttons:nth-child(4n) {
-  background-color: #fa3966;
+  background: #fa3966;
   display: block;
-  transform: rotate(-90deg);
+  height: 55px;
   font-family: "Poppins";
   font-size: 25px;
-  padding: 30%;
-  place-items: right;
-  border-radius: 20px 20px 0px 0px;
+  margin-top: 55px;
+  position: relative;
+  width: 100px;
+  transform: rotate(-90deg);
+}
+
+.buttons:nth-child(4n):before {
+  border-bottom: 35px solid #fa3966;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -35px;
+  width: 0;
 }
 .buttons:nth-child(8n) {
-  background-color: #0078d4;
+  background: #0078d4;
   display: block;
+  height: 55px;
   font-family: "Poppins";
-  transform: rotate(-90deg);
   font-size: 25px;
-  padding: 30%;
-  place-items: right;
+  position: relative;
+  width: 100px;
+  transform: rotate(-90deg);
 }
 
 .buttons:nth-child(3n),
 .buttons:nth-child(6n),
 .buttons:nth-child(10n) {
-  background-color: #fff6eb;
+  background: #fff6eb;
   display: block;
-  font-family: "Poppins";
+  height: 55px;
+
+  margin-top: 55px;
+  position: relative;
+  width: 100px;
   transform: rotate(-90deg);
-  font-size: 25px;
-  padding: 30%;
-  place-items: right;
+}
+
+.buttons:nth-child(3n):before,
+.buttons:nth-child(6n):before,
+.buttons:nth-child(10n):before {
+  border-bottom: 35px solid #fff6eb;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -35px;
+  width: 0;
 }
 
 .buttons:active {

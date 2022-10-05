@@ -51,11 +51,12 @@ const PolaroidGrid = () => {
             ></img>
           </div>
           <div className={PolaroidGridCSS.text}>
-             <h1>{items[0].year}</h1>
+            <h1>{items[0].year}</h1>
           </div>
           <img src={Lines} className={PolaroidGridCSS.zebra}></img>
         </div>
-        <div className={PolaroidGridCSS.secondContainer}
+        <div
+          className={PolaroidGridCSS.secondContainer}
           style={{
             backgroundColor: color[selected % 3],
           }}
