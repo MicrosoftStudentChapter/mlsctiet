@@ -17,86 +17,64 @@
   padding-right: 1%;
   display: flex;
   background-color: #0d1213;
-  padding-top: 4%;
+  padding-top: 80px;
   color: white;
+  z-index: -1;
   /* overflow: hidden; */
   /* overflow-y: scroll; */
 }
-
+ 
 .mainContainer {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-direction: row;
+  padding-right: 2rem;
 }
 
-.firstContainer {
-  height: 100%;
-  margin-left: 10%;
-  margin-right: 14%;
+.firstContainer {  
+  padding-left: 5rem;
 }
-
-.im1 {
+.im1{
   display: flex;
 }
-
-.Dots {
-  position: relative;
-  left: -40px;
-  bottom: -52px;
+.Dots{
+  z-index: 0;
 }
-
-.Cross {
-  padding-inline: 5%;
+.Cross{
+  padding-inline: 5rem;
 }
-
-.Arrow {
-  padding-inline-start: 25%;
+.Arrow{
+  padding-inline-start: 2.5rem;
+}
+.lines{
+  padding-top: 0rem;
+}
+.Carousels{
+  z-index: 1;
 }
 
 .secondContainer {
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-right: 20px;
-  padding: 0;
-  font-size: 25px;
-  width: 40%;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
-
-.Lines2 {
+.Lines2{
   position: relative;
-  top: -50px;
   transform: rotate(90deg);
-  left: 250px;
 }
-.Broadline {
-  position: relative;
-  top: 47px;
-  left: -350px;
+.Broadline{
+ padding-top: 9rem;
 }
+.Alumni{
+  font-family: 'Inter';
+  font-weight: 700; 
+  font-size: 40px;
+  line-height: 139px; 
+  padding-left: 5rem;
+}
+.Squarcle{
 
-.Alumni {
-  position: relative;
-  /* top: 50px; */
-  right: 50px;
-  font-family: "Poppins";
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 139px;
 }
-.Squarcle {
-  position: relative;
-  top: 40px;
-  left: 250px;
-}
-
-.p {
-  position: relative;
-  top: 40px;
-  width: 500px;
-  right: 50px;
+.p{
+ padding-left: 4rem;
 }
 
 .thirdContainer {

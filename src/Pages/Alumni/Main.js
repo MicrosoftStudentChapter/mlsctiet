@@ -58,6 +58,9 @@ const Main = () => {
           <div className={Style.Alumni}>
             <h1>Alumni</h1>
           </div>
+          <div className={Style.Lines2}>
+            <img src={Lines}></img>
+          </div>
           <div className={Style.p}>
             <p>
               “The most valuable thing about an accelerator are the people
@@ -73,9 +76,6 @@ const Main = () => {
           </div>
           <div className={Style.Squarcle}>
             <img src={Squarcle}></img>
-          </div>
-          <div className={Style.Lines2}>
-            <img src={Lines}></img>
           </div>
           <div className={Style.Broadline}>
             <img src={Broadline}></img>
