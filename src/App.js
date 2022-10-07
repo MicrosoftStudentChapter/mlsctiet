@@ -25,6 +25,7 @@ import OurTeam from "./Pages/OurTeam";
 import Sponsors from "./Pages/Sponsors";
 import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
+import Footer from "./Components/Footer/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import Project1 from "./Pages/Projects/Components/Project1/Project1";
 // import Project2 from "./Pages/Projects/Components/Project2/Project2";
@@ -54,6 +55,7 @@ function App() {
         <Route path="/explode_img3" element={<Explode_img3 />} />
         <Route path="/explode_img4" element={<Explode_img4 />} />*/}
       </Routes>
+      {/* <Footer/> */}
     </Router>
   );
 }

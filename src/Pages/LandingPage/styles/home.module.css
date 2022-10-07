@@ -40,6 +40,7 @@
     align-items: center;
     background-color: black;
     color: white;
+    line-height: 1;
     font-family: 'myanmar-khyay-regular', sans-serif;
     font-size: 3rem;
 }
