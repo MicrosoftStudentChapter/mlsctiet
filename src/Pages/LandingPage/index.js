@@ -16,7 +16,9 @@ const LandingPage = () => {
         <div className={styles.learn}>LEARN STUDENT</div>
         <div className={styles.chapter}>CHAPTER</div>
       </div>
+ 
     </div>
+   
   );
 };
 
