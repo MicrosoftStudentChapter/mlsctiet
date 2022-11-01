@@ -1,0 +1,82 @@
+{
+  "core": [
+    {
+      "title": "Aryan Garg",
+      "img": "https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810454/9_zuzct1.png"
+    },
+    {
+      "title":"Aditya Pathak",
+      "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
+    },
+    {
+      "title": "Nimish",
+      "img": "https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810454/9_zuzct1.png"
+    }
+  ],
+  "secretaries": [
+    {
+      "title": "Aryan Garg",
+      "img": "https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810454/9_zuzct1.png"
+    },
+    {
+      "title":"Aditya Pathak",
+      "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
+    },
+    {
+      "title": "Nimish",
+      "img": "https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810454/9_zuzct1.png"
+    }
+  ],
+  "heads":[
+    {
+      "title":"Aditya Pathak",
+      "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
+    },
+    {
+      "title":"Aditya Pathak",
+      "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
+    },
+    {
+      "title":"Aditya Pathak",
+      "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
+    },
+    {
+      "title":"Aditya Pathak",
+      "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
+    },
+    {
+      "title": "Aryan Garg",
+      "img": "https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810454/9_zuzct1.png"
+    },
+    {
+      "title": "Aryan Garg",
+      "img": "https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810454/9_zuzct1.png"
+    }
+  ],
+  "executives":[
+    {
+      "title":"Aditya Pathak",
+      "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
+    },
+    {
+      "title":"Aditya Pathak",
+      "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
+    },
+    {
+      "title":"Aditya Pathak",
+      "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
+    },
+    {
+      "title":"Aditya Pathak",
+      "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
+    },
+    {
+      "title": "Aryan Garg",
+      "img": "https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810454/9_zuzct1.png"
+    },
+    {
+      "title": "Nimish",
+      "img": "https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810454/9_zuzct1.png"
+    }
+  ]
+}
