@@ -56,7 +56,11 @@
   text-decoration: none;
   color: white;
 }
+.navbar p:hover{
+  cursor: pointer;
+}
 .navbar a:hover {
+  cursor: pointer;
   text-decoration: none;
   color: #8c8c8c;
 }
