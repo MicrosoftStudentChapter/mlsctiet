@@ -50,9 +50,9 @@ export default function Navbar() {
           {/* <li className="nav-item">
             <Link to="/gallery">Gallery</Link>
           </li> */}
-          {/* <li className="nav-item">
+          <li className="nav-item">
             <Link to="/team">Team</Link>
-          </li> */}
+          </li>
           {/* <li className="nav-item">
             <Link to="/projects">Projects</Link>
           </li> */}
