@@ -77,10 +77,12 @@
 .spnsrlogo1{
     /* padding-left: 2vw; */
     height: 30vh;
-    position: fixed;
-    left: 10vw;
-    top: 20vh;
+    /* position: fixed; */
+    /* left: 10vw; */
+    /* top: 20vh; */
     z-index: 4;
+    margin-left: 4rem;
+    width: max-content;
 }
 
 .circle-logo{
@@ -90,12 +92,11 @@
 }
 
 .circle{
-  position: fixed;
+  /* position: fixed; */
   display: block;
-  top: 4vh;
-  left: 2.8vw;
+  /* top: 4vh; */
+  /* left: 2.8vw; */
   height: 36vw;
-  z-index: 3;
   -webkit-transition: -webkit-transform 1s;
   transition: 1.5s;
 }
@@ -109,11 +110,17 @@
     position:relative;
     flex-basis: 33%;
     max-width: fit-content;
+    /* background-image: url(../assets/circle.png); */
+     /* justify-content: center; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* align-items: center; */ 
 }
 
 .containerSpace{
     order: 2;
-    flex-basis: 33%;
+    flex-basis: 25%;
 }
 
 .container2{
@@ -121,6 +128,8 @@
     flex-basis:33%;
     padding-right: 5vw;
     padding-bottom: 4vh;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 .container2 h2{

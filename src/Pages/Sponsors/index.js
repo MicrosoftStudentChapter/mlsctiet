@@ -32,7 +32,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
+import ImageHolder from "./Components/ImageHolder.js";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
@@ -105,36 +105,21 @@ const Sponsors = () => {
                     // clickable:true,
                 }}
                 autoplay={{
-                    delay: 4000,
+                    delay: 400000000,
                     disableOnInteraction: false,
                 }}
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation]}
                 className={styles.mySwiper}
             >
-                {companyData.map((tiers) => {
-                    tiers.data.map((data) => {
+                {companyData.map((data) => {
                         return (
                             <SwiperSlide>
                                 <div className={styles.carousel1}>
-                                    <div className="circle-logo">
-                                        <img
-                                            className={styles.circle}
-                                            src={circle}
-                                            alt="animation"
-                                        ></img>
-                                        <div className={styles.container1}>
-                                            <img
-                                                className={styles.spnsrlogo1}
-                                                src={cnlogo}
-                                                alt="Coding Ninjas"
-                                            ></img>
-                                        </div>
-                                    </div>
+                                    <ImageHolder data={data} />
                                     <div
                                         className={styles.containerSpace}
                                     ></div>
-
                                     <div className={styles.container2}>
                                         <h2 classname={styles.sponsorText}>
                                             {data.sponsorName}
@@ -154,7 +139,6 @@ const Sponsors = () => {
                                 </div>
                             </SwiperSlide>
                         );
-                    });
                 })}
                 {/* <SwiperSlide>
         <div className={styles.carousel1}>
