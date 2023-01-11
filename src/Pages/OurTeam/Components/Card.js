@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./../Style/ourteam.module.css";
 import linkedin from "./../Assets/linkedin.png";
+import data from "../data.json";
+
 const Card = (props) => {
   return (
     <>
@@ -13,7 +15,9 @@ const Card = (props) => {
         </center>
 
         <button className={styles.card__btn}>
-          <img src={linkedin} />
+          <a href="#">
+            <img src={linkedin} />
+          </a>
         </button>
       </div>
     </>

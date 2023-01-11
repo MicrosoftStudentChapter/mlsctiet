@@ -4,11 +4,11 @@ import data from "../data.json";
 import Card from "./Card";
 
 const Navbar = () => {
-  const [members, setMembers] = useState([]);
+  const [members, setMembers] = useState(data["secretaries"]);
 
   function displayMembers(e) {
     setMembers(data[e.target.dataset.target]);
-    // console.log(members);
+    // console.log(e.target.dataset.target);
   }
 
   return (
@@ -30,18 +30,13 @@ const Navbar = () => {
               Core
             </p>
           </li>
-          <li>
-            <p onClick={displayMembers} data-target="executives">
-              Executives
-            </p>
-          </li>
         </ul>
       </div>
       <div className="members">
         <div className={styles.wrapper}>
           {members.map((el) => {
-            console.log(el.title);
-            console.log(el.img);
+            // console.log(el.title);
+            // console.log(el.img);
             return <Card img={el.img} title={el.title} />
           })}
         </div>
