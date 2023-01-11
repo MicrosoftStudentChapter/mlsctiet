@@ -105,7 +105,7 @@ const Sponsors = () => {
                     // clickable:true,
                 }}
                 autoplay={{
-                    delay: 400000000,
+                    delay: 1000,
                     disableOnInteraction: false,
                 }}
                 navigation={true}
@@ -128,12 +128,7 @@ const Sponsors = () => {
                                             Makeathon 4.0
                                         </h2>
                                         <p classname={styles.sponsorText}>
-                                            Lorem ipsum dolor sit amet,
-                                            consectetur adipiscing elit. Sed
-                                            tincidunt augue lectus, volutpat
-                                            suscipit quam malesuada sit amet.
-                                            Nulla sit amet velit rhoncus,
-                                            dapibus orci quis, lacinia nunc.
+                                            {data.description}
                                         </p>
                                     </div>
                                 </div>
@@ -292,62 +287,61 @@ const Sponsors = () => {
 
             <div className={styles.whysponsorus}>
                 <h2 className={styles.subheading}> Why Sponsor Us? </h2>
+                    {/* First Para */}
+                  <ul className={styles.listStyle}>
+                    <li className={styles.sponsorPara}>
+                        <span className={styles.sponsorText}>Youth Hub:&nbsp;</span>
+                        The Youth hub of the organization is a huge reach, as it has
+                        a large student population of 10000+ people on campus.
+                    </li>
+                    {/* Second Para */}
 
-                {/* First Para */}
+                    <li className={styles.sponsorPara}>
+                        <span className={styles.sponsorText}>
+                            Connecting Tech Enthusiasts all over India:&nbsp;
+                        </span>
+                        MLSC is an Open-Source community that connects tech
+                        enthusiasts all across India. Its discord server has a reach
+                        of over a thousand people, which includes members from some
+                        of the country's most prominent educational institutions
+                        such as IITs and NITs.
+                    </li>
 
-                <p className={styles.sponsorPara}>
-                    <span className={styles.sponsorText}>Youth Hub:&nbsp;</span>
-                    The Youth hub of the organization is a huge reach, as it has
-                    a large student population of 10000+ people on campus.
-                </p>
+                    {/* Third Para */}
 
-                {/* Second Para */}
+                    <li className={styles.sponsorPara}>
+                        <span className={styles.sponsorText}>
+                            Flagship Events:&nbsp;
+                        </span>
+                        MLSC is known for conducting various events throughout the
+                        year, which are designed to reach a massive audience. Some
+                        of these being Abhyudaya and Makeathon, which are very
+                        popular annual events that have the potential to increase
+                        the awareness and reach of your brand.
+                    </li>
 
-                <p className={styles.sponsorPara}>
-                    <span className={styles.sponsorText}>
-                        Connecting Tech Enthusiasts all over India:&nbsp;
-                    </span>
-                    MLSC is an Open-Source community that connects tech
-                    enthusiasts all across India. Its discord server has a reach
-                    of over a thousand people, which includes members from some
-                    of the country's most prominent educational institutions
-                    such as IITs and NITs.
-                </p>
+                    {/* Fourth Para */}
 
-                {/* Third Para */}
+                    <li className={styles.sponsorPara}>
+                        <span className={styles.sponsorText}>
+                            Ultimate Social Media Reach:&nbsp;
+                        </span>
+                        MLSC has an extensive social media presence that includes
+                        over 8000 followers on various platforms such as Facebook,
+                        Instagram, and LinkedIn. Thus strategically helping boost
+                        your brand's reputation, reach and attract the youth.
+                    </li>
 
-                <p className={styles.sponsorPara}>
-                    <span className={styles.sponsorText}>
-                        Flagship Events:&nbsp;
-                    </span>
-                    MLSC is known for conducting various events throughout the
-                    year, which are designed to reach a massive audience. Some
-                    of these being Abhyudaya and Makeathon, which are very
-                    popular annual events that have the potential to increase
-                    the awareness and reach of your brand.
-                </p>
-
-                {/* Fourth Para */}
-
-                <p className={styles.sponsorPara}>
-                    <span className={styles.sponsorText}>
-                        Ultimate Social Media Reach:&nbsp;
-                    </span>
-                    MLSC has an extensive social media presence that includes
-                    over 8000 followers on various platforms such as Facebook,
-                    Instagram, and LinkedIn. Thus strategically helping boost
-                    your brand's reputation, reach and attract the youth.
-                </p>
-
-                <p className={styles.sponsorPara}>
-                    <span className={styles.sponsorText}>
-                        Best way to kickstart your campaign:&nbsp;
-                    </span>
-                    Collaborating with MLSC, a group of over a hundred
-                    individuals who are dedicated to learning all the traits
-                    that make up a successful team will help you organize
-                    various promotional events and learning workshops.
-                </p>
+                    <li className={styles.sponsorPara}>
+                        <span className={styles.sponsorText}>
+                            Best way to kickstart your campaign:&nbsp;
+                        </span>
+                        Collaborating with MLSC, a group of over a hundred
+                        individuals who are dedicated to learning all the traits
+                        that make up a successful team will help you organize
+                        various promotional events and learning workshops.
+                    </li>
+                  </ul>
             </div>
 
             {/* why sponsor us div ends here and second corousel div starts */}
