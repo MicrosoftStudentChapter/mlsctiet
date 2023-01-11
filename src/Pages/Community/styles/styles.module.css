@@ -29,6 +29,7 @@
     font-size: 24px;
 }
 
+
 .headingContainer {
     margin: 90px 60px 40px 60px;
     padding-left: 0;
@@ -68,6 +69,7 @@
 
 .communityImage {
     width: 670px;
+    margin-bottom: 40px;
 }
 
 .joinButton {
@@ -81,6 +83,25 @@
     margin: 10px 0px 10px 0px;
 }
 
+.joinButton2 {
+    width: 80px;
+    height: 50px;
+
+    background: #000000;
+    border: 2px solid #F0F0F0;
+    border-radius: 43px;
+    color: #F0F0F0;
+    font-size: 24px;
+    margin: 10px 0px 10px 0px;
+}
+
+.buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
 
 .joinButtonCss{
     display: flex;
@@ -88,6 +109,16 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.linkedin{
+    width: 30px;
+    height: 30px;
+}
+
+.twitter{
+    width: 30px;
+    height: 30px;
 }
 
 a{

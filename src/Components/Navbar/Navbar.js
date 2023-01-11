@@ -41,9 +41,9 @@ export default function Navbar() {
           {/* <li className="nav-item">
             <Link to="/alumni">Alumni</Link>
           </li> */}
-          {/* <li className="nav-item">
+          <li className="nav-item">
             <Link to="/community">Community</Link>
-          </li> */}
+          </li>
           <li className="nav-item">
             <Link to="/events">Events</Link>
           </li>

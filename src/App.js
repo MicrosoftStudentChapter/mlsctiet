@@ -16,7 +16,7 @@
 // import Project3 from "./Pages/Projects/Components/Project3/Project3";
 import AboutUs from "./Pages/AboutUs";
 import Alumni from "./Pages/Alumni";
-// import Community from "./Pages/Community";
+import Community from "./Pages/Community";
 import Events from "./Pages/Events";
 // import Gallery from "./Pages/Gallery";
 import LandingPage from "./Pages/LandingPage";
@@ -43,7 +43,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
         <Route path="/about" element={<AboutUs />} />
-				{/*<Route path="/community" element={<Community />} />*/}
+				<Route path="/community" element={<Community />} />
         <Route path="/events" element={<Events />} />
 				{/* <Route path="/gallery" element={<Gallery />} /> */}
         <Route path="/team" element={<OurTeam />} />

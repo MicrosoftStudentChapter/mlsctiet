@@ -4,6 +4,7 @@ import styles from '../styles/styles.module.css';
 import Cross from '../Assets/cross.png'
 import ImageCommunity from '../Assets/image.png'
 import Triangles from '../Assets/triangles.png'
+import Animation from '../Assets/animation_lottie.json'
 
 function Main() {
 
@@ -17,6 +18,9 @@ function Main() {
                         OPEN SOURCE
                     </h1>
                     <img src={Cross} className={styles.cross} />
+                    {/* <div className={styles.animation}>
+                        <Animation></Animation>
+                    </div> */}
                 </div>
 
                 <div className={styles.contentContainer}>
@@ -36,13 +40,33 @@ function Main() {
                             <li>Make super cool projects and add contributions to your resume.</li>
                             <li>Become an integral part of building this community.</li>
                         </ul>
+                        <div className={styles.buttons}>
+                            <button className={styles.joinButton}>
+                                <a className={styles.joinButtonCss} href="https://discord.gg/GUm8cuns">
+                                    Join the Community
+                                    <img src="https://img.icons8.com/ios-filled/24/FFFFFF/discord-logo.png" />
+                                </a>
+                            </button>
+                            <button className={styles.joinButton2}>
+                                <a className={styles.joinButtonCss} href="https://twitter.com/mlsc_tiet">
+                                    
+                                    <img className={styles.twitter} src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" />
+                                </a>
+                            </button>
+                            <button className={styles.joinButton2}>
+                                <a className={styles.joinButtonCss} href="https://in.linkedin.com/company/microsoft-learn-student-chapter">
+                                    
+                                    <img className={styles.linkedin} src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/linkedin-icon-18-256.png" />
+                                </a>
+                            </button>
+                            <button className={styles.joinButton2}>
+                                <a className={styles.joinButtonCss} href="https://www.instagram.com/mlsc_tiet/">
+                                    
+                                    <img className={styles.linkedin} src="https://www.pngkey.com/png/full/107-1075251_la-instagram-logo-white-png-circle.png" />
+                                </a>
+                            </button>
 
-                        <button className={styles.joinButton}>
-                            <a className={styles.joinButtonCss} href="https://discord.gg/GUm8cuns">
-                                Join the Community
-                                <img src="https://img.icons8.com/ios-filled/24/FFFFFF/discord-logo.png" />
-                            </a>
-                        </button>
+                        </div>
 
                     </div>
 
