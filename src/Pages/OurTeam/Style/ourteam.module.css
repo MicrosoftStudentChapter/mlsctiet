@@ -31,6 +31,8 @@
 
 .navbar {
   display: flex;
+  /* justify-content: center; */
+  
   /* text-decoration: none; */
   list-style-type: none;
   margin-left: 28%;
@@ -43,13 +45,13 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   line-height: 63.3%;
   color: white;
   /* text-decoration: none; */
 
   padding-top: 10%;
-  margin-right: 5%;
+  margin-right: 8%;
   z-index: 1;
 }
 .navbar a {
@@ -119,12 +121,12 @@
 /* ----------------CARD-------------------- */
 .wrapper {
   padding-top: 1%;
-  margin-left: 32%;
+  margin-left: 27%;
   display: grid;
   width: 50%;
   /* -----------------FIXED HOVER ISSUE------------------------ */
   /* grid-template-columns: repeat(auto-fit, minmax(10rem, 12rem)); */
-  grid-template-columns: 180px 180px 180px;
+  grid-template-columns: 180px 180px 180px 180px;
   grid-auto-rows: 220px;
   /* gap: 5rem; */
   column-gap: 3rem;
