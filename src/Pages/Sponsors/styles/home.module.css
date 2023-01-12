@@ -18,7 +18,7 @@
 /* swiper js part */
 .mySwiper{
   width: 88vw;
-  height: 40vw;
+  height: 30vw;
   background: linear-gradient(180deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);
   border-radius: 30px;
 
@@ -59,10 +59,10 @@
 
 .carousel1{
     margin-top: 2rem;
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
     background: linear-gradient(180deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);
     width: 87vw;
-    height: 40vw;
+    height: 30wh;
     position: relative;
     border-radius: 30px;
     /* following are the properties for flex box */

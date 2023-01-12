@@ -516,7 +516,8 @@ const Sponsors = () => {
             </h1>
 
             <div className={styles.sponsorForm}>
-                <form method="get" onSubmit={handleSubmit}>
+                <form action="https://api.web3forms.com/submit" method="POST">
+
                     <label for="spnsor-fullname"></label>
                     <input
                         type="text"
