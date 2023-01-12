@@ -6,8 +6,10 @@ import Card from "./Card";
 const Navbar = () => {
   const [members, setMembers] = useState(data["secretaries"]);
 
+  const [fade, setFade] = useState(false);
   function displayMembers(e) {
     setMembers(data[e.target.dataset.target]);
+    setFade(true);
     // console.log(e.target.dataset.target);
   }
 
@@ -16,17 +18,17 @@ const Navbar = () => {
       <div className={styles.navdes}>
         <ul className={styles.navbar}>
           <li className={styles.firstcomp}>
-            <p onClick={displayMembers} data-target="secretaries">
+            <p onClick={displayMembers} onAnimationEnd={()=>{setFade(false)}} data-target="secretaries">
               Secretaries
             </p>
           </li>
           <li>
-            <p onClick={displayMembers} data-target="heads">
+            <p onClick={displayMembers} onAnimationEnd={()=>{setFade(false)}} data-target="heads">
               Heads
             </p>
           </li>
           <li>
-            <p onClick={displayMembers} data-target="core">
+            <p onClick={displayMembers} onAnimationEnd={()=>{setFade(false)}} data-target="core">
               Core
             </p>
           </li>

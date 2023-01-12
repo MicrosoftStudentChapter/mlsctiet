@@ -4,6 +4,11 @@
   background-color: #0d1213;
   margin: 0px;
   overflow: hidden;
+  animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 .heading {
   position: fixed;
@@ -132,7 +137,9 @@
   column-gap: 3rem;
   row-gap: 1.5rem;
   justify-content: center;
+  align-items: center;
   margin-bottom: 2%; 
+  animation: fadeIn 2s;
 }
 
 .card {
@@ -144,6 +151,10 @@
   cursor: pointer;
   /* width:20%;*/
   transition: transform 200ms ease-in;
+  animation: fadeIn 2s;
+}
+
+.fade{
 }
 
 .card__body {
