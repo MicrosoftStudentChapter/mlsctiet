@@ -30,6 +30,11 @@ const Navbar = () => {
               Core
             </p>
           </li>
+          <li>
+            <p onClick={displayMembers} data-target="executives">
+              Executives
+            </p>
+          </li>
         </ul>
       </div>
       <div className="members">

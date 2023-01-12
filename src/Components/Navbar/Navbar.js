@@ -7,11 +7,15 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
+  console.log(nav);
 
   function openNav() {
     if (!nav) {
       document.querySelector(".side-nav").style.width = "100vw";
       document.querySelector(".hamburger").style.display = "none";
+      document.querySelector(".close-nav").style.display = "block";
+
+      
     } else {
       document.querySelector(".side-nav").style.width = "0";
     }
@@ -22,6 +26,7 @@ export default function Navbar() {
   function closeNav() {
     document.querySelector(".side-nav").style.width = "0";
     document.querySelector(".hamburger").style.display = "flex";
+    document.querySelector(".close-nav").style.display = "none";
     setNav(!nav);
   }
 

@@ -132,6 +132,7 @@ nav{
 
     .close-nav{
       position: absolute;
+      display: none;
       top: 20px;
       left: 20px;
     }
