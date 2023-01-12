@@ -208,6 +208,13 @@ a{
     .headingItems > h1{
         font-size: 60px;
     }
+    .joinButton{
+        width: 19rem;
+        height: 3.5rem;
+    }
+    .joinButtonCss{
+        gap: 1px;
+    }
 }
 @media screen and (max-width: 320px){
     .communityImage{
@@ -229,6 +236,9 @@ a{
     }
     .headingItems{
         padding-left: 0;
+    }
+    .listItem{
+        margin: 1rem;
     }
 }
 

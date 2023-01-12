@@ -35,10 +35,10 @@ function Main() {
                         </p>
 
                         <ul>
-                            <li>Get to meet an array of people who have the same hunger as yourself for "Growing Always."</li>
-                            <li>Learn about new technologies and clarify your doubts regarding them.</li>
-                            <li>Make super cool projects and add contributions to your resume.</li>
-                            <li>Become an integral part of building this community.</li>
+                            <li className={styles.listItem}>Get to meet an array of people who have the same hunger as yourself for "Growing Always."</li>
+                            <li className={styles.listItem}>Learn about new technologies and clarify your doubts regarding them.</li>
+                            <li className={styles.listItem}>Make super cool projects and add contributions to your resume.</li>
+                            <li className={styles.listItem}>Become an integral part of building this community.</li>
                         </ul>
                         <div className={styles.buttons}>
                             <button className={styles.joinButton}>

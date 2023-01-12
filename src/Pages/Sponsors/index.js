@@ -22,6 +22,7 @@ import fclogo from "./assets/PowerSponsors/filecoin.png";
 import lllogo from "./assets/PowerSponsors/leadinglearn.webp";
 import tezoslogo from "./assets/PowerSponsors/tezos.png";
 import yhillslogo from "./assets/PowerSponsors/yhills.png";
+import Back from './back.jsx';
 
 //Ikshan's code for swiper JS
 
@@ -92,6 +93,7 @@ const Sponsors = () => {
     };
     return (
         <div className={styles.main}>
+            <Back />
             <h1 className={styles.heading}>Our Sponsors</h1>
 
             {/* First carousel */}
