@@ -4,7 +4,6 @@ import circle from "../assets/circle.png";
 
 const ImageHolder = ({data}) => {
 	return (
-		<div>
 				<div className={styles.container1}>
 						<img
 							className={styles.spnsrlogo1}
@@ -12,7 +11,6 @@ const ImageHolder = ({data}) => {
 							alt="Coding Ninjas"
 						/>
 				</div>
-		</div>
 	);
 };
 

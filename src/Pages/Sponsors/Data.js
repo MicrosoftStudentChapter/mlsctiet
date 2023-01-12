@@ -1,14 +1,6 @@
 export const companyData = 
 [
-		{
-			sponsorName: "YHills",
-			webp: "sponsors/silver/webp/yhills.webp",
-			// src: "./assets/PowerSponsors/yhils.png",
-			url: "https://yhills.com/",
-			src : "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672681953/yhills_qtgadh.png",
-			id: "silver_0",
-      description: "YHills came into being as a comprehensive platform to offer customised cost-effective training to college students and fresh graduates by professionals in the industry. Having trained 15,000+ students, the learners truly rave at the value addition re-affirming the tagline \"Learning Beyond Expectations\"."
-		},
+		
 		{
 			sponsorName: "Celo",
 			webp: "sponsors/silver/webp/celo.webp",
@@ -112,5 +104,14 @@ export const companyData =
       url: "https://juspay.in/",
       id: "title_4",
       description: "Juspay is a leading fintech company in India; our SDKs are installed on over 200Mn devices, we process over 22Mn transactions every day and count Amazon, Ola, Vodafone, Jio etc among our customers. Juspay’s vision is to enable frictionless payments for the billion Indians. Our products include India’s most used 2FA Auth SDK, an end-to-end Payments Stack and various Checkout APIs. Our team also helped shape UPI and crafted the BHIM App 1.0 which processes over INR 5-Billion monthly."
-    },
+    },	
+	{
+			sponsorName: "YHills",
+			webp: "sponsors/silver/webp/yhills.webp",
+			// src: "./assets/PowerSponsors/yhils.png",
+			url: "https://yhills.com/",
+			src : "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672681953/yhills_qtgadh.png",
+			id: "silver_0",
+      description: "YHills came into being as a comprehensive platform to offer customised cost-effective training to college students and fresh graduates by professionals in the industry. Having trained 15,000+ students, the learners truly rave at the value addition re-affirming the tagline \"Learning Beyond Expectations\"."
+		}
   ];
