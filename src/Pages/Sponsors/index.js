@@ -22,7 +22,6 @@ import fclogo from "./assets/PowerSponsors/filecoin.png";
 import lllogo from "./assets/PowerSponsors/leadinglearn.webp";
 import tezoslogo from "./assets/PowerSponsors/tezos.png";
 import yhillslogo from "./assets/PowerSponsors/yhills.png";
-import Back from './back.jsx';
 
 //Ikshan's code for swiper JS
 
@@ -93,11 +92,8 @@ const Sponsors = () => {
     };
     return (
         <div className={styles.main}>
-            <Back />
             <h1 className={styles.heading}>Our Sponsors</h1>
-
             {/* First carousel */}
-
             <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
@@ -119,11 +115,8 @@ const Sponsors = () => {
                             <SwiperSlide>
                                 <div className={styles.carousel1}>
                                     <ImageHolder data={data} />
-                                    <div
-                                        className={styles.containerSpace}
-                                    ></div>
                                     <div className={styles.container2}>
-                                        <h2 classname={styles.sponsorText}>
+                                        <h2 classname={styles.sponsorHead}>
                                             {data.sponsorName}
                                         </h2>
                                         <h2 classname={styles.sponsorText}>
@@ -137,156 +130,7 @@ const Sponsors = () => {
                             </SwiperSlide>
                         );
                 })}
-                {/* <SwiperSlide>
-        <div className={styles.carousel1}>
-          <img className={styles.circle} src={circle} alt="animation"></img>
-            <div className={styles.container1}>
-              <img className={styles.spnsrlogo1} src={codingblocks} alt="sponsor logo"></img>
-            </div>
-
-            <div className={styles.containerSpace}></div>
-          
-            <div className={styles.container2}>
-              <h2 classname={styles.sponsorText}>Name of company</h2>
-              <h2 classname={styles.sponsorText}>Makeathon 4.0</h2>
-              <p classname={styles.sponsorText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt augue lectus, volutpat suscipit quam malesuada sit amet. Nulla sit amet velit rhoncus, dapibus orci quis, lacinia nunc.</p>
-            </div> 
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={styles.carousel1}>
-            <img className={styles.circle} src={circle} alt="animation"></img>
-            <div className={styles.container1}> 
-              <img className={styles.spnsrlogo1} src={juslogo} alt="sponsor logo"></img>
-            </div>
-
-            <div className={styles.containerSpace}></div>
-          
-            <div className={styles.container2}>
-              <h2 classname={styles.sponsorText}>Name of company</h2>
-              <h2 classname={styles.sponsorText}>Makeathon 4.0</h2>
-              <p classname={styles.sponsorText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt augue lectus, volutpat suscipit quam malesuada sit amet. Nulla sit amet velit rhoncus, dapibus orci quis, lacinia nunc.</p>
-            </div> 
-          </div>
-
-        </SwiperSlide>
-        <SwiperSlide>
-        <div className={styles.carousel1}>
-          <img className={styles.circle} src={circle} alt="animation"></img>
-            <div className={styles.container1}> 
-              <img className={styles.spnsrlogo1} src={mlhlogo} alt="sponsor logo"></img>
-            </div>
-
-            <div className={styles.containerSpace}></div>
-          
-            <div className={styles.container2}>
-              <h2 classname={styles.sponsorText}>Name of company</h2>
-              <h2 classname={styles.sponsorText}>Makeathon 4.0</h2>
-              <p classname={styles.sponsorText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt augue lectus, volutpat suscipit quam malesuada sit amet. Nulla sit amet velit rhoncus, dapibus orci quis, lacinia nunc.</p>
-            </div> 
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div className={styles.carousel1}>
-          <img className={styles.circle} src={circle} alt="animation"></img>
-          <div className={styles.container1}> 
-            <img className={styles.spnsrlogo1} src={polygonlogo} alt="sponsor logo"></img>
-          </div>
-
-          <div className={styles.containerSpace}></div>
-        
-          <div className={styles.container2}>
-            <h2 classname={styles.sponsorText}>Name of company</h2>
-            <h2 classname={styles.sponsorText}>Makeathon 4.0</h2>
-            <p classname={styles.sponsorText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt augue lectus, volutpat suscipit quam malesuada sit amet. Nulla sit amet velit rhoncus, dapibus orci quis, lacinia nunc.</p>
-          </div>
-      </div> 
-
-        </SwiperSlide>
-        <SwiperSlide>
-        <div className={styles.carousel1}>
-          <img className={styles.circle} src={circle} alt="animation"></img>
-          <div className={styles.container1}> 
-            <img className={styles.spnsrlogo1} src={paytmlogo} alt="sponsor logo"></img>
-          </div>
-
-          <div className={styles.containerSpace}></div>
-        
-          <div className={styles.container2}>
-            <h2 classname={styles.sponsorText}>Name of company</h2>
-            <h2 classname={styles.sponsorText}>Makeathon 4.0</h2>
-            <p classname={styles.sponsorText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt augue lectus, volutpat suscipit quam malesuada sit amet. Nulla sit amet velit rhoncus, dapibus orci quis, lacinia nunc.</p>
-          </div>  
-          </div>         
-        </SwiperSlide>
-        <SwiperSlide>
-        <div className={styles.carousel1}>
-          <img className={styles.circle} src={circle} alt="animation"></img>
-          <div className={styles.container1}> 
-            <img className={styles.spnsrlogo1} src={gfglogo} alt="sponsor logo"></img>
-          </div>
-
-          <div className={styles.containerSpace}></div>
-        
-          <div className={styles.container2}>
-            <h2 classname={styles.sponsorText}>Name of company</h2>
-            <h2 classname={styles.sponsorText}>Makeathon 4.0</h2>
-            <p classname={styles.sponsorText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt augue lectus, volutpat suscipit quam malesuada sit amet. Nulla sit amet velit rhoncus, dapibus orci quis, lacinia nunc.</p>
-          </div>  
-          </div>         
-        </SwiperSlide>
-        <SwiperSlide>
-        <div className={styles.carousel1}>
-          <img className={styles.circle} src={circle} alt="animation"></img>
-          <div className={styles.container1}> 
-            <img className={styles.spnsrlogo1} src={githublogo} alt="sponsor logo"></img>
-          </div>
-
-          <div className={styles.containerSpace}></div>
-        
-          <div className={styles.container2}>
-            <h2 classname={styles.sponsorText}>Name of company</h2>
-            <h2 classname={styles.sponsorText}>Makeathon 4.0</h2>
-            <p classname={styles.sponsorText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt augue lectus, volutpat suscipit quam malesuada sit amet. Nulla sit amet velit rhoncus, dapibus orci quis, lacinia nunc.</p>
-          </div>  
-          </div>         
-        </SwiperSlide>
-        <SwiperSlide>
-        <div className={styles.carousel1}>
-          <img className={styles.circle} src={circle} alt="animation"></img>
-          <div className={styles.container1}> 
-            <img className={styles.spnsrlogo1} src={sslogo} alt="sponsor logo"></img>
-          </div>
-
-          <div className={styles.containerSpace}></div>
-        
-          <div className={styles.container2}>
-            <h2 classname={styles.sponsorText}>Name of company</h2>
-            <h2 classname={styles.sponsorText}>Makeathon 4.0</h2>
-            <p classname={styles.sponsorText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt augue lectus, volutpat suscipit quam malesuada sit amet. Nulla sit amet velit rhoncus, dapibus orci quis, lacinia nunc.</p>
-          </div>  
-          </div>         
-        </SwiperSlide>
-        <SwiperSlide>
-        <div className={styles.carousel1}>
-          <img className={styles.circle} src={circle} alt="animation"></img>
-          <div className={styles.container1}> 
-            <img className={styles.spnsrlogo1} src={smlogo} alt="sponsor logo"></img>
-          </div>
-
-          <div className={styles.containerSpace}></div>
-        
-          <div className={styles.container2}>
-            <h2 classname={styles.sponsorText}>Name of company</h2>
-            <h2 classname={styles.sponsorText}>Makeathon 4.0</h2>
-            <p classname={styles.sponsorText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt augue lectus, volutpat suscipit quam malesuada sit amet. Nulla sit amet velit rhoncus, dapibus orci quis, lacinia nunc.</p>
-          </div>  
-          </div>         
-        </SwiperSlide> */}
             </Swiper>
-
-            {/*carousel div ends right here and WHY SPONSOR US div starts from here */}
-
             <div className={styles.whysponsorus}>
                 <h2 className={styles.subheading}> Why Sponsor Us? </h2>
                     {/* First Para */}
@@ -297,7 +141,6 @@ const Sponsors = () => {
                         a large student population of 10000+ people on campus.
                     </li>
                     {/* Second Para */}
-
                     <li className={styles.sponsorPara}>
                         <span className={styles.sponsorText}>
                             Connecting Tech Enthusiasts all over India:&nbsp;
@@ -308,9 +151,7 @@ const Sponsors = () => {
                         of the country's most prominent educational institutions
                         such as IITs and NITs.
                     </li>
-
                     {/* Third Para */}
-
                     <li className={styles.sponsorPara}>
                         <span className={styles.sponsorText}>
                             Flagship Events:&nbsp;
@@ -321,9 +162,7 @@ const Sponsors = () => {
                         popular annual events that have the potential to increase
                         the awareness and reach of your brand.
                     </li>
-
                     {/* Fourth Para */}
-
                     <li className={styles.sponsorPara}>
                         <span className={styles.sponsorText}>
                             Ultimate Social Media Reach:&nbsp;
@@ -345,174 +184,6 @@ const Sponsors = () => {
                     </li>
                   </ul>
             </div>
-
-            {/* why sponsor us div ends here and second corousel div starts */}
-
-            {/* <Swiper
-        pagination={{
-          dynamicBullets: true,
-        }}
-        autoplay={{
-          delay: 3000,
-          disableOnInteraction: false,
-        }}
-        modules={[Autoplay,Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-            <div className={styles.carousel2}>
-
-              <div className={styles.box1}>
-                <img className={styles.spnsrlogo11} src={celologo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box2}>
-                <img className={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box3}>
-                <img className={styles.spnsrlogo11} src={fclogo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box4}>
-                <img className={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box5}>
-                <img className={styles.spnsrlogo11} src={lllogo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box6}>
-                <img className={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-            
-            </div> 
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <div className={styles.carousel2}>
-
-              <div className={styles.box1}>
-                <img id={styles.spnsrlogo11} src={tezoslogo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box2}>
-                <img id={styles.spnsrlogo11} src={yhillslogo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box3}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box4}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box5}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box6}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-            
-            </div> 
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <div className={styles.carousel2}>
-
-              <div className={styles.box1}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box2}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box3}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box4}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box5}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box6}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-            
-            </div> 
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <div className={styles.carousel2}>
-
-              <div className={styles.box1}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box2}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box3}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box4}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box5}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box6}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-            
-            </div> 
-        </SwiperSlide>
-
-        <SwiperSlide>
-            <div className={styles.carousel2}>
-
-              <div className={styles.box1}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box2}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box3}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box4}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box5}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-
-              <div className={styles.box6}>
-                <img id={styles.spnsrlogo11} src={logo} alt="sponsor logo"></img>
-              </div>
-            
-            </div> 
-        </SwiperSlide>
-
-      </Swiper> */}
-
-            {/*Second carousel ends, Form begins*/}
-
             <h1 className={styles.sponsorUsHead}>
                 Want To Sponsor Our Upcoming Event?
             </h1>
