@@ -14,7 +14,7 @@
     position: fixed;
     top:0;
     width: 100vw;
-    z-index: 3;
+    z-index: 1;
     height: 60px;
     font-family: 'myanmar-khyay-regular', sans-serif;
   }

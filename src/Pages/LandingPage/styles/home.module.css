@@ -48,6 +48,7 @@
     font-size: 3rem;
     font-weight: bold;
     text-shadow: -11px 12px 11px rgba(0, 0, 0, 0.81);
+    user-select: none;
 }
 
 .polygon{
