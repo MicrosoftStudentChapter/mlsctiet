@@ -90,6 +90,11 @@ export default function Navbar() {
                     alt="close menu"
                 />
                 <ul className="side-navbar">
+                <Link onClick={closeNav} to="/">
+                    <div className="nav-item">
+                        Home
+                    </div>
+                    </Link>
                     <Link onClick={closeNav} to="/about">
                     <div className="nav-item">
                         About
