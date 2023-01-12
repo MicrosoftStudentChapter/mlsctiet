@@ -5,30 +5,34 @@ import CloseMenu from "../../Assets/close.svg";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 
+
 export default function Navbar() {
     const [nav, setNav] = useState(false);
     console.log(nav);
 
+
     function openNav() {
-        if (!nav) {
-            document.querySelector(".side-nav").style.width = "100vw";
-            document.querySelector(".hamburger").style.display = "none";
-            document.querySelector(".close-nav").style.display = "block";
-        } else {
-            document.querySelector(".side-nav").style.width = "0";
-        }
+        // if (!nav) {
+        //     document.querySelector(".side-nav").style.width = "100vw";
+        //     document.querySelector(".hamburger").style.display = "none";
+        //     document.querySelector(".close-nav").style.display = "block";
+        // } else {
+        //     document.querySelector(".side-nav").style.width = "0";
+        // }
+        document.querySelector("body").style.overflow="hidden"
         setNav(!nav);
         console.log("clicked", nav);
     }
 
     function closeNav() {
         // document.querySelector(".side-nav").style.width = "0";
-        document.querySelector(".side-navbar").style.display = "none";
-        document.querySelector(".hamburger").style.display = "flex";
-        document.querySelector(".close-nav").style.display = "none";
+        // document.querySelector(".side-navbar").style.display = "none";
+        // document.querySelector(".hamburger").style.display = "flex";
+        // document.querySelector(".close-nav").style.display = "none";
+        document.querySelector("body").style.overflow=""
         setNav(!nav);
     }
-
+    if(!nav){
     return (
         <>
             <nav className="navthingie">
@@ -69,10 +73,16 @@ export default function Navbar() {
                     </li>
                 </ul>
             </nav>
-            <div className="side-nav">
-                <div className="hamburger">
+            <div className="hamburger">
                     <img src={HamburgerMenuIcon} onClick={openNav} alt="menu" />
-                </div>
+            </div>
+            </>
+        )}
+        else{
+            return (
+            <>
+            
+            <div className="side-nav">
                 <img
                     src={CloseMenu}
                     className="close-nav"
@@ -80,32 +90,50 @@ export default function Navbar() {
                     alt="close menu"
                 />
                 <ul className="side-navbar">
+                    <Link onClick={closeNav} to="/about">
                     <div className="nav-item">
-                        <Link to="/about">About</Link>
+                        About
                     </div>
+                    </Link>
+
+                    <Link onClick={closeNav} to="/alumni">
                     <div className="nav-item">
-                        <Link to="/alumni">Alumni</Link>
+                        Alumni
                     </div>
+                    </Link>
+                    <Link onClick={closeNav} to="/community">
                     <div className="nav-item">
-                        <Link to="/community">Community</Link>
+                        Community
                     </div>
+                    </Link>
+                    <Link onClick={closeNav} to="/events">
                     <div className="nav-item">
-                        <Link to="/events">Events</Link>
+                        Events
                     </div>
+                    </Link>
+                    <Link onClick={closeNav} to="/gallery">
                     <div className="nav-item">
-                        <Link to="/gallery">Gallery</Link>
+                        Gallery
                     </div>
+                    </Link>
+                    <Link  onClick={closeNav} to="/team">
                     <div className="nav-item">
-                        <Link to="/team">Team</Link>
+                        Team
                     </div>
+                    </Link>
+                    <Link  onClick={closeNav} to="/projects">
                     <div className="nav-item">
-                        <Link to="/projects">Projects</Link>
+                        Projects
                     </div>
+                    </Link>
+                    <Link onClick={closeNav} to="/sponsors">
                     <div className="nav-item">
-                        <Link to="/sponsors">Sponsors</Link>
+                        Sponsors
                     </div>
+                    </Link>
                 </ul>
             </div>
         </>
-    );
+    )
+}
 }
