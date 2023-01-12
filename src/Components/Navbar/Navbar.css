@@ -1,4 +1,4 @@
-nav{
+.navthingie{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -19,7 +19,7 @@ nav{
     display: none;
   }
 
-  nav img{
+  .navthingie img{
     display: inline;
   }
   .left-nav{
@@ -36,16 +36,16 @@ nav{
     margin-right: 20px;
   }
   
-  nav h2{
+  .navthingie h2{
     display: inline;
   }
-  nav ul{
+  .navthingie ul{
     display: flex;
     flex-direction: row;
     list-style: none;
   }
   
-  nav ul li{
+  .navthingie ul li{
     margin:0 0.5vw;
     padding: 1vh 2vh;
     transition: background 0.5s;
@@ -72,11 +72,13 @@ nav{
     display: none;
   }
 
-@media screen and (max-width:768px){
-  nav{
+@media screen and (max-width:780px){
+  .navthingie{
     background-color: transparent;
     filter: none;
     backdrop-filter: none;
+    width: 100vw;
+    min-height: 100vh;
   }
 
   .right-nav{
@@ -91,12 +93,14 @@ nav{
   }
   .hamburger{
     display: flex;
+    position: relative;
     background: rgba(0, 0, 0, 0.60);
     cursor: pointer;
     border-radius: 12px;
     justify-content: center;
     align-items: center;
     margin: 0 30px;
+    z-index: 11;
   }
   .right-nav{
       display: none;
@@ -107,16 +111,17 @@ nav{
       height: 40px;
       text-align: center;
       padding: 1rem 0.5rem;
+      z-index: 20;
     }
     .side-nav{
       height: 100vh;
-      width: 0 !important;
+      width: 100vw ;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       position: absolute;
-      z-index: 10;
+      z-index: 9;
       background-color: rgba(0, 0, 0, 0.9);
       transition: width 0.5s ease-in-out;
     }
@@ -135,5 +140,6 @@ nav{
       display: none;
       top: 20px;
       left: 20px;
+      z-index: 20;
     }
   }
