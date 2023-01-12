@@ -137,7 +137,9 @@
   column-gap: 3rem;
   row-gap: 1.5rem;
   justify-content: center;
+  align-items: center;
   margin-bottom: 2%; 
+  animation: fadeIn 2s;
 }
 
 .card {
@@ -149,6 +151,10 @@
   cursor: pointer;
   /* width:20%;*/
   transition: transform 200ms ease-in;
+  animation: fadeIn 2s;
+}
+
+.fade{
 }
 
 .card__body {
