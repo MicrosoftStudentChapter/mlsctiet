@@ -1,27 +1,10 @@
 import React from "react";
 import styles from "./styles/home.module.css";
-import logo from "./assets/mlsc_shield_new.png";
-import { useRef, useState, useEffect } from "react";
-import circle from "./assets/circle.png";
+import { useState, useEffect } from "react";
 import shield from '../LandingPage/mlsc-logo.png';
 // Title Sponsors
-import cnlogo from "./assets/TitleSponsors/cn.png";
-import codingblocks from "./assets/TitleSponsors/codingblocks.png";
-import juslogo from "./assets/TitleSponsors/juslogo.png";
-import mlhlogo from "./assets/TitleSponsors/mlhlogo.png";
-import polygonlogo from "./assets/TitleSponsors/polygonlogo.png";
-import paytmlogo from "./assets/TitleSponsors/paytm.png";
-import gfglogo from "./assets/TitleSponsors/gfg.png";
-import githublogo from "./assets/TitleSponsors/github.png";
-import sslogo from "./assets/TitleSponsors/souledstore.png";
-import smlogo from "./assets/TitleSponsors/paytm.png";
 
 // Power Sponsors
-import celologo from "./assets/PowerSponsors/celo.png";
-import fclogo from "./assets/PowerSponsors/filecoin.png";
-import lllogo from "./assets/PowerSponsors/leadinglearn.webp";
-import tezoslogo from "./assets/PowerSponsors/tezos.png";
-import yhillslogo from "./assets/PowerSponsors/yhills.png";
 
 //Ikshan's code for swiper JS
 

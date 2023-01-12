@@ -5,6 +5,7 @@ import "./styles/Projects.css";
 import "./styles/custom-swiper.css";
 import { Link } from "react-router-dom";
 import Logo from "./Assets/Projects logo.png";
+import { data } from "./data";
 
 //  Swiper react components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -64,35 +65,13 @@ function Projects() {
                 className="my-swiper"
               >
                 <swiperContainer>
-                  <SwiperSlide>
-                    <Link to="/project1" className="slide">
-                      Slide 1
-                    </Link>
-                  </SwiperSlide>
-
-                  <SwiperSlide>
-                    <Link to="/project1" className="slide">
-                      Slide 2
-                    </Link>
-                  </SwiperSlide>
-
-                  <SwiperSlide>
-                    <Link to="/project1" className="slide">
-                      Slide 3
-                    </Link>
-                  </SwiperSlide>
-
-                  <SwiperSlide>
-                    <Link to="/project1" className="slide">
-                      Slide 4
-                    </Link>
-                  </SwiperSlide>
-
-                  <SwiperSlide>
-                    <Link to="/project1" className="slide">
-                      Slide 5
-                    </Link>
-                  </SwiperSlide>
+                  {data.map((item, index) => {
+                    return (<SwiperSlide>
+                      <div className="slide">
+                        {item["prjName"]}     
+                      </div>
+                    </SwiperSlide>)
+                  })}
                 </swiperContainer>
               </Swiper>
             </div>
