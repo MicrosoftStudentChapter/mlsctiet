@@ -3,7 +3,7 @@ import styles from "./styles/home.module.css";
 import logo from "./assets/mlsc_shield_new.png";
 import { useRef, useState, useEffect } from "react";
 import circle from "./assets/circle.png";
-
+import shield from '../LandingPage/mlsc-logo.png';
 // Title Sponsors
 import cnlogo from "./assets/TitleSponsors/cn.png";
 import codingblocks from "./assets/TitleSponsors/codingblocks.png";
@@ -46,6 +46,7 @@ const Sponsors = () => {
         email: "",
         desciption: "",
     };
+    console.log(process.env.API_KEY)
     const [formValues, setFormValues] = useState(initialValues);
     const [formErrors, setFormErrors] = useState({});
     const [isSubmit, setIsSubmit] = useState(false);
@@ -87,7 +88,6 @@ const Sponsors = () => {
         } else if (!regex.test(values.email)) {
             errors.email = "This e-mail is not valid";
         }
-
         return errors;
     };
     return (
@@ -135,13 +135,13 @@ const Sponsors = () => {
                 <h2 className={styles.subheading}> Why Sponsor Us? </h2>
                     {/* First Para */}
                   <ul className={styles.listStyle}>
-                    <li className={styles.sponsorPara}>
+                    <div className={styles.sponsorPara}>
                         <span className={styles.sponsorText}>Youth Hub:&nbsp;</span>
                         The Youth hub of the organization is a huge reach, as it has
                         a large student population of 10000+ people on campus.
-                    </li>
+                    </div>
                     {/* Second Para */}
-                    <li className={styles.sponsorPara}>
+                    <div className={styles.sponsorPara}>
                         <span className={styles.sponsorText}>
                             Connecting Tech Enthusiasts all over India:&nbsp;
                         </span>
@@ -150,9 +150,9 @@ const Sponsors = () => {
                         of over a thousand people, which includes members from some
                         of the country's most prominent educational institutions
                         such as IITs and NITs.
-                    </li>
+                    </div>
                     {/* Third Para */}
-                    <li className={styles.sponsorPara}>
+                    <div className={styles.sponsorPara}>
                         <span className={styles.sponsorText}>
                             Flagship Events:&nbsp;
                         </span>
@@ -161,9 +161,9 @@ const Sponsors = () => {
                         of these being Abhyudaya and Makeathon, which are very
                         popular annual events that have the potential to increase
                         the awareness and reach of your brand.
-                    </li>
+                    </div>
                     {/* Fourth Para */}
-                    <li className={styles.sponsorPara}>
+                    <div className={styles.sponsorPara}>
                         <span className={styles.sponsorText}>
                             Ultimate Social Media Reach:&nbsp;
                         </span>
@@ -171,9 +171,9 @@ const Sponsors = () => {
                         over 8000 followers on various platforms such as Facebook,
                         Instagram, and LinkedIn. Thus strategically helping boost
                         your brand's reputation, reach and attract the youth.
-                    </li>
+                    </div>
 
-                    <li className={styles.sponsorPara}>
+                    <div className={styles.sponsorPara}>
                         <span className={styles.sponsorText}>
                             Best way to kickstart your campaign:&nbsp;
                         </span>
@@ -181,71 +181,26 @@ const Sponsors = () => {
                         individuals who are dedicated to learning all the traits
                         that make up a successful team will help you organize
                         various promotional events and learning workshops.
-                    </li>
+                    </div>
                   </ul>
             </div>
             <h1 className={styles.sponsorUsHead}>
                 Want To Sponsor Our Upcoming Event?
             </h1>
-
             <div className={styles.sponsorForm}>
+              <div className={styles.ctContainer1}>
                 <form action="https://api.web3forms.com/submit" method="POST">
-
-                    <label for="spnsor-fullname"></label>
-                    <input
-                        type="text"
-                        name="fullName"
-                        placeholder="Full Name"
-                        size="23"
-                        value={formValues.fullName}
-                        onChange={handleChange}
-                    ></input>
-                    <p className={styles.errormssg}>{formErrors.fullName}</p>
-
-                    <label for="spnsor-companyname"></label>
-                    <input
-                        type="text"
-                        name="companyName"
-                        placeholder="Company Name"
-                        size="23"
-                        value={formValues.companyName}
-                        onChange={handleChange}
-                    ></input>
-                    <p className={styles.errormssg}>{formErrors.companyName}</p>
-
-                    <label for="spnsor-email"></label>
-                    <input
-                        type="email"
-                        name="email"
-                        placeholder="Email-Address"
-                        size="100"
-                        value={formValues.email}
-                        onChange={handleChange}
-                    ></input>
-                    <p className={styles.errormssg}>{formErrors.email}</p>
-
-                    <label for="spnsor-message"></label>
-                    <textarea
-                        rows="10"
-                        name="description"
-                        cols="33"
-                        placeholder="Type your message here..."
-                        onChange={handleChange}
-                    ></textarea>
-                    <p className={styles.errormssg}>{formErrors.desciption}</p>
-
-                    <div className={styles.spnsorformsubmit}>
-                        <input type="submit" name=""></input>
-                    </div>
-
-                    {Object.keys(formErrors).length === 0 && isSubmit ? (
-                        <div className={styles.success}>
-                            Your message has been conveyed!
-                        </div>
-                    ) : (
-                        <div></div>
-                    )}
+                  <input type="hidden" name="access_key" value={process.env.API_KEY} />
+                  <input type="text" placeholder="Name....." name="name" required className={styles.contactField} />
+                  <input type="email" placeholder="email69@abc.com" name="email" required className={styles.contactField} />
+                  <textarea name="message" placeholder="Wanna leave a message for us? ;)" required className={styles.contactText} ></textarea>
+                  <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+                  <button type="submit" className={styles.submitButton}>Submit!</button>
                 </form>
+              </div> 
+              <div className={styles.ctContainer2}>
+                <img src={shield} className={styles.sheild} />
+              </div>
             </div>
         </div>
     );

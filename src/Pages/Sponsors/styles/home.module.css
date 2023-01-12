@@ -1,21 +1,13 @@
 .main{
     padding-left: 5rem;
-    background-color: black;
+    background-color: #0D1213;
     /* width: fit-content; */
     padding-right: 5rem;
     max-width: 100%;
     overflow-x: hidden;
+    animation: fadeIn 1s;
 }
 
-/* Adding the animation part here */
-
-
-/* ------------------------------------ 
----------------------------------------
-------Animation-----------------------*/
-
-
-/* swiper js part */
 .mySwiper{
   width: 88vw;
   height: 30rem;
@@ -27,36 +19,21 @@
   /* flex-wrap: nowrap; */
   justify-content: center;
   align-items: center;
+  margin-bottom: 3rem;
 }
-/* .swiper-button-prev {
-  opacity:0;
-  display: none;
-}
-.swiper-button-next {
-  opacity:0;
-  display: none;
-} */
-
-/*----------------*/
-
 .heading{
     padding-top: 5rem;
-    /* padding-bottom: 5rem; */
     color: white;
     font-size: 6rem;
 }
 
 .sponsorUsHead{
-  /* padding-bottom: 5rem; */
   color: white;
   font-size: 400%;
 }
 
-/* making of the flex box in carousel 1*/
-
 .carousel1{
     margin-top: 2rem;
-    /* margin-bottom: 5rem; */
     background: linear-gradient(180deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);
     width: 87vw;
     height: 30wh;
@@ -72,34 +49,10 @@
 }
 
 .spnsrlogo1{
-    /* padding-left: 2vw; */
     height: 12rem;
-    /* position: fixed; */
-    /* left: 10vw; */
-    /* top: 20vh; */
     z-index: 4;
     margin-left: 3rem;
     width: max-content;
-}
-
-.circle-logo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.circle{
-  /* position: fixed; */
-  display: block;
-  /* top: 4vh; */
-  /* left: 2.8vw; */
-  height: 36vw;
-  -webkit-transition: -webkit-transform 1s;
-  transition: 1.5s;
-}
-
-.circle:hover{
-  --webkit-transform: rotate(360deg) translateZ(0);
 }
 
 .container1{
@@ -109,25 +62,15 @@
     max-width: fit-content;
     justify-content: flex-start;
     align-items: center;
-    /* background-image: url(../assets/circle.png); */
-     /* justify-content: center; */
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* align-items: center; */ 
 }
 
 
 .container2{
     order: 3;
     flex-basis:55%;
-    /* padding-right: 5vw; */
-    /* padding-bottom: 4vh; */
     justify-content: center;
     align-items: center;
     margin-left: 4rem;
-    /* justify-content: center;
-    align-items: center; */
 }
 
 .container2 h2{
@@ -148,9 +91,6 @@
   text-decoration-color: white;
 }
 
-li{
-  color:white;
-}
 
 .sponsorText{
     color:white;
@@ -201,55 +141,34 @@ p{
   /* background-color: #ffffff23; */
   margin-bottom: 6rem;
   border-radius: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
   /* backdrop-filter: blur(1000px); */
-  background-color: rgba(255, 255, 255, 0.1); 
+  background-color: #00000033;
   backdrop-filter: blur(5px);
+  width: 80vw;
+  height: fit-content;
 }
 
-.box1{
-  flex-basis: 33%;
-}
-.box2{
-  flex-basis: 33%;
-}
-.box3{
-  flex-basis: 33%;
-}
-.box4{
-  flex-basis: 33%;
-}
-.box5{
-  flex-basis: 33%;
-}
-.box6{
-  flex-basis: 33%;
+.sheild{
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+  background-color: #7390f02e;
+  backdrop-filter: blur(10px);
+  border-radius: 36px;
+  padding: 1.5rem;
 }
 
-
-.box1 img{
-  height: 40%;
+.submitButton{
+  background-color: #1f90e6;
+  font-size: 1.3rem;
+  padding: 0.8rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+  color: white;
+  border: none;
 }
-
-.box2 img{
-  height: 40%;
-}
-
-.box3 img{
-  height: 40%;
-}
-
-.box4 img{
-  height: 40%;
-}
-
-.box5 img{
-  height: 40%;
-}
-
-.box6 img{
-  height: 40%;
-}
-
 
 .spnsorformsubmit{
     padding-left: 30vw;
@@ -264,8 +183,39 @@ p{
   font-size: 2rem;
 }
 
+.contactField{
+  color: white;
+  background-color: rgb(25, 24, 24, 0.5);
+  backdrop-filter: blur(5px);
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  outline-color: rgb(154, 238, 255);
+  display: flex;
+  border-color: white;
+  border-width: 0.7px;
+}
+
+.contactText{
+  color: white;
+  background-color: rgb(25, 24, 24, 0.5);
+  backdrop-filter: blur(5px);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  outline-color: rgb(154, 238, 255);
+  display: flex;
+  border-color: white;
+  border-width: 1px;
+  font-size: 1.5rem;
+  width: 150%;
+}
+
+
 /* the following are used to set the background color as black of form fields */
-input[type="text"], textarea {
+/* input[type="text"], textarea {
+    display: flex;
     border-color: rgb(0, 187, 255);
     border-radius: 1rem;
     background-color : #000000; 
@@ -273,8 +223,8 @@ input[type="text"], textarea {
     width: 30%;
     padding: 0.5vh 1vw;
     font-size: 175%;
-}
-input[type="email"], textarea {
+} */
+/* input[type="email"], textarea {
     border-color: rgb(0, 187, 255);
     border-radius: 1rem;
     background-color : #000000; 
@@ -291,11 +241,11 @@ textarea{
     padding: 1vw;
     font-size: 3vh;
     line-height: 1.2em;
-}
+} */
 
 /* whenever text is written now, text will be white in color */
 
-input, select, textarea{
+/* input, select, textarea{
     color: #ffffff;
 }
 
@@ -307,65 +257,38 @@ input[type="submit"]{
     height:4.5rem;
     width:12rem;
     font-size:1.75rem;
-}
+} */
 
 .spnsorformsubmit{
   margin-left: 5vw;
 }
 
-.sponsorHead{
-  font-size: 400%;
-  font-weight: bold;
-  color: white;
+.whysponsorus{
+  display: flex;
+  flex-direction: row;
+  background-color: #0000007a;
+  padding: 1rem;
+  border-radius: 36px;
+  margin-bottom: 6rem;
 }
 
-/* 
-  -------
-  Media Queries 
-  For 
-  Responsiveness 
-  --------
-*/
-
-/* @media screen and (max-width: 1328px) {
-.spnsrlogo1{
-    height: 28vh;
+.ctContainer2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 40%;
 }
-  .carousel2 img{
-    height: 17vh;
-  }
-} */
-
-
-/* @media screen and (max-width: 1200px) {
-  .spnsrlogo1{
-    padding-left: 7vw;
-    height: 27vh;
+.ctContainer1{
+  display: flex;
+  flex-basis: 60%;
 }
-  .carousel2 img{
-    height: 16vh;
-  }
-} */
 
-
-/* @media screen and (max-width: 1095px) {
-  .main{
-    padding-left: 4.5rem;
-  }
-
-  .spnsrlogo1{
-    padding-left: 7vw;
-    height: 24vh;
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
-  .carousel2 img{
-    height: 14vh;
-  }
-} */
 
-@media screen and (max-width: 861px) {
-  .main{
-    padding-left: 3.5rem;
-  }
+@media screen and (max-width: 1200px) {
   .heading{
     text-align: center;
   }
@@ -378,9 +301,50 @@ input[type="submit"]{
   .carousel2 img{
     height: 13vh;
   }
-  input[type="text"], input[type="email"] {
-    width: 80vw;
+  .whysponsorus{
+    flex-direction: column;
+    width: 105%;
+    justify-content: center;
+    align-items: center;
   }
+  .listStyle{
+    margin-left: -10%;
+  }
+  .sponsorForm{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .ctContainer2{
+    margin-top: 1rem;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .ctContainer1{
+    margin-top: 1rem;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .submitButton{
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  .contactField{
+    font-size: 0.7rem;
+  }
+  .contactText{
+    font-size: 0.7rem;
+    width: 90%;
+  }
+  .sheild{
+    width: 50%;
+  }
+  /* input[type="text"], input[type="email"] {
+    width: 80vw;
+  } */
 }
 
 /* @media screen and (max-width: 762px) {
@@ -395,9 +359,6 @@ input[type="submit"]{
 } */
 
 @media screen and (max-width: 676px) {
-  .main{
-    padding-left: 3rem;
-  }
   .heading{
     font-size: 320%;
   }
@@ -406,6 +367,7 @@ input[type="submit"]{
   }
   .sponsorUsHead{
     font-size: 280%;
+    text-align: center;
   }
   .container1{
     margin-right: 7vw;
@@ -416,12 +378,19 @@ input[type="submit"]{
   .spnsorformsubmit{
     padding-left: 0vw;
   }
-  input[type="submit"]{
+  .sponsorForm{
+    padding: 0.1px;
+  }
+  .mySwiper{
+    margin: 0 auto;
+  }
+  
+  /* input[type="submit"]{
     border-radius:2.5rem;
     height:3rem;
     width:8rem;
     font-size:1.3rem;
-  }
+  } */
 }
 
 
@@ -489,7 +458,7 @@ input[type="submit"]{
     flex-direction: column;
   }
   .mySwiper{
-    height: 60vh;
+    height: 80vh;
   }
   .carousel2 img{
     /* margin-top: -90%; */
@@ -510,6 +479,7 @@ input[type="submit"]{
   .carousel1{
     flex-direction: column;
   }
+
   .carousel2 img{
     height: 8vh;
   }
