@@ -51,8 +51,8 @@ export default function Navbar() {
                         <Link to="/about">About</Link>
                     </li>
                     {/* <li className="nav-item">
-            <Link to="/alumni">Alumni</Link>
-          </li> */}
+                        <Link to="/alumni">Alumni</Link>
+                    </li> */}
                     <li className="nav-item">
                         <Link to="/community">Community</Link>
                     </li>
@@ -116,21 +116,21 @@ export default function Navbar() {
                         Events
                     </div>
                     </Link>
-                    <Link onClick={closeNav} to="/gallery">
-                    <div className="nav-item">
+                    {/* <Link onClick={closeNav} to="/gallery"> */}
+                    {/* <div className="nav-item">
                         Gallery
-                    </div>
-                    </Link>
+                    </div> */}
+                    {/* </Link> */}
                     <Link  onClick={closeNav} to="/team">
                     <div className="nav-item">
                         Team
                     </div>
                     </Link>
-                    <Link  onClick={closeNav} to="/projects">
+                    {/* <Link  onClick={closeNav} to="/projects">
                     <div className="nav-item">
                         Projects
                     </div>
-                    </Link>
+                    </Link> */}
                     <Link onClick={closeNav} to="/sponsors">
                     <div className="nav-item">
                         Sponsors
