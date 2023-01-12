@@ -7,7 +7,12 @@
     justify-content: space-between;
     align-items: center;
     overflow-x: hidden;
-    background-color: #0d1213;
+    background-image: url("../bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fadeIn 1s;
+    /* background-position: center; */
+
 }
 
 .left{
@@ -18,18 +23,16 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    background-image: url("../image.png");
-    background-color: rgba(39, 101, 146, 0.82);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.leftImage{
+/* .leftImage{
     width: 100%;
     height: 100%;
     
-}
+} */
 
 .right{
     min-width: 50%;
@@ -38,22 +41,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    /* background-color: black; */
     color: white;
     line-height: 1;
     font-family: 'myanmar-khyay-regular', sans-serif;
     font-size: 3rem;
+    font-weight: bold;
+    text-shadow: -11px 12px 11px rgba(0, 0, 0, 0.81);
 }
 
 .polygon{
-    position: absolute;
-    left: -10%;
-    border-radius: 50px;
+    position: relative;
+    margin-left: -60%;
+    margin-top: 10%;
+
+    background: rgba(255, 246, 235, 0.32);
+    border-radius: 107px;
     transform: skew(-25deg);
-    background: rgba(255, 246, 235, 0.68);
-    width: 60%;
-    height: 60%;
-    left: -100px;
+    width: 70%;
+    height: 70%;
+    left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,6 +77,13 @@
 .mobileTitle{
     display: none;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
 /* @media screen and (max-width: 1730px) {
     .sheild{
         margin-left:5%;
@@ -117,8 +131,7 @@
     .polygon{
         transform: skew(0);
         position: relative;
-        left: 0;
-        right: 0;
+        left: 32.5%;
         height: 40%;
         padding: 1.5rem;
     }
@@ -127,7 +140,7 @@
     }
     .mobileTitle{
         display: inline;
-        color: black;
+        color: white;
         /* letter-spacing: 0.2rem; */
         font-size: xx-large;
         text-align: center;
