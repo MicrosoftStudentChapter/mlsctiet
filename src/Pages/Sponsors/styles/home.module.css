@@ -18,7 +18,7 @@
 /* swiper js part */
 .mySwiper{
   width: 88vw;
-  height: 30vw;
+  height: 40vw;
   background: linear-gradient(180deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);
   border-radius: 30px;
 
@@ -26,7 +26,7 @@
 
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
   justify-content: center;
   align-items: center;
 
@@ -175,7 +175,7 @@ p{
     margin-bottom: 2rem;
     background: linear-gradient(90deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);
     width: 87vw;
-    height: 40vw;
+    height: 80vw;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -332,7 +332,7 @@ input[type="submit"]{
     padding-right: 10vw;
   }
   .carousel2 img{
-    height: 19vh;
+    height: 100vh;
   }
 }
 
@@ -520,34 +520,30 @@ input[type="submit"]{
     font-size: 200%;
   }
   .spnsrlogo1{
-    top:10vh;
     left:16vw;
     height:14vw;
   }
-  .circle{
-    top:3.5vh;
-    left:8.69vw;
-    height:30vw;
-  }
   .container1{
+    height: 10rem;
     margin-right: 3vw;
   }
   .carousel2{ 
     width: 70vw;
     height: 43vw;
     padding-top: 2vh;
-    padding-right: 2vw;
+    /* padding-right: 2vw; */
     align-items: center;
     position: relative;
     border-radius: 20px;
-    padding-left: 5vw;
+    /* padding-left: 5vw; */
     flex-direction: column;
   }
   .mySwiper{
     flex-direction: column;
   }
   .carousel2 img{
-    height: 8vh;
+    /* margin-top: -90%; */
+    height: fit-content;
   }
 }
 

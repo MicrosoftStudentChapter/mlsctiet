@@ -9,6 +9,7 @@
     overflow-x: hidden;
     background-color: rgb(19, 19, 19);
     color: white;
+    animation: fadeIn 1s;
 }
 
 .left {
@@ -258,4 +259,10 @@ a{
     .carousel{
         margin-top: 0;
     }
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }

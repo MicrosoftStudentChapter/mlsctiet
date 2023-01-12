@@ -4,6 +4,11 @@
   background-color: #0d1213;
   margin: 0px;
   overflow: hidden;
+  animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 .heading {
   position: fixed;
