@@ -1,69 +1,42 @@
 .main{
     padding-left: 5rem;
-    background-color: black;
-    height: 450vh;
+    background-color: #0D1213;
     /* width: fit-content; */
     padding-right: 5rem;
     max-width: 100%;
     overflow-x: hidden;
+    animation: fadeIn 1s;
 }
 
-/* Adding the animation part here */
-
-
-/* ------------------------------------ 
----------------------------------------
-------Animation-----------------------*/
-
-
-/* swiper js part */
 .mySwiper{
   width: 88vw;
-  height: 40vw;
+  height: 30rem;
   background: linear-gradient(180deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);
   border-radius: 30px;
-
   /* following are the properties for flex box */
-
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
   justify-content: center;
   align-items: center;
-
+  margin-bottom: 3rem;
 }
-/* .swiper-button-prev {
-  opacity:0;
-  display: none;
-}
-.swiper-button-next {
-  opacity:0;
-  display: none;
-} */
-
-/*----------------*/
-
 .heading{
     padding-top: 5rem;
-    /* padding-bottom: 5rem; */
     color: white;
-    font-size: 400%;
+    font-size: 6rem;
 }
 
 .sponsorUsHead{
-  /* padding-bottom: 5rem; */
   color: white;
   font-size: 400%;
 }
 
-/* making of the flex box in carousel 1*/
-
 .carousel1{
     margin-top: 2rem;
-    margin-bottom: 5rem;
     background: linear-gradient(180deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);
     width: 87vw;
-    height: 40vw;
+    height: 30wh;
     position: relative;
     border-radius: 30px;
     /* following are the properties for flex box */
@@ -72,49 +45,32 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    padding-top: 4rem;
 }
 
 .spnsrlogo1{
-    /* padding-left: 2vw; */
-    height: 30vh;
-    position: fixed;
-    left: 10vw;
-    top: 20vh;
+    height: 12rem;
     z-index: 4;
-}
-
-.circle{
-  position: fixed;
-  display: block;
-  top: 4vh;
-  left: 2.8vw;
-  height: 36vw;
-  z-index: 3;
-  -webkit-transition: -webkit-transform 1s;
-  transition: 1.5s;
-}
-
-.circle:hover{
-  --webkit-transform: rotate(360deg) translateZ(0);
+    margin-left: 3rem;
+    width: max-content;
 }
 
 .container1{
     order:1;
     position:relative;
-    flex-basis: 33%;
+    flex-basis: 30%;
     max-width: fit-content;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.containerSpace{
-    order: 2;
-    flex-basis: 33%;
-}
 
 .container2{
     order: 3;
-    flex-basis:33%;
-    padding-right: 5vw;
-    padding-bottom: 4vh;
+    flex-basis:55%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
 }
 
 .container2 h2{
@@ -128,22 +84,29 @@
 .subheading{
     font-size: 400%;
     color:white;
-
 }
 
-p{
-  color:white;
+
+.listStyle{
+  text-decoration-color: white;
 }
+
 
 .sponsorText{
     color:white;
     display:inline-block;
+    font-weight: bold;
+}
+
+p{
+  color: white;
 }
 
 .sponsorPara{
     color: white;
     display:inline-block;
     font-size: 130%;
+    padding: 1rem;
 }
 
 .carousel2{
@@ -151,7 +114,7 @@ p{
     margin-bottom: 2rem;
     background: linear-gradient(90deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);
     width: 87vw;
-    height: 40vw;
+    height: 80vw;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -173,50 +136,39 @@ p{
     grid-template-columns:repeat(3,1fr);
 }
 
-.box1{
-  flex-basis: 33%;
-}
-.box2{
-  flex-basis: 33%;
-}
-.box3{
-  flex-basis: 33%;
-}
-.box4{
-  flex-basis: 33%;
-}
-.box5{
-  flex-basis: 33%;
-}
-.box6{
-  flex-basis: 33%;
+.sponsorForm{
+  padding: 2.5rem;
+  /* background-color: #ffffff23; */
+  margin-bottom: 6rem;
+  border-radius: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* backdrop-filter: blur(1000px); */
+  background-color: #00000033;
+  backdrop-filter: blur(5px);
+  width: 80vw;
+  height: fit-content;
 }
 
-
-.box1 img{
-  height: 40%;
+.sheild{
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+  background-color: #7390f02e;
+  backdrop-filter: blur(10px);
+  border-radius: 36px;
+  padding: 1.5rem;
 }
 
-.box2 img{
-  height: 40%;
+.submitButton{
+  background-color: #1f90e6;
+  font-size: 1.3rem;
+  padding: 0.8rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+  color: white;
+  border: none;
 }
-
-.box3 img{
-  height: 40%;
-}
-
-.box4 img{
-  height: 40%;
-}
-
-.box5 img{
-  height: 40%;
-}
-
-.box6 img{
-  height: 40%;
-}
-
 
 .spnsorformsubmit{
     padding-left: 30vw;
@@ -231,24 +183,55 @@ p{
   font-size: 2rem;
 }
 
-/* the following are used to set the background color as black of form fields */
-input[type="text"], textarea {
-    border-color: rgb(0, 187, 255);
-    border-radius: 1rem;
-    background-color : #000000; 
-    height: 3rem;
-    width: 50%;
-    padding: 1vw;
-    font-size: 3vh;
+.contactField{
+  color: white;
+  background-color: rgb(25, 24, 24, 0.5);
+  backdrop-filter: blur(5px);
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  outline-color: rgb(154, 238, 255);
+  display: flex;
+  border-color: white;
+  border-width: 0.7px;
 }
-input[type="email"], textarea {
+
+.contactText{
+  color: white;
+  background-color: rgb(25, 24, 24, 0.5);
+  backdrop-filter: blur(5px);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  outline-color: rgb(154, 238, 255);
+  display: flex;
+  border-color: white;
+  border-width: 1px;
+  font-size: 1.5rem;
+  width: 150%;
+}
+
+
+/* the following are used to set the background color as black of form fields */
+/* input[type="text"], textarea {
+    display: flex;
+    border-color: rgb(0, 187, 255);
+    border-radius: 1rem;
+    background-color : #000000; 
+    height: 3rem;
+    width: 30%;
+    padding: 0.5vh 1vw;
+    font-size: 175%;
+} */
+/* input[type="email"], textarea {
     border-color: rgb(0, 187, 255);
     border-radius: 1rem;
     background-color : #000000; 
     height: 3rem;
     width: 50%;
-    padding: 1vw;
-    font-size: 3vh;
+    padding: 0.5vh 1vw;
+    font-size: 175%;
 }
 
 textarea{
@@ -258,11 +241,11 @@ textarea{
     padding: 1vw;
     font-size: 3vh;
     line-height: 1.2em;
-}
+} */
 
 /* whenever text is written now, text will be white in color */
 
-input, select, textarea{
+/* input, select, textarea{
     color: #ffffff;
 }
 
@@ -274,74 +257,38 @@ input[type="submit"]{
     height:4.5rem;
     width:12rem;
     font-size:1.75rem;
-}
+} */
 
 .spnsorformsubmit{
   margin-left: 5vw;
 }
 
-
-/* 
-  -------
-  Media Queries 
-  For 
-  Responsiveness 
-  --------
-*/
-
-@media screen and (max-width: 1472px) {
-  .spnsrlogo1{
-    top:18vh;
-    height:21vw;
-  }
-  .container1{
-    padding-right: 10vw;
-  }
-  .carousel2 img{
-    height: 19vh;
-  }
+.whysponsorus{
+  display: flex;
+  flex-direction: row;
+  background-color: #0000007a;
+  padding: 1rem;
+  border-radius: 36px;
+  margin-bottom: 6rem;
 }
 
-
-/* @media screen and (max-width: 1328px) {
-.spnsrlogo1{
-    height: 28vh;
+.ctContainer2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 40%;
 }
-  .carousel2 img{
-    height: 17vh;
-  }
-} */
-
-
-/* @media screen and (max-width: 1200px) {
-  .spnsrlogo1{
-    padding-left: 7vw;
-    height: 27vh;
+.ctContainer1{
+  display: flex;
+  flex-basis: 60%;
 }
-  .carousel2 img{
-    height: 16vh;
-  }
-} */
 
-
-/* @media screen and (max-width: 1095px) {
-  .main{
-    padding-left: 4.5rem;
-  }
-
-  .spnsrlogo1{
-    padding-left: 7vw;
-    height: 24vh;
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
-  .carousel2 img{
-    height: 14vh;
-  }
-} */
 
-@media screen and (max-width: 861px) {
-  .main{
-    padding-left: 3.5rem;
-  }
+@media screen and (max-width: 1200px) {
   .heading{
     text-align: center;
   }
@@ -354,22 +301,50 @@ input[type="submit"]{
   .carousel2 img{
     height: 13vh;
   }
-  input[type="text"], input[type="email"] {
+  .whysponsorus{
+    flex-direction: column;
+    width: 105%;
+    justify-content: center;
+    align-items: center;
+  }
+  .listStyle{
+    margin-left: -10%;
+  }
+  .sponsorForm{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .ctContainer2{
+    margin-top: 1rem;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .ctContainer1{
+    margin-top: 1rem;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .submitButton{
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  .contactField{
+    font-size: 0.7rem;
+  }
+  .contactText{
+    font-size: 0.7rem;
+    width: 90%;
+  }
+  .sheild{
+    width: 50%;
+  }
+  /* input[type="text"], input[type="email"] {
     width: 80vw;
-  }
-  .spnsrlogo1{
-    top:11vh;
-    left:10.69vw;
-    height:19vw;
-  }
-  .circle{
-    top:3vh;
-    left:4vw;
-    height:34vw;
-  }
-  .container2{
-    padding-bottom: 10vh;
-  }
+  } */
 }
 
 /* @media screen and (max-width: 762px) {
@@ -384,9 +359,6 @@ input[type="submit"]{
 } */
 
 @media screen and (max-width: 676px) {
-  .main{
-    padding-left: 3rem;
-  }
   .heading{
     font-size: 320%;
   }
@@ -395,57 +367,33 @@ input[type="submit"]{
   }
   .sponsorUsHead{
     font-size: 280%;
+    text-align: center;
   }
   .container1{
     margin-right: 7vw;
   }
   .spnsrlogo1{
-    top:11vh;
-    left:16vw;
-    height:17vw;
-  }
-  .circle{
-    top:3.5vh;
-    left:8.69vw;
-    height:33vw;
-  }
-  .carousel2 img{
-    height: 9vh;
+    height:8rem;
   }
   .spnsorformsubmit{
     padding-left: 0vw;
   }
-  input[type="submit"]{
+  .sponsorForm{
+    padding: 0.1px;
+  }
+  .mySwiper{
+    margin: 0 auto;
+  }
+  
+  /* input[type="submit"]{
     border-radius:2.5rem;
     height:3rem;
     width:8rem;
     font-size:1.3rem;
-  }
+  } */
 }
 
 
-/* @media screen and (max-width: 609px) {
-  .spnsrlogo1{
-    padding-left: 8vw;
-    height: 12vh;
-    padding-bottom: 2vh;
-  }
-  .carousel2 img{
-    height: 8vh;
-  }
-} */
-
-
-/* @media screen and (max-width: 583px) {
-  .heading{
-    font-size: 300%;
-  }
-  
-  .subheading{
-    font-size: 300%;
-    text-align: center;
-  }
-} */
 
 @media screen and (max-width: 576px) {
   .main{
@@ -460,14 +408,9 @@ input[type="submit"]{
   .sponsorUsHead{
     font-size: 200%;
   }
-  .carousel2{
-    padding-left: 3vw;
-  }
-  .carousel2 img{
-    height: 10vh;
-  }
   .sponsorPara{
-    padding-left: 4vw;
+    /* padding-left: 0.3rem; */
+    justify-self: flex-end;
     font-size: 110%;
   }
 }
@@ -486,34 +429,40 @@ input[type="submit"]{
     font-size: 200%;
   }
   .spnsrlogo1{
-    top:10vh;
-    left:16vw;
-    height:14vw;
-  }
-  .circle{
-    top:3.5vh;
-    left:8.69vw;
-    height:30vw;
+    height:5rem;
   }
   .container1{
-    margin-right: 3vw;
+    height: 10rem;
+  }
+  .container2{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    justify-content: center;
+    text-align: center;
+  }
+  .sponsorHead{
+    font-size: 40px;
+  }
+  .sponsorText{
+    text-align: center;
   }
   .carousel2{ 
     width: 70vw;
     height: 43vw;
     padding-top: 2vh;
-    padding-right: 2vw;
+    /* padding-right: 2vw; */
     align-items: center;
     position: relative;
     border-radius: 20px;
-    padding-left: 5vw;
+    /* padding-left: 5vw; */
     flex-direction: column;
   }
   .mySwiper{
-    flex-direction: column;
+    height: 80vh;
   }
   .carousel2 img{
-    height: 8vh;
+    /* margin-top: -90%; */
+    height: fit-content;
   }
 }
 
@@ -527,12 +476,15 @@ input[type="submit"]{
   .sponsorUsHead{
     font-size: 160%;
   }
+  .carousel1{
+    flex-direction: column;
+  }
+
   .carousel2 img{
     height: 8vh;
   }
   .sponsorPara{
-    padding-left: 4vw;
-    font-size: 90%;
+    font-size: 95%;
   }
 }
 
@@ -571,7 +523,8 @@ input[type="submit"]{
     width: 80vw;
   }
   .carousel1{
-    margin-right: 50vw;
+    /* margin-right: 50vw; */
+    flex-direction: column;
   }
   .carousel2{
     margin-left: 3vw;

@@ -9,6 +9,7 @@
     overflow-x: hidden;
     background-color: rgb(19, 19, 19);
     color: white;
+    animation: fadeIn 1s;
 }
 
 .left {
@@ -28,6 +29,7 @@
     align-items: left;
     font-size: 24px;
 }
+
 
 .headingContainer {
     margin: 90px 60px 40px 60px;
@@ -68,6 +70,7 @@
 
 .communityImage {
     width: 670px;
+    margin-bottom: 40px;
 }
 
 .joinButton {
@@ -81,6 +84,25 @@
     margin: 10px 0px 10px 0px;
 }
 
+.joinButton2 {
+    width: 80px;
+    height: 50px;
+
+    background: #000000;
+    border: 2px solid #F0F0F0;
+    border-radius: 43px;
+    color: #F0F0F0;
+    font-size: 24px;
+    margin: 10px 0px 10px 0px;
+}
+
+.buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
 
 .joinButtonCss{
     display: flex;
@@ -88,6 +110,16 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.linkedin{
+    width: 30px;
+    height: 30px;
+}
+
+.twitter{
+    width: 30px;
+    height: 30px;
 }
 
 a{
@@ -177,6 +209,13 @@ a{
     .headingItems > h1{
         font-size: 60px;
     }
+    .joinButton{
+        width: 19rem;
+        height: 3.5rem;
+    }
+    .joinButtonCss{
+        gap: 1px;
+    }
 }
 @media screen and (max-width: 320px){
     .communityImage{
@@ -199,6 +238,9 @@ a{
     .headingItems{
         padding-left: 0;
     }
+    .listItem{
+        margin: 1rem;
+    }
 }
 
 
@@ -217,4 +259,10 @@ a{
     .carousel{
         margin-top: 0;
     }
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }

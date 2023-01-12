@@ -14,7 +14,6 @@ function Error() {
      <div>
       
     <div className={StyleCSS.hello}>  
-    <Navbar/>
        {/* <img className={StyleCSS.Image} src={Errorr} alt="MLSC GROUP" />    */}
        {/* <img className={StyleCSS.Image2} src={Error4} alt="MLSC Group" />  */}
       <img className={StyleCSS.LC} src={LC} alt="MLSC GROUP"/>
