@@ -37,7 +37,8 @@
 
 
 .cardImage{
-  width: 70%;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 .card-div{
@@ -84,20 +85,61 @@
 
   .cardImage{
     order: 1;
-    width: 500px;
+    max-width: 100%;
+    max-height: 100%;
   }
 
 }
 
+@media screen and (max-width: 1024px){
+  .cardImage{
+    max-width: 80%;
+    max-height: 80%;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 896px){
+  .card-content{
+    font-size: 20px;
+  }
+  .cardImage{
+    max-width: 70%;
+    max-height: 70%;
+  }
+}
+
+@media screen and (max-width: 884px){
+  .communitySwiper .swiper{
+    height: 900px;
+  }
+  .cardImage{
+    max-width: 60%;
+    max-height: 60%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .communitySwiper .swiper{
+    height: 1000px;
+  }
+  .cardImage{
+    max-width: 50%;
+    max-height: 50%;
+  }
+}
+
 @media screen and (max-width: 664px){
   .cardImage{
-    width: 450px;
+    max-width: 50%;
+    max-height: 50%;
   }
 }
 
 @media screen and (max-width: 572px){
   .cardImage{
-    width: 300px;
+    max-width: 50%;
+    max-height: 50%;
   }
 }
 
@@ -112,11 +154,19 @@
   .card-sub-div{
     margin-top: -40px;
   }
+  .cardImage{
+    max-width: 40%;
+    max-height: 40%;
+  }
 }
 
 @media screen and (max-width: 497px){
   .communitySwiper .swiper{
     height: 1000px;
+  }
+  .cardImage{
+    max-width: 40%;
+    max-height: 40%;
   }
 }
 
@@ -127,24 +177,8 @@
   .card-content{
     font-size: 20px;
   }
-}
-
-@media screen and (max-width: 896px){
-  .card-content{
-    font-size: 20px;
+  .cardImage{
+    max-width: 40%;
+    max-height: 40%;
   }
-}
-
-@media screen and (max-width: 884px){
-  .communitySwiper .swiper{
-    height: 900px;
-  }
-
-}
-
-@media screen and (max-width: 740px){
-  .communitySwiper .swiper{
-    height: 1000px;
-  }
-
 }

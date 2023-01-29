@@ -157,20 +157,51 @@ a{
     margin-top: -300px;
 }
 
-
-@media screen and (max-width: 1485px){
-    .contentContainer{
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 1561px){
+@media screen and (min-width: 1561px){
     .triangles{
         display: none;
         visibility: hidden;
     }
     .superDiv{
         margin-top: 0;
+    }
+    .right{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1485px){
+    .contentContainer{
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .cross{
+        display: none;
+        visibility: hidden;
+    }
+    .subHeading{
+        display: none;
+        visibility: hidden;
+    }
+    .workshopHead{
+        padding: 0;
+    }
+    .headingItems{
+        padding-left: 0;
+    }
+    .listItem{
+        margin: 1rem;
+    }
+    .heading{
+        font-size: 60px;
+    }
+    .left{
+
+    }
+    .right{
+        font-size: 18px;
     }
 }
 
@@ -222,27 +253,6 @@ a{
         width: 280px;
     }
 }
-
-@media screen and (max-width: 1200px){
-    .cross{
-        display: none;
-        visibility: hidden;
-    }
-    .subHeading{
-        display: none;
-        visibility: hidden;
-    }
-    .workshopHead{
-        padding: 0;
-    }
-    .headingItems{
-        padding-left: 0;
-    }
-    .listItem{
-        margin: 1rem;
-    }
-}
-
 
 @media screen and (max-width: 592px){
     .workshopHead{

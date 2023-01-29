@@ -12,7 +12,9 @@ import "../styles/styles.css";
 import { Pagination } from "swiper";
 
 // images
-import ML from '../Assets/ml.png'
+import HKB from '../Assets/hacktoberfest.png';
+import IC from '../Assets/imaginecup.png';
+import BK from '../Assets/blockchain.png';
 
 function Carousel() {
     return (
@@ -34,7 +36,7 @@ function Carousel() {
             MLSC conducted various Git and Github sessions to give the freshers a kickstart towards their open source contributions.</div>
                         </div>
                         <div>
-                            <img src={ML} className='cardImage' />
+                            <img src={HKB} className='cardImage' />
                         </div>
                     </span>
                 </SwiperSlide>
@@ -46,7 +48,7 @@ function Carousel() {
                             <div className='card-content'>The Imagine Cup is full of opportunities to gain new skills, access exclusive training, unlock mentorship opportunities, and have a chance to win great prizes and make a difference in the world</div>
                         </div>
                         <div>
-                            <img src={ML} className='cardImage' />
+                            <img src={IC} className='cardImage' />
                         </div>
                     </span>
                 </SwiperSlide>
@@ -58,7 +60,7 @@ function Carousel() {
                             <div className='card-content'>A blockchain is a distributed ledger with growing lists of records (blocks) that are securely linked together via cryptographic hashes. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data (generally represented as a Merkle tree, where data nodes are represented by leaves).</div>
                         </div>
                         <div>
-                            <img src={ML} className='cardImage' />
+                            <img src={BK} className='cardImage' />
                         </div>
                     </span>
                 </SwiperSlide>
