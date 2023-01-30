@@ -57,8 +57,10 @@
 .cross{
     width: 200px;
     height: 90px;
-    padding-top: 80px;
-    padding-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding-left: 16px;
 }
 
 .contentContainer {
@@ -69,25 +71,24 @@
 }
 
 .communityImage {
-    width: 670px;
+    width: 100%;
     margin-bottom: 40px;
 }
 
-.joinButton {
-    width: 300px;
+.joinDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
     height: 50px;
-    background: #000000;
-    border: 2px solid #F0F0F0;
-    border-radius: 43px;
     color: #F0F0F0;
     font-size: 24px;
     margin: 10px 0px 10px 0px;
 }
 
-.joinButton2 {
+.joinButton{
     width: 80px;
     height: 50px;
-
     background: #000000;
     border: 2px solid #F0F0F0;
     border-radius: 43px;
@@ -112,12 +113,7 @@
     gap: 10px;
 }
 
-.linkedin{
-    width: 30px;
-    height: 30px;
-}
-
-.twitter{
+.discord, .linkedin, .twitter, .instagram{
     width: 30px;
     height: 30px;
 }
@@ -150,14 +146,34 @@ a{
 }
 
 .workshopHead{
-    padding-left: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
 }
 
 .carousel{
     margin-top: -300px;
 }
 
-@media screen and (min-width: 1561px){
+@media screen and (min-width: 2048px) {
+    .right{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .left{
+        min-width: 30%;
+        margin-right: 32px;
+    }
+    .right{
+        letter-spacing: 2px;
+        line-height: 1.5;
+        word-spacing: 2px;
+    }
+}
+
+@media screen and (max-width: 1565px){
     .triangles{
         display: none;
         visibility: hidden;
@@ -165,27 +181,37 @@ a{
     .superDiv{
         margin-top: 0;
     }
+    .heading{
+        font-size: 75px;
+    }
+    .cross{
+        width: 150px;
+        height: 70px;
+    }
     .right{
-        font-size: 28px;
+        font-size: 24px;
     }
 }
 
-@media screen and (max-width: 1485px){
-    .contentContainer{
-        flex-direction: row;
-    }
-}
 
 @media screen and (max-width: 1024px){
-    .cross{
+    .contentContainer{
+        flex-direction: column;
+    }
+    .triangles{
         display: none;
         visibility: hidden;
+    }
+    .cross{
+        width: 100px;
+        height: 50px;
     }
     .subHeading{
         display: none;
         visibility: hidden;
     }
     .workshopHead{
+        margin-bottom: 0;
         padding: 0;
     }
     .headingItems{
@@ -198,74 +224,103 @@ a{
         font-size: 60px;
     }
     .left{
-
+        max-width: 50%;
+        align-self: center;
+        margin-top: 24px;
     }
     .right{
         font-size: 18px;
     }
+    .joinButton{
+        width: 60px;
+        height: 40px;
+    }
+    .discord, .linkedin, .twitter, .instagram{
+        width: 25px;
+        height: 25px;
+    }
+    .joinDiv{
+        font-size: 18px;
+    }
 }
 
-@media screen and (max-width: 592px){
-    .communityImage{
-        width: 600px;
-    }
-    .heading{
-        font-size: 80px;
-    }
-
-}
-@media screen and (max-width: 496px){
-    .communityImage{
-        width: 420px;
-    }
-    .heading{
-        font-size: 80px;
-    }
+@media screen and (max-width: 768px) {
     .headingContainer{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-@media screen and (max-width: 440px){
-    .communityImage{
-        width: 360px;
-    }
-    .headingContainer{
-        margin: 0;
-        margin-top: 100px;
+        margin: 20px 36px;
     }
     .heading{
-        font-size: 43px;
+        font-size: 50px;
     }
-    .headingItems > h1{
-        font-size: 60px;
+    .left{
+        max-width: 40%;
+    }
+    .right{
+        font-size: 14px;
     }
     .joinButton{
-        width: 19rem;
-        height: 3.5rem;
+        width: 3rem;
+        height: 2rem;
     }
-    .joinButtonCss{
-        gap: 1px;
+    .discord, .linkedin, .twitter, .instagram{
+        width: 40%;
+        height: 40%;
     }
-}
-@media screen and (max-width: 320px){
-    .communityImage{
-        width: 280px;
+    .joinDiv{
+        height: 80%;
+        align-self: center;
+        font-size: 14px;
+        width: 20%;
     }
 }
 
-@media screen and (max-width: 592px){
-    .workshopHead{
-        font-size: 50px;
+@media screen and (max-width: 630px) {
+    .joinDiv{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .heading{
+        font-size: 2rem;
+    }
+    .left{
+        max-width: 50%;
+        margin: 1rem auto;
+    }
+    .communityImage{
+        margin-bottom: 5px;
+    }
+    .joinDiv{
+        width: 30%;
+    }  
+}
+@media screen and (max-width: 440px){
+    .headingContainer{
+        margin:10px 12px;
+    }
+    .cross{
+        width: 4rem;
+        height: 2rem;
+    }
+    .left{
+        max-width: 50%;
+        margin: 1rem auto;
+    }
+    .communityImage{
+        margin-bottom: 0;
+    }
+    .right{
+        letter-spacing: 0.5px;
+        line-height: 1.25;
+        word-spacing: 1px;
+    }
+    .joinDiv{
+        width: 35%;
     }
 }
 
 /* carousel media queries */
 @media screen and (max-width: 1565px){
-    .triangles{
-        display: none;
-        visibility: hidden;
-    }
     .carousel{
         margin-top: 0;
     }

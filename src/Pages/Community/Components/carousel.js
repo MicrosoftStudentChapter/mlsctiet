@@ -36,7 +36,7 @@ function Carousel() {
             MLSC conducted various Git and Github sessions to give the freshers a kickstart towards their open source contributions.</div>
                         </div>
                         <div>
-                            <img src={HKB} className='cardImage' />
+                            <img id="hkb-img" src={HKB} className='cardImage' />
                         </div>
                     </span>
                 </SwiperSlide>
