@@ -23,13 +23,16 @@
 }
 .heading{
     padding-top: 5rem;
+    padding-bottom: 2rem  ;
     color: white;
     font-size: 6rem;
+    
 }
 
 .sponsorUsHead{
   color: white;
   font-size: 400%;
+  margin-bottom: 2rem;
 }
 
 .carousel1{
@@ -84,6 +87,7 @@
 .subheading{
     font-size: 400%;
     color:white;
+    margin: 2rem;
 }
 
 
@@ -106,7 +110,7 @@ p{
     color: white;
     display:inline-block;
     font-size: 130%;
-    padding: 1rem;
+    padding: 1.3rem;
 }
 
 .carousel2{
@@ -150,6 +154,7 @@ p{
   backdrop-filter: blur(5px);
   width: 83.5vw;
   height: fit-content;
+  box-shadow: 0px 0px 7px -1px dodgerblue;
 }
 
 .sheild{
@@ -164,10 +169,16 @@ p{
   background-color: #1f90e6;
   font-size: 1.3rem;
   padding: 0.8rem;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
+  margin: 1rem 2rem;
   border-radius: 10px;
   color: white;
   border: none;
+}
+
+.submitButton:hover {
+  background-color: #0a74c6;
+  transition: 0.4s;
 }
 
 .spnsorformsubmit{
@@ -185,31 +196,48 @@ p{
 
 .contactField{
   color: white;
-  background-color: rgb(25, 24, 24, 0.5);
+  background-color: #0a0e0f;
   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   font-size: 1.5rem;
-  margin: 1rem;
+  margin: 2rem;
   padding: 1rem;
-  border-radius: 10px;
+  /* border-radius: 20px; */
   outline-color: rgb(154, 238, 255);
   display: flex;
-  border-color: white;
-  border-width: 0.7px;
+  border-bottom: 1px solid#fff;
+  border-top: #0a0e0f;
+  border-right: #0a0e0f;
+  border-left:#0D1213 ;
+  font-family: 'Courier New', Courier, monospace;
+  /* border-color: white;
+  border-width: 0.7px; */
+}
+
+.contactField:focus,.contactText:focus {
+  border-bottom: 1px solid dodgerblue;
+  outline: none;
+  transition: 0.5s;
+  background-color: #0D1213;
 }
 
 .contactText{
   color: white;
-  background-color: rgb(25, 24, 24, 0.5);
+  background-color: #0a0e0f;
   backdrop-filter: blur(5px);
-  margin: 1rem;
+  margin: 2rem;
   padding: 1rem;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   outline-color: rgb(154, 238, 255);
   display: flex;
-  border-color: white;
-  border-width: 1px;
+  border-bottom: 1px solid #fff;
+  /* border-color: white;
+  border-width: 1px; */
   font-size: 1.5rem;
   width: 150%;
+  border-top: #0a0e0f;
+  border-right: #0a0e0f;
+  border-left:#0D1213 ;
 }
 
 
@@ -267,9 +295,10 @@ input[type="submit"]{
   display: flex;
   flex-direction: row;
   background-color: #0000007a;
-  padding: 1rem;
+  padding: 3rem;
   border-radius: 36px;
   margin-bottom: 6rem;
+  box-shadow: 0px 0px 7px -1px #cc3f5f;
 }
 
 .ctContainer2{
@@ -301,19 +330,25 @@ input[type="submit"]{
   .carousel2 img{
     height: 13vh;
   }
+  .mySwiper {
+    margin: 1rem -2rem;
+  }
   .whysponsorus{
     flex-direction: column;
-    width: 105%;
+    width: 95%;
     justify-content: center;
     align-items: center;
+    margin: 2rem -2rem;
   }
-  .listStyle{
-    margin-left: -10%;
-  }
+  /* .listStyle{
+    margin-left: 10%;
+  } */
   .sponsorForm{
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    width: 85%;
+    margin: 1rem 0.6rem
   }
   .ctContainer2{
     margin-top: 1rem;
@@ -331,13 +366,17 @@ input[type="submit"]{
     margin-left: 4rem;
     margin-bottom: 2rem;
     font-size: 1rem;
+    display: flex;
+    position:relative;
+    left: 4rem;
   }
   .contactField{
-    font-size: 0.7rem;
+    font-size: 1.2rem;
+    padding: 20px;
   }
   .contactText{
-    font-size: 0.7rem;
-    width: 90%;
+    font-size: 1.2rem;
+    width: 80%;
   }
   .sheild{
     width: 50%;
@@ -380,9 +419,13 @@ input[type="submit"]{
   }
   .sponsorForm{
     padding: 0.1px;
+    margin: 1rem 1.8rem;
+  }
+  .whysponsorus {
+    margin: 1rem -2rem;
   }
   .mySwiper{
-    margin: 0 auto;
+    margin: 2rem -2.5rem;
   }
   
   /* input[type="submit"]{
@@ -407,11 +450,23 @@ input[type="submit"]{
   }
   .sponsorUsHead{
     font-size: 200%;
+    position: relative;
+    left: 1.5rem;
+    margin: auto 1.5rem;
   }
   .sponsorPara{
     /* padding-left: 0.3rem; */
     justify-self: flex-end;
     font-size: 110%;
+  }
+  .mySwiper {
+    margin: 2rem -0.3rem;
+  }
+  .whysponsorus{
+    margin: 1rem -1rem;
+  }
+  .sponsorForm {
+    margin: 1rem 3.5rem;
   }
 }
 
@@ -460,9 +515,21 @@ input[type="submit"]{
   .mySwiper{
     height: 80vh;
   }
+  .sponsorForm {
+    width: 105%;
+    margin: 1rem 1rem;
+  }
   .carousel2 img{
     /* margin-top: -90%; */
     height: fit-content;
+  }
+  .contactText,.contactField{
+    width: 60%;
+    margin: 2rem 2.1rem;
+  }
+  .submitButton{
+    position: relative;
+    left: 1.9rem;
   }
 }
 
@@ -479,7 +546,10 @@ input[type="submit"]{
   .carousel1{
     flex-direction: column;
   }
-
+  .sponsorForm{
+    width: 120%;
+    margin: 1rem 0;
+  }
   .carousel2 img{
     height: 8vh;
   }
