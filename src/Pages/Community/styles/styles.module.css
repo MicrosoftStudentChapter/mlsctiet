@@ -5,8 +5,7 @@
 
 .container {
     width: 100vw;
-    height: 100vh;
-    overflow-x: hidden;
+    min-height: 100vh;
     background-color: rgb(19, 19, 19);
     color: white;
     animation: fadeIn 1s;
