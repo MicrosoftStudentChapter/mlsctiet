@@ -297,6 +297,12 @@ a{
     .headingContainer{
         margin:10px 12px;
     }
+    .headingItems{
+        margin: 1rem;
+    }
+    .contentContainer{
+        margin: 1rem;
+    }
     .cross{
         width: 4rem;
         height: 2rem;
@@ -304,6 +310,7 @@ a{
     .left{
         max-width: 50%;
         margin: 1rem auto;
+        margin-top: 0;
     }
     .communityImage{
         margin-bottom: 0;
@@ -315,6 +322,36 @@ a{
     }
     .joinDiv{
         width: 35%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .left{
+        margin-top: -20px;
+    }
+    .joinDiv{
+        width: 25%;
+        font-size: 10px;
+    }
+    .joinButton{
+        width: 2.25rem;
+        height: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .heading{
+        font-size: 1.25rem;
+    }
+    .cross{
+        width: 3rem;
+        height: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .right{
+        font-size: 12px;
     }
 }
 

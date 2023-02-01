@@ -198,7 +198,7 @@
 
 @media screen and (max-width: 440px){
   .communitySwiper .swiper {
-    width: 24rem;
+    width: 90%;
     height: 18rem;
   }
   .communitySwiper .card-div{
@@ -221,3 +221,8 @@
   }
 }
 
+@media screen and (max-width: 400px) {
+  .card-div > div{
+    font-size: 10px;
+  }
+}
