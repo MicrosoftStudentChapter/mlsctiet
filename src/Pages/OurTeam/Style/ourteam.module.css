@@ -134,6 +134,7 @@
   margin-left: 27%;
   display: grid;
   width: 50%;
+  margin-top: 5%;
   /* -----------------FIXED HOVER ISSUE------------------------ */
   /* grid-template-columns: repeat(auto-fit, minmax(10rem, 12rem)); */
   grid-template-columns: 180px 180px 180px 180px;
@@ -177,6 +178,7 @@
   z-index: 2;
   /* object-fit:cover; */
   /* background-color: #26282A; */
+  object-fit: contain;
 
   filter: saturate(0%);
 }
@@ -199,7 +201,7 @@
   font-weight: bold;
   font-size: 1rem;
   /* margin: 1rem; */
-  margin-top: -8px;
+  margin-top: 4px;
   border: none;
   background: transparent;
   transition: background 200ms ease-in, color 1s ease-in;
@@ -208,7 +210,7 @@
 .card:hover .card__image {
   transform-origin: bottom;
   /* transform: translate(0px,-20px); */
-  transform: scale(1.3);
+  transform: scale(1.2);
   overflow: visible;
   transition: 0.55s;
 }

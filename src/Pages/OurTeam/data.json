@@ -81,49 +81,60 @@
   "secretaries":[
     {
       "title":"Adamay Mann",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673034401/MLSC%20website/Members/IMG_5268-removebg-preview_podnp1.png"
+      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673034401/MLSC%20website/Members/IMG_5268-removebg-preview_podnp1.png",
+      "position": "General Secretary"
     },
     {
       "title":"Shivansh Kapoor",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673034494/MLSC%20website/Members/IMG_5313-removebg-preview_jo7wjs.png"
+      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673034494/MLSC%20website/Members/IMG_5313-removebg-preview_jo7wjs.png",
+      "position": "Financial Secretary"
     },
     {
       "title":"Anannya Singh",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673034664/MLSC%20website/Members/IMG_5304-removebg-preview_yy6vxo.png"
+      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673034664/MLSC%20website/Members/IMG_5304-removebg-preview_yy6vxo.png",
+      "position": "Joint Secretary"
     },
     {
       "title":"Meharamt Singh",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035822/MLSC%20website/Members/IMG_5367-removebg-preview_r8b2ff.png"
+      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035822/MLSC%20website/Members/IMG_5367-removebg-preview_r8b2ff.png",
+      "position": "Joint Secretary"
     },
     {
       "title":"Rudransh Arora",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673034984/MLSC%20website/Members/IMG_5279-removebg-preview_zcqqj5.png"
+      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673034984/MLSC%20website/Members/IMG_5279-removebg-preview_zcqqj5.png",
+      "position": "Joint Secretary"
     }
   ],
   "heads":[
     {
       "title":"Anamika Srivastava",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035022/MLSC%20website/Members/IMG_5325-removebg-preview_hwv5hi.png"
+      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035022/MLSC%20website/Members/IMG_5325-removebg-preview_hwv5hi.png",
+      "position": "Content Head"
     },
     {
       "title":"Neha Agarwal",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035859/MLSC%20website/Members/IMG_5376-removebg-preview_rgbqbs.png"
+      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035859/MLSC%20website/Members/IMG_5376-removebg-preview_rgbqbs.png",
+      "position": "Publicity Head"
     },
     {
       "title":"Yamini Bansal",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035451/MLSC%20website/Members/IMG_5330-removebg-preview_ptlquz.png"
+      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035451/MLSC%20website/Members/IMG_5330-removebg-preview_ptlquz.png",
+      "position": "Creativity Head"
     },
     {
       "title":"Kunal Demla",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035492/MLSC%20website/Members/IMG_5284-removebg-preview_eddfbd.png"
+      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035492/MLSC%20website/Members/IMG_5284-removebg-preview_eddfbd.png",
+      "position": "Designing Head"
     },
     {
       "title":"Mitesh Jindal",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035558/MLSC%20website/Members/IMG_5275-removebg-preview_d116k0.png"
+      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035558/MLSC%20website/Members/IMG_5275-removebg-preview_d116k0.png",
+      "position": "Technical Head"
     },
     {
       "title":"Khushi Prasad",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035605/MLSC%20website/Members/IMG_5307-removebg-preview_bdlwsu.png"
+      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035605/MLSC%20website/Members/IMG_5307-removebg-preview_bdlwsu.png",
+      "position": "Event Management Head"
     }
   ],
   "executives":[

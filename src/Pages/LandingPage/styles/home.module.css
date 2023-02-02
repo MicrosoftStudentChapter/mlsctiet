@@ -69,6 +69,7 @@
 }
 
 .sheild{
+    object-fit: contain;
     transform: skew(25deg);
     width: 50%;
     height: 50%;
