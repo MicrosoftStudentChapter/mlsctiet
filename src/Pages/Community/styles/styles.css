@@ -96,7 +96,7 @@
 }
 
 @media screen and (max-width:1565px) {
-  communitySwiper .swiper {
+  .communitySwiper .swiper {
     width: 95%;
   }
 }
