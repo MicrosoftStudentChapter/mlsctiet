@@ -2,6 +2,14 @@
     display: none;  
 }
 
+.listItem{
+    background-color: #6868689f !important;
+    border-radius: 25px !important;
+    margin-right: 0px !important;
+    padding: 12px 12px 12px 12px !important;
+    margin-bottom: 1rem;
+    list-style-type: "\1F3B2";
+}
 
 .container {
     width: 100vw;
@@ -29,6 +37,9 @@
     font-size: 24px;
 }
 
+.right > p{
+    margin-bottom:1rem;
+}
 
 .headingContainer {
     margin: 90px 60px 40px 60px;
@@ -132,7 +143,7 @@ a{
 }
 
 .triangles{
-    align-self: baseline;
+    align-self: end;
 }
 
 .subHeading{
