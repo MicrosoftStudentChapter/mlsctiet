@@ -327,11 +327,21 @@ input[type="submit"]{
   .sponsorUsHead{
     text-align: center;
   }
-  .carousel2 img{
-    height: 13vh;
+  .carousel1{
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 50% 50%;
+    padding-top: 2rem;
+  }
+  .container2 p{
+    margin-right: 2rem;
+  }
+  .spnsrlogo1{
+    width: 30%;
+    height: 30%;
   }
   .mySwiper {
-    margin: 1rem -2rem;
+    margin: 1rem -1rem;
   }
   .whysponsorus{
     flex-direction: column;
@@ -397,6 +407,12 @@ input[type="submit"]{
   }
 } */
 
+@media screen and (max-width: 800px) {
+  #title_4{
+    width: 25%;
+  }
+}
+
 @media screen and (max-width: 676px) {
   .heading{
     font-size: 320%;
@@ -408,11 +424,19 @@ input[type="submit"]{
     font-size: 280%;
     text-align: center;
   }
+  .carousel1{
+    padding-top: 1rem;
+  }
   .container1{
+    margin-bottom: 1rem;
     margin-right: 7vw;
   }
-  .spnsrlogo1{
-    height:8rem;
+  .container2 p{
+    font-size: 0.75rem;
+  }
+  .container2 h2{
+    
+    font-size: 1rem;
   }
   .spnsorformsubmit{
     padding-left: 0vw;
@@ -425,6 +449,7 @@ input[type="submit"]{
     margin: 1rem -2rem;
   }
   .mySwiper{
+    height: 70%;
     margin: 2rem -2.5rem;
   }
   
@@ -447,6 +472,9 @@ input[type="submit"]{
   }
   .subheading{
     font-size: 240%;
+  }
+  .carousel1{
+    padding-top: 0.5rem;
   }
   .sponsorUsHead{
     font-size: 200%;
@@ -484,13 +512,16 @@ input[type="submit"]{
     font-size: 200%;
   }
   .spnsrlogo1{
-    height:5rem;
+    width: 40%;
+    margin: 0 30%;
+    height: 40%;
   }
   .container1{
-    height: 10rem;
+    margin-right: 0;
+    margin-bottom: 0;
   }
   .container2{
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 1rem;
     justify-content: center;
     text-align: center;
@@ -519,10 +550,6 @@ input[type="submit"]{
     width: 105%;
     margin: 1rem 1rem;
   }
-  .carousel2 img{
-    /* margin-top: -90%; */
-    height: fit-content;
-  }
   .contactText,.contactField{
     width: 60%;
     margin: 2rem 2.1rem;
@@ -543,15 +570,9 @@ input[type="submit"]{
   .sponsorUsHead{
     font-size: 160%;
   }
-  .carousel1{
-    flex-direction: column;
-  }
   .sponsorForm{
     width: 120%;
     margin: 1rem 0;
-  }
-  .carousel2 img{
-    height: 8vh;
   }
   .sponsorPara{
     font-size: 95%;
@@ -577,11 +598,6 @@ input[type="submit"]{
   .sponsorPara{
     font-size: 60%;
   }
-  .spnsrlogo1{
-    top:6vh;
-    left:16vw;
-    height:18vw;
-  }
   .container1{
     margin-right: 0px;
     padding: 0 0 0 0;
@@ -600,9 +616,6 @@ input[type="submit"]{
     margin-left: 3vw;
     padding-left: 0px;
   }
-  .carousel2 img{
-    height: 6vh;
-  }
 }
 
 @media screen and (max-width: 322px) {
@@ -610,8 +623,5 @@ input[type="submit"]{
     width: 65vw;
     padding-left: 0vw;
     margin-left: 0px;
-  }
-  .carousel2 img{
-    height: 5vh;
   }
 }
