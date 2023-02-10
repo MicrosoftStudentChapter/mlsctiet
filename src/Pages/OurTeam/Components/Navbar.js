@@ -10,7 +10,6 @@ const Navbar = () => {
   function displayMembers(e) {
     setMembers(data[e.target.dataset.target]);
     setFade(true);
-    // console.log(e.target.dataset.target);
   }
 
   return (
@@ -44,7 +43,7 @@ const Navbar = () => {
           {members.map((el) => {
             // console.log(el.title);
             // console.log(el.img);
-            return <Card img={el.img} title={el.title} />
+            return <Card img={el.img} title={el.title} position={el.position} />
           })}
         </div>
       </div>
