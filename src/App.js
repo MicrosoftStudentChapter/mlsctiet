@@ -32,11 +32,12 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import Explode_img3 from "./Pages/Gallery/components/explode_img3/explode_img3";
 // import Explode_img4 from "./Pages/Gallery/components/explode_img4/explode_img4";
 import Error from "./Pages/Errorpage/Errorpage";
+import NavbarI from "./Components/NavbarI/NavbarI";
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      <NavbarI />
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
         <Route path="/about" element={<AboutUs />} />
