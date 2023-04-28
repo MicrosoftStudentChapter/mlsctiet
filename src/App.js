@@ -12,7 +12,7 @@
 // import Navbar from "./Components/Navbar/Navbar";
 // import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AboutUs from "./Pages/AboutUs";
-import Alumni from "./Pages/Alumni";
+import About2 from "./Pages/AboutUs2/About2";
 import Community from "./Pages/Community";
 import Events from "./Pages/Events";
 // import Gallery from "./Pages/Gallery";
@@ -45,7 +45,7 @@ function App() {
 				{/* <Route path="/gallery" element={<Gallery />} /> */}
         <Route path="/team" element={<OurTeam />} />
         <Route path="/sponsors" element={<Sponsors />} />
-        {/* <Route path="/alumni" element={<Alumni />} /> */}
+        <Route path="/about2" element={<About2 />} />
         <Route path="*" element={<Error />} />
         <Route path="/projects" element={<Projects />}/>
       </Routes>

@@ -1,0 +1,67 @@
+.heading{
+    color:beige;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 6%;
+    font-size: 230%;
+    /* give border bottom with color red*/
+    border-bottom: 4px solid rgba(250, 57, 102, 0.73);; 
+    width: fit-content;
+    flex:1;
+}
+.parent{
+    display: flex;
+    height: 70vh;
+}
+.mainimage{
+    /* width: 40%; */
+    margin: 4% 0 0 4%;
+    flex:1.5;
+}
+.container{
+    display: flex;
+    flex:1;
+    background: url('../Assets/main.png');
+    border-radius: 12px;
+    margin: 7% 3% 7% 0;
+    
+}
+.insideimage{
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(0, 118, 209, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-blend-mode: overlay, normal;
+    backdrop-filter: blur(40px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 12px;
+    padding:6%; 
+}
+.text{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 110%;
+line-height: 150%;
+
+color: rgba(223, 223, 223, 0.72);
+}
+.elements{
+    margin-bottom: 5%;
+
+}
+.block{
+    margin-left:4%;
+}
+.plus{
+    margin-left:4%;
+    width: 55px;
+    padding-top:2%;
+}
+.rectangle{
+    margin-left: 4%;
+    margin-bottom: 1%;
+
+}
+.arrow{
+    margin-top:18%;
+}
