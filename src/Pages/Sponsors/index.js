@@ -173,7 +173,7 @@ const Sponsors = () => {
             <div className={styles.sponsorForm}>
               <div className={styles.ctContainer1}>
                 <form action="https://api.web3forms.com/submit" method="POST">
-                  <input type="hidden" name="access_key" value={process.env.API_KEY} />
+                  <input type="hidden" name="access_key" value={process.env.REACT_APP_API_KEY} />
                   <input type="text" placeholder="Name....." name="name" required className={styles.contactField} />
                   <input type="email" placeholder="email69@abc.com" name="email" required className={styles.contactField} />
                   <textarea name="message" placeholder="Wanna leave a message for us? ;)" required className={styles.contactText} ></textarea>
