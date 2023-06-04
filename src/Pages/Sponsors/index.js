@@ -24,12 +24,11 @@ import { companyData } from "./Data.js";
 
 const Sponsors = () => {
     const initialValues = {
-        fullName: "",
-        companyName: "",
+        name: "",
         email: "",
-        desciption: "",
+        message: "",
     };
-    console.log(process.env.API_KEY)
+    //console.log(process.env.API_KEY)
     const [formValues, setFormValues] = useState(initialValues);
     const [formErrors, setFormErrors] = useState({});
     const [isSubmit, setIsSubmit] = useState(false);
@@ -38,17 +37,36 @@ const Sponsors = () => {
         // console.log(e.target);
         const { name, value } = e.target;
         setFormValues({ ...formValues, [name]: value });
-        console.log(formValues);
+        //console.log(formValues);
     };
-
-    const handleSubmit = (e) => {
+    const [result, setResult] = React.useState("");
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        setFormErrors(validate(formValues));
-        setIsSubmit(true);
+
+        const formData = new FormData(e.target);
+        formData.append("access_key",process.env.REACT_APP_API_KEY);
+
+        if (formValues.name && formValues.email && formValues.message) {
+            setResult('Success');
+          } else {
+            setResult('Error');
+          }
+
+        setFormValues({
+            name: '',
+            email: '',
+            message: ''
+          });
+
+        const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+        }).then((res) => res.json());
+        console.log("Yo");
     };
 
     useEffect(() => {
-        console.log(formErrors);
+        //console.log(formErrors);
         if (Object.keys(formErrors).length === 0 && isSubmit) {
             console.log(formValues);
         }
@@ -172,13 +190,13 @@ const Sponsors = () => {
             </h1>
             <div className={styles.sponsorForm}>
               <div className={styles.ctContainer1}>
-                <form action="https://api.web3forms.com/submit" method="POST">
-                  <input type="hidden" name="access_key" value={process.env.REACT_APP_API_KEY} />
-                  <input type="text" placeholder="Name....." name="name" required className={styles.contactField} />
-                  <input type="email" placeholder="email69@abc.com" name="email" required className={styles.contactField} />
-                  <textarea name="message" placeholder="Wanna leave a message for us? ;)" required className={styles.contactText} ></textarea>
-                  <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+                <form onSubmit={handleSubmit}>
+                  <input type="text" placeholder="Name....." name="name" required className={styles.contactField} value={formValues.name} onChange={handleChange} />
+                  <input type="email" placeholder="email69@abc.com" name="email" required className={styles.contactField} value={formValues.email} onChange={handleChange} />
+                  <textarea name="message" placeholder="Wanna leave a message for us? ;)" required className={styles.contactText} value={formValues.message} onChange={handleChange} ></textarea>
+                  <input type="hidden" name="redirect" value="localhost:3000/sponsors" />
                   <button type="submit" className={styles.submitButton}>Submit!</button>
+                  {result && <p className={styles.submissionStatus} style={{color: result === 'Success' ? 'green' : 'red'}}>{result === 'Success' ? 'Form submitted successfully!' : 'Form submission failed.'}</p>}
                 </form>
               </div> 
               <div className={styles.ctContainer2}>
