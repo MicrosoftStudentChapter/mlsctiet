@@ -8,19 +8,22 @@ import Footer from "../../Components/Footer/Footer";
 
 //Ikshan's code for swiper JS
 
+//importing swiper.js
+
+import  Swiper from "./Swiper.js";
+import SwiperSlide from "./Swiper.js";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+//import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+
 import ImageHolder from "./Components/ImageHolder.js";
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
 
-import { companyData } from "./Data.js";
+
+// import { companyData } from "./Data.js";
 // const title = data.pop();
+
 
 const Sponsors = () => {
     const initialValues = {
@@ -94,8 +97,9 @@ const Sponsors = () => {
     return (
         <div className={styles.main}>
             <h1 className={styles.heading}>Our Sponsors</h1>
+            <SwiperSlide/>
             {/* First carousel */}
-            <Swiper
+            {/* <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
                 // loop={true}
@@ -131,7 +135,7 @@ const Sponsors = () => {
                             </SwiperSlide>
                         );
                 })}
-            </Swiper>
+            </Swiper> */}
             <div className={styles.whysponsorus}>
                 <h2 className={styles.subheading}> Why Sponsor Us? </h2>
                     {/* First Para */}

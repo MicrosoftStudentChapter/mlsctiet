@@ -9,10 +9,10 @@
 }
 
 .mySwiper{
-  width: 88vw;
+  width: 100vw;
   height: 30rem;
-  background: linear-gradient(180deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);
-  border-radius: 30px;
+  /* background: linear-gradient(180deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);
+  border-radius: 30px; */
   /* following are the properties for flex box */
   display: flex;
   flex-direction: row;
@@ -21,6 +21,10 @@
   align-items: center;
   margin-bottom: 3rem;
 }
+/* .centre{
+  width: 40vw;
+  height: 40rem;
+} */
 .heading{
     padding-top: 5rem;
     color: white;
@@ -34,8 +38,10 @@
 
 .carousel1{
     margin-top: 2rem;
-    background: linear-gradient(180deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);
-    width: 87vw;
+    background:#FFF6EB;
+    /*background: linear-gradient(180deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);*/
+    /* width: 87vw; */
+    width:50wh;
     height: 30wh;
     position: relative;
     border-radius: 30px;
@@ -49,20 +55,23 @@
 }
 
 .spnsrlogo1{
-    height: 12rem;
+    height: 100px;
     z-index: 4;
     margin-left: 3rem;
     width: max-content;
+    align-items:centre;
+    vertical-align: centre;
+ 
 }
 
-.container1{
+/* .container1{
     order:1;
     position:relative;
     flex-basis: 30%;
     max-width: fit-content;
     justify-content: flex-start;
     align-items: center;
-}
+} */
 
 
 .container2{
@@ -74,7 +83,7 @@
 }
 
 .container2 h2{
-    color: #ffffff;
+    color: #FFF6EB;
     font-size: 2.5vw;
     max-height: fit-content;
     padding-right: 1vw;
@@ -500,6 +509,9 @@ input[type="submit"]{
   }
 } */
 
+
+
+
 @media screen and (max-width: 372px) {
   .heading{
     font-size: 160%;
@@ -551,3 +563,5 @@ input[type="submit"]{
     height: 5vh;
   }
 }
+
+
