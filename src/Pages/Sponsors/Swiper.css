@@ -1,6 +1,9 @@
-// Cards Carousel
-// ----------------------------------------------
+.Carousel{
+    background-color: aliceblue;
+    color : white;
+}
 
+/*
 .icon-cards {
   position: relative;
 	width: 60vw;
@@ -165,4 +168,4 @@ body {
   65% { transform: scale(0.95, 1.05); }
   75% { transform: scale(1.05, 0.95); }
   to { transform: scale(1, 1); }
-}
+} */

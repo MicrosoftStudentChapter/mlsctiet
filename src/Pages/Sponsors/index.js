@@ -97,8 +97,8 @@ const Sponsors = () => {
     };
     return (
         <div className={styles.main}>
-            <Carousel />
             <h1 className={styles.heading}>Our Sponsors</h1>
+            <Carousel />
             {/* First carousel */}
             {/* <Swiper
                 slidesPerView={1}
