@@ -1,11 +1,12 @@
 .main{
     padding-left: 5rem;
-    background-color: #0D1213;
+    background-color: black;
     /* width: fit-content; */
-    padding-right: 5rem;
+    padding-right: 5rem;  
     max-width: 100%;
     overflow-x: hidden;
     animation: fadeIn 1s;
+    border-color:blue;
 }
 
 .mySwiper{
@@ -64,14 +65,14 @@
  
 }
 
-/* .container1{
+.container1{
     order:1;
     position:relative;
     flex-basis: 30%;
     max-width: fit-content;
     justify-content: flex-start;
     align-items: center;
-} */
+}
 
 
 .container2{
@@ -80,6 +81,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 4rem;
+    
 }
 
 .container2 h2{
@@ -102,7 +104,7 @@
 
 
 .sponsorText{
-    color:white;
+    color:#FA3966;
     display:inline-block;
     font-weight: bold;
 }
@@ -291,7 +293,8 @@ input[type="submit"]{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-basis: 40%;
+  flex-basis: 100%;
+ 
 }
 .ctContainer1{
   display: flex;
@@ -317,10 +320,14 @@ input[type="submit"]{
     height: 13vh;
   }
   .whysponsorus{
+    /* background-color: #FA3966; */
     flex-direction: column;
     width: 105%;
     justify-content: center;
     align-items: center;
+    background-image:"/mlsctiet/src/Pages/Sponsors/assets/img/Artboard1.png" ;
+    height: 1603px;
+    width: 1440px;
   }
   .listStyle{
     margin-left: -10%;
@@ -329,6 +336,8 @@ input[type="submit"]{
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    border-color: blue;
+    border-radius:10px;
   }
   .ctContainer2{
     margin-top: 1rem;
@@ -341,6 +350,7 @@ input[type="submit"]{
     flex-basis: 100%;
     justify-content: center;
     align-items: center;
+ 
   }
   .submitButton{
     margin-left: 4rem;
@@ -349,6 +359,7 @@ input[type="submit"]{
   }
   .contactField{
     font-size: 0.7rem;
+    
   }
   .contactText{
     font-size: 0.7rem;

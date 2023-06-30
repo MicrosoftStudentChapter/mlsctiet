@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./styles/home.module.css";
 import { useState, useEffect } from "react";
+import Carousel from "./Swiper2.js";
 import shield from '../LandingPage/mlsc-logo.png';
 // Title Sponsors
 import Footer from "../../Components/Footer/Footer";
@@ -10,7 +11,7 @@ import Footer from "../../Components/Footer/Footer";
 
 //importing swiper.js
 
-import  Swiper from "./Swiper.js";
+// import  Swiper from "./Swiper.js";
 import SwiperSlide from "./Swiper.js";
 // Import Swiper React components
 //import { Swiper, SwiperSlide } from "swiper/react";
@@ -96,8 +97,8 @@ const Sponsors = () => {
     };
     return (
         <div className={styles.main}>
+            <Carousel />
             <h1 className={styles.heading}>Our Sponsors</h1>
-            <SwiperSlide/>
             {/* First carousel */}
             {/* <Swiper
                 slidesPerView={1}
@@ -204,7 +205,7 @@ const Sponsors = () => {
                 </form>
               </div> 
               <div className={styles.ctContainer2}>
-                <img src={shield} className={styles.sheild} />
+                {/* <img src={shield} className={styles.sheild} /> */}
               </div>
             </div>
         </div>
