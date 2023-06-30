@@ -1,5 +1,5 @@
 
-.container{
+/* .container{
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -11,9 +11,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     animation: fadeIn 1s;
-    /* background-position: center; */
+    /* background-position: center; }*/
 
-}
+
 
 .left{
     min-width: 50%;
@@ -56,9 +56,9 @@
     margin-left: -60%;
     margin-top: 10%;
 
-    background: rgba(255, 246, 235, 0.32);
+    /* background: rgba(255, 246, 235, 0.32);
     border-radius: 107px;
-    transform: skew(-25deg);
+    transform: skew(-25deg); */
     width: 70%;
     height: 70%;
     left: 10px;
@@ -69,11 +69,20 @@
 }
 
 .sheild{
-    transform: skew(25deg);
+    /* transform: skew(25deg);
     width: 50%;
-    height: 50%;
+    height: 50%; */
+    position: relative;
+    left: 450px;
+    width: 30%;
+    height: 60%;
 }
 
+.bottom{
+    position: relative;
+    left: 450px;
+    width: 110vw;
+}
 
 .mobileTitle{
     display: none;
@@ -138,7 +147,17 @@
     }
     .sheild{
         transform: skew(0);
+        width: 50%;
+        position: relative;
+        left: 1px;
     }
+
+    .bottom{
+        position: relative;
+        left: 1px;
+        width: 180vw;
+    }
+
     .mobileTitle{
         display: inline;
         color: white;
@@ -155,8 +174,11 @@
     .sheild{
         width: 70%;
     }
-    .polygon{
+    .bottom{
+        width: 30%;
+    }
+    /* .polygon{
         height: 40%;
         width: 70%;
-    }
+    } */
 }
