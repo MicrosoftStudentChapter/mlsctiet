@@ -1,22 +1,8 @@
 import React from "react";
 import styles from "./styles/home.module.css";
 import { useState, useEffect } from "react";
-import Carousel from "./Swiper2.js";
 import shield from '../LandingPage/mlsc-logo.png';
-// Title Sponsors
-import Footer from "../../Components/Footer/Footer";
-// Power Sponsors
-
-//Ikshan's code for swiper JS
-
-//importing swiper.js
-
-// import  Swiper from "./Swiper.js";
-import SwiperSlide from "./Swiper.js";
-// Import Swiper React components
-//import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
+import App from './Swiper.js'
 
 import ImageHolder from "./Components/ImageHolder.js";
 // import required modules
@@ -98,45 +84,7 @@ const Sponsors = () => {
     return (
         <div className={styles.main}>
             <h1 className={styles.heading}>Our Sponsors</h1>
-            <Carousel />
-            {/* First carousel */}
-            {/* <Swiper
-                slidesPerView={1}
-                spaceBetween={30}
-                // loop={true}
-                pagination={{
-                    type: "progressbar",
-                    // clickable:true,
-                }}
-                autoplay={{
-                    delay: 1000,
-                    disableOnInteraction: false,
-                }}
-                navigation={true}
-                modules={[Autoplay, Pagination, Navigation]}
-                className={styles.mySwiper}
-            >
-                {companyData.map((data) => {
-                        return (
-                            <SwiperSlide>
-                                <div className={styles.carousel1}>
-                                    <ImageHolder data={data} />
-                                    <div className={styles.container2}>
-                                        <h2 classname={styles.sponsorHead}>
-                                            {data.sponsorName}
-                                        </h2>
-                                        <h2 classname={styles.sponsorText}>
-                                            Makeathon 4.0
-                                        </h2>
-                                        <p classname={styles.sponsorText}>
-                                            {data.description}
-                                        </p>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                        );
-                })}
-            </Swiper> */}
+            <App />
             <div className={styles.whysponsorus}>
                 <h2 className={styles.subheading}> Why Sponsor Us? </h2>
                     {/* First Para */}

@@ -1,51 +1,53 @@
-//code for the swiper
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import ImageHolder from "./Components/ImageHolder.js";
-import styles from "./styles/home.module.css";
-import { companyData } from "./Data.js";
-import { Autoplay, Pagination, Navigation } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
+import "./App.css";
+import { v4 as uuidv4 } from "uuid";
+import Card from "./Card";
+import Carousel from "./Carousel";
 
-function SwiperSlider({}){
-    return <Swiper
-            slidesPerView={3}
-            spaceBetween={100}
-            // loop={true}
-            // pagination={{
-            //     type: "progressbar",
-            //     // clickable:true,
-            // }}
-            autoplay={{
-                delay: 1000,
-                disableOnInteraction: false,
-            }}
-            navigation={true}
-            modules={[Autoplay, Pagination, Navigation]}
-            className={styles.mySwiper}
-        >
-            {companyData.map((data) => {
-                    return (
-                        <SwiperSlide>
-                            <div className={styles.carousel1}>
-                                <ImageHolder data={data} />
-                                <div className={styles.container2}>
-                                    {/* <h2 classname={styles.sponsorHead}>
-                                        {data.sponsorName}
-                                    </h2> */}
-                                    {/* <h2 classname={styles.sponsorText}>
-                                        Makeathon 4.0
-                                    </h2> */}
-                                    {/* <p classname={styles.sponsorText}>
-                                        {data.description}
-                                    </p> */}
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                    );
-            })}
-        </Swiper>
+function App() {
+  let cards = [
+    {
+      key: uuidv4(),
+      content: (
+        <Card imagen="https://updates.theme-fusion.com/wp-content/uploads/2017/12/convertplus_thumbnail.jpg" />
+      )
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card imagen="https://updates.theme-fusion.com/wp-content/uploads/2017/12/acf_pro.png" />
+      )
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card imagen="https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png" />
+      )
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card imagen="https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png" />
+      )
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card imagen="https://updates.theme-fusion.com/wp-content/uploads/2019/01/pwa_880_660.jpg" />
+      )
+    }
+  ];
+  return (
+    <div className="">
+      <Carousel
+        cards={cards}
+        height="650px"
+        width="80%"
+        margin="0 auto"
+        offset={2}
+        showArrows={false}
+      />
+    </div>
+  );
 }
 
-export default SwiperSlider;
+export default App;
