@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./styles/home.module.css";
 import sheild from "./mlsc-logo.png";
 import bottom from "./Bottom.png";
+import udlogo from "./udlogo.png";
 
 const LandingPage = () => {
   return (
@@ -11,6 +12,7 @@ const LandingPage = () => {
         <div className={styles.polygon}>
           <img src={sheild} className={styles.sheild} alt="Sheild" />
           <img src={bottom} className={styles.bottom} alt="Bottom" />
+          <img src={udlogo} className={styles.udlogo} alt="Upside Down Logo" />
           
           {/* <p className={styles.mobileTitle}>MICROSOFT LEARN STUDENT CHAPTER</p> */}
         </div>
