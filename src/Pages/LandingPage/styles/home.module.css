@@ -72,10 +72,9 @@
     /* transform: skew(25deg);
     width: 50%;
     height: 50%; */
-    position: relative;
-    left: 450px;
-    width: 30%;
-    height: 60%;
+    
+    width: 25%;
+    margin-left: 90%;
 }
 
 .content{
@@ -96,8 +95,14 @@
 .bottom{
     position: relative;
     left: 450px;
-    width: 120vw;
-    
+    width: 110vw;
+}
+
+.udlogo{
+    width: 30%;
+    position: absolute;
+    left: 80%;
+    top: 45%
 }
 
 .mobileTitle{
@@ -110,7 +115,7 @@
 }
 
 
-/* @media screen and (max-width: 1730px) {
+ /*@media screen and (max-width: 1730px) {
     .sheild{
         margin-left:5%;
         height:45%;
@@ -131,11 +136,11 @@
     .polygon{
         height: 50%;
     }
-}
+} 
 @media screen and (max-width: 1150px){
     .sheild{
-        margin-left:20%;
-       
+         margin-left:20%; 
+        
     }
     .polygon{
         height: 45%;
@@ -156,23 +161,31 @@
         justify-content: space-evenly;
     }
     .polygon{
-        transform: skew(0);
+        /* transform: skew(0); */
         position: relative;
         left: 32.5%;
         height: 40%;
         padding: 1.5rem;
     }
     .sheild{
-        transform: skew(0);
-        width: 50%;
-        position: relative;
-        left: 1px;
+        /* transform: skew(0); */
+       margin-left: 0.7%;
+       width: 45%;
+
     }
 
     .bottom{
-        position: relative;
-        left: 1px;
-        width: 180vw;
+        left: auto;
+        width: 190vw;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .udlogo{
+        top: 45%;
+        left: auto;
+        width: 45%;
     }
     
    
@@ -191,9 +204,16 @@
 
 @media screen and (max-width: 540px){
     .sheild{
-        width: 70%;
+        top: 100%;
+        width: 30%;
     }
     .bottom{
+        width: 100vw;
+        bottom: 100%;
+    }
+    .udlogo{
+        top: 55%;
+        left: auto;
         width: 30%;
     }
     /* .polygon{

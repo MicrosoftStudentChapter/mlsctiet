@@ -2,9 +2,13 @@ import React from "react";
 import styles from "./styles/home.module.css";
 import sheild from "./mlsc-logo.png";
 import bottom from "./Bottom.png";
+<<<<<<< HEAD
 import content from "./mlsc.png";
 import stroke from "./mlsc-stroke.png";
 import blue from "./mlsc-blue-stroke.png";
+=======
+import udlogo from "./udlogo.png";
+>>>>>>> 1aa79c2fc9b839bc8ff31e11c1069e3e404341cb
 
 const LandingPage = () => {
   return (
@@ -17,6 +21,7 @@ const LandingPage = () => {
           <img src={stroke} className={styles.stroke} alt="stroked-mlsc"/>
           <img src={content} className={styles.content} alt="mlsc" />
           <img src={bottom} className={styles.bottom} alt="Bottom" />
+          <img src={udlogo} className={styles.udlogo} alt="Upside Down Logo" />
           
 
           
