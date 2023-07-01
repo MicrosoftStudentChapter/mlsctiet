@@ -78,10 +78,26 @@
     height: 60%;
 }
 
+.content{
+   position:relative;
+    left:450px;
+}
+.stroke{
+    position:absolute;
+    left:318px;
+    margin-bottom: 134px;
+}
+.blue{
+    position:absolute;
+    left:328px;
+    margin-bottom: 131px;
+}
+
 .bottom{
     position: relative;
     left: 450px;
-    width: 110vw;
+    width: 120vw;
+    
 }
 
 .mobileTitle{
@@ -125,6 +141,7 @@
         height: 45%;
     }
 } */
+
 @media screen and (max-width: 950px){
     .right{
         display: none;
@@ -157,6 +174,8 @@
         left: 1px;
         width: 180vw;
     }
+    
+   
 
     .mobileTitle{
         display: inline;
