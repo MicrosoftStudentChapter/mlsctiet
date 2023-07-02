@@ -78,23 +78,37 @@
 }
 
 .content{
-   position:relative;
-    left:450px;
+   /* position:relative;
+    left:450px; */
+    position: absolute;
+    margin-bottom: 27%;
+    margin-right: 3%;
+    margin-left: 85%;
+
 }
 .stroke{
-    position:absolute;
+    /* position:absolute;
     left:318px;
-    margin-bottom: 134px;
+    margin-bottom: 134px; */
+    position: absolute;
+    margin-bottom: 27%;
+    margin-right: 1.5%;
+    margin-left: 85%;
 }
 .blue{
-    position:absolute;
+    /* position:absolute;
     left:328px;
-    margin-bottom: 131px;
+    margin-bottom: 131px; */
+    position: absolute;
+    margin-bottom: 27%;
+    margin-right: 0%;
+    word-spacing: 30%;
+    margin-left: 85%;
 }
 
 .bottom{
-    position: relative;
-    left: 450px;
+    
+    margin-left: 90%;
     width: 110vw;
 }
 
@@ -188,7 +202,20 @@
         width: 45%;
     }
     
-   
+   .content{
+        margin-bottom: 46%;
+        margin-left: 10%;
+    }
+
+    .blue{
+        margin-bottom: 46%;
+        margin-left: 10%;
+    }
+
+    .stroke{
+        margin-bottom: 46%;
+        margin-left: 10%;
+    }
 
     .mobileTitle{
         display: inline;
