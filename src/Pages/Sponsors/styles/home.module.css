@@ -8,6 +8,15 @@
   animation: fadeIn 1s;
 }
 
+
+.sideBar{
+  width:4vw;
+  height: 20vw;
+  margin-left: 96vw;
+  margin-bottom: -10vw;
+}
+
+
 .mySwiper {
   width: 100vw;
   height: 30rem;
@@ -100,8 +109,9 @@
 .subheading {
   font-size: 550%;
   color: white;
-  margin-right: 900px;
-
+  margin-left: -67%;
+  margin-top: -4vw;
+  margin-bottom: 2vw;
 }
 
 
@@ -155,19 +165,11 @@ p {
 } */
 
 .sponsorForm {
-  padding: 2.5rem;
-  /* background-color: #ffffff23; */
-  margin-bottom: 6rem;
-  border-radius: 36px;
-  display: flex;
-  flex-direction: row;
+  padding: 2.5vw;
   /* justify-content: flex-start;
   align-items: flex-start; */
   /* backdrop-filter: blur(1000px); */
   /* background-color: #00000033; */
-  backdrop-filter: blur(5px);
-  width: 83.5vw;
-  height: fit-content;
   /* border-color: blues; */
 }
 
@@ -179,26 +181,34 @@ p {
   padding: 1.5rem;
 } */
 
+.why{
+  margin-left: -5vw;
+}
+
+.circle{
+  width: 18vw;
+  height: 20vw;
+  margin-top: 5vw;
+  margin-bottom: -15vw;
+}
+
 .submitButton {
   background-color: #1f90e6;
-
   font-size: 1.3rem;
   padding: 0.8rem;
   /* margin-left: 1rem; */
   border-radius: 10px;
   color: white;
   border: #FFF6EB;
-  size: 300%;
+  /* size: 400%; */
   width: 200px;
-
-  margin-left: 500px;
-  margin-right: 500px;
-  margin-bottom: 2rem;
+  align-items: center;
+  margin: 0 50% 0 50%;
   /* font-size: 1rem; */
 }
 
 .spnsorformsubmit {
-  padding-left: 30vw;
+  align-items: center;
 }
 
 .submissionStatus {
@@ -219,16 +229,17 @@ p {
 .contactField {
   color: white;
   background-color: rgb(25, 24, 24, 0.5);
-  backdrop-filter: blur(5px);
-  font-size: 1.5rem;
-  margin: 1rem;
-  padding: 1rem;
-  border-radius: 10px;
+  backdrop-filter: blur(5vw);
+  font-size: 1.5vw;
+  margin:1rem 5vw 1rem 5vw;
+  align-items: center;
+  padding: 1vw;
+  border-radius: 15px;
   outline-color: rgb(154, 238, 255);
   display: flex;
   border-color: rgb(67, 112, 236);
-  border-width: 0.7px;
-  width: 1200px;
+  border-width: 2px;
+  width: 80vw;
 
 }
 
@@ -236,17 +247,18 @@ p {
   color: white;
   background-color: rgb(25, 24, 24, 0.5);
   backdrop-filter: blur(5px);
-  margin: 1rem;
+  align-content: center;
+  /* margin: 1rem; */
+  margin:0 5vw 1rem 5vw;
   padding: 1rem;
-  border-radius: 10px;
+  border-radius: 15px;
   outline-color: rgb(154, 238, 255);
-  display: flex;
+  /* display: flex; */
   border-color: rgb(67, 112, 236);
-  border-width: 1px;
-  font-size: 1.5rem;
-  width: 1200px;
-  height: 45%;
-
+  border-width: 2px;
+  font-size: 1.5vw;
+  width: 80vw;
+  height: 10vw;
 }
 
 
@@ -296,15 +308,11 @@ input[type="submit"]{
     font-size:1.75rem;
 } */
 
-.spnsorformsubmit {
-  margin-left: 5vw;
-
-}
-
 .whysponsorus {
   display: flex;
   flex-direction: row;
   margin-top: -10%;
+  margin-bottom: -20%;
   /* background-color: #0000007a; */
   /* background-image: url("/src/Pages/Sponsors/image.png");
   background-size: contain; */
@@ -395,13 +403,13 @@ input[type="submit"]{
     margin-left: -10%;
   }
 
-  .sponsorForm {
+  /* .sponsorForm {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     border-color: blue;
     border-radius: 10px;
-  }
+  } */
 
   .ctContainer2 {
     margin-top: 1rem;

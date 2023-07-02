@@ -2,7 +2,8 @@ import React from "react";
 import styles from "./styles/home.module.css";
 import { useState, useEffect } from "react";
 import App from './Swiper.js'
-
+import circle from "./circleplus.png"
+import sideBar from "./sideBar.png"
 import ImageHolder from "./Components/ImageHolder.js";
 // import required modules
 
@@ -97,18 +98,13 @@ const Sponsors = () => {
     <img src="https://picsum.photos/800/303/?random" alt="4" />,
     <img src="https://picsum.photos/800/304/?random" alt="5" />,
   ];
-  // <Carousel
-  //   slides={slides}
-  //   autoplay={true}
-  //   interval={1000}
-  //   // onSlideChange={callback}
-  // />;
   return (
     <div className={styles.main}>
       <h1 className={styles.heading}>Our Sponsors</h1>
         <App />
       <div className={styles.whysponsorus}>
-        <h2 className={styles.subheading}> Why Sponsor Us? </h2>
+        <h2 className={styles.subheading}>Why</h2>
+        <h2 className={styles.subheading}>Sponsor Us?</h2>
         {/* First Para */}
         <ul className={styles.listStyle}>
           <div className={styles.sponsorPara}>
@@ -157,15 +153,19 @@ const Sponsors = () => {
           </div>
         </ul>
       </div>
+      <img src={sideBar} className={styles.sideBar} />
+      <div>
+      <img src={circle} className={styles.circle} />
       <h1 className={styles.sponsorUsHead}>
-        Want To Sponsor Our Upcoming Event?
+        Want To Sponsor Our
+        <br></br>Upcoming Event?
       </h1>
       <div className={styles.sponsorForm}>
         <div className={styles.ctContainer1}>
           <form onSubmit={handleSubmit}>
             <input
               type="text"
-              placeholder="Name....."
+              placeholder="Full Name"
               name="name"
               required
               className={styles.contactField}
@@ -174,7 +174,7 @@ const Sponsors = () => {
             />
             <input
               type="company"
-              placeholder="Enter your company name here"
+              placeholder="Company Name"
               name="company"
               required
               className={styles.contactField}
@@ -183,7 +183,7 @@ const Sponsors = () => {
             />
             <input
               type="email"
-              placeholder="email69@abc.com"
+              placeholder="Email Address"
               name="email"
               required
               className={styles.contactField}
@@ -192,7 +192,7 @@ const Sponsors = () => {
             />
             <textarea
               name="message"
-              placeholder="Wanna leave a message for us? ;)"
+              placeholder="Leave a Message for us!"
               required
               className={styles.contactText}
               value={formValues.message}
@@ -217,6 +217,7 @@ const Sponsors = () => {
               </p>
             )}
           </form>
+        </div>
         </div>
         <div className={styles.ctContainer2}>
           {/* <img src={shield} className={styles.sheild} /> */}
