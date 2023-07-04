@@ -6,34 +6,27 @@ import content from "./mlsc.png";
 import stroke from "./mlsc-stroke.png";
 import blue from "./mlsc-blue-stroke.png";
 import udlogo from "./udlogo.png";
+import SynthWave from "./Components/synthwave"
 
 
 const LandingPage = () => {
   return (
     
     <div className={styles.container}>
-
       <div className={styles.left}>
-           <div className={styles.polygon}>  
+          <div className={styles.polygon}>
           <img src={sheild} className={styles.sheild} alt="Sheild" />
+          <div className={styles.txt}>
           <img src={blue} className={styles.blue} alt="blue-stroked-mlsc"/>
           <img src={stroke} className={styles.stroke} alt="stroked-mlsc"/>
-          <img src={content} className={styles.content} alt="mlsc" />
-          <img src={bottom} className={styles.bottom} alt="Bottom" />
-          <img src={udlogo} className={styles.udlogo} alt="Upside Down Logo" />
-          
-
-          {/* <p className={styles.mobileTitle}>MICROSOFT LEARN STUDENT CHAPTER</p> */}
+          <img src={content} className={styles.content} alt="mlsc"/>
+          </div>
+          {/* <img src={udlogo} className={styles.udlogo} alt="Upside Down Logo" /> */}
+          <img src={sheild} className={styles.udlogo} alt="Upside Down Logo" />
          </div> 
       </div>
-
-      <div className={styles.right}>
-        {/* <div className={styles.microsoft}>MICROSOFT</div>
-        <div className={styles.learn}>LEARN STUDENT</div>
-        <div className={styles.chapter}>CHAPTER</div> */}
-    
-      </div>
- 
+      
+      <SynthWave/>
     </div>
    
     
