@@ -481,6 +481,7 @@ input[type="submit"]{
   .whysponsorus {
     padding-top: 8rem;
     padding-bottom: 15rem;
+    margin-top: -35vh;
   }
   .subheading {
     font-size: 300%;
@@ -545,6 +546,7 @@ input[type="submit"]{
 
   .whysponsorus {
     padding-top: 12rem;
+    margin-top: -40vh;
   }
 
   .submitButton {
@@ -576,6 +578,7 @@ input[type="submit"]{
   } */
   .whysponsorus {
     padding-top: 15rem;
+    margin-top: -45vh;
   }
 
   .heading {
@@ -681,6 +684,7 @@ input[type="submit"]{
   .whysponsorus {
     padding-top: 8rem;
     margin-bottom: -50%;
+    margin-top: -60vh;
   }
 
   .heading {
