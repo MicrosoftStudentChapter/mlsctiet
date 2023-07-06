@@ -494,6 +494,7 @@ input[type="submit"]{
 
   .whysponsorus {
     padding-top: 15rem;
+    margin-top: -30%;
   }
 
   .submitButton {
@@ -508,6 +509,7 @@ input[type="submit"]{
     font-size: 280%;
     /* text-align: right;
     margin-left: 800px; */
+    margin-top: -15%;
   }
 
   .container1 {
