@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./styles/home.module.css";
 import { useState, useEffect } from "react";
-import App from './Swiper.js'
-import circle from "./circleplus.png"
-import sideBar from "./sideBar.png"
+import App from "./Swiper.js";
+import circle from "./circleplus.png";
+import sideBar from "./sideBar.png";
 import ImageHolder from "./Components/ImageHolder.js";
 // import required modules
 
@@ -101,57 +101,59 @@ const Sponsors = () => {
   return (
     <div className={styles.main}>
       <h1 className={styles.heading}>Our Sponsors</h1>
-        <App />
+      <App />
       <div className={styles.whysponsorus}>
-        <h2 className={styles.subheading}>Why</h2>
-        <h2 className={styles.subheading}>Sponsor Us?</h2>
-        {/* First Para */}
-        <ul className={styles.listStyle}>
-          <div className={styles.sponsorPara}>
-            <span className={styles.sponsorText}>Youth Hub:&nbsp;</span>
-            The Youth hub of the organization is a huge reach, as it has a large
-            student population of 10000+ people on campus.
-          </div>
-          {/* Second Para */}
-          <div className={styles.sponsorPara}>
-            <span className={styles.sponsorText}>
-              Connecting Tech Enthusiasts all over India:&nbsp;
-            </span>
-            MLSC is an Open-Source community that connects tech enthusiasts all
-            across India. Its discord server has a reach of over a thousand
-            people, which includes members from some of the country's most
-            prominent educational institutions such as IITs and NITs.
-          </div>
-          {/* Third Para */}
-          <div className={styles.sponsorPara}>
-            <span className={styles.sponsorText}>Flagship Events:&nbsp;</span>
-            MLSC is known for conducting various events throughout the year,
-            which are designed to reach a massive audience. Some of these being
-            Abhyudaya and Makeathon, which are very popular annual events that
-            have the potential to increase the awareness and reach of your
-            brand.
-          </div>
-          {/* Fourth Para */}
-          <div className={styles.sponsorPara}>
-            <span className={styles.sponsorText}>
-              Ultimate Social Media Reach:&nbsp;
-            </span>
-            MLSC has an extensive social media presence that includes over 8000
-            followers on various platforms such as Facebook, Instagram, and
-            LinkedIn. Thus strategically helping boost your brand's reputation,
-            reach and attract the youth.
-          </div>
+        <div className={styles.siteContent}>
+          <h2 className={styles.subheading}>Why</h2>
+          <h2 className={styles.subheading}>Sponsor Us?</h2>
+          {/* First Para */}
+          <ul className={styles.listStyle}>
+            <div className={styles.sponsorPara}>
+              <span className={styles.sponsorText}>Youth Hub:&nbsp;</span>
+              The Youth hub of the organization is a huge reach, as it has a
+              large student population of 10000+ people on campus.
+            </div>
+            {/* Second Para */}
+            <div className={styles.sponsorPara}>
+              <span className={styles.sponsorText}>
+                Connecting Tech Enthusiasts all over India:&nbsp;
+              </span>
+              MLSC is an Open-Source community that connects tech enthusiasts
+              all across India. Its discord server has a reach of over a
+              thousand people, which includes members from some of the country's
+              most prominent educational institutions such as IITs and NITs.
+            </div>
+            {/* Third Para */}
+            <div className={styles.sponsorPara}>
+              <span className={styles.sponsorText}>Flagship Events:&nbsp;</span>
+              MLSC is known for conducting various events throughout the year,
+              which are designed to reach a massive audience. Some of these
+              being Abhyudaya and Makeathon, which are very popular annual
+              events that have the potential to increase the awareness and reach
+              of your brand.
+            </div>
+            {/* Fourth Para */}
+            <div className={styles.sponsorPara}>
+              <span className={styles.sponsorText}>
+                Ultimate Social Media Reach:&nbsp;
+              </span>
+              MLSC has an extensive social media presence that includes over
+              8000 followers on various platforms such as Facebook, Instagram,
+              and LinkedIn. Thus strategically helping boost your brand's
+              reputation, reach and attract the youth.
+            </div>
 
-          <div className={styles.sponsorPara}>
-            <span className={styles.sponsorText}>
-              Best way to kickstart your campaign:&nbsp;
-            </span>
-            Collaborating with MLSC, a group of over a hundred individuals who
-            are dedicated to learning all the traits that make up a successful
-            team will help you organize various promotional events and learning
-            workshops.
-          </div>
-        </ul>
+            <div className={styles.sponsorPara}>
+              <span className={styles.sponsorText}>
+                Best way to kickstart your campaign:&nbsp;
+              </span>
+              Collaborating with MLSC, a group of over a hundred individuals who
+              are dedicated to learning all the traits that make up a successful
+              team will help you organize various promotional events and
+              learning workshops.
+            </div>
+          </ul>
+        </div>
       </div>
       <img src={sideBar} className={styles.sideBar} />
       <div>
@@ -162,7 +164,7 @@ const Sponsors = () => {
       </h1>
       <div className={styles.sponsorForm}>
         <div className={styles.ctContainer1}>
-          <form onSubmit={handleSubmit} className="border-gradient">
+          <form onSubmit={handleSubmit}>
             <input
               type="text"
               placeholder="Full Name"
