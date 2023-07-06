@@ -54,6 +54,7 @@ body, html{
     align-items: center;
     width: 100vw;
 }
+
 .blue{
     z-index: 5;
     position: relative;
@@ -82,6 +83,10 @@ body, html{
     z-index: 1;
 }
 
+.mvmlsc{
+    width: 0cm;
+   }
+
 
 @media screen and (max-width:1440px){
     .udlogo{
@@ -104,10 +109,16 @@ body, html{
         right: 80.3%;
         width: 80vw;
     }
+    .mvmlsc{
+        width: 0cm;
+       }
 }
 @media screen and (max-width:1210px){
    .txt{
     top: 44%;
+   }
+   .mvmlsc{
+    width: 0cm;
    }
 }
 @media screen and (max-width:1000px){
@@ -117,6 +128,9 @@ body, html{
    .sheild{
     margin-top: 12%;
    }
+   .mvmlsc{
+    width: 0cm;
+   }
 }
 @media screen and (max-width:850px){
    .txt{
@@ -124,6 +138,9 @@ body, html{
    }
    .sheild{
     margin-top: 14%;
+   }
+   .mvmlsc{
+    width: 0cm;
    }
 }
 @media screen and (max-width:780px){
@@ -133,25 +150,76 @@ body, html{
    .sheild{
     margin-top: 0%;
    }
+   .mvmlsc{
+    width: 0cm;
+   }
 }
 @media screen and (max-width:700px){
    .txt{
     top: 50%;
    }
+   .mvmlsc{
+    width: 0cm;
+   }
 }
 @media screen and (max-width:540px){
-   .txt{
-    top: 52.34%;
+   /* .txt{
+    top: 52.47%;
+   } */
+   .blue{
+    height: 0cm;
+    width: 0cm;
+}
+.stroke{
+    width: 0cm;
+    height: 0cm;
+}
+.content{
+    width: 0cm;
+    height: 0cm;
+}
+.mvmlsc{
+    position: absolute;
+   width: 150vw;
+   margin-bottom: 8%;
+   margin-left: 17%;
+   } 
+   .sheild{
+    width: 40vw;
+    margin-top: -70%;
+    
+   } 
+   .udlogo{
+    width: 0cm;
+    height: 0cm;
    }
 }
 @media screen and (max-width:400px){
-   .txt{
+   /* .txt{
     top: 54%;
-   }
+   } */
+   .blue{
+    height: 0cm;
+    width: 0cm;
+}
+.stroke{
+    width: 0cm;
+    height: 0cm;
+}
+.content{
+    width: 0cm;
+    height: 0cm;
+}
    .sheild{
     width: 23vw;
     margin-top: -2%;
    }
+   .mvmlsc{
+    position: absolute;
+   width: 150vw;
+   margin-bottom: 8%;
+   margin-left: 17%;
+   } 
 }
 
 .stars{

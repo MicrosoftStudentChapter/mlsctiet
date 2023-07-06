@@ -6,7 +6,7 @@ import stroke from "./Assets/Desktop/mlsc-stroke.png";
 import blue from "./Assets/Desktop/mlsc-blue-stroke.png";
 import SynthWave from "./Components/synthwave"
 import StarsCanvas from "./Components/Stars";
-
+import MobV from "./Assets/Desktop/Mob.png";
 
 const LandingPage = () => {
   return (
@@ -23,8 +23,10 @@ const LandingPage = () => {
           <img src={stroke} className={styles.stroke} alt="stroked-mlsc"/>
           <img src={content} className={styles.content} alt="mlsc"/>
           </div>
+          <img src={MobV} className={styles.mvmlsc} alt="Mobile view of MLSC"/>
           <img src={sheild} className={styles.udlogo} alt="Upside Down Logo" />
          </div> 
+         <img src={MobV} className={styles.mvmlsc} alt="Mobile view of MLSC"/>
       </div>
       
       <SynthWave/>
