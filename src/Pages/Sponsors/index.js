@@ -157,69 +157,73 @@ const Sponsors = () => {
       </div>
       <img src={sideBar} className={styles.sideBar} />
       <div>
-      <img src={circle} className={styles.circle} />
-      <h1 className={styles.sponsorUsHead}>
-        Want To Sponsor Our
-        <br></br>Upcoming Event?
-      </h1>
-      <div className={styles.sponsorForm}>
-        <div className={styles.ctContainer1}>
-          <form onSubmit={handleSubmit}>
-            <input
-              type="text"
-              placeholder="Full Name"
-              name="name"
-              required
-              className={styles.contactField}
-              value={formValues.name}
-              onChange={handleChange}
-            />
-            <input
-              type="company"
-              placeholder="Company Name"
-              name="company"
-              required
-              className={styles.contactField}
-              value={formValues.company}
-              onChange={handleChange}
-            />
-            <input
-              type="email"
-              placeholder="Email Address"
-              name="email"
-              required
-              className={styles.contactField}
-              value={formValues.email}
-              onChange={handleChange}
-            />
-            <textarea
-              name="message"
-              placeholder="Leave a Message for us!"
-              required
-              className={styles.contactText}
-              value={formValues.message}
-              onChange={handleChange}
-            ></textarea>
-            <input
-              type="hidden"
-              name="redirect"
-              value="localhost:3000/sponsors"
-            />
-            <button type="submit" className={styles.submitButton}>
-              Submit!
-            </button>
-            {result && (
-              <p
-                className={styles.submissionStatus}
-                style={{ color: result === "Success" ? "green" : "red" }}
-              >
-                {result === "Success"
-                  ? "Form submitted successfully!"
-                  : "Form submission failed."}
-              </p>
-            )}
-          </form>
-        </div>
+        <img src={circle} className={styles.circle} />
+        <div className={styles.siteContent}>
+          <h1 className={styles.sponsorUsHead}>
+            Want To Sponsor Our
+            <br></br>Upcoming Event?
+          </h1>
+          <div className={styles.sponsorForm}>
+            <div className={styles.ctContainer1}>
+              <form onSubmit={handleSubmit}>
+                <input
+                  type="text"
+                  placeholder="Full Name"
+                  name="name"
+                  required
+                  className={styles.contactField}
+                  value={formValues.name}
+                  onChange={handleChange}
+                />
+                <input
+                  type="company"
+                  placeholder="Company Name"
+                  name="company"
+                  required
+                  className={styles.contactField}
+                  value={formValues.company}
+                  onChange={handleChange}
+                />
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  name="email"
+                  required
+                  className={styles.contactField}
+                  value={formValues.email}
+                  onChange={handleChange}
+                />
+                <textarea
+                  name="message"
+                  placeholder="Leave a Message for us!"
+                  required
+                  className={styles.contactText}
+                  value={formValues.message}
+                  onChange={handleChange}
+                ></textarea>
+                <input
+                  type="hidden"
+                  name="redirect"
+                  value="localhost:3000/sponsors"
+                />
+                <div className={styles.buttonWrapper}>
+                  <button type="submit" className={styles.submitButton}>
+                    Submit!
+                  </button>
+                </div>
+                {result && (
+                  <p
+                    className={styles.submissionStatus}
+                    style={{ color: result === "Success" ? "green" : "red" }}
+                  >
+                    {result === "Success"
+                      ? "Form submitted successfully!"
+                      : "Form submission failed."}
+                  </p>
+                )}
+              </form>
+            </div>
+          </div>
         </div>
         <div className={styles.ctContainer2}>
           {/* <img src={shield} className={styles.sheild} /> */}

@@ -202,8 +202,7 @@ p {
   /* size: 400%; */
   /* width: 200px; */
   align-items: center;
-  margin-left:41.5%;
- 
+  /* margin: 0 50% 0 50%; */
   /* font-size: 1rem; */
 }
 
@@ -232,7 +231,7 @@ p {
 }
 
 .contactField {
-  /* color: white; */
+  color: white;
   background-color: rgb(25, 24, 24, 0.5);
   backdrop-filter: blur(5vw);
   font-size: 1.5vw;
@@ -240,13 +239,11 @@ p {
   align-items: center;
   padding: 1vw;
   border-radius: 15px;
-  /* outline-color: rgb(154, 238, 255); */
+  outline-color: rgb(154, 238, 255);
   display: flex;
-  border-color: #0078D4;
-  /* border-image-source: linear-gradient( #743ad5, #d53a9d); */
+  border-color: rgb(67, 112, 236);
   border-width: 2px;
   width: 80vw;
-
 }
 
 .contactText {
@@ -260,7 +257,7 @@ p {
   border-radius: 15px;
   outline-color: rgb(154, 238, 255);
   /* display: flex; */
-  border-color: #0078D4;
+  border-color: rgb(67, 112, 236);
   border-width: 2px;
   font-size: 1.5vw;
   width: 80vw;
@@ -371,7 +368,7 @@ input[type="submit"]{
   }
 }
 
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 1200px) {
   .heading {
     text-align: center;
   }
@@ -384,9 +381,9 @@ input[type="submit"]{
     text-align: center;
   }
 
-  /* .carousel2 img {
+  .carousel2 img {
     height: 13vh;
-  } */
+  }
 
   /* .whysponsorus{ */
   /* background-color: #FA3966; */
@@ -437,17 +434,6 @@ input[type="submit"]{
   .contactText {
     font-size: 0.7rem;
   }
-
-  .whysponsorus{
-    background-image:"/mlsctiet/src/pages/sponsors/.bgsponsors@4x.png";
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image:"/mlsctiet/src/Pages/Sponsors/assets/img/Artboard1.png" ;
-    width:100vw;
-    /* width: 90vw; */
-    /* margin: 0 3vw 0 3vw; */
-    }
 
   /* .sheild {
     width: 50%;
@@ -512,13 +498,12 @@ input[type="submit"]{
 
   .subheading {
     font-size: 300%;
-    
   }
 
   .sponsorUsHead {
     font-size: 280%;
-    text-align: right;
-    margin-left: 800px;
+    /* text-align: right;
+    margin-left: 800px; */
   }
 
   .container1 {
@@ -552,6 +537,14 @@ input[type="submit"]{
 @media screen and (max-width: 576px) {
   /* .main {
     padding-left: 2.5rem;
+  } */
+
+  .whysponsorus {
+    padding-top: 12rem;
+  }
+
+  .submitButton {
+    padding: 0.75rem 1rem;
   }
 
   .heading {
@@ -565,7 +558,7 @@ input[type="submit"]{
   .sponsorUsHead {
     font-size: 200%;
   }
-  */
+
   .sponsorPara {
     /* padding-left: 0.3rem; */
     justify-self: flex-end;
@@ -576,6 +569,9 @@ input[type="submit"]{
 @media screen and (max-width: 472px) {
   /* .main {
     padding-left: 2rem;
+  } */
+  .whysponsorus {
+    padding-top: 15rem;
   }
 
   .heading {
@@ -588,7 +584,6 @@ input[type="submit"]{
 
   .sponsorUsHead {
     font-size: 200%;
-    padding-left: 2rem;
   }
 
   .spnsrlogo1 {
@@ -599,7 +594,6 @@ input[type="submit"]{
     height: 10rem;
   }
 
-  */
   .container2 {
     margin-top: 2rem;
     /* margin-left: 1rem; */
@@ -609,12 +603,10 @@ input[type="submit"]{
 
   .sponsorHead {
     font-size: 40px;
-    /* padding-left: 2rem; */
   }
 
   .sponsorText {
     text-align: center;
-    /* padding-left: 2.5rem; */
   }
 
   .carousel2 {
@@ -637,18 +629,6 @@ input[type="submit"]{
     /* margin-top: -90%; */
     height: fit-content;
   }
-
-  .whysponsorus{
-    padding: 5rem 10rem 10rem 2rem;
-    margin:-15rem 0 -10rem 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image:"/mlsctiet/src/Pages/Sponsors/assets/img/Artboard1.png" ;
-    width:90vw;
-    /* width: 90vw; */
-    /* margin: 0 3vw 0 3vw; */
-    }
 }
 
 @media screen and (max-width: 439px) {
@@ -729,7 +709,6 @@ input[type="submit"]{
 
   .circle {
     display: none;
-    
   }
 
   .mySwiper {
