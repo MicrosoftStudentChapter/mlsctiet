@@ -162,7 +162,7 @@ const Sponsors = () => {
       </h1>
       <div className={styles.sponsorForm}>
         <div className={styles.ctContainer1}>
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} className="border-gradient">
             <input
               type="text"
               placeholder="Full Name"

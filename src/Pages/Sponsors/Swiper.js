@@ -3,6 +3,9 @@ import { v4 as uuidv4 } from "uuid";
 import Card from "./Card";
 import Carousel from "./Carousel";
 
+//importing the images
+import MLH from "./MLH2.png"
+
 function App() {
   let cards = [
     {

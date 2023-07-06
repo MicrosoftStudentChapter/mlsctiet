@@ -203,7 +203,8 @@ p {
   /* size: 400%; */
   width: 200px;
   align-items: center;
-  margin: 0 50% 0 50%;
+  margin-left:41.5%;
+ 
   /* font-size: 1rem; */
 }
 
@@ -227,7 +228,7 @@ p {
 }
 
 .contactField {
-  color: white;
+  /* color: white; */
   background-color: rgb(25, 24, 24, 0.5);
   backdrop-filter: blur(5vw);
   font-size: 1.5vw;
@@ -235,12 +236,16 @@ p {
   align-items: center;
   padding: 1vw;
   border-radius: 15px;
-  outline-color: rgb(154, 238, 255);
+  /* outline-color: rgb(154, 238, 255); */
   display: flex;
-  border-color: rgb(67, 112, 236);
+  border-color: #0078D4;
+  /* border-image-source: linear-gradient( #743ad5, #d53a9d); */
   border-width: 2px;
   width: 80vw;
-
+  /* border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  */
 }
 
 .contactText {
@@ -254,7 +259,7 @@ p {
   border-radius: 15px;
   outline-color: rgb(154, 238, 255);
   /* display: flex; */
-  border-color: rgb(67, 112, 236);
+  border-color: #0078D4;
   border-width: 2px;
   font-size: 1.5vw;
   width: 80vw;
@@ -369,7 +374,7 @@ input[type="submit"]{
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 676px) {
   .heading {
     text-align: center;
   }
@@ -385,9 +390,9 @@ input[type="submit"]{
 
   }
 
-  .carousel2 img {
+  /* .carousel2 img {
     height: 13vh;
-  }
+  } */
 
   /* .whysponsorus{ */
   /* background-color: #FA3966; */
@@ -442,6 +447,17 @@ input[type="submit"]{
     font-size: 0.7rem;
   }
 
+  .whysponsorus{
+    background-image:"/mlsctiet/src/pages/sponsors/.bgsponsors@4x.png";
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:"/mlsctiet/src/Pages/Sponsors/assets/img/Artboard1.png" ;
+    width:100vw;
+    /* width: 90vw; */
+    /* margin: 0 3vw 0 3vw; */
+    }
+
   /* .sheild {
     width: 50%;
   } */
@@ -469,12 +485,15 @@ input[type="submit"]{
 
   .subheading {
     font-size: 300%;
+    
   }
 
   .sponsorUsHead {
     font-size: 280%;
     text-align: right;
-    margin-left: 800px;
+    /* margin-left: 67%;
+    margin-top: -4vw;
+    margin-bottom: 2vw; */
   }
 
   .container1 {
@@ -508,9 +527,9 @@ input[type="submit"]{
 
 
 @media screen and (max-width: 576px) {
-  .main {
+  /* .main {
     padding-left: 2.5rem;
-  }
+  } */
 
   .heading {
     font-size: 240%;
@@ -532,9 +551,9 @@ input[type="submit"]{
 }
 
 @media screen and (max-width: 472px) {
-  .main {
+  /* .main {
     padding-left: 2rem;
-  }
+  } */
 
   .heading {
     font-size: 240%;
@@ -546,6 +565,7 @@ input[type="submit"]{
 
   .sponsorUsHead {
     font-size: 200%;
+    padding-left: 2rem;
   }
 
   .spnsrlogo1 {
@@ -565,10 +585,12 @@ input[type="submit"]{
 
   .sponsorHead {
     font-size: 40px;
+    /* padding-left: 2rem; */
   }
 
   .sponsorText {
     text-align: center;
+    /* padding-left: 2.5rem; */
   }
 
   .carousel2 {
@@ -591,6 +613,18 @@ input[type="submit"]{
     /* margin-top: -90%; */
     height: fit-content;
   }
+
+  .whysponsorus{
+    padding: 5rem 10rem 10rem 2rem;
+    margin:-15rem 0 -10rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:"/mlsctiet/src/Pages/Sponsors/assets/img/Artboard1.png" ;
+    width:90vw;
+    /* width: 90vw; */
+    /* margin: 0 3vw 0 3vw; */
+    }
 }
 
 @media screen and (max-width: 439px) {
@@ -658,6 +692,7 @@ input[type="submit"]{
 
   .circle {
     display: none;
+    
   }
 
   .mySwiper {
@@ -689,4 +724,12 @@ input[type="submit"]{
   .carousel2 img {
     height: 5vh;
   }
+}
+/* gradient code */
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+
+  border-image-source: linear-gradient(to bottom, #743ad5, #d53a9d);
 }
