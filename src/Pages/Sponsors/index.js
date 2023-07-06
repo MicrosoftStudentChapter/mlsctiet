@@ -166,47 +166,47 @@ const Sponsors = () => {
           <div className={styles.sponsorForm}>
             <div className={styles.ctContainer1}>
               <form onSubmit={handleSubmit}>
-                <input
-                  type="text"
-                  placeholder="Full Name"
-                  name="name"
-                  required
-                  className={styles.contactField}
-                  value={formValues.name}
-                  onChange={handleChange}
-                />
-                <input
-                  type="company"
-                  placeholder="Company Name"
-                  name="company"
-                  required
-                  className={styles.contactField}
-                  value={formValues.company}
-                  onChange={handleChange}
-                />
-                <input
-                  type="email"
-                  placeholder="Email Address"
-                  name="email"
-                  required
-                  className={styles.contactField}
-                  value={formValues.email}
-                  onChange={handleChange}
-                />
-                <textarea
-                  name="message"
-                  placeholder="Leave a Message for us!"
-                  required
-                  className={styles.contactText}
-                  value={formValues.message}
-                  onChange={handleChange}
-                ></textarea>
-                <input
-                  type="hidden"
-                  name="redirect"
-                  value="localhost:3000/sponsors"
-                />
-                <div className={styles.buttonWrapper}>
+                <div className={styles.formWrapper}>
+                  <input
+                    type="text"
+                    placeholder="Full Name"
+                    name="name"
+                    required
+                    className={styles.contactField}
+                    value={formValues.name}
+                    onChange={handleChange}
+                  />
+                  <input
+                    type="company"
+                    placeholder="Company Name"
+                    name="company"
+                    required
+                    className={styles.contactField}
+                    value={formValues.company}
+                    onChange={handleChange}
+                  />
+                  <input
+                    type="email"
+                    placeholder="Email Address"
+                    name="email"
+                    required
+                    className={styles.contactField}
+                    value={formValues.email}
+                    onChange={handleChange}
+                  />
+                  <textarea
+                    name="message"
+                    placeholder="Leave a Message for us!"
+                    required
+                    className={styles.contactText}
+                    value={formValues.message}
+                    onChange={handleChange}
+                  ></textarea>
+                  <input
+                    type="hidden"
+                    name="redirect"
+                    value="localhost:3000/sponsors"
+                  />
                   <button type="submit" className={styles.submitButton}>
                     Submit!
                   </button>

@@ -191,6 +191,7 @@ p {
 }
 
 .submitButton {
+  width: fit-content;
   background-color: #1f90e6;
   font-size: 1.3rem;
   padding: 1rem 2rem;
@@ -206,9 +207,11 @@ p {
   /* font-size: 1rem; */
 }
 
-.buttonWrapper {
+.formWrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .spnsorformsubmit {
@@ -252,7 +255,8 @@ p {
   backdrop-filter: blur(5px);
   align-content: center;
   /* margin: 1rem; */
-  margin: 0 5vw 1rem 5vw;
+  /* margin: 0 5vw 1rem 5vw; */
+  margin: 1rem 5vw 1rem 5vw;
   padding: 1rem;
   border-radius: 15px;
   outline-color: rgb(154, 238, 255);
