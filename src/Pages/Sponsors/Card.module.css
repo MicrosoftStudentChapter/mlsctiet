@@ -36,4 +36,35 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  @media screen and (max-width: 940px) {
+    .card {
+      width: 50vw;
+    }
+  }
+
+  @media screen and (max-width: 746px) {
+    .card {
+      width: 40vw;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    h2{
+      /* margin-bottom: -3.5rem; */
+      font-size: 0.8rem;
+    }
+    .card {
+      margin-top: -150%;
+      width: 30vw;
+      height: 90px;
+    }
+
+    .card img {
+      margin-top: 3rem;
+      width: 100%;
+      border-radius: 4px;
+      /* max-width: 80%; */
+    }
+  }
   
