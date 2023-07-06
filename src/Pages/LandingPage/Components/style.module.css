@@ -23,7 +23,6 @@ body, html {
 	overflow: hidden;
 	border-top: 2px solid rgb(1, 85, 140);
 	background-color: black;
-	z-index: 2;
 }
 .movingGrid {
 	position: absolute;
