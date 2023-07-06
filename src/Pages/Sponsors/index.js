@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles/home.module.css";
 import { useState, useEffect } from "react";
-import shield from '../LandingPage/mlsc-logo.png';
+import shield from '../LandingPage/Assets/mlsc-logo.png';
 // Title Sponsors
 import Footer from "../../Components/Footer/Footer";
 // Power Sponsors

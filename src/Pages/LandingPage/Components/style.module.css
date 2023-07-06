@@ -22,6 +22,8 @@ body, html {
 	perspective: 1450px;
 	overflow: hidden;
 	border-top: 2px solid rgb(1, 85, 140);
+	background-color: black;
+	z-index: 2;
 }
 .movingGrid {
 	position: absolute;
@@ -71,7 +73,42 @@ body, html {
 				margin-top: 4.8%;
 				background-color: rgb(1, 85, 140);
 				box-shadow: 2px 0 21px rgb(1, 85, 140);
-				animation: lines 500ms linear infinite;
+				animation: lines 800ms linear infinite;
+			}
+		}
+	}
+	@media screen and (max-width: 520px){
+		.container{
+			transform: rotateX(74deg) rotateZ(4deg);
+			.staticLines {
+				.vert {
+					margin-right: 9.5%;
+				}
+			}
+			.movingLines{
+				transform: rotateZ(-4deg);
+				width: 140%;
+					.horz{
+					margin-top: 20%;
+				}
+			}
+		}
+		
+	}
+	@media screen and (max-width: 1130px) and (min-width: 520px){
+		.container{
+			transform: rotateX(74deg) rotateZ(5deg);
+			.staticLines {
+				.vert {
+					margin-right: 4.5%;
+				}
+			}
+			.movingLines{
+				transform: rotateZ(-5deg);
+					.horz{
+					margin-top: 6.5%;
+					animation: lines 800ms linear infinite;
+				}
 			}
 		}
 	}
@@ -124,7 +161,43 @@ body, html {
 				margin-top: 4.8%;
 				background-color: rgb(1, 85, 140);
 				box-shadow: 2px 0 21px rgb(1, 85, 140);
-				animation: lines 500ms linear infinite;
+				animation: lines 800ms linear infinite;
+			}
+		}
+	}
+
+	@media screen and (max-width: 520px){
+		.container{
+			transform: rotateX(74deg) rotateZ(-4deg);
+			.staticLines {
+				.vert {
+					margin-left: 14%;
+				}
+			}
+			.movingLines{
+				transform: rotateZ(4deg);
+				width: 140%;
+					.horz{
+					margin-top: 20%;
+				}
+			}
+		}
+		
+	}
+	@media screen and (max-width: 1130px) and (min-width: 520px){
+		.container{
+			transform: rotateX(74deg) rotateZ(-5deg);
+			.staticLines {
+				.vert {
+					margin-left: 9%;
+				}
+			}
+			.movingLines{
+				transform: rotateZ(5deg);
+					.horz{
+					margin-top: 6.5%;
+					animation: lines 800ms linear infinite;
+				}
 			}
 		}
 	}

@@ -1611,12 +1611,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.4":
+"@babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.4":
   version: 7.22.5
   resolution: "@babel/runtime@npm:7.22.5"
   dependencies:
     regenerator-runtime: ^0.13.11
   checksum: 12a50b7de2531beef38840d17af50c55a094253697600cee255311222390c68eed704829308d4fd305e1b3dfbce113272e428e9d9d45b1730e0fede997eaceb1
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.17.8":
+  version: 7.22.6
+  resolution: "@babel/runtime@npm:7.22.6"
+  dependencies:
+    regenerator-runtime: ^0.13.11
+  checksum: e585338287c4514a713babf4fdb8fc2a67adcebab3e7723a739fc62c79cfda875b314c90fd25f827afb150d781af97bc16c85bfdbfa2889f06053879a1ddb597
   languageName: node
   linkType: hard
 
@@ -2593,9 +2602,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:^9.77.10":
-  version: 9.77.10
-  resolution: "@react-three/drei@npm:9.77.10"
+"@react-three/drei@npm:^9.78.1":
+  version: 9.78.1
+  resolution: "@react-three/drei@npm:9.78.1"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@mediapipe/tasks-vision": 0.10.2-rc2
@@ -2626,7 +2635,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: a772951b744aae22663ab86a805bf0d1ad6ad71f5e8bd75e37b138e6c71b53c396221bfdbe45e23616f1b437348c7cb921186bca40e088157a92cdd3c047b20d
+  checksum: 945f216b935c64aa59a4544fa3cf33d7bdca250ab0b44241eee70de14f8a34f1477bf967e4ee85c103004927f0252c007bed3bb96b1798e686a5b69ec04faf4d
   languageName: node
   linkType: hard
 
@@ -8983,6 +8992,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"maath@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "maath@npm:0.7.0"
+  peerDependencies:
+    "@types/three": ">=0.144.0"
+    three: ">=0.144.0"
+  checksum: 84c2c7bd370071d5a1a946c75252ecd5e1c8241848b0345e2662168e9c241032c928e2a097a367f7cfac01a176dbb3f233181f1d97d0ad053b43c94b056c1499
+  languageName: node
+  linkType: hard
+
 "magic-string@npm:^0.25.0, magic-string@npm:^0.25.7":
   version: 0.25.9
   resolution: "magic-string@npm:0.25.9"
@@ -9303,9 +9322,10 @@ __metadata:
   resolution: "mlsctiet-new-website@workspace:."
   dependencies:
     3d-react-carousal: ^5.0.0
-    "@react-three/drei": ^9.77.10
+    "@react-three/drei": ^9.78.1
     "@react-three/fiber": ^8.13.4
     lottie-react: ^2.3.1
+    maath: ^0.7.0
     react: ^18.2.0
     react-dom: ^18.2.0
     react-gtm-module: ^2.0.11
