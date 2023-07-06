@@ -580,7 +580,7 @@ input[type="submit"]{
   } */
   .whysponsorus {
     padding-top: 15rem;
-    margin-top: -45vh;
+    margin-top: -40vh;
   }
 
   .heading {
@@ -593,6 +593,7 @@ input[type="submit"]{
 
   .sponsorUsHead {
     font-size: 200%;
+    margin-top: -30%;
   }
 
   .spnsrlogo1 {
@@ -638,6 +639,15 @@ input[type="submit"]{
     /* margin-top: -90%; */
     height: fit-content;
   }
+  .contactField {
+    margin:5px 0 5px 0;
+    padding:5px;
+  }
+
+  .contactText{
+    margin-top: 5px;
+    width:73vw;
+  }
 }
 
 @media screen and (max-width: 439px) {
@@ -668,6 +678,15 @@ input[type="submit"]{
   .sponsorPara {
     font-size: 95%;
   }
+  .contactField {
+    margin:5px 0 5px 0;
+    padding:5px;
+  }
+
+  .contactText{
+    margin-top: 5px;
+    width:73vw;
+  }
 }
 
 /* @media screen and (max-width: 404px) {
@@ -679,6 +698,16 @@ input[type="submit"]{
 @media screen and (max-width: 420px) {
   .whysponsorus {
     padding-top: 13rem;
+  }
+
+  .contactField {
+    margin:5px 0 5px 0;
+    padding:5px;
+  }
+
+  .contactText{
+    margin-top: 5px;
+    width:73vw;
   }
 }
 
@@ -700,6 +729,7 @@ input[type="submit"]{
 
   .sponsorUsHead {
     font-size: 120%;
+    margin-top: -5%;
   }
 
   .sponsorPara {
@@ -738,6 +768,16 @@ input[type="submit"]{
   .carousel2 img {
     height: 6vh;
   }
+
+  .contactField {
+    margin:5px 0 5px 0;
+    padding:5px;
+  }
+
+  .contactText{
+    margin-top: 5px;
+    width:73vw;
+  }
 }
 
 @media screen and (max-width: 322px) {
@@ -749,5 +789,15 @@ input[type="submit"]{
 
   .carousel2 img {
     height: 5vh;
+  }
+
+  .contactField {
+    margin:5px 0 5px 0;
+    padding:5px;
+  }
+
+  .contactText{
+    margin-top: 5px;
+    width:73vw;
   }
 }
