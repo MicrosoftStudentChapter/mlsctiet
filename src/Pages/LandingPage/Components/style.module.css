@@ -87,6 +87,7 @@ body, html {
 				width: 140%;
 					.horz{
 					margin-top: 20%;
+					animation: lines 800ms linear infinite;
 				}
 			}
 		}
@@ -158,7 +159,7 @@ body, html {
 				margin-top: 4.8%;
 				background-color: rgb(1, 85, 140);
 				box-shadow: 2px 0 21px rgb(1, 85, 140);
-				animation: lines 800ms linear infinite;
+				animation: lines1 800ms linear infinite;
 			}
 		}
 	}
@@ -176,6 +177,7 @@ body, html {
 				width: 140%;
 					.horz{
 					margin-top: 20%;
+					animation: lines1 800ms linear infinite;
 				}
 			}
 		}
@@ -193,7 +195,7 @@ body, html {
 				transform: rotateZ(5deg);
 					.horz{
 					margin-top: 6.5%;
-					animation: lines 800ms linear infinite;
+					animation: lines1 800ms linear infinite;
 				}
 			}
 		}
@@ -202,9 +204,18 @@ body, html {
 
 @keyframes lines {
 	from {
+		transform: translateY(-140px);
+	}
+	to {
+		transform: translateY(40px);
+	}
+}
+@keyframes lines1 {
+	from {
 		transform: translateY(-150px);
 	}
 	to {
-		transform: translateY(0px);
+		transform: translateY(50px);
 	}
 }
+

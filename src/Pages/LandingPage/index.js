@@ -11,6 +11,7 @@ import MobV from "./Assets/Desktop/Mob.png";
 const LandingPage = () => {
   return (
     <>
+    <div className={styles.main}>
     <div className={styles.stars}>
     <StarsCanvas/>
     </div>
@@ -29,6 +30,7 @@ const LandingPage = () => {
       </div>
       
       <SynthWave/>
+    </div>
     </div>
     </>
     
