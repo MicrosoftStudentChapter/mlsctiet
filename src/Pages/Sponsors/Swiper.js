@@ -3,9 +3,6 @@ import { v4 as uuidv4 } from "uuid";
 import Card from "./Card";
 import Carousel from "./Carousel";
 
-//importing the images
-import MLH from "./MLH2.png"
-
 function App() {
   let cards = [
     {
@@ -117,6 +114,8 @@ function App() {
         margin="0 auto"
         offset={2}
         showArrows={false}
+        autoPlay={true}
+        interval="2"
       />
     </div>
   );
