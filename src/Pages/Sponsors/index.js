@@ -104,8 +104,7 @@ const Sponsors = () => {
       <App />
       <div className={styles.whysponsorus}>
         <div className={styles.siteContent}>
-          <h2 className={styles.subheading}>Why</h2>
-          <h2 className={styles.subheading}>Sponsor Us?</h2>
+          <h2 className={styles.subheading}>Why<br></br>Sponsor Us?</h2>
           {/* First Para */}
           <ul className={styles.listStyle}>
             <div className={styles.sponsorPara}>

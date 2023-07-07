@@ -696,8 +696,31 @@ input[type="submit"]{
 } */
 
 @media screen and (max-width: 420px) {
+
+  .heading {
+    font-size: 150%;
+    margin-top: -30%;
+    margin-bottom: -30%;
+  }
+
   .whysponsorus {
-    padding-top: 13rem;
+    /* padding-top: 13rem; */
+    height: 500px;
+    margin-bottom: 15%;
+    margin-top: -80%;
+  }
+
+  .subheading {
+    margin-left: -60%;
+    font-size: 140%;
+    text-align: center;
+    margin-top: 55%;
+    margin-bottom: 10%;
+  }
+
+  .sponsorPara {
+    font-size: 65%;
+    padding: 3%;
   }
 
   .contactField {
@@ -713,27 +736,36 @@ input[type="submit"]{
 
 @media screen and (max-width: 372px) {
   .whysponsorus {
-    padding-top: 8rem;
-    margin-bottom: -50%;
-    margin-top: -60vh;
+    /* padding-top: 8rem; */
+    /* margin-bottom: -50%;
+    margin-top: -60vh; */
+    height: 500px;
+    margin-bottom: 10%;
+    margin-top: -90%;
   }
 
   .heading {
-    font-size: 160%;
+    font-size: 150%;
+    margin-top: -30%;
   }
 
   .subheading {
+    margin-left: -60%;
     font-size: 140%;
     text-align: center;
+    margin-top: 40%;
+    margin-bottom: 10%;
   }
 
   .sponsorUsHead {
     font-size: 120%;
     margin-top: -5%;
+    /* margin-left: -10%; */
   }
 
   .sponsorPara {
-    font-size: 60%;
+    font-size: 65%;
+    padding: 3%;
   }
 
   .spnsrlogo1 {
@@ -753,20 +785,6 @@ input[type="submit"]{
 
   .mySwiper {
     width: 80vw;
-  }
-
-  .carousel1 {
-    /* margin-right: 50vw; */
-    flex-direction: column;
-  }
-
-  .carousel2 {
-    margin-left: 3vw;
-    padding-left: 0px;
-  }
-
-  .carousel2 img {
-    height: 6vh;
   }
 
   .contactField {
