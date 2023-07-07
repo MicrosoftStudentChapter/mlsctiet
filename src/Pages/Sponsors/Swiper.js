@@ -12,12 +12,12 @@ function App() {
       key: uuidv4(),
       Title:"MLH",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682166/cblogo_jvwkzg.png" Title="MLH"/>
+        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682328/mlhlogo_xi2zyb.png" Title="MLH"/>
       )
     },
     {
       key: uuidv4(),
-      Title:"celo",
+      Title:"ThreeWay",
       content: (
         <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682166/cblogo_jvwkzg.png" Title="THREEWAY" />
       )
@@ -47,14 +47,14 @@ function App() {
       key: uuidv4(),
       Title:"GitHub",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682166/cblogo_jvwkzg.png" Title="Github" />
+        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682083/github_fphxpw.png" Title="Github" />
       )
     },
     {
       key: uuidv4(),
       Title:"leadingLearners",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682166/cblogo_jvwkzg.png" Title="LeadingLearner" />
+        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682144/leadinglearn_asuhf8.webp" Title="LeadingLearner" />
       )
     },
     {
@@ -68,14 +68,14 @@ function App() {
       key: uuidv4(),
       Title:"CodingMinutes",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682166/cblogo_jvwkzg.png" Title="Coding Minutes"/>
+        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682312/cm_fcvr7u.jpg" Title="Coding Minutes"/>
       )
     },
     {
       key: uuidv4(),
       Title:"Devfolio",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682166/cblogo_jvwkzg.png" Title="Devfolio"/>
+        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682394/devfolio_nukzij.png" Title="Devfolio"/>
       )
     },
     
@@ -83,28 +83,28 @@ function App() {
       key: uuidv4(),
       Title:"Polygon",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682166/cblogo_jvwkzg.png" Title="Polygon"/>
+        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682423/polygonlogo_ltkl1w.png" Title="Polygon"/>
       )
     },
     {
       key: uuidv4(),
       Title:"TechAnalogy",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682166/cblogo_jvwkzg.png" Title="TechAnalogy" />
+        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682566/techa_aa3goj.jpg" Title="TechAnalogy" />
       )
     },
     {
       key: uuidv4(),
       Title:"Juspay",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682166/cblogo_jvwkzg.png" Title="Juspay"/>
+        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682592/juslogo_pglrve.png" Title="Juspay"/>
       )
     },
     {
       key: uuidv4(),
       Title:"YHills",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682166/cblogo_jvwkzg.png" Title="YHills"/>
+        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672681953/yhills_qtgadh.png" Title="YHills"/>
       )
     },
   ];
