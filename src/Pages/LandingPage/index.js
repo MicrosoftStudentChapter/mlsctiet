@@ -25,8 +25,7 @@ const LandingPage = () => {
           </div>
           <img src={MobV} className={styles.mvmlsc} alt="Mobile view of MLSC"/>
           <img src={sheild} className={styles.udlogo} alt="Upside Down Logo" />
-         </div> 
-         <img src={MobV} className={styles.mvmlsc} alt="Mobile view of MLSC"/>
+        </div>
       </div>
       
       <SynthWave/>

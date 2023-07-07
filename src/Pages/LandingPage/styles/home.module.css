@@ -1,20 +1,3 @@
-
-/* .container{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    overflow-x: hidden;
-    background-image: url("../bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation: fadeIn 1s;
-    /* background-position: center; }*/
-
-
-
 .left{
     height: 100vh;
     width: 100vw;
@@ -25,12 +8,6 @@
 body, html{
     overflow: hidden;
 }
-
-/* .leftImage{
-    width: 100%;
-    height: 100%;
-    
-} */
 
 .polygon{
     height: 100vh;
@@ -84,8 +61,9 @@ body, html{
 }
 
 .mvmlsc{
-    width: 0cm;
-   }
+    display: none;
+    margin-top: 7%;
+}
 
 
 @media screen and (max-width:1440px){
@@ -109,121 +87,65 @@ body, html{
         right: 80.3%;
         width: 80vw;
     }
-    .mvmlsc{
-        width: 0cm;
-       }
 }
 @media screen and (max-width:1210px){
-   .txt{
-    top: 44%;
-   }
-   .mvmlsc{
-    width: 0cm;
-   }
+    .txt{
+        top: 44%;
+    }
 }
 @media screen and (max-width:1000px){
-   .txt{
-    top: 46%;
-   }
-   .sheild{
-    margin-top: 12%;
-   }
-   .mvmlsc{
-    width: 0cm;
-   }
+    .txt{
+        top: 46%;
+    }
+    .sheild{
+        margin-top: 12%;
+    }
 }
 @media screen and (max-width:850px){
-   .txt{
-    top: 48%;
-   }
-   .sheild{
-    margin-top: 14%;
-   }
-   .mvmlsc{
-    width: 0cm;
-   }
+    .txt{
+        top: 48%;
+    }
+    .sheild{
+        margin-top: 14%;
+    }
 }
 @media screen and (max-width:780px){
-   .txt{
-    top: 48%;
-   }
-   .sheild{
-    margin-top: 0%;
-   }
-   .mvmlsc{
-    width: 0cm;
-   }
+    .txt{
+        top: 48%;
+    }
+    .sheild{
+        margin-top: 0%;
+    }
 }
 @media screen and (max-width:700px){
-   .txt{
-    top: 50%;
-   }
-   .mvmlsc{
-    width: 0cm;
-   }
+    .txt{
+        top: 50%;
+    }
 }
 @media screen and (max-width:540px){
-   /* .txt{
-    top: 52.47%;
-   } */
-   .blue{
-    height: 0cm;
-    width: 0cm;
-}
-.stroke{
-    width: 0cm;
-    height: 0cm;
-}
-.content{
-    width: 0cm;
-    height: 0cm;
-}
-.mvmlsc{
-    position: absolute;
-   width: 150vw;
-   margin-bottom: 8%;
-   margin-left: 17%;
-   } 
-   .sheild{
-    width: 40vw;
-    margin-top: -70%;
-    
-   } 
-   .udlogo{
-    width: 0cm;
-    height: 0cm;
-   }
+    .mvmlsc{
+        display: block;
+        width:80vw;
+    }
+    .sheild{
+        width: 45vw;
+        margin-top: -65%;
+    } 
+    .txt, .udlogo{
+        display: none;
+    }
 }
 @media screen and (max-width:400px){
-   /* .txt{
-    top: 54%;
-   } */
-   .blue{
-    height: 0cm;
-    width: 0cm;
-}
-.stroke{
-    width: 0cm;
-    height: 0cm;
-}
-.content{
-    width: 0cm;
-    height: 0cm;
-}
-   .sheild{
-    width: 23vw;
-    margin-top: -2%;
-   }
-   .mvmlsc{
-    position: absolute;
-   width: 150vw;
-   margin-bottom: 8%;
-   margin-left: 17%;
-   } 
+    .txt, .udlogo{
+        display: none;
+    }
+    .sheild{
+        width: 45vw;
+        margin-top: -65%;
+    } 
 }
 
 .stars{
-    /* spread this class all accross the background */
     position: absolute;
     width: 100%;
     height: 100vh;
