@@ -30,9 +30,7 @@
 
 .i3 {
     width: 130px;
-   
     aspect-ratio: 355.27/354.02;
-    /* Maintain aspect ratio */
     border-radius: 28px;
     border-left: 5px white solid;
     border-top: 5px white solid;

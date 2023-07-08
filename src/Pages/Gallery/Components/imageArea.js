@@ -81,7 +81,7 @@ const Sq = (props) => {
     <img
       src={props.source}
       style={
-        props.ig === props.index
+        props.ig === props.index || props.ig === -1
           ? {}
           : { filter: "brightness(0.5) saturate(0%)" }
       }
@@ -97,7 +97,7 @@ const RectBig = (props) => {
     <img
       src={props.source}
       style={
-        props.ig === props.index
+        props.ig === props.index|| props.ig === -1
           ? {}
           : { filter: "brightness(0.5) saturate(0%)" }
       }
@@ -113,7 +113,7 @@ const RectSmall = (props) => {
     <img
       src={props.source}
       style={
-        props.ig === props.index
+        props.ig === props.index || props.ig === -1
           ? {}
           : { filter: "brightness(0.5) saturate(0%)" }
       }

@@ -37,7 +37,7 @@
 }
 
 .i1:hover {
-    scale: 110%;
+    scale: 105%;
     transition: 0.6s ease-in-out;
 }
 
@@ -54,12 +54,12 @@
     border-bottom: 5px white solid;
     margin: 4px;
     transition: 0.6s ease-in-out;
-    scale: 50%;
+    
 
 }
 
 .i2:hover {
-    scale: 110%;
+    scale: 105%;
     transition: 0.6s ease-in-out;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .i3:hover {
-    scale: 110%;
+    scale: 105%;
     transition: 0.6s ease-in-out;
 }
 
