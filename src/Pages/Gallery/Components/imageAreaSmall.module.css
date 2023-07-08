@@ -1,5 +1,5 @@
 .i1 {
-    width: 130px;
+    width: 125px;
     aspect-ratio: 354.03/442.62;
     /* Maintain aspect ratio */
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -29,7 +29,7 @@
 }
 
 .i3 {
-    width: 130px;
+    width: 125px;
     aspect-ratio: 355.27/354.02;
     border-radius: 28px;
     border-left: 5px white solid;
