@@ -9,7 +9,7 @@ const p2021 = [
     "https://res.cloudinary.com/dy1pmolax/image/upload/v1688813371/gallery_page/2021/8_Large_prqsdg.jpg",
     "https://res.cloudinary.com/dy1pmolax/image/upload/v1688813371/gallery_page/2021/9_Large_femzxd.jpg",
     "https://res.cloudinary.com/dy1pmolax/image/upload/v1688813371/gallery_page/2021/10_Large_zu3okl.jpg",
-    "https://res.cloudinary.com/dy1pmolax/image/upload/v1688813372/gallery_page/2021/11_Large_puslli.jpg",
+    "https://res.cloudinary.com/dy1pmolax/image/upload/v1688840372/gallery_page/2021/11-2021_irev6u.jpg",
     "https://res.cloudinary.com/dy1pmolax/image/upload/v1688813372/gallery_page/2021/12_Large_xfyaqb.jpg",
     "https://res.cloudinary.com/dy1pmolax/image/upload/v1688839046/gallery_page/2021/13-2021_fx23ol.jpg",
   ];
