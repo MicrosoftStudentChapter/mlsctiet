@@ -9,9 +9,9 @@ const i2022 = [
   "https://res.cloudinary.com/dy1pmolax/image/upload/v1688813787/gallery_page/2022/8_2022_Large_x6gakv.jpg",
   "https://res.cloudinary.com/dy1pmolax/image/upload/v1688813788/gallery_page/2022/9_2022_Large_b8c0by.jpg",
   "https://res.cloudinary.com/dy1pmolax/image/upload/v1688813787/gallery_page/2022/10_2022_Large_qn7khe.jpg",
-  'https://res.cloudinary.com/dy1pmolax/image/upload/v1688813788/gallery_page/2022/11_2022_Large_rn8mbn.jpg', 
+  'https://res.cloudinary.com/dy1pmolax/image/upload/v1688823523/gallery_page/2022/11_2022_lomobl.jpg', 
   'https://res.cloudinary.com/dy1pmolax/image/upload/v1688813787/gallery_page/2022/12_2022_Large_bayvv7.jpg'
-  ,'https://res.cloudinary.com/dy1pmolax/image/upload/v1688813788/gallery_page/2022/13_2022_Large_oxthhr.jpg'
+  ,'https://res.cloudinary.com/dy1pmolax/image/upload/v1688813788/gallery_page/2022/11_2022_Large_rn8mbn.jpg'
 ];
 
 export default i2022;
