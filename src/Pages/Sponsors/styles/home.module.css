@@ -335,7 +335,7 @@ input[type="submit"]{
   background-position-y: 200px;
   justify-content: center;
   align-items: center;
-  background-image: url("/src/Pages/Sponsors/.bgsponsors@4x.png");
+  background-image: url("https://res.cloudinary.com/dy1pmolax/image/upload/v1688827338/sponsors_page/.bgsponsors_4x_rcguc3.png");
 
   background-size: 100% 100%;
   /* background-origin: border-box; */

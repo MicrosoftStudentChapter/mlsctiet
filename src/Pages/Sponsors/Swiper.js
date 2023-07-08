@@ -9,42 +9,42 @@ function App() {
       key: uuidv4(),
       Title:"MLH",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682328/mlhlogo_xi2zyb.png" Title="MLH"/>
+        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813058/sponsors_page/MLH2_vnbf6i.png" Title="MLH"/>
       )
     },
     {
       key: uuidv4(),
       Title:"ThreeWay",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682166/cblogo_jvwkzg.png" Title="THREEWAY" />
+        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813059/sponsors_page/3way2_atkeeh.png" Title="THREEWAY" />
       )
     },
     {
       key: uuidv4(),
       Title:"FileCoin",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682166/cblogo_jvwkzg.png" Title="ALISON" />
+        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813059/sponsors_page/alison2_dzf5ui.png" Title="ALISON" />
       )
     },
     {
       key: uuidv4(),
-      Title:"Tezos",
+      Title:"CodingNinjas",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682166/cblogo_jvwkzg.png" Title="CODING NINJA" />
+        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813059/sponsors_page/cn2_u7sidw.png" Title="CODING NINJA" />
       )
     },
     {
       key: uuidv4(),
       Title:"StickerMule",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682166/cblogo_jvwkzg.png" Title="CODER CHEF"/>
+        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813057/sponsors_page/Codechef2_dillaj.png" Title="CODER CHEF"/>
       )
     },
     {
       key: uuidv4(),
       Title:"GitHub",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682083/github_fphxpw.png" Title="Github" />
+        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813057/sponsors_page/GitHub-logo_hy0u8w.png" Title="Github" />
       )
     },
     {
@@ -72,7 +72,7 @@ function App() {
       key: uuidv4(),
       Title:"Devfolio",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682394/devfolio_nukzij.png" Title="Devfolio"/>
+        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813057/sponsors_page/devfolio2_s5acdh.png" Title="Devfolio"/>
       )
     },
     
@@ -80,7 +80,7 @@ function App() {
       key: uuidv4(),
       Title:"Polygon",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682423/polygonlogo_ltkl1w.png" Title="Polygon"/>
+        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813058/sponsors_page/Polygon2_ldvjjv.png" Title="Polygon"/>
       )
     },
     {
@@ -94,7 +94,7 @@ function App() {
       key: uuidv4(),
       Title:"Juspay",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682592/juslogo_pglrve.png" Title="Juspay"/>
+        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813058/sponsors_page/jus2_xwy0aa.png" Title="Juspay"/>
       )
     },
     {
