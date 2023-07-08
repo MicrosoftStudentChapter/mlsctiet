@@ -9,14 +9,14 @@ function App() {
       key: uuidv4(),
       Title:"MLH",
       content: (
-        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813058/sponsors_page/MLH2_vnbf6i.png" Title="MLH"/>
+        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688841998/sponsors_page/mlh__nsyfzm.png" Title="MLH"/>
       )
     },
     {
       key: uuidv4(),
       Title:"ThreeWay",
       content: (
-        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813059/sponsors_page/3way2_atkeeh.png" Title="THREEWAY" />
+        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688841997/sponsors_page/threewayjuspay_wtvu4x.png" Title="THREEWAY" />
       )
     },
     {
@@ -30,49 +30,49 @@ function App() {
       key: uuidv4(),
       Title:"CodingNinjas",
       content: (
-        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813059/sponsors_page/cn2_u7sidw.png" Title="CODING NINJA" />
+        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688841998/sponsors_page/codingninjasjuspay_ob7kp0.png" Title="CODING NINJA" />
       )
     },
     {
       key: uuidv4(),
       Title:"StickerMule",
       content: (
-        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813057/sponsors_page/Codechef2_dillaj.png" Title="CODER CHEF"/>
+        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813057/sponsors_page/Codechef2_dillaj.png" Title="CODE CHEF"/>
       )
     },
     {
       key: uuidv4(),
       Title:"GitHub",
       content: (
-        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813057/sponsors_page/GitHub-logo_hy0u8w.png" Title="Github" />
+        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813057/sponsors_page/GitHub-logo_hy0u8w.png" Title="GITHUB" />
       )
     },
     {
       key: uuidv4(),
       Title:"leadingLearners",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682144/leadinglearn_asuhf8.webp" Title="LeadingLearner" />
+        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682144/leadinglearn_asuhf8.webp" Title="LEADING LEARNER" />
       )
     },
     {
       key: uuidv4(),
       Title:"Coding Blocks",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682166/cblogo_jvwkzg.png" Title="Coding Blocks" />
+        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682166/cblogo_jvwkzg.png" Title="CODING BLOCKS" />
       )
     },
     {
       key: uuidv4(),
       Title:"CodingMinutes",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682312/cm_fcvr7u.jpg" Title="Coding Minutes"/>
+        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682312/cm_fcvr7u.jpg" Title="CODING MINUTES"/>
       )
     },
     {
       key: uuidv4(),
       Title:"Devfolio",
       content: (
-        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813057/sponsors_page/devfolio2_s5acdh.png" Title="Devfolio"/>
+        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688841997/sponsors_page/devfolio__r7pg1k.png" Title="DEVFOLIO"/>
       )
     },
     
@@ -80,28 +80,28 @@ function App() {
       key: uuidv4(),
       Title:"Polygon",
       content: (
-        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813058/sponsors_page/Polygon2_ldvjjv.png" Title="Polygon"/>
+        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813058/sponsors_page/Polygon2_ldvjjv.png" Title="POLYGON"/>
       )
     },
     {
       key: uuidv4(),
       Title:"TechAnalogy",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682566/techa_aa3goj.jpg" Title="TechAnalogy" />
+        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672682566/techa_aa3goj.jpg" Title="TECHANALOGY" />
       )
     },
     {
       key: uuidv4(),
       Title:"Juspay",
       content: (
-        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688813058/sponsors_page/jus2_xwy0aa.png" Title="Juspay"/>
+        <Card imagen="https://res.cloudinary.com/dy1pmolax/image/upload/v1688841997/sponsors_page/juspayjuspay_lkp7rh.png" Title="JUSPAY"/>
       )
     },
     {
       key: uuidv4(),
       Title:"YHills",
       content: (
-        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672681953/yhills_qtgadh.png" Title="YHills"/>
+        <Card imagen="https://res.cloudinary.com/ds7xs3pq1/image/upload/v1672681953/yhills_qtgadh.png" Title="YHILLS"/>
       )
     },
   ];
