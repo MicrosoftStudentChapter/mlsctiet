@@ -1,11 +1,14 @@
-import { useState } from "react";
-import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
+import { motion , AnimatePresence} from "framer-motion";
 import { Fragment } from "react";
 import classes from "./expandableCard.module.css";
 import ImageArea from "./imageArea";
+import ImageAreaSmall from "./imageAreaSmall";
 
 const ExpandableCard = (props) => {
- 
+  const initialWindowWidth = window.innerWidth;
+  const [windowWidth, setWindowWidth] = useState(initialWindowWidth);
+  console.log(windowWidth);
   const wrpstl = {
     width: "80%",
     position: "relative",
@@ -20,23 +23,29 @@ const ExpandableCard = (props) => {
       props.activity(props.index);
     }
   };
-
   return (
-    <Fragment>
-      <motion.div layout style={wrpstl} initial={wrpstl} animate={wrpstl}>
-      <motion.h2
-        className={classes.wrapper}
-        initial={classes.wrapper}
-        animate={classes.wrapper}
-        onClick={clickHandler}
-      >
+    <motion.div style={wrpstl}>
+      <motion.h2 className={classes.wrapper} onClick={clickHandler}>
         {props.year}
       </motion.h2>
-    
-        <motion.div>{props.index === props.actid && <ImageArea images={props.img}/>}</motion.div>
-      </motion.div>
-    </Fragment>
+      <AnimatePresence>
+      <motion.div layout exit={{ opacity: 0 }}
+            transition={{ duration: 0.5 }} >
+      {props.index === props.actid && (
+        <>
+          {windowWidth >= 500 ? (
+            <ImageArea images={props.img} />
+          ) : (
+            <ImageAreaSmall images={props.img}></ImageAreaSmall>
+            
+          )}
+        </>
+      )}
+     </motion.div>
+     </AnimatePresence>
+    </motion.div>
   );
 };
 
 export default ExpandableCard;
+

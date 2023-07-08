@@ -103,11 +103,11 @@ export default function Navbar() {
             <Link onClick={closeNav} to="/events">
               <div className="nav-item">Events</div>
             </Link>
-            {/* <Link onClick={closeNav} to="/gallery"> */}
-            {/* <div className="nav-item">
+            <Link onClick={closeNav} to="/gallery"> 
+             <div className="nav-item">
                         Gallery
-                    </div> */}
-            {/* </Link> */}
+                    </div> 
+             </Link> 
             <Link onClick={closeNav} to="/team">
               <div className="nav-item">Team</div>
             </Link>

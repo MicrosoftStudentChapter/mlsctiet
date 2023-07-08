@@ -9,7 +9,7 @@ function Page() {
   
   return (
 
-      <div style={{marginTop:'20vh'}}>
+      <div style={{position:'relative', top:'20vh' , zIndex:'2'}}>
       <ExpandableCard year="2023" index={0} activity={setActive} actid = {active} img={imgs} ></ExpandableCard>
       <ExpandableCard year="2022" index={1} activity={setActive} actid = {active} img={imgs} ></ExpandableCard>
       <ExpandableCard year="2021" index={2} activity={setActive} actid = {active} img={imgs} ></ExpandableCard>

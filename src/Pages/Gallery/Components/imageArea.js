@@ -1,9 +1,12 @@
 import classes from "./imageArea.module.css";
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const ImageArea = (props) => {
   const [indexg, setIndexg] = useState(-1);
+  /////////
+
+  /////////
 
   return (
     <div className={classes.imgwrap}>
@@ -74,11 +77,14 @@ const ImageArea = (props) => {
 export default ImageArea;
 
 const Sq = (props) => {
- 
   return (
     <img
       src={props.source}
-      style={props.ig === props.index?{}:{filter: "brightness(0.5) saturate(0%)"}}
+      style={
+        props.ig === props.index
+          ? {}
+          : { filter: "brightness(0.5) saturate(0%)" }
+      }
       className={classes.i3}
       onMouseEnter={() => props.fn(props.index)}
       onMouseOut={() => props.fn(-1)}
@@ -87,11 +93,14 @@ const Sq = (props) => {
 };
 
 const RectBig = (props) => {
-  
   return (
     <img
       src={props.source}
-      style={props.ig === props.index? {}:{filter: "brightness(0.5) saturate(0%)"}}
+      style={
+        props.ig === props.index
+          ? {}
+          : { filter: "brightness(0.5) saturate(0%)" }
+      }
       className={classes.i1}
       onMouseEnter={() => props.fn(props.index)}
       onMouseOut={() => props.fn(-1)}
@@ -100,15 +109,19 @@ const RectBig = (props) => {
 };
 
 const RectSmall = (props) => {
-  
   return (
     <img
       src={props.source}
-      style={props.ig === props.index? {}:{filter: "brightness(0.5) saturate(0%)"}}
+      style={
+        props.ig === props.index
+          ? {}
+          : { filter: "brightness(0.5) saturate(0%)" }
+      }
       className={classes.i2}
       onMouseEnter={() => props.fn(props.index)}
       onMouseOut={() => props.fn(-1)}
     />
   );
 };
+
 
