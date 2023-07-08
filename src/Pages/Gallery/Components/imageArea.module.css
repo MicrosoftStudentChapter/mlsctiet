@@ -25,7 +25,7 @@
 .i1 {
     width: 354.03px;
     height: 442.62px;
-    aspect-ratio: 354.03/442.62;
+    /* aspect-ratio: 354.03/442.62; */
     /* Maintain aspect ratio */
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 100px;
@@ -33,6 +33,7 @@
     background-color: bisque;
     margin: 4px;
     transition: 0.6s ease-in-out;
+    object-fit: cover;
     /* position: static; */
 }
 
@@ -44,7 +45,7 @@
 .i2 {
     width: 354.22px;
     height: 185.86px;
-    aspect-ratio: 354.22/185.86;
+    /* aspect-ratio: 354.22/185.86; */
     /* Maintain aspect ratio */
     background-color: bisque;
     border-radius: 100px;
@@ -54,6 +55,7 @@
     border-bottom: 5px white solid;
     margin: 4px;
     transition: 0.6s ease-in-out;
+    object-fit: cover;
     
 
 }
@@ -68,7 +70,7 @@
 .i3 {
     width: 355.27px;
     height: 354.02px;
-    aspect-ratio: 355.27/354.02;
+    /* aspect-ratio: 355.27/354.02; */
     /* Maintain aspect ratio */
     border-radius: 100px;
     border-left: 5px white solid;
@@ -78,6 +80,7 @@
     background-color: bisque;
     margin: 5px;
     transition: 0.6s ease-in-out;
+    object-fit: cover;
 }
 
 .i3:hover {

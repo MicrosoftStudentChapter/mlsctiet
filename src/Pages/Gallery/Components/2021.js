@@ -11,7 +11,7 @@ const p2021 = [
     "https://res.cloudinary.com/dy1pmolax/image/upload/v1688813371/gallery_page/2021/10_Large_zu3okl.jpg",
     "https://res.cloudinary.com/dy1pmolax/image/upload/v1688813372/gallery_page/2021/11_Large_puslli.jpg",
     "https://res.cloudinary.com/dy1pmolax/image/upload/v1688813372/gallery_page/2021/12_Large_xfyaqb.jpg",
-    "https://res.cloudinary.com/dy1pmolax/image/upload/v1688813372/gallery_page/2021/13_Large_wr1jsn.jpg",
+    "https://res.cloudinary.com/dy1pmolax/image/upload/v1688839046/gallery_page/2021/13-2021_fx23ol.jpg",
   ];
   
   export default p2021;
