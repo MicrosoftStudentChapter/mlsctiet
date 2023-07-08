@@ -45,7 +45,6 @@ const ImageArea = (props) => {
           fn={setIndexg}
           ig={indexg}
         />
-        g
         <Sq source={props.images[7]} index={8} fn={setIndexg} ig={indexg} />
         <Sq source={props.images[8]} index={9} fn={setIndexg} ig={indexg} />
       </div>
