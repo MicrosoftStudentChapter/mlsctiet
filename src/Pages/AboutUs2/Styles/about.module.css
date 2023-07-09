@@ -76,3 +76,187 @@
     right:5%;
     transform: rotate(-90deg);
 }
+
+@media screen and (max-width:1024px){
+  .insideimage{
+    width: 28vw;
+    height: 46vh;
+  }
+
+  .text{
+   line-height: 140% ;
+   font-size: 103%;
+   font-weight: 400;
+   text-align: center;
+  }
+
+  .container{
+    width: 26vw;
+    height: 48vh;
+  }
+
+  .mainimage {
+    width: 60%;
+    height: 80%;
+  }
+}
+
+@media screen and (max-width:800px){
+  .insideimage{
+    width: 40vw;
+    height: 52vh;
+  }
+
+  .text{
+   line-height: 120% ;
+   font-size: 95%;
+   font-weight: 300;
+   text-align: center;
+  }
+
+  .container{
+    width: 33vw;
+    height: 53vh;
+  }
+  .rectangle{
+    width: 85vw;
+  }
+
+  .block1{
+    position: absolute;
+    left: 73%;
+    bottom: 80%;
+  }
+}
+
+@media screen and (max-width:500px){
+
+  .heading{
+    text-align: center;
+    margin-left: 35%;
+    font-size: 140%;
+    margin-top: 1%;
+  }
+
+  .block1{
+    position: absolute;
+    left: 70%;
+    bottom: 90%;
+    width: 25vw;
+  }
+
+  .mainimage{
+    position: absolute;
+    top: 52%;
+    left: 2%;
+    width: 90vw;
+    height: 40vh;
+  }
+
+  .insideimage{
+    width: 80vw;
+    height: 26vh;
+  }
+
+  .text{
+   line-height: 100% ;
+   font-size: 87%;
+   font-weight: 300;
+   text-align: center;
+  }
+
+  .container{
+    position: absolute;
+    bottom: 47%;
+    width: 80vw;
+    height: 30vh;
+    margin-left: 10%;
+  }
+
+  .arrow{
+    width: 16vw;
+    position: absolute;
+    top: 13%;
+  }
+
+  .block{
+    width: 30vw;
+  }
+  .elements {
+    top: 95%;
+    position: absolute;
+  }
+  .plus{
+    width: 10vw;
+  }
+}
+
+@media screen and (max-width:400px){
+  .container{
+    bottom: 47%;
+    width: 72vw;
+    height: 32vh;
+    left: 5%;
+  }
+
+  .insideimage{
+    width: 70vw;
+    height: 31vh;
+  }
+
+  .block1{
+    position: absolute;
+    left: 70%;
+    bottom: 95%;
+    width: 25vw;
+  }
+
+  .mainimage{
+    width: 90vw;
+    height: 40vh;
+    top: 55%
+  }
+  .arrow{
+    width: 16vw;
+    position: absolute;
+    top: 11%;
+  }
+  .text{
+    font-size: smaller;
+  }
+  .heading{
+    position: absolute;
+    top: 5%;
+  }
+}
+
+@media screen and (max-width:350px){
+  .container{
+    bottom: 50%;
+    width: 80vw;
+    height: 31vh;
+    left: 1%;
+  }
+
+  .insideimage{
+    width: 80vw;
+    height: 31.5vh;
+  }
+
+  .mainimage{
+    width: 90vw;
+    height: 37vh;
+    top: 53%;
+  }
+
+  .heading{
+    text-align: center;
+    margin-left: 35%;
+    font-size: 120%;
+  }
+  .elements {
+    top: 90%;
+  }
+}
+
+

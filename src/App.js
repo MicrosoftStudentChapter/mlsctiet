@@ -37,7 +37,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Routes>
+       <Routes>
         <Route exact path="/" element={<LandingPage />} />
         <Route path="/about" element={<AboutUs />} />
 				<Route path="/community" element={<Community />} />
