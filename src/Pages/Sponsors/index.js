@@ -4,11 +4,6 @@ import { useState, useEffect } from "react";
 import App from "./Swiper.js";
 import circle from "./circleplus.png";
 import sideBar from "./sideBar.png";
-import ImageHolder from "./Components/ImageHolder.js";
-// import required modules
-
-// import { companyData } from "./Data.js";
-// const title = data.pop();
 
 const Sponsors = () => {
   const initialValues = {
@@ -17,16 +12,14 @@ const Sponsors = () => {
     email: "",
     message: "",
   };
-  //console.log(process.env.API_KEY)
+
   const [formValues, setFormValues] = useState(initialValues);
   const [formErrors, setFormErrors] = useState({});
   const [isSubmit, setIsSubmit] = useState(false);
 
   const handleChange = (e) => {
-    // console.log(e.target);
     const { name, value } = e.target;
     setFormValues({ ...formValues, [name]: value });
-    //console.log(formValues);
   };
   const [result, setResult] = React.useState("");
   const handleSubmit = async (e) => {
@@ -52,12 +45,6 @@ const Sponsors = () => {
       email: "",
       message: "",
     });
-
-    // const callback = (index) => {
-    //   return console.log("hello", index);
-    //   //   console.log("callback", index);
-    // };
-
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       body: formData,
@@ -66,38 +53,30 @@ const Sponsors = () => {
   };
 
   useEffect(() => {
-    //console.log(formErrors);
     if (Object.keys(formErrors).length === 0 && isSubmit) {
       console.log(formValues);
     }
   }, [formErrors]);
 
-  const validate = (values) => {
-    const errors = {};
-    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+  // const validate = (values) => {
+  //   const errors = {};
+  //   const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
 
-    if (!values.fullName) {
-      errors.fullName = "Full name is required!";
-    }
+  //   if (!values.fullName) {
+  //     errors.fullName = "Full name is required!";
+  //   }
 
-    if (!values.company) {
-      errors.company = "Company name is required!";
-    }
+  //   if (!values.company) {
+  //     errors.company = "Company name is required!";
+  //   }
 
-    if (!values.email) {
-      errors.email = "E-mail is required!";
-    } else if (!regex.test(values.email)) {
-      errors.email = "This e-mail is not valid";
-    }
-    return errors;
-  };
-  let slides = [
-    <img src="https://picsum.photos/800/300/?random" alt="1" />,
-    <img src="https://picsum.photos/800/301/?random" alt="2" />,
-    <img src="https://picsum.photos/800/302/?random" alt="3" />,
-    <img src="https://picsum.photos/800/303/?random" alt="4" />,
-    <img src="https://picsum.photos/800/304/?random" alt="5" />,
-  ];
+  //   if (!values.email) {
+  //     errors.email = "E-mail is required!";
+  //   } else if (!regex.test(values.email)) {
+  //     errors.email = "This e-mail is not valid";
+  //   }
+  //   return errors;
+  // };
   return (
     <div className={styles.main}>
       <h1 className={styles.heading}>Our Sponsors</h1>
@@ -225,7 +204,6 @@ const Sponsors = () => {
           </div>
         </div>
         <div className={styles.ctContainer2}>
-          {/* <img src={shield} className={styles.sheild} /> */}
         </div>
       </div>
     </div>

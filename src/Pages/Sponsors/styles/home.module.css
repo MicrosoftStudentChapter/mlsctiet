@@ -22,8 +22,7 @@
 .mySwiper {
   width: 100vw;
   height: 30rem;
-  /* background: linear-gradient(180deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);
-  border-radius: 30px; */
+
   /* following are the properties for flex box */
   display: flex;
   flex-direction: row;
@@ -55,9 +54,6 @@
 
 .carousel1 {
   margin-top: 2rem;
-  /* background: #FFF6EB; */
-  /*background: linear-gradient(180deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);*/
-  /* width: 87vw; */
   width: 50wh;
   height: 30wh;
   position: relative;
@@ -108,9 +104,6 @@
 .subheading {
   font-size: 550%;
   color: white;
-  /* margin-left: -67%;
-  margin-top: -4vw;
-  margin-bottom: 2vw; */
   padding: 0 1rem;
 }
 
@@ -135,55 +128,16 @@ p {
   padding: 1rem;
 }
 
-/* .carousel2 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  background: linear-gradient(90deg, rgba(217, 65, 100, 0.91) 3.23%, rgba(250, 57, 102, 0) 100%);
-  width: 87vw;
-  height: 80vw;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  border-radius: 20px;
-  padding-left: 5vw; */
-
-/* ------- flex properties ------- */
-
-/* display: flex; */
-/* flex-direction :row ; */
-/* flex-wrap: wrap; */
-/* justify-content: space-around;
-    align-items: center;
-    align-content: space-around; */
-/* display: grid;
-  grid-template-columns: repeat(3, 1fr);
-} */
-
 .sponsorForm {
   padding: 2.5vw;
-  /* justify-content: flex-start;
-  align-items: flex-start; */
-  /* backdrop-filter: blur(1000px); */
-  /* background-color: #00000033; */
-  /* border-color: blues; */
 }
-
-/* .sheild {
-  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
-  background-color: #7390f02e;
-  backdrop-filter: blur(10px);
-  border-radius: 36px;
-  padding: 1.5rem;
-} */
 
 .why {
   margin-left: -5vw;
 }
 
 .circle {
+  position: absolute;
   width: 18vw;
   height: 20vw;
   margin-top: 5vw;
@@ -195,16 +149,10 @@ p {
   background-color: #1f90e6;
   font-size: 1.3rem;
   padding: 1rem 2rem;
-  /* padding: 0.8rem; */
-  /* margin-left: 1rem; */
   border-radius: 10px;
   color: white;
   border: #fff6eb;
-  /* size: 400%; */
-  /* width: 200px; */
   align-items: center;
-  /* margin: 0 50% 0 50%; */
-  /* font-size: 1rem; */
 }
 
 .formWrapper {
@@ -268,66 +216,12 @@ p {
   height: 10vw;
 }
 
-/* the following are used to set the background color as black of form fields */
-/* input[type="text"], textarea {
-    display: flex;
-    border-color: rgb(0, 187, 255);
-    border-radius: 1rem;
-    background-color : #000000; 
-    height: 3rem;
-    width: 30%;
-    padding: 0.5vh 1vw;
-    font-size: 175%;
-} */
-/* input[type="email"], textarea {
-    border-color: rgb(0, 187, 255);
-    border-radius: 1rem;
-    background-color : #000000; 
-    height: 3rem;
-    width: 50%;
-    padding: 0.5vh 1vw;
-    font-size: 175%;
-}
-
-textarea{
-    height: 8rem;
-    width: 80vw;
-    font-size: large;
-    padding: 1vw;
-    font-size: 3vh;
-    line-height: 1.2em;
-} */
-
-/* whenever text is written now, text will be white in color */
-
-/* input, select, textarea{
-    color: #ffffff;
-}
-
-input[type="submit"]{
-    background-color:rgb(0, 187, 255);
-    border-radius:2.5rem;
-    border-color:rgb(0, 187, 255);
-    
-    height:4.5rem;
-    width:12rem;
-    font-size:1.75rem;
-} */
 
 .whysponsorus {
   display: flex;
   flex-direction: row;
   margin-top: -10%;
   margin-bottom: -20%;
-  /* background-color: #0000007a; */
-  /* background-image: url("/src/Pages/Sponsors/image.png");
-  background-size: contain; */
-
-  /* padding: 3rem; */
-  /* border-radius: 36px; */
-  /* margin-bottom: 2rem; */
-
-  /* background-color: black; */
   flex-direction: column;
   width: 100%;
   height: 1300px;
@@ -340,15 +234,6 @@ input[type="submit"]{
   background-size: 100% 100%;
   /* background-origin: border-box; */
 }
-
-/* .whysponsorus{
-  display: flex;
-  flex-direction: row;
-  background-color: #0000007a;
-  padding: 1rem;
-  border-radius: 36px;
-  margin-bottom: 6rem;
-} */
 
 .ctContainer2 {
   display: flex;
@@ -377,10 +262,6 @@ input[type="submit"]{
     text-align: center;
   }
 
-  /* .subheading {
-    text-align: center;
-  } */
-
   .sponsorUsHead {
     text-align: center;
   }
@@ -389,27 +270,7 @@ input[type="submit"]{
     height: 13vh;
   }
 
-  /* .whysponsorus{ */
-  /* background-color: #FA3966; */
-  /* flex-direction: column;
-    width: 105%;
-    justify-content: center;
-    align-items: center;
-    background-image:"/mlsctiet/src/Pages/Sponsors/assets/img/Artboard1.png" ;
-    height: 1603px;
-    width: 1440px;
-  } */
-  /* .listStyle {
-    margin-left: -10%;
-  } */
 
-  /* .sponsorForm {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    border-color: blue;
-    border-radius: 10px;
-  } */
 
   .ctContainer2 {
     margin-top: 1rem;
@@ -425,12 +286,6 @@ input[type="submit"]{
     align-items: center;
   }
 
-  /* .submitButton {
-    margin-left: 4rem;
-    margin-bottom: 2rem;
-    font-size: 1rem;
-  } */
-
   .contactField {
     font-size: 0.7rem;
   }
@@ -439,25 +294,8 @@ input[type="submit"]{
     font-size: 0.7rem;
   }
 
-  /* .sheild {
-    width: 50%;
-  } */
-
-  /* input[type="text"], input[type="email"] {
-    width: 80vw;
-  } */
 }
 
-/* @media screen and (max-width: 762px) {
-  .spnsrlogo1{
-    padding-left: 9vw;
-    height: 16vh;
-    padding-bottom: 2vh;
-  }
-  .carousel2 img{
-    height: 10vh;
-  }
-} */
 
 @media screen and (max-width: 1400px) {
   .whysponsorus {
@@ -496,6 +334,7 @@ input[type="submit"]{
   .whysponsorus {
     padding-top: 15rem;
     margin-top: -30%;
+    font-size: 90%;
   }
 
   .submitButton {
@@ -504,6 +343,7 @@ input[type="submit"]{
 
   .subheading {
     font-size: 300%;
+    margin-top: -20%;
   }
 
   .sponsorUsHead {
@@ -533,18 +373,9 @@ input[type="submit"]{
     margin: 0 auto;
   }
 
-  /* input[type="submit"]{
-    border-radius:2.5rem;
-    height:3rem;
-    width:8rem;
-    font-size:1.3rem;
-  } */
 }
 
 @media screen and (max-width: 576px) {
-  /* .main {
-    padding-left: 2.5rem;
-  } */
 
   .whysponsorus {
     padding-top: 12rem;
@@ -689,11 +520,6 @@ input[type="submit"]{
   }
 }
 
-/* @media screen and (max-width: 404px) {
-  .carousel2 img{
-    height: 7vh;
-  }
-} */
 
 @media screen and (max-width: 420px) {
 
@@ -736,12 +562,9 @@ input[type="submit"]{
 
 @media screen and (max-width: 372px) {
   .whysponsorus {
-    /* padding-top: 8rem; */
-    /* margin-bottom: -50%;
-    margin-top: -60vh; */
     height: 500px;
     margin-bottom: 10%;
-    margin-top: -90%;
+    margin-top: -80%;
   }
 
   .heading {
@@ -753,7 +576,7 @@ input[type="submit"]{
     margin-left: -60%;
     font-size: 140%;
     text-align: center;
-    margin-top: 40%;
+    margin-top: 60%;
     margin-bottom: 10%;
   }
 
@@ -779,9 +602,6 @@ input[type="submit"]{
     padding: 0 0 0 0;
   }
 
-  .circle {
-    display: none;
-  }
 
   .mySwiper {
     width: 80vw;
@@ -799,6 +619,22 @@ input[type="submit"]{
 }
 
 @media screen and (max-width: 322px) {
+
+  .whysponsorus {
+    height: 500px;
+    margin-bottom: 10%;
+    margin-top: -80%;
+    font-size: 0.87rem;
+  }
+
+  .subheading {
+    margin-left: -60%;
+    font-size: 140%;
+    text-align: center;
+    margin-top: 80%;
+    margin-bottom: 10%;
+  }
+
   .carousel2 {
     width: 65vw;
     padding-left: 0vw;
