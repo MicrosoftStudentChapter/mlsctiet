@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import i2022 from './2022';
+import i2022 from '../Assets/2022';
 import ExpandableCard from './expandableCard'
-import p2019 from './2019';
-import p2021 from './2021';
-import classes from './page.module.css'
+import p2019 from '../Assets/2019';
+import p2021 from '../Assets/2021';
+import classes from '../Style/page.module.css'
 
 
 function Page() {

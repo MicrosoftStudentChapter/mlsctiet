@@ -1,13 +1,10 @@
-import classes from "./imageArea.module.css";
+import classes from "../Style/imageArea.module.css";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
 const ImageArea = (props) => {
   const [indexg, setIndexg] = useState(-1);
-  /////////
-
-  /////////
-
+  
   return (
     <div className={classes.imgwrap}>
       <div className={classes.c1}>

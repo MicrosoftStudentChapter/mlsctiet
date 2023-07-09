@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion , AnimatePresence} from "framer-motion";
 import { Fragment } from "react";
-import classes from "./expandableCard.module.css";
+import classes from '../Style/expandableCard.module.css'
 import ImageArea from "./imageArea";
 import ImageAreaSmall from "./imageAreaSmall";
 

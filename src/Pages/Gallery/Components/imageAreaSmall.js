@@ -1,4 +1,4 @@
-import classes from "./imageAreaSmall.module.css";
+import classes from "../Style/imageAreaSmall.module.css";
 
 const ImageAreaSmall = (props) => {
   const wrap = {
