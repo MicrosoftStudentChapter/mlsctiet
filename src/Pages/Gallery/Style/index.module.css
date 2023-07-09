@@ -1,8 +1,4 @@
-
-
-body
-{
+.galleryContainer{
     background-image: url(../Assets/bg.png);
-    background-size: cover;  
-   
+    background-size: cover; 
 }
