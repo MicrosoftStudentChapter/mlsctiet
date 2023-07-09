@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import { motion , AnimatePresence} from "framer-motion";
-import { Fragment } from "react";
 import classes from '../Style/expandableCard.module.css'
 import ImageArea from "./imageArea";
 import ImageAreaSmall from "./imageAreaSmall";
@@ -8,7 +7,6 @@ import ImageAreaSmall from "./imageAreaSmall";
 const ExpandableCard = (props) => {
   const initialWindowWidth = window.innerWidth;
   const [windowWidth, setWindowWidth] = useState(initialWindowWidth);
-  console.log(windowWidth);
   const wrpstl = {
     width: "80%",
     position: "relative",
