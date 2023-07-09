@@ -5,7 +5,7 @@ import style from './Style/index.module.css'
 
 const Gallery = () => {
   return (
-    <div>
+    <div className="galleryContainer">
       <Page />
     </div>
   );
