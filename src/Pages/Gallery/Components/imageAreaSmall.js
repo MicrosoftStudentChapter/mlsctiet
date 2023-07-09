@@ -60,6 +60,3 @@ const RectSmall = (props) => {
   return <img src={props.source} className={classes.i2} />;
 };
 
-const Wrap = () => {
-  <div className={classes.warp}></div>;
-};
