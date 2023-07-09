@@ -15,7 +15,7 @@ import AboutUs from "./Pages/AboutUs";
 import Alumni from "./Pages/Alumni";
 import Community from "./Pages/Community";
 import Events from "./Pages/Events";
-// import Gallery from "./Pages/Gallery";
+import Gallery from "./Pages/Gallery";
 import LandingPage from "./Pages/LandingPage";
 import OurTeam from "./Pages/OurTeam";
 import Projects from "./Pages/Projects";
@@ -43,7 +43,7 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
 				<Route path="/community" element={<Community />} />
         <Route path="/events" element={<Events />} />
-				{/* <Route path="/gallery" element={<Gallery />} /> */}
+				<Route path="/gallery" element={<Gallery />} />
         <Route path="/team" element={<OurTeam />} />
         <Route path="/sponsors" element={<Sponsors />} />
         {/* <Route path="/alumni" element={<Alumni />} /> */}
