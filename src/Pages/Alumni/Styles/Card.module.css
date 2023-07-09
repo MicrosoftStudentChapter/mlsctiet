@@ -1,0 +1,106 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@font-face {
+  font-family: "Khyay";
+  src: url("src/fonts/myanmar-khyay.ttf");
+} */
+
+:root {
+  --color-grey-primary: #f0f0f0;
+  --color-yellow-primary: goldenrod;   
+  --color-orange-primary: darkorange;
+  --color-green-primary: mediumseagreen;
+}
+ 
+html{
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .App{
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  justify-content: center;
+} */
+
+.productList{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.productCard{
+  position: relative;
+  background-color: white;
+  margin: 1rem;
+  flex: 1 0 25rem;
+  max-width: 30rem;
+  max-height: 50rem;
+  transition: 0.2s;
+}
+
+.productCard:hover{
+  transform: translateY(-0.5rem);
+  box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+}
+
+.productImage{
+  
+  width: 100%;
+  height: auto;
+}
+
+/* .productCard__cart{
+  position: absolute;
+  right: 0;
+  margin: 1rem;
+  font-size: 2rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.productCard__wishlist{
+  position: absolute;
+  right: 3rem;
+  margin: 1rem;
+  font-size: 2rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.productCard__fastSelling {
+  position: absolute;
+  font-size: 2rem;
+  left: 0;
+  margin: 1rem;
+  fill: var(--color-orange-primary);
+} */
+
+.productCard__content {
+  margin-top: -12px;
+  background-color: yellow;
+  opacity: 100%;
+}
+
+
+.productCard__content .productName .productInfo:hover{
+  transform: translateY(-10.5rem);
+  box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+  transition: 0.5s;
+  opacity: 50%;
+  text-align: center;
+}
+.productCard__content .productName .productInfo:focus{
+  transform: translateY(-10.5rem);
+  box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+  opacity: 50%;
+  text-align: center;
+}
+
+.productName{
+  font-size: 2.5rem;
+}
+
+.productInfo{
+  font-size: 1.5rem;
+  font-style: poppins;
+}

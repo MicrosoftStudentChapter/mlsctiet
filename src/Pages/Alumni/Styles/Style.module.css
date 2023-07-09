@@ -1,0 +1,274 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@font-face {
+  font-family: "Khyay";
+  src: url(../../../fonts/myanmar-khyay.ttf);
+}
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-right: 1%;
+  display: flex;
+  background-color: #0d1213;
+  padding-top: 80px;
+  color: white;
+  z-index: -1;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+ 
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  padding-right: 2rem;
+}
+
+.firstContainer {  
+  padding-left: 5rem;
+}
+.im1{
+  display: flex;
+}
+.Dots{
+  z-index: 0;
+}
+.Cross{
+  padding-inline: 5rem;
+}
+.Arrow{
+  padding-inline-start: 2.5rem;
+}
+.lines{
+  padding-top: 0rem;
+}
+.Carousels{
+  z-index: 1;
+}
+
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+}
+.Lines2{
+  position: relative;
+  transform: rotate(90deg);
+}
+.Broadline{
+ padding-top: 9rem;
+}
+.Alumni{
+  font-family: 'Inter';
+  font-weight: 700; 
+  font-size: 40px;
+  line-height: 139px; 
+  padding-left: 5rem;
+}
+.Squarcle{
+
+}
+.p{
+ padding-left: 4rem;
+}
+
+.thirdContainer {
+  margin-top: 5%;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+} */
+
+
+/* Shreya */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@font-face {
+  font-family: "Khyay";
+  src: url(../../../fonts/myanmar-khyay.ttf);
+}
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  /* padding-right: 1%; */
+  display: flex;
+  background-color: #0d1213;
+  padding-top: 80px;
+  /* padding-bottom: -70px; */
+  color: white;
+  /* z-index: -1; */
+  /* overflow: hidden; */
+  /* overflow-y: scroll; */
+}
+ 
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  /* padding-right: 2rem; */
+}
+
+ .firstContainer {  
+  /* align-items: center; */
+  margin-left: 29vh;
+  background-color: #0d1213;
+}  
+
+.im1{
+  display: flex;
+}
+.Dots{
+  z-index: 0;
+}
+.Cross{
+  padding-inline: 5rem;
+}
+.Arrow{
+  padding-inline-start: 2.5rem;
+}
+.Lines{
+  /* padding-top: 0rem; */
+  /* width: 100%; */
+}
+.Carousels{
+  z-index: 1;
+}
+
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #0d1213;
+}
+
+.Arrows{
+  padding-inline-start: 55rem;
+  transform: rotate(180deg);
+  
+}
+
+.Lines2{
+  position: relative;
+  transform: rotate(90deg);
+}
+.Broadline{
+ padding-top: 9rem;
+}
+.Alumni{
+  transform:rotate(-90deg);
+  font-family: 'Khyay';
+  font-weight: 700; 
+  font-size: 45px;
+  line-height: 139px; 
+  /* padding-left: 5rem; */
+  position: absolute;
+   margin-top: 26vh;
+   margin-left: -10vh;
+}
+
+.p{
+ padding-left: 4rem;
+ display:inline-flexbox;
+ font-size: 18px;
+ width: 50rem;
+ font-family: "poppins";
+ margin-left: 25vh;
+ margin-top: 7%;
+ line-height: 4vh;
+}
+
+.thirdContainer {
+  margin-left: -3rem;
+  margin-top: 18.2vh;
+  background-color: #0d1213;
+}
+
+.Squarcle{
+  margin-top: 10vh;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+
+
+@media (max-width: 786px) {
+  .Alumni{
+    transform: rotate(360deg);
+    font-size: 2.5rem;
+    margin-left: 22vh;
+    margin-top: -4vh;
+  }
+  .p{
+    font-size: 1.25rem;
+    display: inline-flexbox;
+    width: 55vh;
+    margin-left: -2.5vh;
+    margin-top: 1.8vh;
+    line-height: 3vh;
+    text-align:justify;
+  }
+  .Squarcle,.Arrow,.Broadline,.Cross,.Dots{
+    display: none;
+  }
+  .Carousels{
+    /* display: initial; */
+    margin-left: -112vh;
+    margin-top: 44vh;
+    width: 38vh;
+    height: auto;
+  }
+  .Lines{
+    display: none;
+  }
+  .container{
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .thirdContainer{
+    margin-left: -127vh !important;
+    margin-bottom: 1.5vh;
+    transform: rotate(180deg);
+    background-color: rgb(0,0,0,0) !important;
+  }
+  .container{
+    height: 100vh;
+  }
+}
+
+@media (min-width: 787px) and (max-width: 1180px) {
+  .firstContainer{
+    margin-left: -2vh;
+  }
+  .p{
+    margin-left: 15vh;
+  }
+  .thirdContainer{
+    margin-top: 10vh;
+  }
+  .container{
+    height: 100vh;
+    overflow-y: hidden;
+  }
+
+}
+
+
+
+
+
+
+
+

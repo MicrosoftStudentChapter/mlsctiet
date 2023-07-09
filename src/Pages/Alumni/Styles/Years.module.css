@@ -1,0 +1,156 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@font-face {
+  font-family: "Khyay";
+  src: url(../../../fonts/myanmar-khyay.ttf);
+}
+
+
+.buttons {
+  display: inline-flex;
+  flex-direction: column;
+  height: 17.6vh;
+  background: #0d1213;
+   background-size: contain;
+  background-repeat: no-repeat; 
+  margin-top: -2vh;
+  font-family: "Poppins";
+  position: relative;
+  background-image: url("../Assets/Polygon.png"); 
+  width: 18vh;
+  border: none;
+  align-items: center;  
+  justify-content: center; 
+  background-position: 10vh;
+}
+
+
+.blocks{
+  margin: 0px;
+  transform: rotate(-90deg); 
+  font-size: 4.0vh;
+  color: white;
+  vertical-align: middle;
+  text-align: center; 
+  margin-right: -12vh;  
+  text-align: center; 
+}
+
+.mAin{
+  margin-top: 0px;
+  justify-items: center; 
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons:focus{
+  margin-right: 2vh;
+  background-image: url("../Assets/Polygon_2.png"); 
+  transform: translateX(-1.15rem) scale(1.2); 
+  transition: all 0.2s;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@font-face {
+  font-family: "Khyay";
+  src: url(../../../fonts/myanmar-khyay.ttf);
+}
+
+.buttons{
+  display: inline-flex;
+  flex-direction: column;
+  height: 17.6vh;
+  background-color: rgba(0,0,0,0);
+  background-size: contain;
+  background-repeat: no-repeat; 
+  opacity: 90%;
+  font-family: "Poppins";
+  position: relative;
+  background-image: url("Polygon.png"); 
+  width: 18vh;
+  border: none;
+  align-items: center;  
+  justify-content: center; 
+  background-position: 10vh;
+  margin-bottom: -1.15rem;
+  transition: all 0.2s;
+}
+
+/* .buttons:nth-child(2),
+.buttons:nth-child(3),
+.buttons:nth-child(4),
+.buttons:nth-child(5) { 
+  margin-top: -50px;
+} */
+
+
+.blocks{
+  transform: rotate(-90deg); 
+  font-size: 4.0vh;
+  color: white;
+  /* vertical-align: middle;*/
+  /* text-align: center;  */
+  margin-right: -12vh;  
+  text-align: center; 
+}
+
+.mAin{
+  margin-top: 0px;
+  justify-items: center; 
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 50px; */
+}
+
+.buttons:focus{
+  /* margin-right: -2.2vh;  */
+  background-image: url("pol.png"); 
+  transform: translateX(0rem) scale(1);  
+  /* transition: all 0.2s; */
+  /* justify-content: center; */
+  height: 16vh;
+  /* width: 20vh; */
+}
+.buttons{
+  margin-top: -0.7rem;
+  height: 16vh;
+}
+
+@media screen and (max-width: 786px) {
+  .buttons{
+    /* border-radius: 20% !important; */
+    font-size: 1.5em;
+    /* width: 9vh !important;*/
+    height: 11.5vh !important; 
+    margin-right: 2vh;
+    /* border: 3px solid white; */
+    background-image: url("../Assets/Group 97.png") !important;
+    /* background-color: yellow; */
+    /* opacity: 0.8; */
+    margin-top: 0.9rem !important;
+    scale: 0.9 !important;
+  }
+  .buttons:focus{ 
+    transform: scale(1.2) !important;
+    opacity: 1;
+    transition: all 0.2s;
+    /* background-color: white; */
+    /* justify-content: center; */
+    /* height: 16vh; */
+    /* width: 20vh; */
+  }
+  .blocks{
+    transform: rotate(90deg); 
+    color:white;
+    font-size: 3.0vh;
+    /* vertical-align: middle;*/
+    /* text-align: center;  */
+    margin-right: -8vh;  
+    text-align: center; 
+  }
+  .yearbutton{
+    background-color: rgb(0,0,0,0);
+    
+  }
+ }
