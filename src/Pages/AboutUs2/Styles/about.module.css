@@ -77,31 +77,54 @@
     transform: rotate(-90deg);
 }
 
-@media screen and (min-width:1441px){
+ /* @media screen and (max-width:2560px){
   .heading{
     font-size: 400%;
   }
 
   .insideimage{
-    width: 24vw;
-    height: 43vh;
+    width: 28vw;
+    height: 38vh;
   }
 
   .container{
-    width: 22vw;
-    height: 45vh;
+    width: 28vw;
+    height: 42vh;
   }
 
   .text{
     line-height: 140% ;
     font-size: 200%;
    }
+}  */
+
+@media screen and (max-width:1440px) {
+
+  .insideimage{
+    width: 33vw;
+    height: 38vh;
+  }
+
+  .container{
+    width: 33vw;
+    height: 42vh;
+  }
+
+  .text{
+    line-height: 140% ;
+    font-size: 120%;
+   }
 }
 
-@media screen and (max-width:1024px){
+ @media screen and (max-width:1024px){
+
+  .heading{
+    font-size: 250%;
+  }
+
   .insideimage{
-    width: 28vw;
-    height: 46vh;
+    width: 42vw;
+    height: 43vh;
   }
 
   .text{
@@ -112,8 +135,8 @@
   }
 
   .container{
-    width: 26vw;
-    height: 48vh;
+    width: 42vw;
+    height: 44vh;
   }
 
   .mainimage {
@@ -124,8 +147,8 @@
 
 @media screen and (max-width:800px){
   .insideimage{
-    width: 40vw;
-    height: 52vh;
+    width: 38vw;
+    height: 58vh;
   }
 
   .text{
@@ -136,8 +159,8 @@
   }
 
   .container{
-    width: 33vw;
-    height: 53vh;
+    width: 31vw;
+    height: 60vh;
   }
   .rectangle{
     width: 85vw;
