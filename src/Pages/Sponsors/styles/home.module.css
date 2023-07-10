@@ -37,7 +37,7 @@
   height: 40rem;
 } */
 .heading {
-  padding-top: 10rem;
+  padding-top: 2rem;
   text-align: center;
   color: #fff6eb;
   font-size: 6rem;
@@ -153,6 +153,7 @@ p {
   color: white;
   border: #fff6eb;
   align-items: center;
+  margin-bottom: 5.5rem;
 }
 
 .formWrapper {
@@ -307,9 +308,11 @@ p {
   .subheading {
     font-size: 350%;
   }
+
   .submitButton {
     font-size: 1rem;
   }
+
   .whysponsorus {
     padding-top: 4rem;
   }
@@ -321,6 +324,7 @@ p {
     padding-bottom: 15rem;
     margin-top: -20%;
   }
+
   .subheading {
     font-size: 300%;
   }
@@ -406,6 +410,7 @@ p {
 }
 
 @media screen and (max-width: 472px) {
+
   /* .main {
     padding-left: 2rem;
   } */
@@ -470,14 +475,15 @@ p {
     /* margin-top: -90%; */
     height: fit-content;
   }
+
   .contactField {
-    margin:5px 0 5px 0;
-    padding:5px;
+    margin: 5px 0 5px 0;
+    padding: 5px;
   }
 
-  .contactText{
+  .contactText {
     margin-top: 5px;
-    width:73vw;
+    width: 73vw;
   }
 }
 
@@ -509,14 +515,15 @@ p {
   .sponsorPara {
     font-size: 95%;
   }
+
   .contactField {
-    margin:5px 0 5px 0;
-    padding:5px;
+    margin: 5px 0 5px 0;
+    padding: 5px;
   }
 
-  .contactText{
+  .contactText {
     margin-top: 5px;
-    width:73vw;
+    width: 73vw;
   }
 }
 
@@ -550,13 +557,13 @@ p {
   }
 
   .contactField {
-    margin:5px 0 5px 0;
-    padding:5px;
+    margin: 5px 0 5px 0;
+    padding: 5px;
   }
 
-  .contactText{
+  .contactText {
     margin-top: 5px;
-    width:73vw;
+    width: 73vw;
   }
 }
 
@@ -608,13 +615,13 @@ p {
   }
 
   .contactField {
-    margin:5px 0 5px 0;
-    padding:5px;
+    margin: 5px 0 5px 0;
+    padding: 5px;
   }
 
-  .contactText{
+  .contactText {
     margin-top: 5px;
-    width:73vw;
+    width: 73vw;
   }
 }
 
@@ -646,12 +653,12 @@ p {
   }
 
   .contactField {
-    margin:5px 0 5px 0;
-    padding:5px;
+    margin: 5px 0 5px 0;
+    padding: 5px;
   }
 
-  .contactText{
+  .contactText {
     margin-top: 5px;
-    width:73vw;
+    width: 73vw;
   }
 }
