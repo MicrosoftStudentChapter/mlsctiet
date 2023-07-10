@@ -77,6 +77,27 @@
     transform: rotate(-90deg);
 }
 
+@media screen and (min-width:1441px){
+  .heading{
+    font-size: 400%;
+  }
+
+  .insideimage{
+    width: 24vw;
+    height: 43vh;
+  }
+
+  .container{
+    width: 22vw;
+    height: 45vh;
+  }
+
+  .text{
+    line-height: 140% ;
+    font-size: 200%;
+   }
+}
+
 @media screen and (max-width:1024px){
   .insideimage{
     width: 28vw;
