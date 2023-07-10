@@ -1,7 +1,6 @@
-import Carousel from "react-spring-3d-carousel";
+import Carousel from "react-spring-3d-carousel-2";
 import { useState, useEffect } from "react";
 import { config } from "react-spring";
-
 
 export default function Carroussel(props) {
   const table = props.cards.map((element, index) => {
@@ -13,16 +12,23 @@ export default function Carroussel(props) {
   const [goToSlide, setGoToSlide] = useState(0);
   const [cards] = useState(table);
   const [autoPlay, setAutoPlay] = useState(false);
-  
+
   useEffect(() => {
     setOffsetRadius(props.offset);
     setShowArrows(props.showArrows);
     setAutoPlay(props.autoPlay);
-  }, [props.offset, props.showArrows,props.autoPlay]);
+  }, [props.offset, props.showArrows, props.autoPlay]);
+
+  useEffect(() => {
+    setInterval(1000, () => {
+      console.log("Running", goToSlide);
+      setGoToSlide(goToSlide + (1 % 3));
+    });
+  }, []);
 
   return (
     <div
-      style={{ width: props.width, height: props.height, margin: props.margin}}
+      style={{ width: props.width, height: props.height, margin: props.margin }}
     >
       <Carousel
         slides={cards}
@@ -30,7 +36,8 @@ export default function Carroussel(props) {
         offsetRadius={offsetRadius}
         showNavigation={showArrows}
         animationConfig={config.gentle}
-        autoPlay={autoPlay}
+        autoPlay={true}
+        interval={2}
       />
     </div>
   );
