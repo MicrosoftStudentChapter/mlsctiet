@@ -42,7 +42,7 @@ function Main() {
                         </ul>
                         <div className={styles.buttons}>
                             <button className={styles.joinButton}>
-                                <a className={styles.joinButtonCss} href="https://discord.gg/GUm8cuns">
+                                <a className={styles.joinButtonCss} href="https://discord.gg/hbNeZtS62D">
                                     Join the Community
                                     <img src="https://img.icons8.com/ios-filled/24/FFFFFF/discord-logo.png" />
                                 </a>
