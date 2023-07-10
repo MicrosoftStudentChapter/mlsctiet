@@ -1,80 +1,83 @@
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #FFF6EB;
-    width: 30rem;
-    height: fit-content;
-    padding: 0 2rem 2rem 2rem;
-    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF6EB;
+  width: 30rem;
+  height: fit-content;
+  padding: 0 2rem 2rem 2rem;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.card img {
+  margin-top: 10%;
+  width: 30vw;
+  border-radius: 10px;
+  height: 15vw;
+}
+
+.card h2 {
+  margin-top: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.card p {
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card .btnn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 940px) {
+  .card {
+    width: 45vw;
   }
-  
+
   .card img {
     margin-top: 10%;
+    width: 28vw;
+    border-radius: 9px;
+    height: 15vh;
+  }
+}
+
+@media screen and (max-width: 746px) {
+  .card {
+    width: 40vw;
+  }
+
+  .card img {
+    margin-top: 10%;
+    width: 25vw;
+    border-radius: 7px;
+    height: 20vw;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  h2 {
+    font-size: 0.8rem;
+  }
+
+  .card {
+    margin-top: 0%;
     width: 30vw;
-    border-radius: 10px;
-    height: 15vw;
-  }
-  
-   .card h2 {
-    margin-top: 1rem;
-    align-items:center;
-    text-align: center;
-  }
-  
-  .card p {
-    margin: 0;
-    margin-top: 0.5rem;
-    margin-bottom: 1.5rem;
-  } 
-  
-  .card .btnn {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 90px;
   }
 
-  @media screen and (max-width: 940px) {
-    .card {
-      width: 45vw;
-    }
-    .card img {
-      margin-top: 10%;
-      width: 28vw;
-      border-radius: 9px;
-      height: 15vh;
-    }
+  .card img {
+    margin-top: 2rem;
+    width: 20vw;
+    border-radius: 4px;
+    height: 20vh;
+    margin-bottom: -0.8rem;
   }
-
-  @media screen and (max-width: 746px) {
-    .card {
-      width: 40vw;
-    }
-    .card img {
-      margin-top: 10%;
-      width: 25vw;
-      border-radius: 7px;
-      height: 20vw;
-    }
-  }
-
-  @media screen and (max-width: 380px) {
-    h2{
-      font-size: 0.8rem;
-    }
-    .card {
-      margin-top: 0%;
-      width: 30vw;
-      height: 90px;
-    }
-
-    .card img {
-      margin-top: 2rem;
-      width: 20vw;
-      border-radius: 4px;
-      height: 20vh;
-      margin-bottom: -0.8rem;
-    }
-  }
-  
+}
