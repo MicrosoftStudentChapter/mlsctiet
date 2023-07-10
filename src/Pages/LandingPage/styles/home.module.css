@@ -118,12 +118,23 @@
         top: 48%;
     }
     .sheild{
-        margin-top: 0%;
+        margin-top: 15%;
+        width:22vw;
     }
 }
 @media screen and (max-width:700px){
     .txt{
         top: 50%;
+    }
+}
+@media screen and (max-width:650px){
+    .sheild{
+        margin-top: 17%;
+    }
+}
+@media screen and (max-width:600px){
+    .sheild{
+        margin-top: 20%;
     }
 }
 @media screen and (max-width:540px){
@@ -133,7 +144,7 @@
     }
     .sheild{
         width: 45vw;
-        margin-top: -65%;
+        margin-top: -38%;
     } 
     .txt, .udlogo{
         display: none;
@@ -145,7 +156,7 @@
     }
     .sheild{
         width: 45vw;
-        margin-top: -65%;
+        margin-top: -32%;
     } 
 }
 
