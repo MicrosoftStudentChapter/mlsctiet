@@ -1,8 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@font-face {
-  font-family: "Khyay";
-  src: url("src/fonts/myanmar-khyay.ttf");
-} */
 
 :root {
   --color-grey-primary: #f0f0f0;
@@ -15,12 +10,6 @@ html{
   font-size: 62.5%;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-/* .App{
-  display: grid;
-  grid-template-columns: 350px 350px 350px;
-  justify-content: center;
-} */
 
 .productList{
   display: flex;
@@ -48,32 +37,6 @@ html{
   width: 100%;
   height: auto;
 }
-
-/* .productCard__cart{
-  position: absolute;
-  right: 0;
-  margin: 1rem;
-  font-size: 2rem;
-  transition: 0.2s;
-  cursor: pointer;
-}
-
-.productCard__wishlist{
-  position: absolute;
-  right: 3rem;
-  margin: 1rem;
-  font-size: 2rem;
-  transition: 0.2s;
-  cursor: pointer;
-}
-
-.productCard__fastSelling {
-  position: absolute;
-  font-size: 2rem;
-  left: 0;
-  margin: 1rem;
-  fill: var(--color-orange-primary);
-} */
 
 .productCard__content {
   margin-top: -12px;
