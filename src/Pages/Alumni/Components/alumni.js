@@ -200,14 +200,6 @@ const Alumni = [
     linkedIn: "https://www.linkedin.com/",
     post: "Joint Secretary"
   },
-  {
-    id: 23,
-    year: 2020,
-    image:
-      "https://res.cloudinary.com/Yashvi/image/upload/v1658234631/alumni_cmmwys.jpg",
-    name: "Rijul",
-    linkedIn: "https://www.linkedin.com/",
-  },
 ];
 
 export default Alumni;
