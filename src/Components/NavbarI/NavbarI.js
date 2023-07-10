@@ -4,6 +4,7 @@ import { BsCalendarEvent } from 'react-icons/bs'
 import { RiCommunityLine, RiGalleryLine, RiTeamFill } from 'react-icons/ri'
 import { SiGithubsponsors } from 'react-icons/si'
 import { IoIosArrowDropup } from 'react-icons/io'
+import { GiGraduateCap } from 'react-icons/gi'
 import { useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom'
 import { useDetectClickOutside } from 'react-detect-click-outside';
@@ -64,6 +65,9 @@ const NavbarI = () => {
             </Link>
             <Link data-tooltip-content="Team" className={`hide-on-phone my-anchor-element ${location.pathname === "/team" && 'active'}`} to={'/team'}>
                 <RiTeamFill size={25} />
+            </Link>
+            <Link data-tooltip-content="Alumni" className={`hide-on-phone my-anchor-element ${location.pathname === "/alumni" && 'active'}`} to={'/alumni'}>
+                <GiGraduateCap size={25} />
             </Link>
             <Link data-tooltip-content="Sponsors" className={`hide-on-phone my-anchor-element ${location.pathname === "/sponsors" && 'active'}`} to={'/sponsors'}>
                 <SiGithubsponsors size={25} />
