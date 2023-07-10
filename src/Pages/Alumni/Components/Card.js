@@ -1,4 +1,4 @@
-// import '../Styles/Card.css'
+
 import styles from '../Styles/Card.module.css'
 
 export default function Card ({items}) {
