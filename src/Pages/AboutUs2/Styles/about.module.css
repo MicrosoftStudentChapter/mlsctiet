@@ -1,0 +1,306 @@
+.heading {
+  color: beige;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 6%;
+  font-size: 230%;
+  /* give border bottom with color red*/
+  border-bottom: 4px solid rgba(250, 57, 102, 0.73);
+  width: fit-content;
+  flex: 1;
+}
+.parent {
+  display: flex;
+  height: 65vh;
+}
+.mainimage {
+  /* width: 40%; */
+  margin: -1% 2% 0 4%;
+  flex: 1.2;
+}
+.container {
+  display: flex;
+  flex: 1;
+  background: url("../Assets/main.png");
+  border-radius: 12px;
+  margin: 7% 3% 7% 0;
+}
+.insideimage {
+  background: radial-gradient(
+      90.16% 143.01% at 15.32% 21.04%,
+      rgba(0, 118, 209, 0.2) 0%,
+      rgba(110, 191, 244, 0.0447917) 77.08%,
+      rgba(70, 144, 213, 0) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 12px;
+  padding: 5%;
+}
+.text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 107%;
+  line-height: 150%;
+  text-align: center;
+
+  color: rgba(223, 223, 223, 0.72);
+}
+.elements {
+  margin-bottom: 5%;
+}
+.block {
+  margin-left: 4%;
+}
+.plus {
+  margin-left: 4%;
+  width: 55px;
+  padding-top: 2%;
+}
+.rectangle {
+  margin-left: 4%;
+  margin-bottom: 1%;
+}
+.arrow {
+  display: inline-block;
+  /* shift the image upwards */
+  transform: translateY(-50%);
+  margin-left: 4%;
+}
+.block1{
+    position: absolute;
+    right:5%;
+    transform: rotate(-90deg);
+}
+
+ /* @media screen and (max-width:2560px){
+  .heading{
+    font-size: 400%;
+  }
+
+  .insideimage{
+    width: 28vw;
+    height: 38vh;
+  }
+
+  .container{
+    width: 28vw;
+    height: 42vh;
+  }
+
+  .text{
+    line-height: 140% ;
+    font-size: 200%;
+   }
+}  */
+
+@media screen and (max-width:1440px) {
+
+  .insideimage{
+    width: 33vw;
+    height: 38vh;
+  }
+
+  .container{
+    width: 33vw;
+    height: 42vh;
+  }
+
+  .text{
+    line-height: 140% ;
+    font-size: 120%;
+   }
+}
+
+ @media screen and (max-width:1024px){
+
+  .heading{
+    font-size: 250%;
+  }
+
+  .insideimage{
+    width: 42vw;
+    height: 43vh;
+  }
+
+  .text{
+   line-height: 140% ;
+   font-size: 103%;
+   font-weight: 400;
+   text-align: center;
+  }
+
+  .container{
+    width: 42vw;
+    height: 44vh;
+  }
+
+  .mainimage {
+    width: 60%;
+    height: 80%;
+  }
+}
+
+@media screen and (max-width:800px){
+  .insideimage{
+    width: 38vw;
+    height: 58vh;
+  }
+
+  .text{
+   line-height: 120% ;
+   font-size: 95%;
+   font-weight: 300;
+   text-align: center;
+  }
+
+  .container{
+    width: 31vw;
+    height: 60vh;
+  }
+  .rectangle{
+    width: 85vw;
+  }
+
+  .block1{
+    position: absolute;
+    left: 73%;
+    bottom: 80%;
+  }
+}
+
+@media screen and (max-width:500px){
+
+  .heading{
+    text-align: center;
+    margin-left: 35%;
+    font-size: 140%;
+    margin-top: 1%;
+  }
+
+  .block1{
+    position: absolute;
+    left: 70%;
+    bottom: 90%;
+    width: 25vw;
+  }
+
+  .mainimage{
+    position: absolute;
+    top: 52%;
+    left: 2%;
+    width: 90vw;
+    height: 40vh;
+  }
+
+  .insideimage{
+    width: 80vw;
+    height: 26vh;
+  }
+
+  .text{
+   line-height: 100% ;
+   font-size: 87%;
+   font-weight: 300;
+   text-align: center;
+  }
+
+  .container{
+    position: absolute;
+    bottom: 47%;
+    width: 80vw;
+    height: 30vh;
+    margin-left: 10%;
+  }
+
+  .arrow{
+    width: 16vw;
+    position: absolute;
+    top: 13%;
+  }
+
+  .block{
+    width: 30vw;
+  }
+  .elements {
+    top: 95%;
+    position: absolute;
+  }
+  .plus{
+    width: 10vw;
+  }
+}
+
+@media screen and (max-width:400px){
+  .container{
+    bottom: 47%;
+    width: 72vw;
+    height: 32vh;
+    left: 5%;
+  }
+
+  .insideimage{
+    width: 70vw;
+    height: 31vh;
+  }
+
+  .block1{
+    position: absolute;
+    left: 70%;
+    bottom: 95%;
+    width: 25vw;
+  }
+
+  .mainimage{
+    width: 90vw;
+    height: 40vh;
+    top: 55%
+  }
+  .arrow{
+    width: 16vw;
+    position: absolute;
+    top: 11%;
+  }
+  .text{
+    font-size: smaller;
+  }
+  .heading{
+    position: absolute;
+    top: 5%;
+  }
+}
+
+@media screen and (max-width:350px){
+  .container{
+    bottom: 50%;
+    width: 80vw;
+    height: 31vh;
+    left: 1%;
+  }
+
+  .insideimage{
+    width: 80vw;
+    height: 31.5vh;
+  }
+
+  .mainimage{
+    width: 90vw;
+    height: 37vh;
+    top: 53%;
+  }
+
+  .heading{
+    text-align: center;
+    margin-left: 35%;
+    font-size: 120%;
+  }
+  .elements {
+    top: 90%;
+  }
+}
+
+

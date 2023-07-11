@@ -1,5 +1,5 @@
 import AboutUs from "./Pages/AboutUs";
-import Alumni from "./Pages/Alumni";
+import About2 from "./Pages/AboutUs2/About2";
 import Community from "./Pages/Community";
 import Events from "./Pages/Events";
 import Gallery from "./Pages/Gallery";
@@ -20,13 +20,12 @@ function App() {
       <NavbarI />
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
-        <Route path="/about" element={<AboutUs />} />
 				<Route path="/community" element={<Community />} />
         <Route path="/events" element={<Events />} />
 				<Route path="/gallery" element={<Gallery />} />
         <Route path="/team" element={<OurTeam />} />
         <Route path="/sponsors" element={<Sponsors />} />
-        {/* <Route path="/alumni" element={<Alumni />} /> */}
+        <Route path="/about" element={<About2 />} />
         <Route path="*" element={<Error />} />
         <Route path="/projects" element={<Projects />}/>
       </Routes>

@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@500&family=Eczar:wght@600&family=Montserrat:wght@600&family=Poppins:wght@200&display=swap');
-@font-face {
-    font-family: 'Khyay';
-    src: url(../../../fonts/myanmar-khyay.ttf);
-}
+
 .Image{
   height: 100%;
   width: 100%;
@@ -24,7 +21,6 @@ body{
   color: azure;
   font-size: 80px;
   padding-bottom: 4%;
-  font-family: 'Khyay';
   color: #FFF6EB;
   text-align: center;
 }
