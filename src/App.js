@@ -20,13 +20,12 @@ function App() {
       <NavbarI />
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
-        <Route path="/about" element={<AboutUs />} />
 				<Route path="/community" element={<Community />} />
         <Route path="/events" element={<Events />} />
 				<Route path="/gallery" element={<Gallery />} />
         <Route path="/team" element={<OurTeam />} />
         <Route path="/sponsors" element={<Sponsors />} />
-        <Route path="/about2" element={<About2 />} />
+        <Route path="/about" element={<About2 />} />
         <Route path="*" element={<Error />} />
         <Route path="/projects" element={<Projects />}/>
       </Routes>
