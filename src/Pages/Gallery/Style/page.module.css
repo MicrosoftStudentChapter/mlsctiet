@@ -1,0 +1,14 @@
+.primary {
+  position: relative;
+  top: 15vh;
+  z-index: 0;
+}
+
+@media (max-width: 768px)
+{
+    .primary
+    {
+        z-index: 0;
+        top : 25vh;
+    }
+}

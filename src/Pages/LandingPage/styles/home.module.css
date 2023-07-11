@@ -1,67 +1,21 @@
-
-.container{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    overflow-x: hidden;
-    background-image: url("../bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation: fadeIn 1s;
-    /* background-position: center; */
-
-}
-
 .left{
-    min-width: 50%;
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
+    z-index: 5;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    overflow: hidden;
 }
-
-/* .leftImage{
-    width: 100%;
-    height: 100%;
-    
-} */
-
-.right{
-    min-width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* background-color: black; */
-    color: white;
-    line-height: 1;
-    font-family: 'myanmar-khyay-regular', sans-serif;
-    font-size: 3rem;
-    font-weight: bold;
-    text-shadow: -11px 12px 11px rgba(0, 0, 0, 0.81);
-    user-select: none;
-}
-
 .polygon{
-    position: relative;
-    margin-left: -60%;
-    margin-top: 10%;
-
-    background: rgba(255, 246, 235, 0.32);
-    border-radius: 107px;
-    transform: skew(-25deg);
-    width: 70%;
-    height: 70%;
-    left: 10px;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,94 +23,146 @@
 }
 
 .sheild{
-    transform: skew(25deg);
-    width: 50%;
-    height: 50%;
+    width: 20vw;
+    margin-top: 9%;
 }
 
+.txt{
+    position: absolute;
+    top: 41vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
 
-.mobileTitle{
+.blue{
+    z-index: 5;
+    position: relative;
+    left: 80.3%;
+    width: 80vw;
+}
+
+.stroke{
+    z-index: 6;
+    width: 80vw;
+    
+}
+
+.content{
+    z-index: 7;
+    position: relative;
+    right: 80.3%;
+    width: 80vw;
+}
+
+.udlogo{
+    width: 18vw;
+    opacity: 0.3;
+    margin-top: 3%;
+    transform:rotateZ(180deg);
+    z-index: 1;
+}
+
+.mvmlsc{
     display: none;
-}
-
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    margin-top: 7%;
 }
 
 
-/* @media screen and (max-width: 1730px) {
+@media screen and (max-width:1440px){
+    .udlogo{
+        width: 17vw;
+    }
     .sheild{
-        margin-left:5%;
-        height:45%;
+        width: 20vw;
+    }
+    .txt{
+        top: 40vh;
+    }
+    .blue{
+        left: 80.3%;
+        width: 80vw;
+    }
+    .stroke{
+        width: 80vw;
+    }
+    .content{
+        right: 80.3%;
+        width: 80vw;
     }
 }
-
-@media screen and (max-width: 1500px){
-    .sheild{
-        margin-left:10%;
-        height:40%;
+@media screen and (max-width:1210px){
+    .txt{
+        top: 44%;
     }
 }
-@media screen and (max-width: 1300px){
-    .sheild{
-        margin-left:15%;
-        height:35%;
+@media screen and (max-width:1000px){
+    .txt{
+        top: 46%;
     }
-    .polygon{
-        height: 50%;
+    .sheild{
+        margin-top: 12%;
     }
 }
-@media screen and (max-width: 1150px){
+@media screen and (max-width:850px){
+    .txt{
+        top: 48%;
+    }
     .sheild{
-        margin-left:20%;
-       
+        margin-top: 14%;
     }
-    .polygon{
-        height: 45%;
+}
+@media screen and (max-width:780px){
+    .txt{
+        top: 48%;
     }
-} */
-@media screen and (max-width: 950px){
-    .right{
+    .sheild{
+        margin-top: 15%;
+        width:22vw;
+    }
+}
+@media screen and (max-width:700px){
+    .txt{
+        top: 50%;
+    }
+}
+@media screen and (max-width:650px){
+    .sheild{
+        margin-top: 17%;
+    }
+}
+@media screen and (max-width:600px){
+    .sheild{
+        margin-top: 20%;
+    }
+}
+@media screen and (max-width:540px){
+    .mvmlsc{
+        display: block;
+        width:80vw;
+    }
+    .sheild{
+        width: 45vw;
+        margin-top: -38%;
+    } 
+    .txt, .udlogo{
         display: none;
     }
-    .container{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .left{
-        width: 100%;
-        justify-content: space-evenly;
-    }
-    .polygon{
-        transform: skew(0);
-        position: relative;
-        left: 32.5%;
-        height: 40%;
-        padding: 1.5rem;
+}
+@media screen and (max-width:400px){
+    .txt, .udlogo{
+        display: none;
     }
     .sheild{
-        transform: skew(0);
-    }
-    .mobileTitle{
-        display: inline;
-        color: white;
-        /* letter-spacing: 0.2rem; */
-        font-size: xx-large;
-        text-align: center;
-        font-family: 'myanmar-khyay-regular', sans-serif;
-        font-weight: bolder;
-        padding-top: 1rem;
-    }
+        width: 45vw;
+        margin-top: -32%;
+    } 
 }
 
-@media screen and (max-width: 540px){
-    .sheild{
-        width: 70%;
-    }
-    .polygon{
-        height: 40%;
-        width: 70%;
-    }
+.stars{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    
 }
