@@ -53,7 +53,9 @@ const NavbarI = () => {
                     <Link style={{ borderTopLeftRadius: '10px', borderTopRightRadius: '10px' }} className={location.pathname === "/events" && 'active1'} onClick={checkClosingDropUp} to={'/events'}>Events</Link>
                     {/* <Link className={location.pathname === "/team" && 'active1'} onClick={checkClosingDropUp} to={'/team'}>Team</Link> */}
                     {/* <Link className={location.pathname === "/gallery" && 'active1'} onClick={checkClosingDropUp} to={'/gallery'}>Gallery</Link> */}
-                    <Link style={{ borderBottomRightRadius: '10px', borderBottomLeftRadius: '10px' }} className={location.pathname === "/sponsors" && 'active1'} onClick={checkClosingDropUp} to={'/sponsors'}>Sponsors</Link>
+                    <Link className={location.pathname === "/sponsors" && 'active1'} onClick={checkClosingDropUp} to={'/sponsors'}>Sponsors</Link>
+                    <Link className={location.pathname === "/gallery" && 'active1'} onClick={checkClosingDropUp} to={'/gallery'}>Gallery</Link>
+                    <Link style={{ borderBottomRightRadius: '10px', borderBottomLeftRadius: '10px' }} className={location.pathname === "/team" && 'active1'} onClick={checkClosingDropUp} to={'/team'}>Team</Link>
                 </div>
             </a>
             <Link data-tooltip-content="Events" className={`hide-on-phone my-anchor-element ${location.pathname === "/events" && 'active'}`} to={'/events'}>

@@ -5,10 +5,12 @@ import SynthWave from "./Components/synthwave"
 import StarsCanvas from "./Components/Stars";
 import MobV from "./Assets/Desktop/Mob.png";
 import mlscpng from "./Assets/Desktop/mlscpng.png";
+import {RemoveScrollBar} from 'react-remove-scroll-bar';
 
 const LandingPage = () => {
   return (
     <>
+    <RemoveScrollBar/>
     <div className={styles.main}>
     <div className={styles.stars}>
     <StarsCanvas/>
