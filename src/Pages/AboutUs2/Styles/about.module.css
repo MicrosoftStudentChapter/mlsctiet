@@ -16,7 +16,8 @@
 .mainimage {
   /* width: 40%; */
   margin: -1% 2% 0 4%;
-  flex: 1.2;
+  opacity: 60%;
+  flex: 1;
 }
 .container {
   display: flex;
@@ -100,14 +101,18 @@
 
 @media screen and (max-width:1440px) {
 
+   .heading{
+    font-size: 350%;
+  } 
+
   .insideimage{
-    width: 33vw;
-    height: 38vh;
+    width: 39vw;
+    height: 37vh;
   }
 
   .container{
-    width: 33vw;
-    height: 42vh;
+    width: 41vw;
+    height: 41vh;
   }
 
   .text{
@@ -123,8 +128,8 @@
   }
 
   .insideimage{
-    width: 42vw;
-    height: 43vh;
+    width: 45vw;
+    height: 41vh;
   }
 
   .text{
@@ -135,8 +140,8 @@
   }
 
   .container{
-    width: 42vw;
-    height: 44vh;
+    width: 45vw;
+    height: 42vh;
   }
 
   .mainimage {
@@ -179,7 +184,7 @@
     text-align: center;
     margin-left: 35%;
     font-size: 140%;
-    margin-top: 1%;
+    margin-top: 8%;
   }
 
   .block1{
