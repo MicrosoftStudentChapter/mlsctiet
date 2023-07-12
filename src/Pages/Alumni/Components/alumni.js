@@ -3,7 +3,7 @@ const Alumni = [
     id: 1,
     year: 2022,
     image:
-      "https://res.cloudinary.com/dlig1y4as/image/upload/v1688932132/yamini_bansal_2022_kk9upe.jpg",
+      "https://res.cloudinary.com/dy1pmolax/image/upload/v1689152672/alumni_page/2022/IMG_5353_axwfdd.jpg",
     name: "Yamini Bansal",
     linkedIn: "https://www.linkedin.com/",
     post: "Creativity Head"
@@ -13,7 +13,7 @@ const Alumni = [
     id: 2,
     year: 2022,
     image:
-      "https://res.cloudinary.com/dlig1y4as/image/upload/v1688932132/shreya_chopra_2022_ll3kis.jpg",
+      "https://res.cloudinary.com/dy1pmolax/image/upload/v1689152675/alumni_page/2022/IMG_5298_z5znda.jpg",
     name: "Shreya Chopra",
     linkedIn: "https://www.linkedin.com/",
     post: "Joint Secretary"
@@ -22,7 +22,7 @@ const Alumni = [
     id: 3,
     year: 2022,
     image:
-      "https://res.cloudinary.com/dlig1y4as/image/upload/v1688932132/rudransh_arora_2022_k7m9ww.jpg",
+      "https://res.cloudinary.com/dy1pmolax/image/upload/v1689152669/alumni_page/2022/IMG_5279_ornwul.jpg",
     name: "Rudransh Arora",
     linkedIn: "https://www.linkedin.com/",
     post: "Joint Secretary"
@@ -32,7 +32,7 @@ const Alumni = [
     id: 4,
     year: 2022,
     image:
-      "https://res.cloudinary.com/dlig1y4as/image/upload/v1688932132/mitesh_jindal_2022_kvgetx.jpg",
+      "https://res.cloudinary.com/dy1pmolax/image/upload/v1689152673/alumni_page/2022/IMG_5276_ivcvtj.jpg",
     name: "Mitesh Jindal",
     linkedIn: "https://www.linkedin.com/",
     post: "Technical Head"
@@ -42,7 +42,7 @@ const Alumni = [
     id: 5,
     year: 2022,
     image:
-      "https://res.cloudinary.com/dlig1y4as/image/upload/v1688932132/neha_aggarwal_fj5s7t.jpg",
+      "https://res.cloudinary.com/dy1pmolax/image/upload/v1689152674/alumni_page/2022/IMG_5376_ul7icn.jpg",
     name: "Neha Aggarwal",
     linkedIn: "https://www.linkedin.com/",
     post: "Publicity Head"
@@ -51,7 +51,7 @@ const Alumni = [
     id: 6,
     year: 2022,
     image:
-      "https://res.cloudinary.com/dlig1y4as/image/upload/v1688932131/shivansh_kapoor_2022_a3g2eo.jpg",
+      "https://res.cloudinary.com/dy1pmolax/image/upload/v1689152672/alumni_page/2022/IMG_5309_sej6ag.jpg",
     name: "Shivansh Kapoor",
     linkedIn: "https://www.linkedin.com/",
     post: "Finance Secretary"
@@ -60,7 +60,7 @@ const Alumni = [
     id: 7,
     year: 2022,
     image:
-      "https://res.cloudinary.com/dlig1y4as/image/upload/v1688932131/anamika_srivastava_2022_nsfhma.jpg",
+      "https://res.cloudinary.com/dy1pmolax/image/upload/v1689152670/alumni_page/2022/IMG_5323_jnefbv.jpg",
     name: "Anamika Srivastava",
     linkedIn: "https://www.linkedin.com/",
     post: "Content Head"
@@ -69,7 +69,7 @@ const Alumni = [
     id: 8,
     year: 2022,
     image:
-      "https://res.cloudinary.com/dlig1y4as/image/upload/v1688932130/meharamt_singh_2022_fajqvw.jpg",
+      "https://res.cloudinary.com/dy1pmolax/image/upload/v1689152667/alumni_page/2022/IMG_5367_rpkhap.jpg",
     name: "Meharamt Singh",
     linkedIn: "https://www.linkedin.com/",
     post: "Joint Secretary"
@@ -78,7 +78,7 @@ const Alumni = [
     id: 9,
     year: 2022,
     image:
-      "https://res.cloudinary.com/dlig1y4as/image/upload/v1688932131/kunal_demla_2022_bwgmtx.jpg",
+      "https://res.cloudinary.com/dy1pmolax/image/upload/v1689152673/alumni_page/2022/IMG_5284_wffssi.jpg",
     name: "Kunal Demla",
     linkedIn: "https://www.linkedin.com/",
     post: "Designing Head"
@@ -87,7 +87,7 @@ const Alumni = [
     id: 10,
     year: 2022,
     image:
-      "https://res.cloudinary.com/dlig1y4as/image/upload/v1688932131/adamay_mann_2022_shrg4n.jpg",
+      "https://res.cloudinary.com/dy1pmolax/image/upload/v1689152667/alumni_page/2022/IMG_5270_ysqcpb.jpg",
     name: "Adamay Mann",
     linkedIn: "https://www.linkedin.com/",
     post: "General Secretary"
@@ -96,7 +96,7 @@ const Alumni = [
     id: 11,
     year: 2022,
     image:
-      "https://res.cloudinary.com/dlig1y4as/image/upload/v1688932131/anannya_singh_2022_rcioho.jpg",
+      "https://res.cloudinary.com/dy1pmolax/image/upload/v1689152666/alumni_page/2022/IMG_5304_uu01w7.jpg",
     name: "Anannya Singh",
     linkedIn: "https://www.linkedin.com/",
     post: "Joint Secretary"
@@ -105,7 +105,7 @@ const Alumni = [
     id: 12,
     year: 2022,
     image:
-      "https://res.cloudinary.com/dlig1y4as/image/upload/v1688932131/khushi_prasad_2022_ssaylv.jpg",
+      "https://res.cloudinary.com/dy1pmolax/image/upload/v1689152667/alumni_page/2022/IMG_5308_oktaxo.jpg",
     name: "Khushi Prasad",
     linkedIn: "https://www.linkedin.com/",
     post: "EM Head"
