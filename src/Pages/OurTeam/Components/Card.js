@@ -15,10 +15,11 @@ const Card = (props) => {
         </center>
 
         <button className={styles.card__btn}>
-          <a href="#">
-            <img src={linkedin} />
-          </a>
-        </button>
+  <a href={props.linkedin_acc}>
+    <img src={linkedin} alt="LinkedIn" />
+  </a>
+</button>
+
       </div>
     </>
   );

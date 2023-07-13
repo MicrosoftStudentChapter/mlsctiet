@@ -44,7 +44,7 @@ const Navbar = () => {
           {members.map((el) => {
             // console.log(el.title);
             // console.log(el.img);
-            return <Card img={el.img} title={el.title} />
+            return <Card img={el.img} title={el.title} linkedin_acc={el.linkedin_acc} />
           })}
         </div>
       </div>
