@@ -13,12 +13,14 @@ const Navbar = () => {
     // console.log(e.target.dataset.target);
   }
 
+  
+
   return (
     <>
       <div className={styles.navdes}>
         <ul className={styles.navbar}>
           <li className={styles.firstcomp}>
-            <p onClick={displayMembers} onAnimationEnd={()=>{setFade(false)}} data-target="secretaries">
+            <p onClick={displayMembers} onAnimationEnd={()=>{setFade(false)}}  data-target="secretaries">
               Secretaries
             </p>
           </li>
@@ -27,7 +29,7 @@ const Navbar = () => {
               Heads
             </p>
           </li>
-          <li>
+          {/* <li>
             <p onClick={displayMembers} onAnimationEnd={()=>{setFade(false)}} data-target="core">
               Core
             </p>
@@ -36,7 +38,7 @@ const Navbar = () => {
             <p onClick={displayMembers} data-target="executives">
               Executives
             </p>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="members">

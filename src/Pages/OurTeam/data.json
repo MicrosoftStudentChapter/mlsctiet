@@ -1,172 +1,95 @@
 {
   "core": [
-    {
-      "title": "Krishna Vig",
-      "img": "https://res.cloudinary.com/disstxt8t/image/upload/v1689224251/MLSC_WEBSITE/IMG_20230421_210431_477_or1eho.jpg"
-    },
-    {
-      "title":"Aditya Pathak",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1672951080/MLSC%20website/Members/IMG20220821163204_-_ADITYA_PATHAK-removebg-preview_ylhalp.png"
-    },
-    {
-      "title": "Nimish Medatwal",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673027033/MLSC%20website/Members/Screenshot_2022-09-14-00-50-50-57_965bbf4d18d205f782c6b8409c5773a4_-_Nimish_Medatwal-removebg-preview_fviuod.png"
-    },
-    {
-      "title": "Ikshan Bhardwaj",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673027395/MLSC%20website/Members/Ikshan_B_-_Ikshan_Bhardwaj-removebg-preview_nk9zg5.png"
-    },
-    {
-      "title": "Sukhmani Arora",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1672951081/MLSC%20website/Members/Pic_-_Sukhmani_Arora-removebg-preview_gmi4cf.png"
-    },
-    {
-      "title": "Chetandeep Singh",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1672951080/MLSC%20website/Members/IMG20220908145349_-_Chetandeep_Singh-removebg-preview_bj5mxn.png"
-    },
-    {
-      "title": "Apoorva",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673027739/MLSC%20website/Members/Apoorva-removebg-preview_vzu9cs.png"
-    },
-    {
-      "title": "Mukesh Devrath",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673027518/MLSC%20website/Members/Mukesh_kumar-removebg-preview_mqxgbe.png"
-    },
-    {
-      "title": "Vishist Bhagabati",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673029483/MLSC%20website/Members/Vishist_Nilav_Bhagabati-removebg-preview_ifv3fy.png"
-    },
-    {
-      "title": "Ananya Bansal",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673028463/MLSC%20website/Members/Ananya_Bansal_-_Ananya_Bansal-removebg-preview_et923f.png"
-    },
-    {
-      "title": "Dhruv Bansal",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1672951079/MLSC%20website/Members/Dhruv_Bansal_-_Dhruv_Bansal-removebg-preview_vplyhk.png"
-    },
-    {
-      "title": "Harsiddak Bedi",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673033394/MLSC%20website/Members/Harsiddak_Singh_Bedi-removebg-preview_vlw3y8.png"
-    },
-    {
-      "title": "Yashvi Garg",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673028600/MLSC%20website/Members/Yashvi_Garg-removebg-preview_gyg8ij.png"
-    },
-    {
-      "title": "Utkarsh Tripathi",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673028914/MLSC%20website/Members/82549425_132725501557570_1650596276177507086_n_-_Utkarsh_Tripathi-removebg-preview_fnz2xw.png"
-    },
-    {
-      "title": "Aryaveer Gill",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1672951080/MLSC%20website/Members/IMG-20220415-WA0012_-_Aaryaveer_Gill-removebg-preview_c5uxtt.png"
-    },
-    {
-      "title": "Prakriti Garg",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673029786/MLSC%20website/Members/20220919_202223-removebg-preview_w4ltzp.png"
-    },
-    {
-      "title": "Aditi Sharma",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673029368/MLSC%20website/Members/Aditi_Sharma_jpeg-removebg-preview_eiulzt.png"
-    },
-    {
-      "title": "Yash Awasthi",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1672951080/MLSC%20website/Members/IMG-20220910-WA0021_-_Yash_Awasthi-removebg-preview_tkm1l4.png"
-    },
-    {
-      "title": "Akshat Jaimini",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673031338/MLSC%20website/Members/WhatsApp_Image_2023-01-06_at_23.28.47-removebg-preview_ytj0gi.png"
-    }
-
+   
   ],
+
+  
   "secretaries":[
     {
       "title":"Apoorva",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673027739/MLSC%20website/Members/Apoorva-removebg-preview_vzu9cs.png",
+      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689232312/MLSC_WEBSITE/rsz_12rsz_18_one3qy_j48pzq.png",
       "linkedin_acc" : "https://www.linkedin.com/in/apoorva11/"
     },
     {
       "title":"Utkarsh Tripathi",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673028914/MLSC%20website/Members/82549425_132725501557570_1650596276177507086_n_-_Utkarsh_Tripathi-removebg-preview_fnz2xw.png"
+      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689237227/MLSC_WEBSITE/rsz_comapplepasteboardqfg9za_dnohww_yo5d51.png",
+      "linkedin_acc" :"https://www.linkedin.com/in/utkarsh-tripathi-80a0ab192/"
     },
     {
       "title":"Aryan Garg",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673032357/MLSC%20website/Members/PXL_20221024_140323894.PORTRAIT-removebg-preview_cy0b4q.png"
+      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689233546/MLSC_WEBSITE/rsz_1_giy5fk_m8ocby.png",
+      "linkedin_acc" :"https://www.linkedin.com/in/aryangarg401/"
     },
     {
-      "title":"Meharamt Singh",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035822/MLSC%20website/Members/IMG_5367-removebg-preview_r8b2ff.png"
+      "title":"Sukhmani Arora",
+      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689236895/MLSC_WEBSITE/rsz_copy_of_sukhmanidi_2x_j5iwrf_t9jz2p.png",
+      "linkedin_acc" :"https://www.linkedin.com/in/arora-sukhmani/"
     },
     {
-      "title":"Rudransh Arora",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673034984/MLSC%20website/Members/IMG_5279-removebg-preview_zcqqj5.png"
+      "title":"Ikshan Bhardwaj",
+      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689237997/MLSC_WEBSITE/rsz_inshot_20211009_232322373-removebg-preview_x1tbwu.png",
+      "linkedin_acc" :"https://www.linkedin.com/in/ikshan-bhardwaj/"
+    },
+    {
+      "title": "Nimish Medatwal",
+      "img": "https://res.cloudinary.com/disstxt8t/image/upload/v1689238200/MLSC_WEBSITE/rsz_12_qww0hd_herhvu.png",
+      "linkedin_acc" :"https://www.linkedin.com/in/nimishmedatwal/"
+    },
+    {
+      "title":"Akshat Jaimini",
+      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689238650/MLSC_WEBSITE/rsz_1comapplepasteboardkzwspn_htzfch_w2cwyb.png",
+      "linkedin_acc" :"https://www.linkedin.com/in/akshat-jaimini-05a610203/"
+    },
+    {
+      "title":"Uday Beswal",
+      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689238386/MLSC_WEBSITE/rsz_4_skkkrd_byzsna.png",
+      "linkedin_acc" :"https://www.linkedin.com/in/uday-beswal-64a68a229/"
     }
   ],
   "heads":[
     {
       "title":"Uday Beswal",
-      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689222990/MLSC_WEBSITE/4_skkkrd.png"
+      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689238386/MLSC_WEBSITE/rsz_4_skkkrd_byzsna.png",
+      "linkedin_acc" :"https://www.linkedin.com/in/uday-beswal-64a68a229/"
     },
     {
       "title":"Akshat Jaimini",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673031338/MLSC%20website/Members/WhatsApp_Image_2023-01-06_at_23.28.47-removebg-preview_ytj0gi.png"
+      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689238650/MLSC_WEBSITE/rsz_1comapplepasteboardkzwspn_htzfch_w2cwyb.png",
+      "linkedin_acc" :"https://www.linkedin.com/in/akshat-jaimini-05a610203/"
     },
     {
-      "title":"Yamini Bansal",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035451/MLSC%20website/Members/IMG_5330-removebg-preview_ptlquz.png"
+      "title":"Prakriti Garg",
+      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689239189/MLSC_WEBSITE/rsz_img-20230615-wa0004-removebg-preview_nalcj1_kqdjak.png",
+      "linkedin_acc": "https://www.linkedin.com/in/prakriti-garg18/"
     },
     {
-      "title":"Kunal Demla",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035492/MLSC%20website/Members/IMG_5284-removebg-preview_eddfbd.png"
-    },
-    {
-      "title":"Mitesh Jindal",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035558/MLSC%20website/Members/IMG_5275-removebg-preview_d116k0.png"
-    },
-    {
-      "title":"Khushi Prasad",
-      "img":"https://res.cloudinary.com/damjdcgak/image/upload/v1673035605/MLSC%20website/Members/IMG_5307-removebg-preview_bdlwsu.png"
-    }
-  ],
-  "executives":[
-    {
-      "title": "Uday Beswal",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673030205/MLSC%20website/Members/IMG_20220914_094439-removebg-preview_pgowtv.png"
-    },
-    {
-      "title": "Shambhavi Singh",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673031190/MLSC%20website/Members/IMG20220727194139_-_Shambhavi_Singh-removebg-preview_iwexo9.png"
-    },
-   
-    {
-      "title": "Navya Walia",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673030513/MLSC%20website/Members/Navya_Walia-removebg-preview_p5uxg3.png"
-    },
-    {
-      "title": "Parth Arora",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673032845/MLSC%20website/Members/496941B5-FFD4-40B6-936C-FCCB43EF603A_-_Parth_Arora-removebg-preview_1_d8ncdu.png"
-    },
-    {
-      "title": "Samarth Paliwal",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673032174/MLSC%20website/Members/20220910_162203_-_Samarth_Paliwal-removebg-preview_kh2krc.png"
-    },
-    
-   
-    {
-      "title": "Samarjeet Singh Gandhi",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673030341/MLSC%20website/Members/PicsArt_01-20-10.50.45_-_Samarjeet_Singh_Gandhi-removebg-preview_adz4da.png"
+      "title":"Vishist Bhagabati",
+      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689239306/MLSC_WEBSITE/rsz_7_d287x0_h0thic.png",
+      "linkedin_acc":"https://www.linkedin.com/in/vishist-bhagabati-738398227/"
     },
     {
       "title": "Sehaj Jot Singh",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673030275/MLSC%20website/Members/Sehaj_Jot_Singh_-_Sehaj_Jot_Singh_kbmywk.png"
+      "img": "https://res.cloudinary.com/disstxt8t/image/upload/v1689240239/MLSC_WEBSITE/rsz_6_opuvek_ba959h.png",
+      "linkedin_acc":"https://www.linkedin.com/in/sehaj-jot-singh-164869245/"
     },
    
-    
+    {
+      "title": "Dhruv Bansal",
+      "img": "https://res.cloudinary.com/disstxt8t/image/upload/v1689239763/MLSC_WEBSITE/rsz_dhruvbhaiya_2x_as18dd_nvi6od.png",
+      "linkedin_acc":"https://www.linkedin.com/in/dhruv-bansal-348141229/"
+    },
     {
       "title": "Tithi Srivastava",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673031451/MLSC%20website/Members/IMG-20220420-WA0013_2_-_Tithi_Srivastava-removebg-preview_ztwt8g.png"
+      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673031451/MLSC%20website/Members/IMG-20220420-WA0013_2_-_Tithi_Srivastava-removebg-preview_ztwt8g.png",
+      "linkedin_acc":"https://www.linkedin.com/in/tithi-srivastava-000666221/"
     }
-  
-    
+
+  ],
+
+
+
+
+  "executives":[
     
   ]
 }
