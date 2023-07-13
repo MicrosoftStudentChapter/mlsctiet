@@ -16,7 +16,8 @@
 .mainimage {
   /* width: 40%; */
   margin: -1% 2% 0 4%;
-  flex: 1.2;
+  opacity: 60%;
+  flex: 1;
 }
 .container {
   display: flex;
@@ -100,14 +101,19 @@
 
 @media screen and (max-width:1440px) {
 
+   .heading{
+    font-size: 350%;
+    margin-top: 2%;
+  } 
+
   .insideimage{
-    width: 33vw;
-    height: 38vh;
+    width: 39vw;
+    height: 37vh;
   }
 
   .container{
-    width: 33vw;
-    height: 42vh;
+    width: 41vw;
+    height: 41vh;
   }
 
   .text{
@@ -123,8 +129,8 @@
   }
 
   .insideimage{
-    width: 42vw;
-    height: 43vh;
+    width: 46vw;
+    height: 41vh;
   }
 
   .text{
@@ -135,8 +141,8 @@
   }
 
   .container{
-    width: 42vw;
-    height: 44vh;
+    width: 46vw;
+    height: 42vh;
   }
 
   .mainimage {
@@ -146,9 +152,13 @@
 }
 
 @media screen and (max-width:800px){
+
+  .heading{
+    margin-top: 5%;
+  }
   .insideimage{
     width: 38vw;
-    height: 58vh;
+    height: 51vh;
   }
 
   .text{
@@ -160,7 +170,7 @@
 
   .container{
     width: 31vw;
-    height: 60vh;
+    height: 52vh;
   }
   .rectangle{
     width: 85vw;
@@ -169,7 +179,7 @@
   .block1{
     position: absolute;
     left: 73%;
-    bottom: 80%;
+    bottom: 85%;
   }
 }
 
@@ -179,7 +189,7 @@
     text-align: center;
     margin-left: 35%;
     font-size: 140%;
-    margin-top: 1%;
+    margin-top: 8%;
   }
 
   .block1{
@@ -199,7 +209,7 @@
 
   .insideimage{
     width: 80vw;
-    height: 26vh;
+    height: 25vh;
   }
 
   .text{
@@ -220,7 +230,7 @@
   .arrow{
     width: 16vw;
     position: absolute;
-    top: 13%;
+    top: 10%;
   }
 
   .block{
@@ -236,10 +246,15 @@
 }
 
 @media screen and (max-width:400px){
+
+  .heading{
+    margin-top: 2%;
+  }
+
   .container{
     bottom: 47%;
     width: 72vw;
-    height: 32vh;
+    height: 33vh;
     left: 5%;
   }
 
@@ -278,7 +293,7 @@
   .container{
     bottom: 50%;
     width: 80vw;
-    height: 31vh;
+    height: 33vh;
     left: 1%;
   }
 
@@ -300,6 +315,10 @@
   }
   .elements {
     top: 90%;
+  }
+
+  .arrow{
+    top: 9%;
   }
 }
 
