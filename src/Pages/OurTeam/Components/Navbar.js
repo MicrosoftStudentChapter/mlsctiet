@@ -29,7 +29,7 @@ const Navbar = () => {
               Heads
             </p>
           </li>
-          {/* <li>
+           {/* <li>
             <p onClick={displayMembers} onAnimationEnd={()=>{setFade(false)}} data-target="core">
               Core
             </p>
@@ -38,8 +38,9 @@ const Navbar = () => {
             <p onClick={displayMembers} data-target="executives">
               Executives
             </p>
-          </li> */}
+          </li>  */}
         </ul>
+       
       </div>
       <div className="members">
         <div className={styles.wrapper}>

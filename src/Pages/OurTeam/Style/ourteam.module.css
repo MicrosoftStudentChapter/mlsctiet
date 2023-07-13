@@ -11,6 +11,7 @@
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
+
 .heading {
   position: fixed;
   width: 344px;
