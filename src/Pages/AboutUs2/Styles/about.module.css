@@ -103,6 +103,7 @@
 
    .heading{
     font-size: 350%;
+    margin-top: 2%;
   } 
 
   .insideimage{
@@ -128,7 +129,7 @@
   }
 
   .insideimage{
-    width: 45vw;
+    width: 46vw;
     height: 41vh;
   }
 
@@ -140,7 +141,7 @@
   }
 
   .container{
-    width: 45vw;
+    width: 46vw;
     height: 42vh;
   }
 
@@ -151,9 +152,13 @@
 }
 
 @media screen and (max-width:800px){
+
+  .heading{
+    margin-top: 5%;
+  }
   .insideimage{
     width: 38vw;
-    height: 58vh;
+    height: 51vh;
   }
 
   .text{
@@ -165,7 +170,7 @@
 
   .container{
     width: 31vw;
-    height: 60vh;
+    height: 52vh;
   }
   .rectangle{
     width: 85vw;
@@ -174,7 +179,7 @@
   .block1{
     position: absolute;
     left: 73%;
-    bottom: 80%;
+    bottom: 85%;
   }
 }
 
@@ -204,7 +209,7 @@
 
   .insideimage{
     width: 80vw;
-    height: 26vh;
+    height: 25vh;
   }
 
   .text{
@@ -225,7 +230,7 @@
   .arrow{
     width: 16vw;
     position: absolute;
-    top: 13%;
+    top: 10%;
   }
 
   .block{
@@ -241,10 +246,15 @@
 }
 
 @media screen and (max-width:400px){
+
+  .heading{
+    margin-top: 2%;
+  }
+
   .container{
     bottom: 47%;
     width: 72vw;
-    height: 32vh;
+    height: 33vh;
     left: 5%;
   }
 
@@ -283,7 +293,7 @@
   .container{
     bottom: 50%;
     width: 80vw;
-    height: 31vh;
+    height: 33vh;
     left: 1%;
   }
 
@@ -305,6 +315,10 @@
   }
   .elements {
     top: 90%;
+  }
+
+  .arrow{
+    top: 9%;
   }
 }
 

@@ -7060,8 +7060,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-=======
 "get-nonce@npm:^1.0.0":
   version: 1.0.1
   resolution: "get-nonce@npm:1.0.1"
@@ -7069,7 +7067,6 @@ __metadata:
   languageName: node
   linkType: hard
 
->>>>>>> 59cd3362dbfb56de9a3b000f9130018ff836accb
 "get-own-enumerable-property-symbols@npm:^3.0.0":
   version: 3.0.2
   resolution: "get-own-enumerable-property-symbols@npm:3.0.2"
@@ -7703,8 +7700,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-=======
 "invariant@npm:^2.2.4":
   version: 2.2.4
   resolution: "invariant@npm:2.2.4"
@@ -7714,7 +7709,6 @@ __metadata:
   languageName: node
   linkType: hard
 
->>>>>>> 59cd3362dbfb56de9a3b000f9130018ff836accb
 "ip@npm:^2.0.0":
   version: 2.0.0
   resolution: "ip@npm:2.0.0"
@@ -9085,11 +9079,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-"loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
-=======
 "loose-envify@npm:^1.0.0, loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
->>>>>>> 59cd3362dbfb56de9a3b000f9130018ff836accb
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -9510,10 +9500,7 @@ __metadata:
     react-dom: ^18.2.0
     react-gtm-module: ^2.0.11
     react-icons: ^4.4.0
-<<<<<<< HEAD
-=======
     react-remove-scroll-bar: ^2.3.4
->>>>>>> 59cd3362dbfb56de9a3b000f9130018ff836accb
     react-responsive-carousel: ^3.2.23
     react-reveal: ^1.2.2
     react-router-dom: ^6.3.0
@@ -11364,8 +11351,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-=======
 "react-remove-scroll-bar@npm:^2.3.4":
   version: 2.3.4
   resolution: "react-remove-scroll-bar@npm:2.3.4"
@@ -11382,7 +11367,6 @@ __metadata:
   languageName: node
   linkType: hard
 
->>>>>>> 59cd3362dbfb56de9a3b000f9130018ff836accb
 "react-responsive-carousel@npm:^3.2.23":
   version: 3.2.23
   resolution: "react-responsive-carousel@npm:3.2.23"
@@ -11554,8 +11538,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-=======
 "react-style-singleton@npm:^2.2.1":
   version: 2.2.1
   resolution: "react-style-singleton@npm:2.2.1"
@@ -11573,7 +11555,6 @@ __metadata:
   languageName: node
   linkType: hard
 
->>>>>>> 59cd3362dbfb56de9a3b000f9130018ff836accb
 "react-swipeable@npm:^6.1.2":
   version: 6.2.2
   resolution: "react-swipeable@npm:6.2.2"
@@ -13205,11 +13186,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< HEAD
-"tslib@npm:^2.0.3, tslib@npm:^2.4.0":
-=======
 "tslib@npm:^2.0.0, tslib@npm:^2.0.3, tslib@npm:^2.4.0":
->>>>>>> 59cd3362dbfb56de9a3b000f9130018ff836accb
   version: 2.6.0
   resolution: "tslib@npm:2.6.0"
   checksum: c01066038f950016a18106ddeca4649b4d76caa76ec5a31e2a26e10586a59fceb4ee45e96719bf6c715648e7c14085a81fee5c62f7e9ebee68e77a5396e5538f
