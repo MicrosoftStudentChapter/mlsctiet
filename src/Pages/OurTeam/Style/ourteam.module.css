@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 .ourteam {
   width: 100%;
   margin-top: 5rem;
   min-height: 100vh;
-  background-color: #0d1213;
-  margin: 0px;
+  background-color: black;
+  margin-bottom: 180px;
   overflow: hidden;
   animation: fadeIn 1s;
 }
@@ -12,19 +13,6 @@
     100% { opacity: 1; }
 }
 
-
-
-.namebox{
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  position: relative;
-  top:129px;
-  color:white;
-  font-size: 1.5rem;
-  height: 12vh;
-
-}
 
 
 .heading {
@@ -346,6 +334,9 @@ hr {
     margin-right: auto;
     margin-left: auto;
     padding: 25px;
+  }
+  .members1{
+    margin-bottom: 150px;
   }
   li{
     background-color: #6868689f !important;

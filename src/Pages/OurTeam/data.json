@@ -2,11 +2,11 @@
   "core": [
     {
         "key": "1",
-        "naam": "Krishna Vig"
+        "naam": "Agrim Goyal"
     },
     {
         "key": "2",
-        "naam": "Agrim Goyal"
+        "naam": "Krishna Vig"
     },
     {
         "key": "3",
@@ -14,7 +14,7 @@
     },
     {
         "key": "4",
-        "naam": "Ikshita"
+        "naam": "Ishita"
     },
     {
         "key": "5",
@@ -174,9 +174,349 @@
 
 
   "executives":[
-    {
-      "key":"1",
-      "naam" :"ram"
-    }
-  ]
-}
+    
+      {
+          "key": "1",
+          "naam": "Akhilesh"
+      },
+      {
+          "key": "2",
+          "naam": "Anirudh Garg"
+      },
+     
+      {
+          "key": "3",
+          "naam": "Nikhil Mittal"
+      },
+      
+      {
+          "key": "4",
+          "naam": "Jayant"
+      },
+      {
+          "key": "5",
+          "naam": "Malhar"
+      },
+      
+    
+      {
+          "key": "6",
+          "naam": "Sarthak"
+      },
+      {
+          "key": "7",
+          "naam": "Siddhanth"
+      },
+      
+      {
+          "key": "8",
+          "naam": "Surya"
+      },
+      {
+          "key": "9",
+          "naam": "Tanmay Saluja"
+      },
+      {
+          "key": "10",
+          "naam": "Aabharan Gupta"
+      },
+      {
+          "key": "11",
+          "naam": "Aamna Abdin"
+      },
+      {
+          "key": "12",
+          "naam": "Abhilasha Tiwari"
+      },
+      
+      {
+          "key": "13",
+          "naam": "Abhyuday Venkatesh"
+      },
+      {
+          "key": "14",
+          "naam": "Aditya Sapra"
+      },
+    
+      {
+          "key": "15",
+          "naam": "Akshat Nigam"
+      },
+      {
+          "key": "16",
+          "naam": "Akshita"
+      },
+      {
+          "key": "17",
+          "naam": "Angad"
+      },
+      {
+          "key": "18",
+          "naam": "Angad Singh"
+      },
+      {
+          "key": "19",
+          "naam": "Ananay"
+      },
+      {
+          "key": "20",
+          "naam": "Ansh"
+      },
+      {
+          "key": "21",
+          "naam": "Anushka"
+      },
+      {
+          "key": "22",
+          "naam": "Anuvind"
+      },
+      {
+          "key": "23",
+          "naam": "Archita Shankar"
+      },
+      
+      {
+          "key": "24",
+          "naam": "Arnav Gupta"
+      },
+      {
+          "key": "25",
+          "naam": "ARYAN"
+      },
+      {
+          "key": "26",
+          "naam": "Avishi Mittal"
+      },
+      {
+          "key": "27",
+          "naam": "Avishi Singh"
+      },
+      {
+          "key": "28",
+          "naam": "Ayushi"
+      },
+      {
+          "key": "29",
+          "naam": "D J"
+      },
+      {
+          "key": "30",
+          "naam": "Debatiya Barman"
+      },
+      {
+          "key": "31",
+          "naam": "Dev Mehta"
+      },
+      
+      
+      {
+          "key": "32",
+          "naam": "Himanshu Jhawar"
+      },
+      
+      {
+          "key": "33",
+          "naam": "Jahnvi Ranjan"
+      },
+      {
+          "key": "34",
+          "naam": "Jas"
+      },
+      {
+          "key": "35",
+          "naam": "Jayita"
+      },
+     
+      {
+          "key": "36",
+          "naam": "Kavya"
+      },
+      {
+          "key": "37",
+          "naam": "Khushi"
+      },
+      {
+          "key": "38",
+          "naam": "Khushpreet Singh"
+      },
+     
+      {
+          "key": "39",
+          "naam": "Krishnam"
+      },
+      {
+          "key": "40",
+          "naam": "Krishnansh"
+      },
+      {
+          "key": "41",
+          "naam": "Lishika"
+      },
+      {
+          "key": "42",
+          "naam": "Manan"
+      },
+      
+      {
+          "key": "43",
+          "naam": "Neha"
+      },
+      {
+          "key": "44",
+          "naam": "Dev Goyal"
+      },
+      {
+          "key": "45",
+          "naam": "Nipun Jain"
+      },
+      {
+          "key": "46",
+          "naam": "Palak"
+      },
+      {
+          "key": "47",
+          "naam": "Parth Adlakha"
+      },
+      {
+          "key": "48",
+          "naam": "Parusha"
+      },
+      
+      {
+          "key": "49",
+          "naam": "Punyyaa Garg"
+      },
+      {
+          "key": "50",
+          "naam": "Raghav"
+      },
+      {
+          "key": "51",
+          "naam": "Raghav Jindal"
+      },
+      {
+          "key": "52",
+          "naam": "Rahul"
+      },
+      {
+          "key": "53",
+          "naam": "Rajat"
+      },
+      
+      {
+          "key": "54",
+          "naam": "Rijul"
+      },
+      {
+          "key": "55",
+          "naam": "Riya"
+      },
+      {
+          "key": "56",
+          "naam": "Rohit Arora"
+      },
+      
+      {
+          "key": "57",
+          "naam": "S."
+      },
+      
+      {
+          "key": "58",
+          "naam": "Saanvi"
+      },
+     
+      {
+          "key": "59",
+          "naam": "Saksham"
+      },
+      {
+          "key": "60",
+          "naam": "Samriddh Negi"
+      },
+      {
+          "key": "61",
+          "naam": "Sanchit"
+      },
+      {
+          "key": "62",
+          "naam": "Sarthak Gupta"
+      },
+      {
+          "key": "63",
+          "naam": "Sarthak Kala"
+      },
+      {
+          "key": "64",
+          "naam": "Shreya Gakhar"
+      },
+      {
+          "key": "65",
+          "naam": "Sure?Ya"
+      },
+      {
+          "key": "66",
+          "naam": "Swayam Gupta"
+      },
+      
+      {
+          "key": "67",
+          "naam": "Tanvi Singh"
+      },
+      {
+          "key": "68",
+          "naam": "Uday"
+      },
+      {
+          "key": "69",
+          "naam": "Vamshi Raja"
+      },
+      {
+          "key": "70",
+          "naam": "Vanika Sahni"
+      },
+     
+     
+      {
+          "key": "71",
+          "naam": "Yuvraj Saini"
+      },
+      {
+          "key": "72",
+          "naam": "Yuvraj Vij"
+      },
+      
+      {
+          "key": "73",
+          "naam": "Ananya JIndal"
+      },
+     
+     
+      {
+          "key": "74",
+          "naam": "Akarsh Srivastav"
+      },
+      {
+          "key": "75",
+          "naam": "Arya Lal"
+      },
+      {
+          "key": "76",
+          "naam": "Smriti Singh"
+      },
+      {
+          "key": "77",
+          "naam": "Udita Srivastav"
+      },
+      {
+          "key": "78",
+          "naam": "Harshit"
+      },
+      {
+          "key": "79",
+          "naam": "Suhani Mathur"
+      }
+     
+    ]}
+  
+
