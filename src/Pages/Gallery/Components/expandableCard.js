@@ -1,6 +1,6 @@
-import { useState} from "react";
-import { motion , AnimatePresence} from "framer-motion";
-import classes from '../Style/expandableCard.module.css'
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import classes from "../Style/expandableCard.module.css";
 import ImageArea from "./imageArea";
 import ImageAreaSmall from "./imageAreaSmall";
 
@@ -27,23 +27,20 @@ const ExpandableCard = (props) => {
         {props.year}
       </motion.h2>
       <AnimatePresence>
-      <motion.div layout exit={{ opacity: 0 }}
-            transition={{ duration: 0.5 }} >
-      {props.index === props.actid && (
-        <>
-          {windowWidth >= 500 ? (
-            <ImageArea images={props.img} />
-          ) : (
-            <ImageAreaSmall images={props.img}></ImageAreaSmall>
-            
+        <motion.div layout exit={{ opacity: 0 }} transition={{ duration: 0.5 }}>
+          {props.index === props.actid && (
+            <>
+              {windowWidth >= 500 ? (
+                <ImageArea images={props.img} />
+              ) : (
+                <ImageAreaSmall images={props.img}></ImageAreaSmall>
+              )}
+            </>
           )}
-        </>
-      )}
-     </motion.div>
-     </AnimatePresence>
+        </motion.div>
+      </AnimatePresence>
     </motion.div>
   );
 };
 
 export default ExpandableCard;
-

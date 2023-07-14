@@ -52,13 +52,6 @@
 	transform: rotate(90deg);
 }
 
-/* .containerShadow{
-    width: 60vw;
-    height: 55vh;
-    position: absolute;
-    z-index: 2;
-} */
-
 .cardTitle{
     padding:1rem;
     z-index: 2;

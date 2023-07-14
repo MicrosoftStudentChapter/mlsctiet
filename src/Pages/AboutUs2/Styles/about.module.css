@@ -4,7 +4,6 @@
   margin: 0 auto;
   margin-top: 6%;
   font-size: 230%;
-  /* give border bottom with color red*/
   border-bottom: 4px solid rgba(250, 57, 102, 0.73);
   width: fit-content;
   flex: 1;
@@ -14,7 +13,6 @@
   height: 65vh;
 }
 .mainimage {
-  /* width: 40%; */
   margin: -1% 2% 0 4%;
   opacity: 60%;
   flex: 1;
@@ -28,16 +26,13 @@
 }
 .insideimage {
   background: radial-gradient(
-      90.16% 143.01% at 15.32% 21.04%,
-      rgba(0, 118, 209, 0.2) 0%,
-      rgba(110, 191, 244, 0.0447917) 77.08%,
-      rgba(70, 144, 213, 0) 100%
-    )
-    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    90.16% 143.01% at 15.32% 21.04%,
+    rgba(0, 118, 209, 0.2) 0%,
+    rgba(110, 191, 244, 0.0447917) 77.08%,
+    rgba(70, 144, 213, 0) 100%
+  );
   background-blend-mode: overlay, normal;
   backdrop-filter: blur(40px);
-  /* Note: backdrop-filter has minimal browser support */
-
   border-radius: 12px;
   padding: 5%;
 }
@@ -68,79 +63,55 @@
 }
 .arrow {
   display: inline-block;
-  /* shift the image upwards */
   transform: translateY(-50%);
   margin-left: 4%;
 }
-.block1{
-    position: absolute;
-    right:5%;
-    transform: rotate(-90deg);
+.block1 {
+  position: absolute;
+  right: 5%;
+  transform: rotate(-90deg);
 }
 
- /* @media screen and (max-width:2560px){
-  .heading{
-    font-size: 400%;
-  }
-
-  .insideimage{
-    width: 28vw;
-    height: 38vh;
-  }
-
-  .container{
-    width: 28vw;
-    height: 42vh;
-  }
-
-  .text{
-    line-height: 140% ;
-    font-size: 200%;
-   }
-}  */
-
-@media screen and (max-width:1440px) {
-
-   .heading{
+@media screen and (max-width: 1440px) {
+  .heading {
     font-size: 350%;
     margin-top: 2%;
-  } 
+  }
 
-  .insideimage{
+  .insideimage {
     width: 39vw;
     height: 37vh;
   }
 
-  .container{
+  .container {
     width: 41vw;
     height: 41vh;
   }
 
-  .text{
-    line-height: 140% ;
+  .text {
+    line-height: 140%;
     font-size: 120%;
-   }
+  }
 }
 
- @media screen and (max-width:1024px){
-
-  .heading{
+@media screen and (max-width: 1024px) {
+  .heading {
     font-size: 250%;
   }
 
-  .insideimage{
+  .insideimage {
     width: 46vw;
     height: 41vh;
   }
 
-  .text{
-   line-height: 140% ;
-   font-size: 103%;
-   font-weight: 400;
-   text-align: center;
+  .text {
+    line-height: 140%;
+    font-size: 103%;
+    font-weight: 400;
+    text-align: center;
   }
 
-  .container{
+  .container {
     width: 46vw;
     height: 42vh;
   }
@@ -151,55 +122,53 @@
   }
 }
 
-@media screen and (max-width:800px){
-
-  .heading{
+@media screen and (max-width: 800px) {
+  .heading {
     margin-top: 5%;
   }
-  .insideimage{
+  .insideimage {
     width: 38vw;
     height: 51vh;
   }
 
-  .text{
-   line-height: 120% ;
-   font-size: 95%;
-   font-weight: 300;
-   text-align: center;
+  .text {
+    line-height: 120%;
+    font-size: 95%;
+    font-weight: 300;
+    text-align: center;
   }
 
-  .container{
+  .container {
     width: 31vw;
     height: 52vh;
   }
-  .rectangle{
+  .rectangle {
     width: 85vw;
   }
 
-  .block1{
+  .block1 {
     position: absolute;
     left: 73%;
     bottom: 85%;
   }
 }
 
-@media screen and (max-width:500px){
-
-  .heading{
+@media screen and (max-width: 500px) {
+  .heading {
     text-align: center;
     margin-left: 35%;
     font-size: 140%;
     margin-top: 8%;
   }
 
-  .block1{
+  .block1 {
     position: absolute;
     left: 70%;
     bottom: 90%;
     width: 25vw;
   }
 
-  .mainimage{
+  .mainimage {
     position: absolute;
     top: 52%;
     left: 2%;
@@ -207,19 +176,19 @@
     height: 40vh;
   }
 
-  .insideimage{
+  .insideimage {
     width: 80vw;
     height: 25vh;
   }
 
-  .text{
-   line-height: 100% ;
-   font-size: 87%;
-   font-weight: 300;
-   text-align: center;
+  .text {
+    line-height: 100%;
+    font-size: 87%;
+    font-weight: 300;
+    text-align: center;
   }
 
-  .container{
+  .container {
     position: absolute;
     bottom: 47%;
     width: 80vw;
@@ -227,88 +196,87 @@
     margin-left: 10%;
   }
 
-  .arrow{
+  .arrow {
     width: 16vw;
     position: absolute;
     top: 10%;
   }
 
-  .block{
+  .block {
     width: 30vw;
   }
   .elements {
     top: 95%;
     position: absolute;
   }
-  .plus{
+  .plus {
     width: 10vw;
   }
 }
 
-@media screen and (max-width:400px){
-
-  .heading{
+@media screen and (max-width: 400px) {
+  .heading {
     margin-top: 2%;
   }
 
-  .container{
+  .container {
     bottom: 47%;
     width: 72vw;
     height: 33vh;
     left: 5%;
   }
 
-  .insideimage{
+  .insideimage {
     width: 70vw;
     height: 31vh;
   }
 
-  .block1{
+  .block1 {
     position: absolute;
     left: 70%;
     bottom: 95%;
     width: 25vw;
   }
 
-  .mainimage{
+  .mainimage {
     width: 90vw;
     height: 40vh;
-    top: 55%
+    top: 55%;
   }
-  .arrow{
+  .arrow {
     width: 16vw;
     position: absolute;
     top: 11%;
   }
-  .text{
+  .text {
     font-size: smaller;
   }
-  .heading{
+  .heading {
     position: absolute;
     top: 5%;
   }
 }
 
-@media screen and (max-width:350px){
-  .container{
+@media screen and (max-width: 350px) {
+  .container {
     bottom: 50%;
     width: 80vw;
     height: 33vh;
     left: 1%;
   }
 
-  .insideimage{
+  .insideimage {
     width: 80vw;
     height: 31.5vh;
   }
 
-  .mainimage{
+  .mainimage {
     width: 90vw;
     height: 37vh;
     top: 53%;
   }
 
-  .heading{
+  .heading {
     text-align: center;
     margin-left: 35%;
     font-size: 120%;
@@ -317,9 +285,7 @@
     top: 90%;
   }
 
-  .arrow{
+  .arrow {
     top: 9%;
   }
 }
-
-

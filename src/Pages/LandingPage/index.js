@@ -21,9 +21,6 @@ const LandingPage = () => {
           <img src={sheild} className={styles.sheild} alt="Sheild" />
           <div className={styles.txt}>
           <img src={mlscpng} className={styles.stroke} alt="stroked-mlsc"/>
-          {/* <img src={blue} className={styles.blue} alt="blue-stroked-mlsc"/>
-          <img src={stroke} className={styles.stroke} alt="stroked-mlsc"/>
-          <img src={content} className={styles.content} alt="mlsc"/> */}
           </div>
           <img src={MobV} className={styles.mvmlsc} alt="Mobile view of MLSC"/>
           <img src={sheild} className={styles.udlogo} alt="Upside Down Logo" />
