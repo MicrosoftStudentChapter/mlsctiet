@@ -9,6 +9,7 @@ const OurTeam = () => {
       <div className={styles.heading}>Our Team</div>
       <Graphics />
       <Navbar />
+      
     </section>
   );
 };

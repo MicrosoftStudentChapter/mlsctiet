@@ -1,8 +1,90 @@
 {
   "core": [
-   {
-    "title": "Krishna"
-   }
+    {
+        "key": "1",
+        "naam": "Krishna Vig"
+    },
+    {
+        "key": "2",
+        "naam": "Agrim Goyal"
+    },
+    {
+        "key": "3",
+        "naam": "Daanish Mittal"
+    },
+    {
+        "key": "4",
+        "naam": "Ikshita"
+    },
+    {
+        "key": "5",
+        "naam": "Jahanvi Srivastava"
+    },
+    {
+        "key": "6",
+        "naam": "Jatin Chhabra"
+    },
+    {
+        "key": "7",
+        "naam": "Abhinandan Wadhwa"
+    },
+    {
+        "key": "8",
+        "naam": "Mankirat Singh"
+    },
+    {
+        "key": "9",
+        "naam": "Navdeep Singh"
+    },
+    {
+        "key": "10",
+        "naam": "Payal"
+    },
+    {
+        "key": "11",
+        "naam": "Preksha Jain"
+    },
+    {
+        "key": "12",
+        "naam": "Prisha Kandhari"
+    },
+    {
+        "key": "13",
+        "naam": "Rahul Garg"
+    },
+    {
+        "key": "14",
+        "naam": "Reyan Singh"
+    },
+    {
+        "key": "15",
+        "naam": "Sarthak Gupta"
+    },
+    {
+        "key": "16",
+        "naam": "Shaurya Bhardwaj"
+    },
+    {
+        "key": "17",
+        "naam": "Siddarth Aggarwal"
+    },
+    {
+        "key": "18",
+        "naam": "Sparsh Rastogi"
+    },
+    {
+        "key": "19",
+        "naam": "Tanmay Mann"
+    },
+    {
+        "key": "20",
+        "naam": "Yavisht Gupta"
+    },
+    {
+        "key": "21",
+        "naam": "Yuvraj Gupta"
+    }
+
   ],
 
   
@@ -92,6 +174,9 @@
 
 
   "executives":[
-    
+    {
+      "key":"1",
+      "naam" :"ram"
+    }
   ]
 }
