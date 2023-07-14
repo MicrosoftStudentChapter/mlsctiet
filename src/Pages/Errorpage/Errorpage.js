@@ -1,6 +1,5 @@
 import React from 'react'
 import StyleCSS from "./Style/Style.module.css" 
-import Navbar from "../../Components/Navbar/Navbar"
 import Errorr from "../Errorpage/Assets/Error.png"
 import Error4 from "../Errorpage/Assets/Error4.png"
 import Face from "../Errorpage/Assets/Face.png"
