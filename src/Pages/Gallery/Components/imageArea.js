@@ -1,10 +1,9 @@
 import classes from "../Style/imageArea.module.css";
-
-import { useState} from "react";
+import { useState } from "react";
 
 const ImageArea = (props) => {
   const [indexg, setIndexg] = useState(-1);
-  
+
   return (
     <div className={classes.imgwrap}>
       <div className={classes.c1}>
@@ -93,7 +92,7 @@ const RectBig = (props) => {
     <img
       src={props.source}
       style={
-        props.ig === props.index|| props.ig === -1
+        props.ig === props.index || props.ig === -1
           ? {}
           : { filter: "brightness(0.5) saturate(0%)" }
       }
@@ -119,5 +118,3 @@ const RectSmall = (props) => {
     />
   );
 };
-
-
