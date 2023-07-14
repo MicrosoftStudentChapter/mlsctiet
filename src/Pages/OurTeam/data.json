@@ -118,29 +118,20 @@
       "title": "Nimish Medatwal",
       "img": "https://res.cloudinary.com/disstxt8t/image/upload/v1689238200/MLSC_WEBSITE/rsz_12_qww0hd_herhvu.png",
       "linkedin_acc" :"https://www.linkedin.com/in/nimishmedatwal/"
-    },
-    {
-      "title":"Akshat Jaimini",
-      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689238650/MLSC_WEBSITE/rsz_1comapplepasteboardkzwspn_htzfch_w2cwyb.png",
-      "linkedin_acc" :"https://www.linkedin.com/in/akshat-jaimini-05a610203/"
-    },
-    {
+    }, {
       "title":"Uday Beswal",
       "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689238386/MLSC_WEBSITE/rsz_4_skkkrd_byzsna.png",
       "linkedin_acc" :"https://www.linkedin.com/in/uday-beswal-64a68a229/"
+    },
+    {
+      "title":"Akshat Jaimini",
+      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689322310/MLSC_WEBSITE/rsz_jai-removebg-preview_xbgbj4.png",
+      "linkedin_acc" :"https://www.linkedin.com/in/akshat-jaimini-05a610203/"
     }
+    
   ],
   "heads":[
-    {
-      "title":"Uday Beswal",
-      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689238386/MLSC_WEBSITE/rsz_4_skkkrd_byzsna.png",
-      "linkedin_acc" :"https://www.linkedin.com/in/uday-beswal-64a68a229/"
-    },
-    {
-      "title":"Akshat Jaimini",
-      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689238650/MLSC_WEBSITE/rsz_1comapplepasteboardkzwspn_htzfch_w2cwyb.png",
-      "linkedin_acc" :"https://www.linkedin.com/in/akshat-jaimini-05a610203/"
-    },
+    
     {
       "title":"Prakriti Garg",
       "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689239189/MLSC_WEBSITE/rsz_img-20230615-wa0004-removebg-preview_nalcj1_kqdjak.png",
@@ -166,6 +157,11 @@
       "title": "Tithi Srivastava",
       "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673031451/MLSC%20website/Members/IMG-20220420-WA0013_2_-_Tithi_Srivastava-removebg-preview_ztwt8g.png",
       "linkedin_acc":"https://www.linkedin.com/in/tithi-srivastava-000666221/"
+    },
+    {
+      "title":"Chetandeep Singh",
+      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689322846/MLSC_WEBSITE/rsz_comapplepasteboardkzedw4_yr0x6i_d1unlh.png",
+      "linkedin_acc":"https://www.linkedin.com/in/chetandeep-singh-0b326021b/"
     }
 
   ],
@@ -174,7 +170,11 @@
 
 
   "executives":[
-    
+  {
+"key":"0",
+"naam":"Armaan Khan"
+
+  },
       {
           "key": "1",
           "naam": "Akhilesh"
@@ -384,7 +384,7 @@
       
       {
           "key": "49",
-          "naam": "Punyyaa Garg"
+          "naam": "Punya Garg"
       },
       {
           "key": "50",

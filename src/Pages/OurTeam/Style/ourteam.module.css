@@ -212,7 +212,7 @@ right: -12px;
   transition: background 200ms ease-in, color 1s ease-in;
 }
 
-.card:hover .card__image {
+/* .card:hover .card__image {
   transform-origin: bottom;
    transform: translate(0px,-20px); 
   transform: scale(1.15);
@@ -226,7 +226,7 @@ right: -12px;
   transform: scale(1.0);
   overflow: visible;
   transition: 0.85s;
-  border: #fa3966 solid 1px;}
+  border: #fa3966 solid 1px;} */
 
 
 /* .card:hover .card__btn {
@@ -354,7 +354,7 @@ hr {
   .image8 {
     display: none;
   }
-  .ourteam_card__75gtz:hover .ourteam_card__image__ZtcNY {
+  /* .ourteam_card__75gtz:hover .ourteam_card__image__ZtcNY {
 
     transform-origin: bottom;
    
@@ -365,7 +365,7 @@ hr {
     position: relative;
     left: 18px;
     height: 166px;
-  }
+  } */
 }
 @media (max-width: 400px){
   .navbar{
@@ -399,11 +399,11 @@ hr {
     font-size: 4rem;
     top: 30px;
   }
-  /* .navbar {
+   .navbar {
     margin-right: auto;
     margin-left: auto;
     justify-content: center;
-  } */
+  } 
   .navbar li {
     font-size: 1.5rem;
     margin-top: 17%;
