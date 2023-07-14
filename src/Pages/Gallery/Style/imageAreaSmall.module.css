@@ -1,45 +1,39 @@
 .i1 {
-    width: 125px;
-    aspect-ratio: 354.03/442.62;
-    /* Maintain aspect ratio */
-    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 28px;
-    border: 5px white solid;
-    background-color: bisque;
-    margin: 8px;
-    transition: 0.6s ease-in-out;
-    /* position: static; */
-    object-fit: cover;
+  width: 125px;
+  aspect-ratio: 354.03/442.62;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 28px;
+  border: 5px white solid;
+  background-color: bisque;
+  margin: 8px;
+  transition: 0.6s ease-in-out;
+  object-fit: cover;
 }
 
-.i2
-{
-   
-    width: 240px;
-   ;
-    aspect-ratio: 354.22/185.86;
-    /* Maintain aspect ratio */
-    background-color: bisque;
-    border-radius: 28px;
-    border-left: 5px white solid;
-    border-top: 5px white solid;
-    border-right: 5px white solid;
-    border-bottom: 5px white solid;
-    transition: 0.6s ease-in-out;
-    margin: 8px;
-    object-fit: cover;
+.i2 {
+  width: 240px;
+  aspect-ratio: 354.22/185.86;
+  background-color: bisque;
+  border-radius: 28px;
+  border-left: 5px white solid;
+  border-top: 5px white solid;
+  border-right: 5px white solid;
+  border-bottom: 5px white solid;
+  transition: 0.6s ease-in-out;
+  margin: 8px;
+  object-fit: cover;
 }
 
 .i3 {
-    width: 125px;
-    aspect-ratio: 355.27/354.02;
-    border-radius: 28px;
-    border-left: 5px white solid;
-    border-top: 5px white solid;
-    border-right: 5px white solid;
-    border-bottom: 5px white solid;
-    background-color: bisque;
-    margin: 8px;
-    transition: 0.6s ease-in-out;
-    object-fit: cover;
+  width: 125px;
+  aspect-ratio: 355.27/354.02;
+  border-radius: 28px;
+  border-left: 5px white solid;
+  border-top: 5px white solid;
+  border-right: 5px white solid;
+  border-bottom: 5px white solid;
+  background-color: bisque;
+  margin: 8px;
+  transition: 0.6s ease-in-out;
+  object-fit: cover;
 }
