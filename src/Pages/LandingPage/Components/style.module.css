@@ -218,4 +218,68 @@ body, html {
 		transform: translateY(50px);
 	}
 }
+@-webkit-keyframes lines {
+	from {
+		transform: translateY(-140px);
+	}
+	to {
+		transform: translateY(40px);
+	}
+}
+@-webkit-keyframes lines1 {
+	from {
+		transform: translateY(-150px);
+	}
+	to {
+		transform: translateY(50px);
+	}
+}
+@-moz-keyframes lines {
+	from {
+		transform: translateY(-140px);
+	}
+	to {
+		transform: translateY(40px);
+	}
+}
+@-moz-keyframes lines1 {
+	from {
+		transform: translateY(-150px);
+	}
+	to {
+		transform: translateY(50px);
+	}
+}
+@-ms-keyframes lines {
+	from {
+		transform: translateY(-140px);
+	}
+	to {
+		transform: translateY(40px);
+	}
+}
+@-ms-keyframes lines1 {
+	from {
+		transform: translateY(-150px);
+	}
+	to {
+		transform: translateY(50px);
+	}
+}
+@-o-keyframes lines {
+	from {
+		transform: translateY(-140px);
+	}
+	to {
+		transform: translateY(40px);
+	}
+}
+@-o-keyframes lines1 {
+	from {
+		transform: translateY(-150px);
+	}
+	to {
+		transform: translateY(50px);
+	}
+}
 

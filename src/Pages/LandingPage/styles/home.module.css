@@ -166,3 +166,24 @@
     height: 100vh;
     
 }
+
+@media  screen and (max-height:1081px) {
+    .mvmlsc{
+        margin-bottom: 15%;
+    }
+}
+/* @media  screen and (max-height:404px) {
+    .sheild{
+        margin-top: -39%;
+    }
+}
+@media  screen and (max-height:352px) {
+    .sheild{
+        margin-top: -42%;
+    }
+}
+@media  screen and (max-height:292px) {
+    .sheild{
+        margin-top: -45%;
+    }
+} */
