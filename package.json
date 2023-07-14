@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "3d-react-carousal": "^5.0.0",
+    "@floating-ui/dom": "1.4.5",
     "@react-three/drei": "^9.78.1",
     "@react-three/fiber": "^8.13.4",
     "framer-motion": "^10.12.18",
