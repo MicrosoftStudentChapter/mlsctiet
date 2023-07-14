@@ -59,4 +59,3 @@ const RectBig = (props) => {
 const RectSmall = (props) => {
   return <img src={props.source} className={classes.i2} />;
 };
-
