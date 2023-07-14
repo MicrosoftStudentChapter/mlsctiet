@@ -46,16 +46,20 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="members">
-        {fade && (target === "secretaries" || target === "heads") ? (
-          <div className={styles.wrapper}>
+        {fade && (target === "core" || target === "executives") ? (
+
+<div className={styles.namelist}>
             {members.map((el) => (
-              <Card img={el.img} title={el.title} linkedin_acc={el.linkedin_acc} />
+              <NamesOnly naam={el.naam} key={el.key} />
+            
             ))}
           </div>
         ) : (
-          <div className={styles.namelist}>
+          <div className={styles.wrapper}>
             {members.map((el) => (
-              <NamesOnly naam={el.naam} key={el.key} />
+              <Card img={el.img} title={el.title} linkedin_acc={el.linkedin_acc} />
+            
+            
             ))}
           </div>
         )}
