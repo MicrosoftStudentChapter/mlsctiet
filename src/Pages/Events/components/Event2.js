@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import styles from '../styles/event2/event2.module.css';
 import blueGradient from '../assets/Event2/BlueGradient.svg';
-import eventImage from '../assets/Event2/EventImage.svg';
 import cross from '../assets/Event2/cross.svg';
 
 const Event2 = ({title_main, desc, toggle, toggle2}) => {
@@ -42,7 +41,6 @@ const Event2 = ({title_main, desc, toggle, toggle2}) => {
                     </button>
                 </div>
             </div>
-           {/* {!isMobile && <img src= {eventImage} alt={"event"} className= {styles.eventImage}/>} */}
         </div>
     );
 }
