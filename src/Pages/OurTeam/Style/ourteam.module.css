@@ -177,14 +177,14 @@
 
 .card__image {
   /* position: absolute; */
-  height: 16rem;
+  height: 14.2rem;
   width: 85%;
   /* z-index: 2; */
   /* object-fit:cover; */
   /* background-color: #26282A; */
 position: relative;
 right: -12px;
-  
+  top:33px;
 }
 .card__title {
 
@@ -376,6 +376,7 @@ hr {
     /* width: 85%;
     position: relative; */
     right: -12px;
+    top:20px;
   }
   .wrapper {
     margin-left: 24%;
