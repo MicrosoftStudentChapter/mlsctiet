@@ -143,10 +143,10 @@
       "linkedin_acc":"https://www.linkedin.com/in/vishist-bhagabati-738398227/"
     },
     {
-      "title": "Sehaj Jot Singh",
-      "img": "https://res.cloudinary.com/disstxt8t/image/upload/v1689240239/MLSC_WEBSITE/rsz_6_opuvek_ba959h.png",
-      "linkedin_acc":"https://www.linkedin.com/in/sehaj-jot-singh-164869245/"
-    },
+        "title":"Chetandeep Singh",
+        "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689322846/MLSC_WEBSITE/rsz_comapplepasteboardkzedw4_yr0x6i_d1unlh.png",
+        "linkedin_acc":"https://www.linkedin.com/in/chetandeep-singh-0b326021b/"
+      },
    
     {
       "title": "Dhruv Bansal",
@@ -155,14 +155,15 @@
     },
     {
       "title": "Tithi Srivastava",
-      "img": "https://res.cloudinary.com/disstxt8t/image/upload/v1689337407/rsz_2023-05-29-11-49-23-866_1-removebg-preview_bfrxud_hfmy1c.png",
+      "img": "https://res.cloudinary.com/disstxt8t/image/upload/v1689437468/MLSC_WEBSITE/grid_landscape_kscete.png",
       "linkedin_acc":"https://www.linkedin.com/in/tithi-srivastava-000666221/"
     },
+    
     {
-      "title":"Chetandeep Singh",
-      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689322846/MLSC_WEBSITE/rsz_comapplepasteboardkzedw4_yr0x6i_d1unlh.png",
-      "linkedin_acc":"https://www.linkedin.com/in/chetandeep-singh-0b326021b/"
-    }
+        "title": "Sehaj Jot Singh",
+        "img": "https://res.cloudinary.com/disstxt8t/image/upload/v1689437272/MLSC_WEBSITE/swipe_2_1_vqnxvq.png",
+        "linkedin_acc":"https://www.linkedin.com/in/sehaj-jot-singh-164869245/"
+      }
 
   ],
 
