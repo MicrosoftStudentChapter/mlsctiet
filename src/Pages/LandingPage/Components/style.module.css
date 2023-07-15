@@ -204,10 +204,10 @@ body, html {
 
 @keyframes lines {
 	from {
-		transform: translateY(-140px);
+		transform: translateY(-150px);
 	}
 	to {
-		transform: translateY(40px);
+		transform: translateY(50px);
 	}
 }
 @keyframes lines1 {
@@ -215,7 +215,7 @@ body, html {
 		transform: translateY(-150px);
 	}
 	to {
-		transform: translateY(50px);
+		transform: translateY(60px);
 	}
 }
 

@@ -22,7 +22,9 @@ const LandingPage = () => {
           <div className={styles.txt}>
           <img src={mlscpng} className={styles.stroke} alt="stroked-mlsc"/>
           </div>
+              <div className={styles.txt1}>
           <img src={MobV} className={styles.mvmlsc} alt="Mobile view of MLSC"/>
+          </div>
           <img src={sheild} className={styles.udlogo} alt="Upside Down Logo" />
         </div>
       </div>
