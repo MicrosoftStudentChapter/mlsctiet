@@ -31,12 +31,12 @@ body, html {
 	width: 100%;
 	height: 70%;
 	perspective: 1450px;
-	z-index: 2;
-	&:before {
+	z-index: 2;}
+	.movingGrid:before {
 		content: '';
 		width: 100%;
 	}
-	.container {
+.movingGrid > .container {
 		position: absolute;
 		width: 45%;
 		height: 300%;
@@ -44,11 +44,12 @@ body, html {
 		box-sizing: border-box;
 		transform-origin: top ;
 		transform:  rotateX(73deg) rotateZ(3deg);
-		overflow: hidden;
-		.staticLines {
+		overflow: hidden;}
+		
+.movingGrid > .container > .staticLines {
 			width: 100%;
-			height: 100%;
-			.vert {
+			height: 100%;}
+.staticLines > .vert {
 				display: inline-block;
 				height: 100%;
 				width: 2px;
@@ -56,15 +57,15 @@ body, html {
 				margin-left: 4.5%;
 				box-shadow: 0 2px 21px rgb(1, 85, 140);
 			}
-		}
-		.movingLines {
+		
+.movingGrid > .container > .movingLines {
 			position: absolute;
 			top: 0;
 			left: 0;
 			width: 120%;
 			height: 100%;
-			transform: rotateZ(-4deg);
-			.horz {
+			transform: rotateZ(-4deg);}
+.movingLines > .horz {
 				width: 100%;
 				height: 5px;
 				margin-top: 4.8%;
@@ -72,62 +73,57 @@ body, html {
 				box-shadow: 2px 0 21px rgb(1, 85, 140);
 				animation: lines 800ms linear infinite;
 			}
-		}
-	}
 	@media screen and (max-width: 520px){
-		.container{
-			transform: rotateX(74deg) rotateZ(4deg);
-			.staticLines {
-				.vert {
+	.movingGrid > .container{
+			transform: rotateX(74deg) rotateZ(4deg);}
+.movingGrid > .container > .staticLines {}
+	.staticLines > .vert {
 					margin-right: 9.5%;
 				}
-			}
-			.movingLines{
+.movingGrid > .container > .movingLines{
 				transform: rotateZ(-4deg);
-				width: 140%;
-					.horz{
+				width: 140%;}
+	.movingLines > .horz{
 					margin-top: 20%;
 					animation: lines 800ms linear infinite;
 				}
 			}
-		}
 		
-	}
+		
+	
 	@media screen and (max-width: 1130px) and (min-width: 520px){
-		.container{
-			transform: rotateX(74deg) rotateZ(5deg);
-			.staticLines {
-				.vert {
+	.movingGrid > .container{
+			transform: rotateX(74deg) rotateZ(5deg);}
+.movingGrid > .container > .staticLines {}
+		.staticLines > .vert {
 					margin-right: 4.5%;
 				}
-			}
-			.movingLines{
-				transform: rotateZ(-5deg);
-					.horz{
+			
+.movingGrid > .container > .movingLines{
+				transform: rotateZ(-5deg);}
+.movingLines > .horz{
 					margin-top: 6.5%;
 					animation: lines 800ms linear infinite;
 				}
 			}
-		}
-	}
+	
 		@media screen and (min-height: 1350px) {
-			.container {
+.movingGrid > .container {
 				transform: rotateX(60deg) rotateZ(5deg);
 			}
 		}
-}
-.movingGrid2 {
+.movingGrid2  {
 	position: absolute;
 	top: -29px;
 	width: 100%;
 	height: 70%;
 	perspective: 1450px;
-	z-index: 2;
+	z-index: 2;}
 	&:before {
 		content: '';
 		width: 100%;
 	}
-	.container {
+.movingGrid2 > .container {
 		position: absolute;
 		right: 0;
 		width: 45%;
@@ -136,12 +132,12 @@ body, html {
 		box-sizing: border-box;
 		overflow: hidden;
 		transform-origin: top;
-		transform: rotateX(73deg) rotateZ(-3deg);
-		.staticLines {
+		transform: rotateX(73deg) rotateZ(-3deg);}
+.movingGrid2 > .container > .staticLines {
 			display: inline-block;
 			width: 100%;
-			height: 100%;
-			.vert {
+			height: 100%;}
+.staticLines > .vert {
 				display: inline-block;
 				height: 100%;
 				width: 2px;
@@ -149,15 +145,14 @@ body, html {
 				margin-left: 4.5%;
 				box-shadow: 0 2px 21px rgb(1, 85, 140);
 			}
-		}
-		.movingLines {
+.movingGrid2 > .container > .movingLines {
 			position: absolute;
 			top: 0;
 			right: 0;
 			width: 120%;
 			height: 100%;
-			transform: rotateZ(4deg);
-			.horz {
+			transform: rotateZ(4deg);}
+.movingLines > .horz {
 				display: inline-block;
 				width: 100%;
 				height: 5px;
@@ -166,50 +161,50 @@ body, html {
 				box-shadow: 2px 0 21px rgb(1, 85, 140);
 				animation: lines1 800ms linear infinite;
 			}
-		}
-	}
 
-	@media screen and (max-width: 520px){
-		.container{
-			transform: rotateX(74deg) rotateZ(-4deg);
-			.staticLines {
-				.vert {
+
+@media screen and (max-width: 520px){
+	.movingGrid2 > .container{
+			transform: rotateX(74deg) rotateZ(-4deg);}
+		.container > .staticLines {}
+				.staticLines > .vert {
 					margin-left: 14%;
 				}
-			}
-			.movingLines{
+		.container > .movingLines{
 				transform: rotateZ(4deg);
-				width: 140%;
-					.horz{
+				width: 140%;}
+		.movingLines > .horz{
 					margin-top: 20%;
 					animation: lines1 800ms linear infinite;
 				}
 			}
-		}
 		
-	}
+		
+	
 	@media screen and (max-width: 1130px) and (min-width: 520px){
-		.container{
-			transform: rotateX(74deg) rotateZ(-5deg);
-			.staticLines {
-				.vert {
-					margin-left: 9%;
-				}
+	.movingGrid2 > .container{
+			transform: rotateX(74deg) rotateZ(-5deg);}
+		.container > .staticLines {
+				
 			}
-			.movingLines{
-				transform: rotateZ(5deg);
-					.horz{
+		.container > .movingLines{
+				transform: rotateZ(5deg);}
+		.movingLines > .horz{
 					margin-top: 6.5%;
 					animation: lines1 800ms linear infinite;
 				}
-			}
-		}
+			
+		
+		.staticLines > .vert {
+					margin-left: 9%;
+				}
 	}
-		@media screen and (min-height: 1350px) {
-			.container {
-				transform: rotateX(60deg) rotateZ(-5deg);
-			}
-		}
+		
+
+@media screen and (min-height: 1350px) {
+.movingGrid2 > .container {
+		transform: rotateX(60deg) rotateZ(-5deg);
+	}
 }
 
 @keyframes lines {
