@@ -41,12 +41,12 @@
 
 .navbar {
   display: flex;
-  /* justify-content: center; */
+   justify-content: center; 
   margin-top: 1rem; 
   /* text-decoration: none; */
   list-style-type: none;
   z-index: 13;
-  margin-left: 23%;
+  margin-left: 7%;
   /* flex-wrap: wrap; */
   /* position: absolute; */
 }
@@ -421,3 +421,4 @@ hr {
   }
 
   }
+  
