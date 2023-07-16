@@ -8,6 +8,8 @@
 [![GitHub stars](https://img.shields.io/github/stars/MicrosoftStudentChapter/mlsctiet?color=%23FDB827&style=for-the-badge)](https://github.com/MicrosoftStudentChapter/mlsctiet/stargazers)
 [![Discord](https://img.shields.io/discord/720322067261554728?label=Discord&logo=discord)](https://discord.gg/CpAPtDC)
 
+Know more about us at [mlsctiet.com](https://mlsctiet.com)
+
 ## Index
 
 1. [About MLSC](#about-mlsc)
