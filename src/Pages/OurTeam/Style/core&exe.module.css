@@ -31,7 +31,9 @@
     justify-content: center;
     gap: 7px;
     grid-column-gap: 0px;
-    padding: 0 180px;
+    padding: 0 200px;
+    position: relative;
+    right:-43px;
   }
   .names:hover{
     color:palevioletred;
@@ -61,8 +63,10 @@
       }
       .namelist{
         grid-template-columns: repeat(2, 1fr); 
-    top: 92px;
+    top: -15px;
     gap: 28px;
+    position:relative;
+    right:0.65vw;
       }
       .names{
         font-size: 1.2rem;
@@ -75,8 +79,10 @@
       grid-template-columns: repeat(2, 1fr); 
       text-align: center;
       grid-column-gap:5px ;
-  top: 92px;
+  top: -11px;
   gap: 15px;
+  position: relative;
+  right:0vw;
     }
   }
 
