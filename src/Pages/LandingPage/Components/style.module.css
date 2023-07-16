@@ -49,7 +49,7 @@ body, html {
 .movingGrid > .container > .staticLines {
 			width: 100%;
 			height: 100%;}
-.staticLines > .vert {
+.movingGrid > .container > .staticLines > .vert {
 				display: inline-block;
 				height: 100%;
 				width: 2px;
@@ -65,7 +65,7 @@ body, html {
 			width: 120%;
 			height: 100%;
 			transform: rotateZ(-4deg);}
-.movingLines > .horz {
+.movingGrid > .container > .movingLines > .horz {
 				width: 100%;
 				height: 5px;
 				margin-top: 4.8%;
@@ -77,13 +77,13 @@ body, html {
 	.movingGrid > .container{
 			transform: rotateX(74deg) rotateZ(4deg);}
 .movingGrid > .container > .staticLines {}
-	.staticLines > .vert {
+.movingGrid > .container > .staticLines > .vert {
 					margin-right: 9.5%;
 				}
 .movingGrid > .container > .movingLines{
 				transform: rotateZ(-4deg);
 				width: 140%;}
-	.movingLines > .horz{
+.movingGrid > .container > .movingLines > .horz{
 					margin-top: 20%;
 					animation: lines 800ms linear infinite;
 				}
@@ -95,13 +95,13 @@ body, html {
 	.movingGrid > .container{
 			transform: rotateX(74deg) rotateZ(5deg);}
 .movingGrid > .container > .staticLines {}
-		.staticLines > .vert {
+.movingGrid > .container > .staticLines > .vert {
 					margin-right: 4.5%;
 				}
 			
 .movingGrid > .container > .movingLines{
 				transform: rotateZ(-5deg);}
-.movingLines > .horz{
+.movingGrid > .container > .movingLines > .horz{
 					margin-top: 6.5%;
 					animation: lines 800ms linear infinite;
 				}
@@ -137,7 +137,7 @@ body, html {
 			display: inline-block;
 			width: 100%;
 			height: 100%;}
-.staticLines > .vert {
+.movingGrid2 > .container > .staticLines > .vert {
 				display: inline-block;
 				height: 100%;
 				width: 2px;
@@ -152,7 +152,7 @@ body, html {
 			width: 120%;
 			height: 100%;
 			transform: rotateZ(4deg);}
-.movingLines > .horz {
+.movingGrid2 > .container > .movingLines > .horz {
 				display: inline-block;
 				width: 100%;
 				height: 5px;
@@ -166,14 +166,14 @@ body, html {
 @media screen and (max-width: 520px){
 	.movingGrid2 > .container{
 			transform: rotateX(74deg) rotateZ(-4deg);}
-		.container > .staticLines {}
-				.staticLines > .vert {
+		.movingGrid2 > .container > .staticLines {}
+.movingGrid2 > .container > .staticLines > .vert {
 					margin-left: 14%;
 				}
-		.container > .movingLines{
+		.movingGrid2 > .container > .movingLines{
 				transform: rotateZ(4deg);
 				width: 140%;}
-		.movingLines > .horz{
+.movingGrid2 > .container > .movingLines > .horz{
 					margin-top: 20%;
 					animation: lines1 800ms linear infinite;
 				}
@@ -184,18 +184,18 @@ body, html {
 	@media screen and (max-width: 1130px) and (min-width: 520px){
 	.movingGrid2 > .container{
 			transform: rotateX(74deg) rotateZ(-5deg);}
-		.container > .staticLines {
+.movingGrid2 > .container > .staticLines {
 				
 			}
-		.container > .movingLines{
+.movingGrid2 > .container > .movingLines{
 				transform: rotateZ(5deg);}
-		.movingLines > .horz{
+.movingGrid2 > .container > .movingLines > .horz{
 					margin-top: 6.5%;
 					animation: lines1 800ms linear infinite;
 				}
 			
 		
-		.staticLines > .vert {
+.movingGrid2 > .container > .staticLines > .vert {
 					margin-left: 9%;
 				}
 	}
