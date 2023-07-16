@@ -110,6 +110,11 @@ body, html {
 			}
 		}
 	}
+		@media screen and (min-height: 1350px) {
+			.container {
+				transform: rotateX(60deg) rotateZ(5deg);
+			}
+		}
 }
 .movingGrid2 {
 	position: absolute;
@@ -200,6 +205,11 @@ body, html {
 			}
 		}
 	}
+		@media screen and (min-height: 1350px) {
+			.container {
+				transform: rotateX(60deg) rotateZ(-5deg);
+			}
+		}
 }
 
 @keyframes lines {
