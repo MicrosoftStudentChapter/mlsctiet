@@ -82,6 +82,8 @@
   text-decoration: none;
   color: #8c8c8c;
 }
+
+
 /* .navbar li:active {
   text-decoration: none;
   border-bottom: 5px;
@@ -255,10 +257,24 @@ hr {
   background: rgb(255, 255, 255);
   margin-bottom: 50px;
 }
+@media (max-width:2500px){
+  .clicked {
+    /* font-weight: bold;  */
+    color: darkgray; 
+    text-decoration: underline palevioletred;
+    font-size: 2.5rem;
+  }
+}
 
 @media (max-width: 1200px) {
   .navbar li {
     font-size: 1.8rem;
+  }
+  .clicked {
+    /* font-weight: bold;  */
+    color: darkgray;
+    text-decoration: underline palevioletred;
+    font-size: 2.5rem;
   }
 }
 
@@ -287,9 +303,18 @@ hr {
     font-size: 4rem;
     top: 30px;
   }
+  .topright {
+    position: fixed;
+    top: 0;
+    right: 0;
+    opacity: 0.4;
+  }
+  .bottomleft {
+    opacity: 0.4;
+  }
   .navbar {
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 4vw;
     justify-content: center;
   }
   .navbar li {
@@ -301,6 +326,12 @@ hr {
   }
   .image8 {
     display: none;
+  }
+  .clicked {
+    font-weight: bold; /* Example styling: Make the text bold for the clicked button */
+    color: darkgray; /* Example styling: Set the text color to red for the clicked button */
+    text-decoration: underline palevioletred;
+    font-size: 1.65rem;
   }
 }
 
@@ -382,6 +413,12 @@ hr {
     left: 18px;
     height: 166px;
   } */
+  .clicked {
+    font-weight: bold; 
+    color: darkgray; 
+    text-decoration: underline palevioletred;
+    font-size: 1.4rem;
+  }
 }
 @media (max-width: 400px) {
   .navbar {
@@ -452,5 +489,10 @@ hr {
   .ourteam_heading__otokg {
     position: relative;
     height: 45px;
+  }
+  .clicked {
+    color: whitesmoke; 
+    text-decoration: underline palevioletred;
+    font-size: 1.4rem;
   }
 }
