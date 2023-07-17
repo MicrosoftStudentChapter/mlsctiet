@@ -39,7 +39,7 @@
     color:palevioletred;
     
   }
-  @media screen and (min-width: 150px) and (max-width:336px){
+  @media screen and (min-width: 150px) and (max-width:360px){
     .members1{
         margin-bottom: 150px;
     }
@@ -67,13 +67,14 @@
     gap: 28px;
     position:relative;
     right:0.65vw;
+    left:-2.0vw;
       }
       .names{
         font-size: 1.2rem;
       }
       
   }
-  @media screen and (min-width:337px) and (max-width:529px){
+  @media screen and (min-width:360px) and (max-width:529px){
     .members1{
       margin-bottom: 150px;
   }
