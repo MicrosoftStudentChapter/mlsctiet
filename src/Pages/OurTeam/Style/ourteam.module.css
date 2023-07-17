@@ -410,6 +410,9 @@ hr {
     grid-auto-rows: 210px;
     column-gap: 50px;
     margin-left: 25%;
+    row-gap:8vh;
+    margin-top:2vh;
+    height: 1100px;
   }
   .ourteam_wrapper__OmWwJ {
     position: relative;
@@ -429,6 +432,31 @@ hr {
     margin-left: auto;
     padding: 25px;
   }
+  .card__image{
+    height: 9.8rem;
+    width: 88%;
+    position: relative;
+right: -12px;
+top: 17px;
+  }
+  .card:hover .card__image {
+    transform-origin: bottom;
+     
+    transform: scale(1.20);
+    overflow: visible;
+    transition: 0.55s;
+    width: 78%;
+    position: relative;
+    left: 20px;
+    height: 89.5%;
+    border-radius: 4px;
+  }
+  .card:hover .card__body {
+    transform: scale(1.0);
+    overflow: visible;
+    transition: 0.85s;
+    border: palevioletred solid 1px;
+  } 
   .members1 {
     margin-bottom: 150px;
   }
@@ -499,7 +527,7 @@ hr {
   }
   .wrapper {
     margin-left: 24%;
-    height: 1000px;
+    height: 1100px;
   }
   .ourteam_wrapper__OmWwJ {
     margin-left: 26%;
