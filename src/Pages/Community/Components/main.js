@@ -1,9 +1,9 @@
 import React from "react";
 import Carousel from "./carousel";
 import styles from "../styles/styles.module.css";
-import Cross from "../Assets/cross.png";
-import ImageCommunity from "../Assets/image.png";
-import Triangles from "../Assets/triangles.png";
+// import Cross from "../Assets/cross.png";
+// import ImageCommunity from "../Assets/image.png";
+// import Triangles from "../Assets/triangles.png";
 
 function Main() {
   return (
@@ -11,12 +11,12 @@ function Main() {
       <div className={styles.headingContainer}>
         <div className={styles.headingItems}>
           <h1 className={styles.heading}>OPEN SOURCE</h1>
-          <img src={Cross} className={styles.cross} />
+          <img src="https://res.cloudinary.com/disstxt8t/image/upload/v1689612689/MLSC_WEBSITE/cross_z28jj8.png" alt="" className={styles.cross} />
         </div>
 
         <div className={styles.contentContainer}>
           <div className={styles.left}>
-            <img src={ImageCommunity} className={styles.communityImage} />
+            <img src="https://res.cloudinary.com/disstxt8t/image/upload/v1689612691/MLSC_WEBSITE/image_bjycsw.png" alt="" className={styles.communityImage} />
           </div>
 
           <div className={styles.right}>
@@ -99,7 +99,7 @@ function Main() {
         <div className={styles.workshopHead}>
           <h1 className={styles.heading}>WORKSHOPS</h1>
         </div>
-        <img src={Triangles} className={styles.triangles} />
+        <img src="https://res.cloudinary.com/disstxt8t/image/upload/v1689612708/MLSC_WEBSITE/triangles_caxasr.png" alt="" className={styles.triangles} />
         <div className={styles.carousel}>
           <Carousel></Carousel>
         </div>
