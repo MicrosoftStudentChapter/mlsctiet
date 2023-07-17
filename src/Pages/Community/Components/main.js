@@ -16,7 +16,7 @@ function Main() {
 
         <div className={styles.contentContainer}>
           <div className={styles.left}>
-            <img src="https://res.cloudinary.com/disstxt8t/image/upload/v1689612691/MLSC_WEBSITE/image_bjycsw.png" alt="" className={styles.communityImage} />
+            <img src="https://res.cloudinary.com/disstxt8t/image/upload/v1689614742/image_1_kjflgn.webp" alt="" className={styles.communityImage} />
           </div>
 
           <div className={styles.right}>

@@ -241,6 +241,24 @@
   display: block;
   position: relative;
 }
+/* .card:hover .card__image {
+  transform-origin: bottom;
+   
+  transform: scale(1.15);
+  overflow: visible;
+  transition: 0.55s;
+  width: 80%;
+  position: relative;
+  left: 18px;
+  height: 89.5%;
+  border-radius: 4px;
+}
+.card:hover .card__body {
+  transform: scale(1.0);
+  overflow: visible;
+  transition: 0.85s;
+  border: #fa3966 solid 1px;}  */
+
 
 /* .card:hover .card__image {
   filter: saturate(100%);
@@ -257,16 +275,45 @@ hr {
   background: rgb(255, 255, 255);
   margin-bottom: 50px;
 }
-@media (max-width:2500px){
-  .clicked {
-    /* font-weight: bold;  */
-    color: darkgray; 
-    text-decoration: underline palevioletred;
-    font-size: 2.5rem;
-  }
-}
 
-@media (max-width: 1200px) {
+  @media screen and (min-width: 1100px) and (max-width: 2500px) {
+    .clicked {
+      /* font-weight: bold;  */
+      color: darkgray; 
+      text-decoration: underline palevioletred;
+      font-size: 2.5rem;
+    }
+    .card__image{
+      height: 14.8rem;
+      width: 88%;
+      position: relative;
+  right: -12px;
+  top: 26px;
+    }
+    .card:hover .card__image {
+      transform-origin: bottom;
+       
+      transform: scale(1.20);
+      overflow: visible;
+      transition: 0.55s;
+      width: 78%;
+      position: relative;
+      left: 20px;
+      height: 89.5%;
+      border-radius: 4px;
+    }
+    .card:hover .card__body {
+      transform: scale(1.0);
+      overflow: visible;
+      transition: 0.85s;
+      border: palevioletred solid 1px;
+    } 
+  }
+  
+  
+
+
+@media (max-width: 1100px) {
   .navbar li {
     font-size: 1.8rem;
   }
