@@ -68,7 +68,7 @@ body, html {
 .movingGrid > .container > .movingLines > .horz {
 				width: 100%;
 				height: 5px;
-				margin-top: 4.8%;
+				margin-top: 4.5%;
 				background-color: rgb(1, 85, 140);
 				box-shadow: 2px 0 21px rgb(1, 85, 140);
 				animation: lines 800ms linear infinite;
@@ -153,10 +153,10 @@ body, html {
 			height: 100%;
 			transform: rotateZ(4deg);}
 .movingGrid2 > .container > .movingLines > .horz {
-				display: inline-block;
+				/* display: inline-block; */
 				width: 100%;
 				height: 5px;
-				margin-top: 4.8%;
+				margin-top: 4.5%;
 				background-color: rgb(1, 85, 140);
 				box-shadow: 2px 0 21px rgb(1, 85, 140);
 				animation: lines1 800ms linear infinite;
@@ -209,18 +209,61 @@ body, html {
 
 @keyframes lines {
 	from {
-		transform: translateY(-150px);
+		transform: translateY(-8.86vw);
 	}
 	to {
-		transform: translateY(50px);
+		transform: translateY(2vw);
 	}
 }
 @keyframes lines1 {
 	from {
-		transform: translateY(-150px);
+		transform: translateY(-8.86vw);
 	}
 	to {
-		transform: translateY(60px);
+		transform: translateY(2vw);
 	}
+}
+@media screen and (max-width: 520px){
+	@keyframes lines {
+			from {
+				transform: translateY(-41.6vw);
+			}
+	
+			to {
+				transform: translateY(10vw);
+			}
+		}
+	
+		@keyframes lines1 {
+			from {
+				transform: translateY(-41.6vw);
+			}
+	
+			to {
+				transform: translateY(10vw);
+			}
+		}
+
+}
+@media screen and (max-width: 1130px) and (min-width: 520px) {
+	@keyframes lines {
+			from {
+				transform: translateY(-13.02vw);
+			}
+	
+			to {
+				transform: translateY(3vw);
+			}
+		}
+	
+		@keyframes lines1 {
+			from {
+				transform: translateY(-13.02vw);
+			}
+	
+			to {
+				transform: translateY(3vw);
+			}
+		}
 }
 
