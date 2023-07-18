@@ -23,14 +23,23 @@
 }
 
 .sheild{
+        position: absolute;
+            bottom: 43vh;
     width: 20vw;
-    margin-top: 9%;
 }
 
 .txt{
     position: absolute;
-    top: 41vh;
+    bottom: 40vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.txt1 {
+    position: absolute;
+    bottom: 40vh;
+    display: none;
     justify-content: center;
     align-items: center;
     width: 100vw;
@@ -57,6 +66,8 @@
 }
 
 .udlogo{
+    position: absolute;
+    top: 60vh;
     width: 18vw;
     opacity: 0.3;
     margin-top: 3%;
@@ -70,15 +81,10 @@
 }
 
 
+
 @media screen and (max-width:1440px){
     .udlogo{
         width: 17vw;
-    }
-    .sheild{
-        width: 20vw;
-    }
-    .txt{
-        top: 40vh;
     }
     .blue{
         left: 80.3%;
@@ -92,73 +98,45 @@
         width: 80vw;
     }
 }
-@media screen and (max-width:1210px){
-    .txt{
-        top: 44%;
-    }
-}
-@media screen and (max-width:1000px){
-    .txt{
-        top: 46%;
-    }
-    .sheild{
-        margin-top: 12%;
-    }
-}
-@media screen and (max-width:850px){
-    .txt{
-        top: 48%;
-    }
-    .sheild{
-        margin-top: 14%;
-    }
-}
 @media screen and (max-width:780px){
-    .txt{
-        top: 48%;
-    }
     .sheild{
-        margin-top: 15%;
         width:22vw;
     }
 }
-@media screen and (max-width:700px){
-    .txt{
-        top: 50%;
-    }
-}
-@media screen and (max-width:650px){
-    .sheild{
-        margin-top: 17%;
-    }
-}
-@media screen and (max-width:600px){
-    .sheild{
-        margin-top: 20%;
-    }
-}
+
 @media screen and (max-width:540px){
+    .txt1{
+        display: flex;
+    }
+    .sheild{
+        bottom: calc(46vh + 9.5vw);
+    }
+
     .mvmlsc{
         display: block;
         width:80vw;
     }
     .sheild{
         width: 45vw;
-        margin-top: -38%;
     } 
     .txt, .udlogo{
         display: none;
     }
+     @media  (min-aspect-ratio:1/1) {
+            .mvmlsc {
+                height: 15vh;
+                width: auto;
+            }
+    
+            .sheild {
+                height: 20vh;
+                width: auto;
+                bottom: 60vh;
+            }
+    
+        }
 }
-@media screen and (max-width:400px){
-    .txt, .udlogo{
-        display: none;
-    }
-    .sheild{
-        width: 45vw;
-        margin-top: -32%;
-    } 
-}
+
 
 .stars{
     position: absolute;
@@ -167,11 +145,6 @@
     
 }
 
-@media  screen and (max-height:1081px) {
-    .mvmlsc{
-        margin-bottom: 15%;
-    }
-}
 /* @media  screen and (max-height:404px) {
     .sheild{
         margin-top: -39%;

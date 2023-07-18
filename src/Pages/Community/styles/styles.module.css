@@ -177,6 +177,17 @@ a {
     font-size: 80px;
   }
 }
+
+@media screen and (max-width: 850px) {
+  .right {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .right {
+    font-size: 20px;
+  }
+}
 @media screen and (max-width: 496px) {
   .communityImage {
     width: 420px;
