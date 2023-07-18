@@ -32,7 +32,7 @@ function Carousel() {
                 </div>
               </div>
               <div>
-                <img src={ML} className="cardImage" />
+                <img src="https://res.cloudinary.com/disstxt8t/image/upload/v1689612690/MLSC_WEBSITE/ml_f1vfsx.png" alt="" className="cardImage" />
               </div>
             </span>
           </SwiperSlide>
@@ -49,7 +49,7 @@ function Carousel() {
                 </div>
               </div>
               <div>
-                <img src={ML} className="cardImage" />
+                <img src="https://res.cloudinary.com/disstxt8t/image/upload/v1689612690/MLSC_WEBSITE/ml_f1vfsx.png" alt="" className="cardImage" />
               </div>
             </span>
           </SwiperSlide>
@@ -68,7 +68,7 @@ function Carousel() {
                 </div>
               </div>
               <div>
-                <img src={ML} className="cardImage" />
+                <img src="https://res.cloudinary.com/disstxt8t/image/upload/v1689612690/MLSC_WEBSITE/ml_f1vfsx.png" alt="" className="cardImage" />
               </div>
             </span>
           </SwiperSlide>

@@ -26,6 +26,7 @@ const Navbar = () => {
               onClick={displayMembers}
               onAnimationEnd={() => setFade(false)}
               data-target="secretaries"
+              className={target === "secretaries" ? styles.clicked : ""}
             >
               Secretaries
             </p>
@@ -35,6 +36,7 @@ const Navbar = () => {
               onClick={displayMembers}
               onAnimationEnd={() => setFade(false)}
               data-target="heads"
+              className={target === "heads" ? styles.clicked : ""}
             >
               Heads
             </p>
@@ -44,6 +46,7 @@ const Navbar = () => {
               onClick={displayMembers}
               onAnimationEnd={() => setFade(false)}
               data-target="core"
+              className={target === "core" ? styles.clicked : ""}
             >
               Core
             </p>
@@ -53,6 +56,7 @@ const Navbar = () => {
               onClick={displayMembers}
               onAnimationEnd={() => setFade(false)}
               data-target="executives"
+              className={target === "executives" ? styles.clicked : ""}
             >
               Executives
             </p>
@@ -60,15 +64,15 @@ const Navbar = () => {
         </ul>
       </div>
       {fade && (target === "core" || target === "executives") ? (
-        <div className="members1">
-        <div className={styles1.namelist}>
-          {members.map((el) => (
-            <NamesOnly naam={el.naam} key={el.key} />
-          ))}
-        </div>
+        <div className="members-names">
+          <div className={styles1.namelist}>
+            {members.map((el) => (
+              <NamesOnly naam={el.naam} key={el.key} />
+            ))}
+          </div>
         </div>
       ) : (
-        <div className="members">
+        <div className="members-list">
           <div className={styles.wrapper}>
             {members.map((el) => (
               <Card
