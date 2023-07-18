@@ -220,7 +220,50 @@ body, html {
 		transform: translateY(-8.86vw);
 	}
 	to {
-		transform: translateY(60px);
+		transform: translateY(2vw);
 	}
+}
+@media screen and (max-width: 520px){
+	@keyframes lines {
+			from {
+				transform: translateY(-41.6vw);
+			}
+	
+			to {
+				transform: translateY(10vw);
+			}
+		}
+	
+		@keyframes lines1 {
+			from {
+				transform: translateY(-41.6vw);
+			}
+	
+			to {
+				transform: translateY(10vw);
+			}
+		}
+
+}
+@media screen and (max-width: 1130px) and (min-width: 520px) {
+	@keyframes lines {
+			from {
+				transform: translateY(-13.02vw);
+			}
+	
+			to {
+				transform: translateY(3vw);
+			}
+		}
+	
+		@keyframes lines1 {
+			from {
+				transform: translateY(-13.02vw);
+			}
+	
+			to {
+				transform: translateY(3vw);
+			}
+		}
 }
 
