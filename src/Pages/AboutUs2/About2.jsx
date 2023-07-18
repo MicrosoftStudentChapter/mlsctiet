@@ -1,6 +1,6 @@
 import React from "react";
 import Style from "../AboutUs2/Styles/about.module.css";
-import main2 from "./Assets/main(2).png";
+// import main2 from "./Assets/main(2).png";
 import Arrow from "./Assets/arrow.png";
 import Block from "./Assets/block.png";
 import Plus from "./Assets/plus.png";
@@ -12,7 +12,7 @@ function About2() {
       <img src={Arrow} alt="" className={Style.arrow} />
       <img src={Block} className={Style.block1} />
       <div className={Style.parent}>
-        <img src={main2} alt="" className={Style.mainimage} />
+        <img src="https://res.cloudinary.com/disstxt8t/image/upload/v1689614151/main_2_xugcq5.png" alt="" className={Style.mainimage} />
         <div className={Style.container}>
           <div className={Style.insideimage}>
             <div className={Style.text}>

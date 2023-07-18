@@ -23,27 +23,117 @@
   .names{
     list-style: none;
   }
-  
-  @media screen and (max-width: 400px){
+
+  .namelist{
+    margin-bottom: 220px;
+    display: grid;
+    grid-template-columns: repeat(3,0.5fr);
+    justify-content: center;
+    gap: 7px;
+    grid-column-gap: 0px;
+    padding: 0 200px;
+    position: relative;
+    right:-43px;
+  }
+  .names:hover{
+    color:palevioletred;
+    
+  }
+  @media screen and (min-width: 150px) and (max-width:360px){
     .members1{
         margin-bottom: 150px;
     }
     .namebox{
         display:grid;
+        
        grid-template-columns: auto;
        grid-column:auto;
         justify-content: center;
         position: relative;
         top:92px;
         color:white;
-        font-size: 1.5rem;
+        font-size: 0.5rem;
         height: 10vh;
         font-family: 'Roboto';
         margin-bottom: 10px;
         gap:2px;
+        right:-4px;
+        width:min-content;
+        
       }
+      .namelist{
+        grid-template-columns: repeat(2, 1fr); 
+    top: -15px;
+    gap: 28px;
+    position:relative;
+    right:0.65vw;
+    left:-2.0vw;
+      }
+      .names{
+        font-size: 1.2rem;
+      }
+      
+  }
+  @media screen and (min-width:360px) and (max-width:529px){
+    .members1{
+      margin-bottom: 150px;
+  }
+  .namebox{
+      display:grid;
+      
+     grid-template-columns: auto;
+     grid-column:auto;
+      justify-content: center;
+      position: relative;
+      top:92px;
+      color:white;
+      font-size: 0.5rem;
+      height: 10vh;
+      font-family: 'Roboto';
+      margin-bottom: 10px;
+      gap:2px;
+      right:-4px;
+      width:min-content;
+      
+    }
+    .namelist{
+      grid-template-columns: repeat(2, 1fr); 
+  top: -15px;
+  gap: 28px;
+  position:relative;
+  right:-4.35vw;
+    }
+    .names{
+      font-size: 1.2rem;
+    }
   }
 
-  .namelist{
-    margin-bottom: 220px;
+  @media screen and (min-width:530px) and (max-width:764px){
+    .namelist{
+      grid-template-columns: repeat(2, 1fr); 
+      text-align: center;
+      grid-column-gap:5px ;
+  top: -11px;
+  gap: 15px;
+  position: relative;
+  right:0vw;
+  column-gap: 17vw;
+  row-gap:9vh;
+    }
   }
+
+  @media screen and (min-width: 765px) and (max-width:1035px) {
+    .namelist{
+      grid-template-columns: repeat(2, 1fr); 
+      text-align: center;
+      grid-column-gap:5px ;
+  top: -11px;
+  gap: 15px;
+  position: relative;
+  right:0vw;
+  column-gap: 8vw;
+  row-gap:9vh;
+    }
+  }
+
+  
