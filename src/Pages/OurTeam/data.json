@@ -14,8 +14,7 @@
     },
     {
         "key": "4",
-        
-        "naam": "Mankirat Singh"
+        "naam": "Ishita"
     },
     {
         "key": "5",
@@ -27,12 +26,11 @@
     },
     {
         "key": "7",
-        "naam": "Payal"
+        "naam": "Abhinandan Wadhwa"
     },
     {
         "key": "8",
-        
-        "naam": "Prisha Kandhari"
+        "naam": "Mankirat Singh"
     },
     {
         "key": "9",
@@ -40,8 +38,7 @@
     },
     {
         "key": "10",
-        "naam": "Shaurya Bhardwaj"
-        
+        "naam": "Payal"
     },
     {
         "key": "11",
@@ -49,7 +46,7 @@
     },
     {
         "key": "12",
-        "naam": "Ishita"
+        "naam": "Prisha Kandhari"
     },
     {
         "key": "13",
@@ -65,11 +62,11 @@
     },
     {
         "key": "16",
-        "naam": "Abhinandan Wadhwa"
+        "naam": "Shaurya Bhardwaj"
     },
     {
         "key": "17",
-        "naam": "Siddharth Aggarwal"
+        "naam": "Siddarth Aggarwal"
     },
     {
         "key": "18",
@@ -94,27 +91,27 @@
   "secretaries":[
     {
       "title":"Apoorva",
-      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689232312/MLSC_WEBSITE/rsz_12rsz_18_one3qy_j48pzq.png",
+      "img":"https://res.cloudinary.com/vigkrishna/image/upload/v1689232312/MLSC_WEBSITE/rsz_12rsz_18_one3qy_j48pzq.png",
       "linkedin_acc" : "https://www.linkedin.com/in/apoorva11/"
     },
     {
       "title":"Utkarsh Tripathi",
-      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689237227/MLSC_WEBSITE/rsz_comapplepasteboardqfg9za_dnohww_yo5d51.png",
+      "img":"https://res.cloudinary.com/vigkrishna/image/upload/v1689237227/MLSC_WEBSITE/rsz_comapplepasteboardqfg9za_dnohww_yo5d51.png",
       "linkedin_acc" :"https://www.linkedin.com/in/utkarsh-tripathi-80a0ab192/"
     },
     {
       "title":"Aryan Garg",
-      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689233546/MLSC_WEBSITE/rsz_1_giy5fk_m8ocby.png",
+      "img":"https://res.cloudinary.com/vigkrishna/image/upload/v1689233546/MLSC_WEBSITE/rsz_1_giy5fk_m8ocby.png",
       "linkedin_acc" :"https://www.linkedin.com/in/aryangarg401/"
     },
     {
       "title":"Sukhmani Arora",
-      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689236895/MLSC_WEBSITE/rsz_copy_of_sukhmanidi_2x_j5iwrf_t9jz2p.png",
+      "img":"https://res.cloudinary.com/vigkrishna/image/upload/v1689236895/MLSC_WEBSITE/rsz_copy_of_sukhmanidi_2x_j5iwrf_t9jz2p.png",
       "linkedin_acc" :"https://www.linkedin.com/in/arora-sukhmani/"
     },
     {
       "title":"Ikshan Bhardwaj",
-      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689261155/MLSC_WEBSITE/ikshan-resize-preview_p5o4nf.png",
+      "img":"https://res.cloudinary.com/vigkrishna/image/upload/v1689261155/MLSC_WEBSITE/ikshan-resize-preview_p5o4nf.png",
       "linkedin_acc" :"https://www.linkedin.com/in/ikshan-bhardwaj/"
     },
     {
@@ -123,12 +120,12 @@
       "linkedin_acc" :"https://www.linkedin.com/in/nimishmedatwal/"
     }, {
       "title":"Uday Beswal",
-      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689238386/MLSC_WEBSITE/rsz_4_skkkrd_byzsna.png",
+      "img":"https://res.cloudinary.com/vigkrishna/image/upload/v1689238386/MLSC_WEBSITE/rsz_4_skkkrd_byzsna.png",
       "linkedin_acc" :"https://www.linkedin.com/in/uday-beswal-64a68a229/"
     },
     {
       "title":"Akshat Jaimini",
-      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689322310/MLSC_WEBSITE/rsz_jai-removebg-preview_xbgbj4.png",
+      "img":"https://res.cloudinary.com/vigkrishna/image/upload/v1689322310/MLSC_WEBSITE/rsz_jai-removebg-preview_xbgbj4.png",
       "linkedin_acc" :"https://www.linkedin.com/in/akshat-jaimini-05a610203/"
     }
     
@@ -137,36 +134,35 @@
     
     {
       "title":"Prakriti Garg",
-      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689239189/MLSC_WEBSITE/rsz_img-20230615-wa0004-removebg-preview_nalcj1_kqdjak.png",
+      "img":"https://res.cloudinary.com/vigkrishna/image/upload/v1689239189/MLSC_WEBSITE/rsz_img-20230615-wa0004-removebg-preview_nalcj1_kqdjak.png",
       "linkedin_acc": "https://www.linkedin.com/in/prakriti-garg18/"
     },
     {
       "title":"Vishist Bhagabati",
-      "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689239306/MLSC_WEBSITE/rsz_7_d287x0_h0thic.png",
+      "img":"https://res.cloudinary.com/vigkrishna/image/upload/v1689239306/MLSC_WEBSITE/rsz_7_d287x0_h0thic.png",
       "linkedin_acc":"https://www.linkedin.com/in/vishist-bhagabati-738398227/"
     },
     {
-        "title":"Chetandeep Singh",
-        "img":"https://res.cloudinary.com/disstxt8t/image/upload/v1689322846/MLSC_WEBSITE/rsz_comapplepasteboardkzedw4_yr0x6i_d1unlh.png",
-        "linkedin_acc":"https://www.linkedin.com/in/chetandeep-singh-0b326021b/"
-      },
+      "title": "Sehaj Jot Singh",
+      "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689240239/MLSC_WEBSITE/rsz_6_opuvek_ba959h.png",
+      "linkedin_acc":"https://www.linkedin.com/in/sehaj-jot-singh-164869245/"
+    },
    
     {
       "title": "Dhruv Bansal",
-      "img": "https://res.cloudinary.com/disstxt8t/image/upload/v1689239763/MLSC_WEBSITE/rsz_dhruvbhaiya_2x_as18dd_nvi6od.png",
+      "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689239763/MLSC_WEBSITE/rsz_dhruvbhaiya_2x_as18dd_nvi6od.png",
       "linkedin_acc":"https://www.linkedin.com/in/dhruv-bansal-348141229/"
     },
     {
       "title": "Tithi Srivastava",
-      "img": "https://res.cloudinary.com/disstxt8t/image/upload/v1689437468/MLSC_WEBSITE/grid_landscape_kscete.png",
+      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1673031451/MLSC%20website/Members/IMG-20220420-WA0013_2_-_Tithi_Srivastava-removebg-preview_ztwt8g.png",
       "linkedin_acc":"https://www.linkedin.com/in/tithi-srivastava-000666221/"
     },
-    
     {
-        "title": "Sehaj Jot Singh",
-        "img": "https://res.cloudinary.com/disstxt8t/image/upload/v1689437272/MLSC_WEBSITE/swipe_2_1_vqnxvq.png",
-        "linkedin_acc":"https://www.linkedin.com/in/sehaj-jot-singh-164869245/"
-      }
+      "title":"Chetandeep Singh",
+      "img":"https://res.cloudinary.com/vigkrishna/image/upload/v1689322846/MLSC_WEBSITE/rsz_comapplepasteboardkzedw4_yr0x6i_d1unlh.png",
+      "linkedin_acc":"https://www.linkedin.com/in/chetandeep-singh-0b326021b/"
+    }
 
   ],
 
@@ -181,8 +177,7 @@
   },
       {
           "key": "1",
-         
-          "naam": "Nikhil Mittal"
+          "naam": "Akhilesh"
       },
       {
           "key": "2",
@@ -191,7 +186,7 @@
      
       {
           "key": "3",
-          "naam": "Akhilesh"
+          "naam": "Nikhil Mittal"
       },
       
       {
@@ -206,7 +201,7 @@
     
       {
           "key": "6",
-          "naam": "Sarthak Srivastav"
+          "naam": "Sarthak"
       },
       {
           "key": "7",
@@ -234,7 +229,10 @@
           "naam": "Abhilasha Tiwari"
       },
       
-     
+      {
+          "key": "13",
+          "naam": "Abhyuday Venkatesh"
+      },
       {
           "key": "14",
           "naam": "Aditya Sapra"
@@ -283,7 +281,7 @@
       },
       {
           "key": "25",
-          "naam": "Aryan"
+          "naam": "ARYAN"
       },
       {
           "key": "26",
@@ -297,7 +295,10 @@
           "key": "28",
           "naam": "Ayushi"
       },
-      
+      {
+          "key": "29",
+          "naam": "D J"
+      },
       {
           "key": "30",
           "naam": "Debatiya Barman"
@@ -319,7 +320,7 @@
       },
       {
           "key": "34",
-          "naam": "Jasdeep"
+          "naam": "Jas"
       },
       {
           "key": "35",
@@ -333,7 +334,14 @@
           "key": "36",
           "naam": "Kavya"
       },
-     
+      {
+          "key": "37",
+          "naam": "Khushi"
+      },
+      {
+          "key": "38",
+          "naam": "Khushpreet Singh"
+      },
      
       {
           "key": "39",
@@ -352,12 +360,18 @@
           "naam": "Manan"
       },
       
-     
+      {
+          "key": "43",
+          "naam": "Neha"
+      },
       {
           "key": "44",
           "naam": "Dev Goyal"
       },
-     
+      {
+          "key": "45",
+          "naam": "Nipun Jain"
+      },
       {
           "key": "46",
           "naam": "Palak"
@@ -375,7 +389,10 @@
           "key": "49",
           "naam": "Punya Garg"
       },
-      
+      {
+          "key": "50",
+          "naam": "Raghav"
+      },
       {
           "key": "51",
           "naam": "Raghav Jindal"
@@ -436,13 +453,19 @@
           "key": "64",
           "naam": "Shreya Gakhar"
       },
-      
+      {
+          "key": "65",
+          "naam": "Sure?Ya"
+      },
       {
           "key": "66",
           "naam": "Swayam Gupta"
       },
       
-     
+      {
+          "key": "67",
+          "naam": "Tanvi Singh"
+      },
       {
           "key": "68",
           "naam": "Uday"
@@ -461,11 +484,14 @@
           "key": "71",
           "naam": "Yuvraj Saini"
       },
-     
+      {
+          "key": "72",
+          "naam": "Yuvraj Vij"
+      },
       
       {
           "key": "73",
-          "naam": "Ananya Jindal"
+          "naam": "Ananya JIndal"
       },
      
      
@@ -473,7 +499,10 @@
           "key": "74",
           "naam": "Akarsh Srivastav"
       },
-     
+      {
+          "key": "75",
+          "naam": "Arya Lal"
+      },
       {
           "key": "76",
           "naam": "Smriti Singh"
