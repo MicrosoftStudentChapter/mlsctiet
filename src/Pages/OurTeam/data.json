@@ -13,20 +13,12 @@
         "naam": "Daanish Mittal"
     },
     {
-        "key": "4",
-        "naam": "Ishita"
-    },
-    {
         "key": "5",
         "naam": "Jahanvi Srivastava"
     },
     {
         "key": "6",
         "naam": "Jatin Chhabra"
-    },
-    {
-        "key": "7",
-        "naam": "Abhinandan Wadhwa"
     },
     {
         "key": "8",
@@ -192,13 +184,7 @@
       {
           "key": "4",
           "naam": "Jayant"
-      },
-      {
-          "key": "5",
-          "naam": "Malhar"
-      },
-      
-    
+      },    
       {
           "key": "6",
           "naam": "Sarthak"
@@ -213,25 +199,12 @@
           "naam": "Surya"
       },
       {
-          "key": "9",
-          "naam": "Tanmay Saluja"
-      },
-      {
-          "key": "10",
-          "naam": "Aabharan Gupta"
-      },
-      {
-          "key": "11",
-          "naam": "Aamna Abdin"
-      },
+        "key": "10",
+        "naam": "Ananya"
+    },
       {
           "key": "12",
           "naam": "Abhilasha Tiwari"
-      },
-      
-      {
-          "key": "13",
-          "naam": "Abhyuday Venkatesh"
       },
       {
           "key": "14",
@@ -271,11 +244,6 @@
           "naam": "Anuvind"
       },
       {
-          "key": "23",
-          "naam": "Archita Shankar"
-      },
-      
-      {
           "key": "24",
           "naam": "Arnav Gupta"
       },
@@ -296,10 +264,6 @@
           "naam": "Ayushi"
       },
       {
-          "key": "29",
-          "naam": "D J"
-      },
-      {
           "key": "30",
           "naam": "Debatiya Barman"
       },
@@ -307,8 +271,6 @@
           "key": "31",
           "naam": "Dev Mehta"
       },
-      
-      
       {
           "key": "32",
           "naam": "Himanshu Jhawar"
@@ -326,17 +288,9 @@
           "key": "35",
           "naam": "Jayita"
       },
-     {
-      "key":"35.5",
-      "naam":"Garvit Gulati"
-     },
       {
           "key": "36",
           "naam": "Kavya"
-      },
-      {
-          "key": "37",
-          "naam": "Khushi"
       },
       {
           "key": "38",
@@ -358,11 +312,6 @@
       {
           "key": "42",
           "naam": "Manan"
-      },
-      
-      {
-          "key": "43",
-          "naam": "Neha"
       },
       {
           "key": "44",
@@ -390,10 +339,6 @@
           "naam": "Punya Garg"
       },
       {
-          "key": "50",
-          "naam": "Raghav"
-      },
-      {
           "key": "51",
           "naam": "Raghav Jindal"
       },
@@ -404,11 +349,6 @@
       {
           "key": "53",
           "naam": "Rajat"
-      },
-      
-      {
-          "key": "54",
-          "naam": "Rijul"
       },
       {
           "key": "55",
@@ -450,10 +390,6 @@
           "naam": "Sarthak Kala"
       },
       {
-          "key": "64",
-          "naam": "Shreya Gakhar"
-      },
-      {
           "key": "65",
           "naam": "Sure?Ya"
       },
@@ -491,7 +427,7 @@
       
       {
           "key": "73",
-          "naam": "Ananya JIndal"
+          "naam": "Ananya Jindal"
       },
      
      
@@ -504,10 +440,6 @@
           "naam": "Arya Lal"
       },
       {
-          "key": "76",
-          "naam": "Smriti Singh"
-      },
-      {
           "key": "77",
           "naam": "Udita Srivastav"
       },
@@ -518,7 +450,11 @@
       {
           "key": "79",
           "naam": "Suhani Mathur"
-      }
+      },
+    {
+        "key": "81",
+        "naam": "Ishita"
+    }
      
     ]}
   
