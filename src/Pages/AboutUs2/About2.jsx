@@ -12,7 +12,7 @@ function About2() {
       <img src={Arrow} alt="" className={Style.arrow} />
       <img src={Block} className={Style.block1} />
       <div className={Style.parent}>
-      <iframe src="https://www.youtube.com/embed/_lL2nlOzEQ8?autoplay=1" className={Style.mainimage}></iframe>
+      <iframe src="https://www.youtube.com/embed/Iwl-0ja8hqQ?si=l5TLotLk6dnRjn9-?autoplay=1" className={Style.mainimage}></iframe>
         <div className={Style.container}>
           <div className={Style.insideimage}>
             <div className={Style.text}>
