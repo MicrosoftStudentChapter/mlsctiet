@@ -10,11 +10,13 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Error from "./Pages/Errorpage/Errorpage";
 import NavbarI from "./Components/NavbarI/NavbarI";
+import Chatbot from "./Components/Chatbot/chatbot";
 
 function App() {
   return (
     <Router>
       <NavbarI />
+      <Chatbot/>
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
 				<Route path="/community" element={<Community />} />

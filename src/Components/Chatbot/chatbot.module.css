@@ -1,0 +1,60 @@
+.mainIcon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(54, 255, 205) 50%, rgba(0, 255, 213, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+}
+
+.icon{
+    font-size: 2.3vh;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.mainModal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 7;
+    background-color: rgba(0, 0, 0, 0.822);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.warning{
+    z-index: 10;
+    width: 85vw;
+    height: 85vh;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.modalContent{
+    width: 85vw;
+    height: 85vh;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    z-index: 9;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.modalContent>iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
