@@ -1,0 +1,269 @@
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+.horzMain {
+	display: inline-block;
+	width: 100%;
+	height: 1px;
+	background-color: rgb(1, 85, 140);
+}
+
+
+
+.main{
+	position: fixed;
+	top: 60%;
+	left: 0;
+	width: 100%;
+	height: 70%;
+	perspective: 1450px;
+	overflow: hidden;
+	border-top: 2px solid rgb(1, 85, 140);
+	background-color: black;
+}
+.movingGrid {
+	position: absolute;
+	top: -29px;
+	left: 0;
+	width: 100%;
+	height: 70%;
+	perspective: 1450px;
+	z-index: 2;}
+	.movingGrid:before {
+		content: '';
+		width: 100%;
+	}
+.movingGrid > .container {
+		position: absolute;
+		width: 45%;
+		height: 300%;
+		border: 2px solid rgb(1, 85, 140);
+		box-sizing: border-box;
+		transform-origin: top ;
+		transform:  rotateX(73deg) rotateZ(3deg);
+		overflow: hidden;}
+		
+.movingGrid > .container > .staticLines {
+			width: 100%;
+			height: 100%;}
+.movingGrid > .container > .staticLines > .vert {
+				display: inline-block;
+				height: 100%;
+				width: 2px;
+				background-color: rgb(1, 85, 140);
+				margin-left: 4.5%;
+				box-shadow: 0 2px 21px rgb(1, 85, 140);
+			}
+		
+.movingGrid > .container > .movingLines {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 120%;
+			height: 100%;
+			transform: rotateZ(-4deg);}
+.movingGrid > .container > .movingLines > .horz {
+				width: 100%;
+				height: 5px;
+				margin-top: 4.5%;
+				background-color: rgb(1, 85, 140);
+				box-shadow: 2px 0 21px rgb(1, 85, 140);
+				animation: lines 800ms linear infinite;
+			}
+	@media screen and (max-width: 520px){
+	.movingGrid > .container{
+			transform: rotateX(74deg) rotateZ(4deg);}
+.movingGrid > .container > .staticLines {}
+.movingGrid > .container > .staticLines > .vert {
+					margin-right: 9.5%;
+				}
+.movingGrid > .container > .movingLines{
+				transform: rotateZ(-4deg);
+				width: 140%;}
+.movingGrid > .container > .movingLines > .horz{
+					margin-top: 20%;
+					animation: lines 800ms linear infinite;
+				}
+			}
+		
+		
+	
+	@media screen and (max-width: 1130px) and (min-width: 520px){
+	.movingGrid > .container{
+			transform: rotateX(74deg) rotateZ(5deg);}
+.movingGrid > .container > .staticLines {}
+.movingGrid > .container > .staticLines > .vert {
+					margin-right: 4.5%;
+				}
+			
+.movingGrid > .container > .movingLines{
+				transform: rotateZ(-5deg);}
+.movingGrid > .container > .movingLines > .horz{
+					margin-top: 6.5%;
+					animation: lines 800ms linear infinite;
+				}
+			}
+	
+		@media screen and (min-height: 1350px) {
+.movingGrid > .container {
+				transform: rotateX(60deg) rotateZ(5deg);
+			}
+		}
+.movingGrid2  {
+	position: absolute;
+	top: -29px;
+	width: 100%;
+	height: 70%;
+	perspective: 1450px;
+	z-index: 2;}
+	&:before {
+		content: '';
+		width: 100%;
+	}
+.movingGrid2 > .container {
+		position: absolute;
+		right: 0;
+		width: 45%;
+		height: 300%;
+		border: 2px solid rgb(1, 85, 140);
+		box-sizing: border-box;
+		overflow: hidden;
+		transform-origin: top;
+		transform: rotateX(73deg) rotateZ(-3deg);}
+.movingGrid2 > .container > .staticLines {
+			display: inline-block;
+			width: 100%;
+			height: 100%;}
+.movingGrid2 > .container > .staticLines > .vert {
+				display: inline-block;
+				height: 100%;
+				width: 2px;
+				background-color: rgb(1, 85, 140);
+				margin-left: 4.5%;
+				box-shadow: 0 2px 21px rgb(1, 85, 140);
+			}
+.movingGrid2 > .container > .movingLines {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 120%;
+			height: 100%;
+			transform: rotateZ(4deg);}
+.movingGrid2 > .container > .movingLines > .horz {
+				/* display: inline-block; */
+				width: 100%;
+				height: 5px;
+				margin-top: 4.5%;
+				background-color: rgb(1, 85, 140);
+				box-shadow: 2px 0 21px rgb(1, 85, 140);
+				animation: lines1 800ms linear infinite;
+			}
+
+
+@media screen and (max-width: 520px){
+	.movingGrid2 > .container{
+			transform: rotateX(74deg) rotateZ(-4deg);}
+		.movingGrid2 > .container > .staticLines {}
+.movingGrid2 > .container > .staticLines > .vert {
+					margin-left: 14%;
+				}
+		.movingGrid2 > .container > .movingLines{
+				transform: rotateZ(4deg);
+				width: 140%;}
+.movingGrid2 > .container > .movingLines > .horz{
+					margin-top: 20%;
+					animation: lines1 800ms linear infinite;
+				}
+			}
+		
+		
+	
+	@media screen and (max-width: 1130px) and (min-width: 520px){
+	.movingGrid2 > .container{
+			transform: rotateX(74deg) rotateZ(-5deg);}
+.movingGrid2 > .container > .staticLines {
+				
+			}
+.movingGrid2 > .container > .movingLines{
+				transform: rotateZ(5deg);}
+.movingGrid2 > .container > .movingLines > .horz{
+					margin-top: 6.5%;
+					animation: lines1 800ms linear infinite;
+				}
+			
+		
+.movingGrid2 > .container > .staticLines > .vert {
+					margin-left: 9%;
+				}
+	}
+		
+
+@media screen and (min-height: 1350px) {
+.movingGrid2 > .container {
+		transform: rotateX(60deg) rotateZ(-5deg);
+	}
+}
+
+@keyframes lines {
+	from {
+		transform: translateY(-8.86vw);
+	}
+	to {
+		transform: translateY(2vw);
+	}
+}
+@keyframes lines1 {
+	from {
+		transform: translateY(-8.86vw);
+	}
+	to {
+		transform: translateY(2vw);
+	}
+}
+@media screen and (max-width: 520px){
+	@keyframes lines {
+			from {
+				transform: translateY(-41.6vw);
+			}
+	
+			to {
+				transform: translateY(10vw);
+			}
+		}
+	
+		@keyframes lines1 {
+			from {
+				transform: translateY(-41.6vw);
+			}
+	
+			to {
+				transform: translateY(10vw);
+			}
+		}
+
+}
+@media screen and (max-width: 1130px) and (min-width: 520px) {
+	@keyframes lines {
+			from {
+				transform: translateY(-13.02vw);
+			}
+	
+			to {
+				transform: translateY(3vw);
+			}
+		}
+	
+		@keyframes lines1 {
+			from {
+				transform: translateY(-13.02vw);
+			}
+	
+			to {
+				transform: translateY(3vw);
+			}
+		}
+}
+
