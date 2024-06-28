@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./styles/home.module.css";
 import sheild from "./Assets/mlsc-logo.png";
 import SynthWave from "./Components/synthwave"
-// import StarsCanvas from "./Components/Stars";
+ import StarsCanvas from "./Components/Stars";
 import MobV from "./Assets/Desktop/Mob.png";
 import mlscpng from "./Assets/Desktop/mlscpng.png";
 import {RemoveScrollBar} from 'react-remove-scroll-bar';
@@ -13,9 +13,11 @@ const LandingPage = () => {
   return (
     <>
     <Chatbot/>
+    <RemoveScrollBar/>
     <div className={styles.main}>
     <div className={styles.stars}>
-    <RemoveScrollBar/>
+    <StarsCanvas/>
+   
     </div>
     <div className={styles.container}>
       <div className={styles.left}>
