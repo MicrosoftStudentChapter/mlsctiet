@@ -6,7 +6,7 @@ import { SiGithubsponsors } from 'react-icons/si'
 import { IoIosArrowDropup } from 'react-icons/io'
 import { useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom'
-// import { useDetectClickOutside } from 'sreact-detect-click-outide';
+import { useDetectClickOutside } from 'react-detect-click-outside';
 import { Tooltip } from 'react-tooltip'
 
 const NavbarI = () => {

@@ -7,7 +7,7 @@ import MobV from "./Assets/Desktop/Mob.png";
 import mlscpng from "./Assets/Desktop/mlscpng.png";
 import {RemoveScrollBar} from 'react-remove-scroll-bar';
 import Chatbot from "../../../components/Chatbot/chatbot"
-// import Navbar from "../../../components/NavbarI/NavbarI"
+ import Navbar from "../../../components/NavbarI/NavbarI"
 
 const LandingPage = () => {
   return (
@@ -36,7 +36,7 @@ const LandingPage = () => {
    
 
       <SynthWave/>
-      
+      <Navbar />
      
      
     </div>
