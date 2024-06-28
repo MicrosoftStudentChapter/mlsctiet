@@ -2,7 +2,7 @@ import styles from "./style.module.css";
 export default function SynthWave() {
   return (
     <>
-      <div class={styles.main}>
+      <div className={styles.main}>
         <section class={styles.movingGrid}>
           <div class={styles.horzMain}></div>
           <div class={styles.container}>

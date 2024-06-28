@@ -5,15 +5,17 @@ import SynthWave from "./Components/synthwave"
 // import StarsCanvas from "./Components/Stars";
 import MobV from "./Assets/Desktop/Mob.png";
 import mlscpng from "./Assets/Desktop/mlscpng.png";
-// import {RemoveScrollBar} from 'react-remove-scroll-bar';
+import {RemoveScrollBar} from 'react-remove-scroll-bar';
+import Chatbot from "../../../components/Chatbot/chatbot"
+// import Navbar from "../../../components/NavbarI/NavbarI"
 
 const LandingPage = () => {
   return (
     <>
-    
+    <Chatbot/>
     <div className={styles.main}>
     <div className={styles.stars}>
-  
+    <RemoveScrollBar/>
     </div>
     <div className={styles.container}>
       <div className={styles.left}>
@@ -29,6 +31,11 @@ const LandingPage = () => {
         </div>
       </div>
       
+   
+
+      <SynthWave/>
+      
+     
      
     </div>
     </div>
