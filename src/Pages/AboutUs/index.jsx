@@ -1,8 +1,11 @@
-import About from './components/bg.jsx'
-export default function AboutUs(){   
+
+import About from "./components/bg"; 
+
+export default function AboutUs(){
     return (
         <div>
-        <About/>
+            <About />
+
         </div>
     );
 }

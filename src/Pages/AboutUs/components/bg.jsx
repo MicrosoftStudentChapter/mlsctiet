@@ -1,5 +1,6 @@
 import style from "./bg.module.css";
 
+
 export default function About() {
     return (
         <>
@@ -51,5 +52,7 @@ export default function About() {
 
             </div>
         </>
+
+
     );
 }
