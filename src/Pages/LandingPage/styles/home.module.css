@@ -1,0 +1,162 @@
+.left{
+    height: 100vh;
+    width: 100vw;
+    z-index: 5;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.polygon{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sheild{
+        position: absolute;
+            bottom: 43vh;
+    width: 20vw;
+}
+
+.txt{
+    position: absolute;
+    bottom: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.txt1 {
+    position: absolute;
+    bottom: 40vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.blue{
+    z-index: 5;
+    position: relative;
+    left: 80.3%;
+    width: 80vw;
+}
+
+.stroke{
+    z-index: 6;
+    width: 80vw;
+    
+}
+
+.content{
+    z-index: 7;
+    position: relative;
+    right: 80.3%;
+    width: 80vw;
+}
+
+.udlogo{
+    position: absolute;
+    top: 60vh;
+    width: 18vw;
+    opacity: 0.3;
+    margin-top: 3%;
+    transform:rotateZ(180deg);
+    z-index: 1;
+}
+
+.mvmlsc{
+    display: none;
+    margin-top: 7%;
+}
+
+
+
+@media screen and (max-width:1440px){
+    .udlogo{
+        width: 17vw;
+    }
+    .blue{
+        left: 80.3%;
+        width: 80vw;
+    }
+    .stroke{
+        width: 80vw;
+    }
+    .content{
+        right: 80.3%;
+        width: 80vw;
+    }
+}
+@media screen and (max-width:780px){
+    .sheild{
+        width:22vw;
+    }
+}
+
+@media screen and (max-width:540px){
+    .txt1{
+        display: flex;
+    }
+    .sheild{
+        bottom: calc(46vh + 9.5vw);
+    }
+
+    .mvmlsc{
+        display: block;
+        width:80vw;
+    }
+    .sheild{
+        width: 45vw;
+    } 
+    .txt, .udlogo{
+        display: none;
+    }
+     @media  (min-aspect-ratio:1/1) {
+            .mvmlsc {
+                height: 15vh;
+                width: auto;
+            }
+    
+            .sheild {
+                height: 20vh;
+                width: auto;
+                bottom: 60vh;
+            }
+    
+        }
+}
+
+
+.stars{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+/* @media  screen and (max-height:404px) {
+    .sheild{
+        margin-top: -39%;
+    }
+}
+@media  screen and (max-height:352px) {
+    .sheild{
+        margin-top: -42%;
+    }
+}
+@media  screen and (max-height:292px) {
+    .sheild{
+        margin-top: -45%;
+    }
+} */
