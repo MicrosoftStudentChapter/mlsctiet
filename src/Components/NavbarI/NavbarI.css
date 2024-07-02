@@ -1,0 +1,95 @@
+nav {
+    background: rgba(76, 75, 75, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 4rem;
+    z-index: 5;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0.5rem;
+    display: flex;
+    gap: 2rem;
+    backdrop-filter: blur(15px);
+    border-radius: 50px;
+    border: 1px solid #ea638c;
+}
+
+nav a {
+    padding: 0.9rem;
+    display: flex;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    background: transparent;
+    color: white;
+}
+
+nav a.active {
+    color: white;
+    border-radius: 50%;
+    background-color: #ea638c;
+}
+
+.active1 {
+    background-color: #ea638c;
+}
+
+.show-on-phone {
+    display: none;
+}
+
+.dropup {
+    position: relative;
+}
+
+.dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 127px;
+    bottom: 50px;
+    left: -36px;
+    z-index: 1;
+    border-radius: 10px;
+    border: 1px solid #ea638c;
+    background: #4c4b4b69;
+}
+
+.dropup-content a {
+    backdrop-filter: blur(20px);
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropup-content a:hover {background-color: #ccc}
+  
+.dropup:hover .dropup-content {
+    display: block;
+}
+
+@media screen and (max-width: 1024px) {
+    nav {
+        padding: 0.5rem 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* nav {
+        width: 80%;
+    } */
+
+    .hide-on-phone {
+        display: none;
+    }
+    .show-on-phone {
+        display: inline-block;
+    }
+    a {
+        cursor: none;
+    }
+}
