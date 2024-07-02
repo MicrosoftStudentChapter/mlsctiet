@@ -1,10 +1,10 @@
 
-import About from "./components/bg"; 
+import Bg from "./components/bg"; 
 
 export default function AboutUs(){
     return (
         <div>
-            <About />
+            <Bg />
 
         </div>
     );
