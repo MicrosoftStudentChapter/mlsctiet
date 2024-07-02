@@ -1,12 +1,17 @@
-import { useState } from "react";
-
+import YearSelector from "./YearSelector";
+import styles from "../Style/page.module.css";
+import Bg from "./bg";
 
 function Page() {
 
   return (
-    <div>
-      <center>ALumni Page</center>
-    </div>
+    <>
+      <div className={`${styles.background}`}>
+        <Bg/>
+        <YearSelector/> 
+      </div>
+    </>
+    
   );
 }
 

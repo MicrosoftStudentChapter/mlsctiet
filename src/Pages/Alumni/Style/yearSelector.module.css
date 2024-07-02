@@ -1,0 +1,25 @@
+@font-face {
+  font-family: dmMono;
+  src: url("../Assets/DMMono.ttf");
+}
+
+.yearDiv {
+  position: fixed;
+  top: 10vh;
+  right: 20px;
+}
+
+.yearButton {
+  height: 15vh;
+  width: 40px;
+  font-size: 1.5rem;
+  border: 2px solid #465058;
+  color: #FFFFFF;
+  font-family: dmMono;
+  display: flex;           
+  align-items: center;      
+  justify-content: center;  
+}
+
+
+
