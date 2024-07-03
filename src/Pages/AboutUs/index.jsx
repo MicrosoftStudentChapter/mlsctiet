@@ -1,4 +1,5 @@
 import React from 'react'
+import Bg from "./components/bg"; 
 import style from './index.module.css'
 import Animation from './components/animation'
 import Image1 from './assets/image1.jpg'
@@ -17,6 +18,7 @@ const Images= [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8, I
 const Index = () => {
   return (
     <>
+      <Bg />
       <Animation imagesURL={Images}/>
     </> 
   )
