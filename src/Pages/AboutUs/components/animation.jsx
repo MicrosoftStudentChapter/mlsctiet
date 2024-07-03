@@ -32,6 +32,31 @@ const Animation = ({ imagesURL }) => {
   return (
     <>
       <div ref={boxRef} className={box}>
+      <div className={style.imageDiv} style={{ backgroundImage: `url(${imagesURL[0]})` }}></div>
+        <div className={style.empty}></div>
+        <div className={style.imageDiv} style={{ backgroundImage: `url(${imagesURL[1]})` }}></div>
+        <div className={style.empty}></div>
+        <div className={style.empty}></div>
+        <div className={style.empty}></div>
+        <div className={style.imageDiv} style={{ backgroundImage: `url(${imagesURL[2]})` }}></div>
+        <div className={style.empty}></div>
+        <div className={style.imageDiv} style={{ backgroundImage: `url(${imagesURL[3]})` }}></div>
+        <div className={style.empty}></div>
+        <div className={style.imageDiv} style={{ backgroundImage: `url(${imagesURL[4]})` }}></div>
+        <div className={style.empty}></div>
+        <div className={style.imageDiv} style={{ backgroundImage: `url(${imagesURL[5]})` }}></div>
+        <div className={style.empty}></div>
+        <div className={style.imageDiv} style={{ backgroundImage: `url(${imagesURL[6]})` }}></div>
+        <div className={style.empty}></div>
+        <div className={style.imageDiv} style={{ backgroundImage: `url(${imagesURL[7]})` }}></div>
+        <div className={style.empty}></div>
+        <div className={style.imageDiv} style={{ backgroundImage: `url(${imagesURL[8]})` }}></div>
+        <div className={style.empty}></div>
+        <div className={style.empty}></div>
+        <div className={style.empty}></div>
+        <div className={style.imageDiv} style={{ backgroundImage: `url(${imagesURL[9]})` }}></div>
+        <div className={style.empty}></div>
+        <div className={style.imageDiv} style={{ backgroundImage: `url(${imagesURL[10]})` }}></div>
       </div>
     </>
   )
