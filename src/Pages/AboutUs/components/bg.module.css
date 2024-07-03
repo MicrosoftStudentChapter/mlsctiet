@@ -2,10 +2,18 @@
     font-family: aboutfont;
     src: url(../assets/DMMono-Regular.ttf);
 }
+.mainBgContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
 body{
 
-    background-color: #1e1e1e;
-    /* font-family: aboutfont; */
+    /* background-color: #1e1e1e; */
+    font-family: aboutfont;
 }
 .parent{
     display: flex;
@@ -19,7 +27,7 @@ body{
     color:white;
 } */
 .text{
-top:-7px;
+top:3px;
 left:50px;
 color:white;
 position: absolute;

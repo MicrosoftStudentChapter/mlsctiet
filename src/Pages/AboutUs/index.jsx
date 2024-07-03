@@ -1,5 +1,6 @@
 import React from 'react'
 import Bg from "./components/bg"; 
+import MainProject from "./components/mainProject";
 import style from './index.module.css'
 import Animation from './components/animation'
 import Image1 from './assets/image1.jpg'
@@ -20,6 +21,7 @@ const Index = () => {
     <>
       <Bg />
       <Animation imagesURL={Images}/>
+      <MainProjects/>
     </> 
   )
 }
