@@ -1,15 +1,17 @@
 
-import Projects from "./components/projects";
+// import Projects from "./components/projects";
 
 
 // import Bg from "./components/bg"; 
-
+import MainProject from "./components/mainProject";
 
 export default function AboutUs(){
     return (
         <div>
 
-        <Projects/>
+       <MainProject/>
+        {/* <Bg/>
+        <Projects/> */}
 
         </div>
     );

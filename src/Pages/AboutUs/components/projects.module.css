@@ -1,10 +1,13 @@
-
+.mainProjectsContainer{
+    position: relative;
+    z-index: 2;
+}
 *{
     margin: 0;
     padding: 0;
 }
 .projectsContainer{
-    background-color: #1e1e1e;
+    /* background-color: #1e1e1e; */
     height: 100vh;
     color: white;
     display: flex;
@@ -21,18 +24,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-left: 1px solid white;
+    /* border-left: 1px solid white; */
 }
 .projectHeading{
-    height: 15vh;
+    height: 14.15vh;
     /* background-color: aquamarine; */
     border-bottom: 2px solid white;
     color: #8f8a84;
+    width: 88.5%;
+    margin-left: 67px;
 }
 .projectHeading p{
     font-size: 2.5rem;
     margin-top: 31px;
-    margin-left: 44px;
+    margin-left: 32px;
     
 }
 .projectHeading p:hover{
@@ -47,7 +52,10 @@
     margin-left: 26px;
     font-size: 4rem;
 }
-
+.projecth p{
+    margin-top: 75px;
+    margin-left: 36px;
+}
 .projectimagediv{
     height: 80%;
     display: flex;

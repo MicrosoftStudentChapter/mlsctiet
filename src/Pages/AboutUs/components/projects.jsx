@@ -4,7 +4,7 @@ import style from './projects.module.css'
 export default function Projects(){
 
     return(
-        <>
+        <div className={style.mainProjectsContainer}>
         <div className={style.projectsContainer}>
             
             <div className={style.leftSection}>
@@ -37,7 +37,7 @@ export default function Projects(){
                 <p>hello</p>
                </div>
             </div>
-            </div>
-       </>
+        </div>
+       </div>
     )
 }
