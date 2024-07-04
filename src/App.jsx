@@ -5,12 +5,12 @@ import OurTeam from "./Pages/OurTeam";
 import Alumni from "./Pages/Alumni";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import NavbarI from "./Components/NavbarI/NavbarI";
+// import NavbarI from "./Components/NavbarI/NavbarI";
 
 function App() {
   return (
     <Router>
-      <NavbarI />
+      {/* <NavbarI /> */}
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
         <Route path="/events" element={<Events />} />

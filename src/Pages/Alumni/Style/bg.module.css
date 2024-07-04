@@ -1,5 +1,5 @@
 @font-face {
-    font-family: aboutfont;
+    font-family: dmMono;
     src: url(../assets/DMMono-Regular.ttf);
 }
 body{
@@ -20,7 +20,7 @@ color:white;
 position: absolute;
 padding-bottom: 40px;
 font-size:15px;
-font-family: aboutfont;
+font-family: dmMono;
 } 
 
 .left{
@@ -139,7 +139,7 @@ font-family: aboutfont;
         font-size: 15px;
         color: white;
         margin: 0;
-        font-family: aboutfont;
+        font-family: dmMono;
     }
     .icon {
         position: absolute;
@@ -200,7 +200,7 @@ font-family: aboutfont;
     bottom: 1%;
     left: 3.5%;
     color: #0078D4;
-    font-family: aboutfont;
+    font-family: dmMono;
 }
 
 
