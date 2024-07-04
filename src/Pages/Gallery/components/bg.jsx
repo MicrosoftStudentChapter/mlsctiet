@@ -7,7 +7,8 @@ import style from "./bg.module.css";
 
 export default function Bg() {
     return (
-        <>
+        
+            <div className={style.p1}>
             {/* <div className={style.heading}></div> */}
             <p className={style.text}>A legacy of innovation</p>
             <div className={style.parent}>
@@ -66,7 +67,9 @@ export default function Bg() {
                 </div>
 
             </div>
-        </>
+            </div>
+    
+        
 
 
     );
