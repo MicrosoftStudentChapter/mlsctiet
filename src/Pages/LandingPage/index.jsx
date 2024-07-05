@@ -32,16 +32,11 @@ const LandingPage = () => {
           <img src={sheild} className={styles.udlogo} alt="Upside Down Logo" />
         </div>
       </div>
-      
-   
-
-      <SynthWave/>
-     <Navbar />
-     
-          </div>
-    </div>
-   </>
-    
+       <SynthWave/>
+       <Navbar />
+     </div>
+   </div>
+    </>
   );
 };
 
