@@ -6,8 +6,8 @@
 .grid{
     display:grid;
     place-content:centre;
-    //position: absolute;
-    //overflow:clip;
+    /* position: absolute;
+    overflow:clip; */
     height:100vh;
     width:100vw;
 }

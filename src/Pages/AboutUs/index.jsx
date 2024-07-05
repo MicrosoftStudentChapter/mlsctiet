@@ -27,7 +27,6 @@ const Index = () => {
       <Start/>
       <Animation imagesURL={Images}/>
       <div className={style.empty} />
-      <div className={style.empty} />
       
      
       <MainProject/>

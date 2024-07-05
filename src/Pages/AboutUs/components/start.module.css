@@ -69,14 +69,14 @@
     top: 15vh;
 }
 .p1{
-    position: absolute;
+    position: relative;
     color: #0078D4;
     font-family: ff;
     
 
 }
 .p2{
-    position: absolute;
+    position: relative;
     color: #FFFF;
     font-family: ff;
 }
@@ -90,6 +90,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    z-index: 10000;
     /* background-attachment: fixed; */
 }
 .right .li{
@@ -99,22 +100,22 @@
 }
 .right .li .line{
     top: 250px;
-    right: 405px;
+    right: 525px;
     height: 85px;
 }
 .right .li .line1{
     top: 220px;
-    left: 800px;
+    left: 925px;
     height: 85px;
     transform: rotate(90deg);
 }
 .right .re .line{
     top: 450px;
-    right: 178px;
+    right: 300px;
     height: 88px;
 }
 .right .re .line1{
     top: 485px;
-    left: 1075px;
+    left: 1200px;
     height: 85px;
 }
