@@ -7,7 +7,9 @@ import style from "./bg.module.css";
 
 export default function Bg() {
     return (
-        <div className={style.mainBgContainer}>
+
+        <div className={style.bgcontainer}>
+
             {/* <div className={style.heading}></div> */}
             <p className={style.text}>A legacy of innovation</p>
             <div className={style.parent}>
