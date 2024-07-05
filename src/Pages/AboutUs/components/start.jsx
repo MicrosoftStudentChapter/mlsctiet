@@ -27,11 +27,10 @@ export default function Start() {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, placeat. Iste repudiandae eius temporibus doloribus eveniet? Quibusdam cum et atque minus aperiam deleniti at in hic odit exercitationem adipisci accusantium est, nesciunt repellat doloribus quia nisi, dolore consequuntur possimus reiciendis impedit cupiditate fuga expedita delectus? Exercitationem fuga magnam assumenda quam?
                         </p>
                     </div>
-                    <div className={style.ima}>
+                    <iframe src="https://www.youtube.com/embed/Iwl-0ja8hqQ?si=l5TLotLk6dnRjn9-?autoplay=1" className={style.ima}></iframe>
                          
                            {/* <img src="{team}" alt="mlsc" /> */}
                         
-                    </div>
                     <div className={style.li}>
                         <div className={style.line}></div>
                         <div className={style.line1}></div>
