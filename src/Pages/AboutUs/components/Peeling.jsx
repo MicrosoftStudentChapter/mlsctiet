@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
-import style from "./bg.module.css";
+import style from "./projects.module.css";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
@@ -15,8 +15,8 @@ const Peel = () => {
         scrollTrigger: {
             trigger: `.${peel}`,
                        
-            start: 'top centre', // when the top of the trigger hits the top of the viewport
-            end: '60% 10%',
+            start: 'top bottom', // when the top of the trigger hits the top of the viewport
+            end: 'bottom 100%',
             markers: true,
             toggleActions: "restart pause reverse pause",
             

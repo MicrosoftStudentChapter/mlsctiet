@@ -8,9 +8,9 @@ import Peel from "./Peeling";
 
 export default function Bg() {
     return (<>
-        <div className={style.grid}>
-            <Peel />
-            <div className={style.sticky}>
+        
+            
+            
         <div className={style.mainBgContainer}>
             {/* <div className={style.heading}></div> */}
             <p className={style.text}>A legacy of innovation</p>
@@ -71,8 +71,7 @@ export default function Bg() {
 
             </div>
         </div>
-        </div>
-        </div>
+        
         
         </>
 
