@@ -4,6 +4,7 @@ import LandingPage from "./Pages/LandingPage";
 import OurTeam from "./Pages/OurTeam";
 import Alumni from "./Pages/Alumni";
 import React from "react";
+import AboutUs from "./Pages/AboutUs";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavbarI from "./Components/NavbarI/NavbarI";
 
@@ -17,6 +18,7 @@ function App() {
 				<Route path="/gallery" element={<Gallery />} />
 				<Route path="/alumni" element={<Alumni />} />
         <Route path="/team" element={<OurTeam />} />
+        <Route path="/about" element={<AboutUs />} />
       </Routes>
     </Router>
   );
