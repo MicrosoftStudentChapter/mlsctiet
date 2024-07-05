@@ -1,10 +1,12 @@
-export default function Events(){   
+ import Gallerypg from "./gallerypg";
+ import Bg from "./bg"
+
+export default function events(){
     return (
         <div>
-        <h1>Events</h1>
-        <p>
-            This is the events page. This is where we talk about our events.
-        </p>
+            <Bg/>
+            <Gallerypg/>
+
         </div>
     );
 }
