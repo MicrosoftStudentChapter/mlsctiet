@@ -19,9 +19,14 @@ const Images= [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8, I
 const Index = () => {
   return (
     <>
+      <div className={style.wrapper}>
       <Bg />
+      <div className={style.empty} />
       <Animation imagesURL={Images}/>
-      <MainProjects/>
+      <div className={style.empty} />
+      <div className={style.empty} />
+      <MainProject/>
+      </div>
     </> 
   )
 }
