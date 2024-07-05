@@ -19,9 +19,9 @@ const Animation = ({ imagesURL }) => {
       scrollTrigger: {
         trigger: boxRef.current,
         scroller: "body",
-        start: "center center",
+        start: "top bottom",
         end: "bottom top",
-        scrub: 3,
+        scrub: true,
         pin: true,
         pinSpacing: false,
         markers: true,
