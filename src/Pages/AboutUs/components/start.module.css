@@ -1,0 +1,117 @@
+@font-face {
+    font-family: headerfont;
+    src: url(..assets/Spart-Regular.otf);
+}
+@font-face {
+    font-family: ff;
+    src: url(../assets/DMMono-Regular.ttf);
+}
+.header{
+    font-size: 80px;
+    font-family: headerfont;
+    color: white;
+    margin: 0px;
+    position: absolute;
+    top: 80px;
+    left: 70px;
+}
+.main{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 50vw;
+}
+.right{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+.li{
+    position: absolute;
+    top: 65px;
+    left: 50px;
+}
+.line{
+    position: absolute;
+    background-color: #FFFF;
+    width: 1px;
+    height: 125px;   
+}
+.line1{
+    position: absolute;
+    background-color: #FFFF;
+    width: 1px;
+    height: 125px;
+    transform: rotate(90deg);
+    left: 45px;
+    top: -45px;
+}
+.logo{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 65vh;
+    left: 4vw;
+}
+.text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 40vw;
+    left: 57vw;
+    top: 15vh;
+}
+.p1{
+    position: absolute;
+    color: #0078D4;
+    font-family: ff;
+    
+
+}
+.p2{
+    position: absolute;
+    color: #FFFF;
+    font-family: ff;
+}
+.ima{
+    position: relative;
+    top: 340px;
+    left: 200px;
+    background-image: url(/src/Pages/AboutUs/assets/team.png);
+    height: 175px;
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-attachment: fixed; */
+}
+.right .li{
+    
+    bottom: 65px;
+    right: 50px;
+}
+.right .li .line{
+    top: 250px;
+    right: 405px;
+    height: 85px;
+}
+.right .li .line1{
+    top: 220px;
+    left: 800px;
+    height: 85px;
+    transform: rotate(90deg);
+}
+.right .re .line{
+    top: 450px;
+    right: 178px;
+    height: 88px;
+}
+.right .re .line1{
+    top: 485px;
+    left: 1075px;
+    height: 85px;
+}

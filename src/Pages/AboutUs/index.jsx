@@ -1,5 +1,6 @@
 import React from 'react'
 import Bg from "./components/bg"; 
+
 import MainProject from "./components/mainProject";
 import style from './index.module.css'
 import Animation from './components/animation'
@@ -29,6 +30,7 @@ const Index = () => {
       </div>
     </> 
   )
+
 }
 
 export default Index;
