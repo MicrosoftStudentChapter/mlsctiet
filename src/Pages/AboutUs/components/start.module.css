@@ -18,8 +18,11 @@
 .main{
     position: relative;
     z-index: 2;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: row;
+    background-color: transparent;
 }
 .left{
     width: 50vw;

@@ -1,6 +1,6 @@
 import React from 'react'
 import Bg from "./components/bg"; 
-
+import Start from "./components/start";
 import MainProject from "./components/mainProject";
 import style from './index.module.css'
 import Animation from './components/animation'
@@ -20,9 +20,10 @@ const Images= [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8, I
 const Index = () => {
   return (
     <>
+    <Bg />
       <div className={style.wrapper}>
-      <Bg />
-      <div className={style.empty} />
+      
+      <Start/>
       <Animation imagesURL={Images}/>
       <div className={style.empty} />
       <div className={style.empty} />
