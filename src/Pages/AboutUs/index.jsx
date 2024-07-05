@@ -1,6 +1,7 @@
 import React from 'react'
 import Bg from "./components/bg"; 
 import Start from "./components/start";
+import Peel from "./components/Peeling";
 import MainProject from "./components/mainProject";
 import style from './index.module.css'
 import Animation from './components/animation'
@@ -27,6 +28,8 @@ const Index = () => {
       <Animation imagesURL={Images}/>
       <div className={style.empty} />
       <div className={style.empty} />
+      
+     
       <MainProject/>
       </div>
     </> 

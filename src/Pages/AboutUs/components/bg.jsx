@@ -1,4 +1,5 @@
 import style from "./bg.module.css";
+import Peel from "./Peeling";
 // import "@fontsource/dm-mono";
 // import "@fontsource/dm-mono/400.css";
 // import "@fontsource/dm-mono/400-italic.css";
@@ -6,10 +7,11 @@ import style from "./bg.module.css";
 
 
 export default function Bg() {
-    return (
-
-        <div className={style.bgcontainer}>
-
+    return (<>
+        
+            
+            
+        <div className={style.mainBgContainer}>
             {/* <div className={style.heading}></div> */}
             <p className={style.text}>A legacy of innovation</p>
             <div className={style.parent}>
@@ -69,6 +71,9 @@ export default function Bg() {
 
             </div>
         </div>
+        
+        
+        </>
 
 
     );

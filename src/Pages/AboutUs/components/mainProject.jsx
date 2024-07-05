@@ -10,7 +10,7 @@ export default function AboutUs(){
         <div>
 
      
-        <Bg/>
+        
         <Projects/>
 
         </div>
