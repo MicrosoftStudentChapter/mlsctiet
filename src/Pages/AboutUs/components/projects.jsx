@@ -1,5 +1,6 @@
 import React from "react";
 import style from './projects.module.css'
+import Para from "./Cards";
 
 export default function Projects(){
 
@@ -19,22 +20,26 @@ export default function Projects(){
             </div>
             <div className={style.rightSection}>
                <div className={style.projectHeading}>
-                <p>Time Table Generator</p>
+               <Para text={"Time Table Generator"} />
                </div>
                <div className={style.projectHeading}>
-                <p>hello</p>
+               <Para text={"Hello"} />
                </div>
                <div className={style.projectHeading}>
-                <p>hello</p>
+               <Para text={"Hello"} />
+
                </div>
                <div className={style.projectHeading}>
-                <p>hello</p>
+               <Para text={"Hello"} />
+
                </div>
                <div className={style.projectHeading}>
-                <p>hello</p>
+               <Para text={"Hello"} />
+
                </div>
                <div className={style.projectHeading}>
-                <p>hello</p>
+<Para text={"Hello"} />
+
                </div>
             </div>
         </div>

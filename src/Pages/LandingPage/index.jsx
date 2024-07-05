@@ -35,15 +35,14 @@ const LandingPage = () => {
       
    
 
-//       <SynthWave/>
-//       <Navbar />
+      <SynthWave/>
+     <Navbar />
      
-     
-//     </div>
-//     </div>
-//     </>
+          </div>
+    </div>
+   </>
     
-//   );
-// };
+  );
+};
 
-// export default LandingPage;
+export default LandingPage;
