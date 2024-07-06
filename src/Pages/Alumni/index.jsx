@@ -8,5 +8,4 @@ const Alumni = () => {
     </div>
   );
 };
-
 export default Alumni;
