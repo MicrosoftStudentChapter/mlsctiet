@@ -141,4 +141,85 @@
         margin: 13vh;
         margin-left: 7vw;
     }
+    .text{
+        margin-left: 5vw;
+        margin-top: 5vh;
+    }
+    .ima{
+        height: 28vh;
+    width: 27vw;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .header{
+        font-size: 8vh;
+        margin: 15vh;
+        margin-left: 8vw;
+    }
+    .logo{
+        top: 71vh;
+    left: 6vw;
+    }
+    .logo img{
+        height: 17vh;
+        width: auto;
+    }
+    .text{
+        font-size: 0.9rem;
+        padding: 4vh;
+        height: 55%;
+    }
+    .ima{
+        height: 20vh;
+        width: 26vw;
+        margin-left: 3vw;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .header{
+        font-size: 4vh;
+        margin: 12vh;
+        margin-left: 9vw;
+    }
+    .logo img{
+        height: 14vh;
+    }
+    .logo{
+        top: 67vh;
+        left: 9vw;
+    }
+    .text{
+        font-size: 0.7rem;
+        padding: 2vh;
+        height: 55%;
+        margin-left: 2vw;
+        margin-top: 7vh;
+    }
+    .ytp-button{
+        height: 15px;
+        top: 70%;
+    }
+    .svideo{
+        height: 22%;
+    }
+    .ima{
+        height: 13vh;
+        width: 29vw;
+        margin-left: -5vw;
+    }
+    .html5-video-player a {
+        
+font-size: 7px;
+position: relative;
+top: -11px;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .text{
+        margin-top: 12vh;
+        margin-bottom: 3vh;
+    }
 }

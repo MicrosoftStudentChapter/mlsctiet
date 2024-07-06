@@ -289,7 +289,7 @@ font-family: aboutfont;
         width:94.5%;
     }
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 475px){
     .v2{
         right:-13px;
     }
