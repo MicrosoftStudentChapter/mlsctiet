@@ -148,6 +148,37 @@
   
 }
 
+.animate1{
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background-color:#1e1e1e;
+  animation: terminate1 10s linear infinite;
+}
+@keyframes terminate1{
+  0%{  inset:-3px 0px 0px 0px; }
+  25%{  inset:-3px 0px 0px 409px; }
+  50%{  inset:297px 0px 0px 409px;}
+  75%{  inset:297px 0px 0px 0px; }
+  100%{  inset:-3px 0px 0px -50px; }
+}
+
+.animate2{
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background-color:#1e1e1e;
+  animation: terminate2 10s linear infinite;
+}
+@keyframes terminate2{
+  0%{  inset:0px 0px 0px 0px; }
+  25%{  inset:-3px 0px 0px 409px; }
+  50%{  inset:297px 0px 0px 409px;}
+  75%{  inset:297px 0px 0px 0px; }
+  100%{  inset:0px 0px 0px -3px;}
+}
+
+
 
 
 @media screen and (max-width:1024px) {
@@ -176,6 +207,66 @@
     height: calc(100% - 50px);
     margin-top: 30px;
    
+  }
+  .animate1 {
+    position: absolute; /* Ensure absolute positioning */
+    width: 6vw; 
+    height: 2.2vh;
+    background-color: #1e1e1e; /* Optional for visibility */
+    animation: terminate1 10s linear infinite;
+  }
+
+  @keyframes terminate1 {
+    0% {
+      top: -4%;
+      left: 0;
+    }
+    25% {
+      top: -4%;
+      left: calc(100% - 5.8vw);
+    }
+    50% {
+      top: calc(100% - 2.2vh);
+      left: calc(100% - 5.8vw);
+    }
+    75% {
+      top: calc(100% - 2.2vh);
+      left: 0;
+    }
+    100% {
+      top: -4%;
+      left: 0;
+    }
+  }
+  .animate2 {
+    position: absolute; /* Ensure absolute positioning */
+    width: 6vw; 
+    height: 2.2vh;
+    background-color: #1e1e1e; /* Optional for visibility */
+    animation: terminate1 10s linear infinite;
+  }
+
+  @keyframes terminate2 {
+    0% {
+      bottom: 0;
+      right: 0;
+    }
+    25% {
+      bottom: 0%;
+      right: calc(100% - 2.2vh);
+    }
+    50% {
+      bottom: calc(100% - 5.8vw);
+      right: calc(100% - 2.2vh);
+    }
+    75% {
+      bottom: calc(100% - 5.8vw);
+      right: 0;
+    }
+    100% {
+      bottom: -4%;
+      right: 0;
+    }
   }
 }
 
@@ -251,6 +342,75 @@
     justify-content: center;
     align-items: center;
     width:70vw;
+  }
+
+  .animate1{
+    position:absolute;
+    width:6vw;
+    height:13vh;
+    background-color:#1e1e1e;
+    /* inset: 15px 30px 60px 90px; */
+    /* inset:-3px 0px 0px 490px; */
+
+    /* left:40%;
+    top:40%; */
+    /* border: transparent; */
+      animation:terminate1 10s linear infinite;   
+  }
+
+
+  
+  @keyframes terminate1 {
+    0% {
+      top: -4%;
+      left: 0;
+    }
+    25% {
+      top: -4%;
+      left: calc(100% - 5.8vw);
+    }
+    50% {
+      top: calc(100% - 2.2vh);
+      left: calc(100% - 5.8vw);
+    }
+    75% {
+      top: calc(100% - 2.2vh);
+      left: 0;
+    }
+    100% {
+      top: -4%;
+      left: 0;
+    }
+  }
+  .animate2 {
+    position: absolute; /* Ensure absolute positioning */
+    width: 6vw; 
+    height: 2.2vh;
+    background-color: #1e1e1e; /* Optional for visibility */
+    animation: terminate1 10s linear infinite;
+  }
+
+  @keyframes terminate2 {
+    0% {
+      top: 0;
+      right: 0;
+    }
+    25% {
+      top: 0%;
+      right: calc(100% - 2.2vh);
+    }
+    50% {
+      top: calc(100% - 5.8vw);
+      right: calc(100% - 2.2vh);
+    }
+    75% {
+      top: calc(100% - 5.8vw);
+      right: 0;
+    }
+    100% {
+      top: -4%;
+      right: 0;
+    }
   }
   
 
@@ -333,7 +493,49 @@
     justify-content: center;
     width:200vw;
   }
+  .animate1 {
+    width: 10.7vw;
+    height: 10.7vh;
+}
+@keyframes terminate1 {
+  0% {
+    inset: -5% 0 0 0;
+}
+25% {
+    inset: -5% 0 0 calc(100% - 15%);
+}
+50% {
+    inset: calc(100% - 15%) 0 0 calc(100% - 15%);
+}
+75% {
+    inset: calc(100% - 15%) 0 0 0;
+}
+100% {
+    inset: -5% 0 0 -15%;
+}
+}
 
+.animate1 {
+  width: 10.7vw;
+  height: 10.7vh;
+}
+@keyframes terminate1 {
+0% {
+  inset: -5% 0 0 0;
+}
+25% {
+  inset: -5% 0 0 calc(100% - 15%);
+}
+50% {
+  inset: calc(100% - 15%) 0 0 calc(100% - 15%);
+}
+75% {
+  inset: calc(100% - 15%) 0 0 0;
+}
+100% {
+  inset: -5% 0 0 -15%;
+}
+}
 }
 
 @media screen and (max-width: 480px){
@@ -422,10 +624,60 @@
     width: calc(100% - 30px);
     height: calc(100% - 40px);
   }
+  @keyframes terminate1 {
+    0% {
+      top: -4%;
+      left: 0;
+    }
+    25% {
+      top: -4%;
+      left: calc(100% - 5.8vw);
+    }
+    50% {
+      top: calc(100% - 2.2vh);
+      left: calc(100% - 5.8vw);
+    }
+    75% {
+      top: calc(100% - 2.2vh);
+      left: 0;
+    }
+    100% {
+      top: -4%;
+      left: 0;
+    }
+  }
+  .animate2 {
+    position: absolute; /* Ensure absolute positioning */
+    width: 6vw; 
+    height: 2.2vh;
+    background-color: #1e1e1e; /* Optional for visibility */
+    animation: terminate1 10s linear infinite;
+  }
 
-
-
+  @keyframes terminate2 {
+    0% {
+      top: 0;
+      right: 0;
+    }
+    25% {
+      top: 0%;
+      right: calc(100% - 2.2vh);
+    }
+    50% {
+      top: calc(100% - 5.8vw);
+      right: calc(100% - 2.2vh);
+    }
+    75% {
+      top: calc(100% - 5.8vw);
+      right: 0;
+    }
+    100% {
+      top: -4%;
+      right: 0;
+    }
+  }
 }
+
 
 
 

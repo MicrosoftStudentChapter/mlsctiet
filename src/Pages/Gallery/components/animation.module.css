@@ -1,0 +1,184 @@
+
+*{ margin:0; padding:0}
+body{
+    background-color: black;
+}
+.container{
+  width: 500px;
+  height: 200px;
+  border: solid white;
+  /* border-top-left-radius: 90px;
+  border-bottom-right-radius: 90px; */
+  position: relative;
+}
+.animate{
+    position:absolute;
+    width:100px;
+    height:70px;
+    background-color:black;
+    /* inset: 15px 30px 60px 90px; */
+    /* inset:-3px 0px 0px 490px; */
+
+    /* left:40%;
+    top:40%; */
+    /* border: transparent; */
+      animation:terminate 10s linear infinite;   
+
+  }
+/* .animate:before{
+  content:'';
+  position:absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  /* margin:1px; */
+  /* background:transparent;
+  border-color: rgb(36, 36, 36);
+  border-style: solid ;
+  animation:terminate 1s linear infinite; 
+
+  z-index:0;
+} */ 
+
+
+ 
+ @keyframes terminate{
+  0%{  inset:-3px 0px 0px 0px; }
+  25%{  inset:-3px 0px 0px 490px; }
+  50%{  inset:197px 0px 0px 490px;}
+  75%{  inset:197px 0px 0px 0px; }
+  100%{  inset:-3px 0px 0px -50px;; } } 
+ 
+  @media (max-width: 1024px) {
+    .container {
+        width: 85%; 
+        height: 55vh; 
+    }
+
+    .animate {
+        width: 8vw; 
+        height: 13.2vh;
+    }
+
+    @keyframes terminate {
+        0% {
+            inset: -4% 0 0 0;
+        }
+        25% {
+            inset: -4% 0 0 calc(100% - 9%);
+        }
+        50% {
+            inset: calc(100% - 9%) 0 0 calc(100% - 9%);
+        }
+        75% {
+            inset: calc(100% - 9%) 0 0 0;
+        }
+        100% {
+            inset: -4% 0 0 -9%;
+        }
+    }
+}
+
+
+   @media (max-width: 768px) {
+    .container {
+        height: 39vh;
+        width: 70vw;
+    }
+
+    .animate {
+      width: 7.3vw;
+      height: 9.1vh;
+    }
+
+    @keyframes terminate {
+        0% {
+            inset: -5% 0 0 0;
+        }
+        25% {
+            inset: -5% 0 0 calc(100% - 6%);
+        }
+        50% {
+            inset: calc(100% - 19%) 0 0 calc(100% - 6%);
+        }
+        75% {
+            inset: calc(100% - 6%) 0 0 0;
+        }
+        100% {
+            inset: -5% 0 0 -6%;}}
+}
+@media (max-width: 480px) {
+  .container {
+      height: 30vh; 
+      width:50vw;
+
+  }
+
+  .animate {
+      width: 11vw;
+      height: 9.1vh;
+  }
+
+  @keyframes terminate {
+      0% {
+          inset: -5% 0 0 0;
+      }
+      25% {
+          inset: -5% 0 0 calc(100% - 15%);
+      }
+      50% {
+          inset: calc(100% - 15%) 0 0 calc(100% - 3%);
+      }
+      75% {
+          inset: calc(100% - 3%) 0 0 0;
+      }
+      100% {
+          inset: -5% 0 0 -15%;}}
+}
+  
+@media screen and (max-width: 620px) { 
+  .container {
+     
+      width:66vw;
+      height: 30vh;
+ 
+  }
+
+ .animate {
+     width: 10.7vw;
+     height: 10.7vh;
+ }
+ @keyframes terminate {
+   0% {
+     inset: -5% 0 0 0;
+ }
+ 25% {
+     inset: -5% 0 0 calc(100% - 15%);
+ }
+ 50% {
+     inset: calc(100% - 15%) 0 0 calc(100% - 15%);
+ }
+ 75% {
+     inset: calc(100% - 15%) 0 0 0;
+ }
+ 100% {
+     inset: -5% 0 0 -15%;
+ }
+}
+}
+
+  
+
+
+ 
+
+
+
+
+
+
+
+
+
+

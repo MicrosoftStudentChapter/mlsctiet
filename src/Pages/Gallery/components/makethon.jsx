@@ -17,14 +17,20 @@ const Makeathon = () => {
             </p>
             </div>
             <div className={styles.imageContainer1}>
-              <div className={styles.border1}></div>
+              
+              <div className={styles.border1}>
+                <div className={styles.animate1}></div>
+              </div>
               <img src={groupImage} alt="Group" className={styles.image1} />         
+              
             </div>
           </div>
 
           <div className={styles.content2}>   
             <div className={styles.imageContainer2}>
-              <div className={styles.border2}></div>
+              <div className={styles.border2}>
+                <div className={styles.animate2}></div>
+              </div>
               <img src={groupImage} alt="Group" className={styles.image2} />         
             </div>
             <div className={styles.parent2}>
@@ -44,7 +50,9 @@ const Makeathon = () => {
             </p>
             </div>
             <div className={styles.imageContainer1}>
-              <div className={styles.border1}></div>
+              <div className={styles.border1}>
+                <div className={styles.animate1}></div>
+              </div>
               <img src={groupImage} alt="Group" className={styles.image1} />         
             </div>
           </div>
