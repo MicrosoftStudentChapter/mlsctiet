@@ -17,9 +17,13 @@
   align-items: start;
 }
 
+.parent{
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
 
-
-.content {
+.content, .content2 {
   display: grid;
   grid-template-columns: repeat(2,1fr);
   padding: 60px;
@@ -176,6 +180,15 @@
 }
 
 @media screen and (max-width:768px) {
+  .content, .content2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .page{
+    text-align: center;
+  }
   .title2 {
     font-size: 2.5em;
     margin-left: 10px
@@ -185,19 +198,25 @@
     margin-right: 40px;
   }
   .about1 {
-    font-size: 1em;
+    font-size: 1.5em;
     margin-bottom: 20px;
   }
   .about2{
     margin-left: 20px;
+    font-size: 1.5em;
   }
   .imageContainer1{
     margin-top: 40px;
+    align-items: center;
     
+ }
+ .imageContainer2{
+    align-items: center;
+    margin-left: 100px;
  }
   .image1{
     padding-top: 10px;
-    width:85%;
+    width:95%;
 
   }
   .image2{
@@ -206,73 +225,274 @@
     margin-bottom: 10px;
     margin-left: 20px;
   }
-  .imageContainer1{
-    height: 150px;
-    width:auto;
-  }
-  .imageContainer2{
-    height: 150px;
-    width:auto;
-  }
+ 
   .border1{
-    width: calc(100% - 30px);
-    height: calc(100% - 50px);
-    margin-top: 30px;
+    width: calc(100% - 10px);
+    height: calc(100% - 40px);
+    margin-top: 20px;
 
   }
   .border2{
       
-    width: calc(100% - 20px);
+    width: calc(100% - 10px);
     height: calc(100% - 30px);
     margin-bottom: 30px;
     margin-left: 80px;
     margin-right: -30px;
 
   }
+  .content2{
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .parent1, .parent2, .parent3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:70vw;
+  }
+  
+
 }
 
-
-
-
 @media screen and (max-width: 620px){
-
-
+  .content, .content2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center ;
+    align-content:center ;
+  }
+  .title{
+    text-align: center;
+  }
+  .page{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+  }
   .imageContainer1{
     margin-top: 40px;
+    align-items: center;
+    align-content: center;
+    margin-right: 40px;
     
  }
+ .about1,.about2{
+  text-align: center;
+ }
+
   .image1{
     padding-top: 10px;
     width:95%;
     margin-right: 20px;
-    height: auto;
+   
 
+  }
+  .title, .title2{
+    text-align: center;
   }
   .image2{
     padding-top: 10px;
-    width:75%;
-    margin-right: 20px;
-    height: auto;
+    width:100%;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    
   }
-  .imageContainer1{
-    height: 150px;
-    width:auto;
-  }
+ 
   .imageContainer2{
-    height: 150px;
-    width:auto;
+    margin-top: 40px;
+    align-items: center;
+    align-content: center;
+    margin-right: 40px;
+  
   }
  
   .border1{
-    width: calc(100% - 90px);
-    height: calc(100% - 20px);
+    width: calc(100% - 30px);
+    height: calc(100% - 40px);
+   
 
   }
   .border2 {
-    width: calc(100% - 170px);
-    height: calc(100% - 80px);
-    border-bottom-left-radius: 40px;
+    width: calc(100% - 30px);
+    height: calc(100% - 40px);
+  }
+
+
+  .content2{
+    flex-direction: column-reverse;
+  }
+
+  .parent1, .parent2, .parent3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:200vw;
+  }
+
+}
+
+@media screen and (max-width: 480px){
+  .content, .content2{
+    display: flex;
+    
+    flex-wrap: wrap;
+    align-items: center ;
+    align-content:center ;
+    justify-content: center;
+  }
+  .content2{
+    flex-direction: column-reverse;
+  }
+  .title{
+    text-align: center;
+    justify-content: center;
+  }
+  .page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .imageContainer1{
+    margin-top: 40px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     margin-right: 40px;
+    
+ }
+ 
+ .aboutTitle{
+  justify-content: center;
+ }
+
+  .image1{
+    padding-top: 10px;
+    width:100%;
+    margin-right: 20px;
+   
+
+  }
+  .title, .title2{
+    text-align: center;
+    justify-content: center;
+  }
+  .image2{
+    padding-top: 10px;
+    width:90%;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    
+  }
+ 
+  .imageContainer2{
+    margin-top: 40px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-right: 40px;
+    
+  
+  }
+  .parent1, .parent2, .parent3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:200vw;
+  }
+
+ 
+ 
+  .border1{
+    width: calc(100% - 30px);
+    height: calc(100% - 40px);
+   
+
+  }
+  .border2 {
+    width: calc(100% - 30px);
+    height: calc(100% - 40px);
+  }
+
+
+
+}
+
+
+
+  
+
+/* @media screen and (max-width: 480px){
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center ;
+    align-content:center ;
+  }
+  .title{
+    text-align: center;
+  }
+  .page{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imageContainer1{
+    margin-top: 40px;
+    align-items: center;
+    align-content: center;
+    margin-right: 40px;
+    
+ }
+ 
+
+  .image1{
+    padding-top: 10px;
+    width:75%;
+    margin-right: 20px;
+   
+
+  }
+  .title, .title2{
+    text-align: center;
+  }
+  .image2{
+    padding-top: 10px;
+    width:90%;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    
+  }
+ 
+  .imageContainer2{
+    margin-top: 40px;
+    align-items: center;
+    align-content: center;
+    margin-right: 40px;
+  
+  }
+ 
+  .border1{
+    width: calc(100% - 30px);
+    height: calc(100% - 40px);
+   
+
+  }
+  .border2 {
+    width: calc(100% - 30px);
+    height: calc(100% - 40px);
   }
 
 
@@ -281,11 +501,8 @@
     max-height: none;
   }
 
-};
-  
-
-
-@media screen and (max-width: 480px) {
+}; */
+/* @media screen and (max-width: 480px){
   .title {
     font-size: 2em;
   }
@@ -298,41 +515,28 @@
 
   .image1{
     padding-top: 10px;
-    width:45%;
+    width:10%;
 
   }
   .image2{
     padding-top: 10px;
-    width:25%;
+    width:100%;
+    margin-left: 500px;
   }
-  .imageContainer1{
-    height: 150px;
-    width:auto;
-    margin-top: 40px;
-  }
-  .imageContainer2{
-    height: 150px;
-    width:auto;
-  }
+
   
   
-  .border1 {
+  .border1{
     width: calc(100% - 30px);
-    height: calc(100% - 60px);
-    top: 20px;
-    left: 10px;
+    height: calc(100% - 40px);
+   
+
   }
-  
-  
   .border2 {
-    width: calc(100% - 100px);
-    height: calc(100% - 80px);
-    top: 70px;
-    right: 50px;
-    left: 50px;
-    border-bottom-left-radius: 30%;
-    }
+    width: calc(100% - 30px);
+    height: calc(100% - 40px);
   }
+}; */
 
   
 

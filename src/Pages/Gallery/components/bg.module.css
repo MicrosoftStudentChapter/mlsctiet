@@ -39,7 +39,7 @@ font-family: aboutfont;
 
 .left{
     width: calc(50vw - 15px);
-    position: relative;
+    position: fixed;
     height: 100vh;
     left: 0px;
     /* padding-right: 25px; */
@@ -48,7 +48,7 @@ font-family: aboutfont;
 }
 .right{
     width: calc(50vw - 15px);
-    position: absolute;
+    position: fixed;
     height: 100vh;
     right: 0px;
     transform: rotateY(180deg);
