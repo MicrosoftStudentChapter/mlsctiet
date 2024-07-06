@@ -1,0 +1,40 @@
+.scrollDiv {
+    background-color: rgb(239, 234, 228);
+    width: 92vw;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    height: 80vh;
+    position: fixed;
+    top: 60px;
+    right: 70px;
+}
+
+.scrollDiv::-webkit-scrollbar {
+    display: none;
+}
+
+
+.one{
+    width: inherit;
+    height: 70vh;
+    background-color: brown;
+}
+
+.two{
+    width: inherit;
+    height: 70vh;
+    background-color: rgb(42, 165, 71);
+}
+
+.three{
+    width: inherit;
+    height: 70vh;
+    background-color: rgb(165, 155, 42);
+}
+
+.start{
+    width: inherit;
+    height: 75vh;
+    background-color: coral;
+}

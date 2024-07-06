@@ -1,3 +1,10 @@
+
+.background{
+    background-color: #1E1E1E;
+    width: 100vw;
+    height: 100vh;
+  }
+
 .container {
     display: flex;
     flex-direction: column;
