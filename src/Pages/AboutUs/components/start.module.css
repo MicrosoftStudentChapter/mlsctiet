@@ -7,13 +7,14 @@
     src: url(../assets/DMMono-Regular.ttf);
 }
 .header{
-    font-size: 80px;
+    font-size: 11vh;
     font-family: headerfont;
     color: white;
-    margin: 0px;
+    margin: 11vh;
     position: absolute;
-    top: 80px;
-    left: 70px;
+    /* top: 80px; */
+    /* left: -19px; */
+    margin-left: 10vh;
 }
 .main{
     position: relative;
@@ -31,6 +32,8 @@
     width: 50vw;
     display: flex;
     flex-direction: column;
+    height: 100%;
+    align-items: center;
 }
 .li{
     position: absolute;
@@ -54,19 +57,23 @@
 }
 .logo{
     position: absolute;
-    height: 50px;
-    width: 50px;
+    /* height: 50px;
+    width: 50px; */
     top: 65vh;
     left: 4vw;
 }
 .text{
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
-    height: 60vh;
+    height: 50%;
     width: 40vw;
-    left: 57vw;
-    top: 15vh;
+    /* left: 57vw; */
+    /* top: 15vh; */
+    /* background: red; */
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 3vw;
 }
 .p1{
     position: relative;
@@ -81,17 +88,18 @@
     font-family: ff;
 }
 .ima{
-    position: relative;
-    top: 340px;
-    left: 200px;
-    background-image: url(/src/Pages/AboutUs/assets/team.png);
-    height: 175px;
-    width: 250px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    z-index: 10000;
-    /* background-attachment: fixed; */
+   /* position: relative; */
+   /* top: 340px;
+   left: 200px; */
+   background-image: url(/src/Pages/AboutUs/assets/team.png);
+   height: 24vh;
+   width: 17vw;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   z-index: 10000;
+   /* background-attachment: fixed; */
+
 }
 .right .li{
     
@@ -118,4 +126,100 @@
     top: 485px;
     left: 1200px;
     height: 85px;
+}
+.svideo{
+   /* width: 50vw; */
+   display: flex;
+   align-items: center;
+   height: 30%;
+   /* background: yellow; */
+   justify-content: center;
+}
+
+@media screen and (max-width: 1025px){
+    .header{
+        margin: 13vh;
+        margin-left: 7vw;
+    }
+    .text{
+        margin-left: 5vw;
+        margin-top: 5vh;
+    }
+    .ima{
+        height: 28vh;
+    width: 27vw;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .header{
+        font-size: 8vh;
+        margin: 15vh;
+        margin-left: 8vw;
+    }
+    .logo{
+        top: 71vh;
+    left: 6vw;
+    }
+    .logo img{
+        height: 17vh;
+        width: auto;
+    }
+    .text{
+        font-size: 0.9rem;
+        padding: 4vh;
+        height: 55%;
+    }
+    .ima{
+        height: 20vh;
+        width: 26vw;
+        margin-left: 3vw;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .header{
+        font-size: 4vh;
+        margin: 12vh;
+        margin-left: 9vw;
+    }
+    .logo img{
+        height: 14vh;
+    }
+    .logo{
+        top: 67vh;
+        left: 9vw;
+    }
+    .text{
+        font-size: 0.7rem;
+        padding: 2vh;
+        height: 55%;
+        margin-left: 2vw;
+        margin-top: 7vh;
+    }
+    .ytp-button{
+        height: 15px;
+        top: 70%;
+    }
+    .svideo{
+        height: 22%;
+    }
+    .ima{
+        height: 13vh;
+        width: 29vw;
+        margin-left: -5vw;
+    }
+    .html5-video-player a {
+        
+font-size: 7px;
+position: relative;
+top: -11px;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .text{
+        margin-top: 12vh;
+        margin-bottom: 3vh;
+    }
 }

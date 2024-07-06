@@ -1,13 +1,13 @@
 .mainProjectsContainer{
     position: relative;
-    z-index: 200;
+    z-index: 11;
 }
 
 .peel{
     height:100vh;
     width:100vw;
     position:absolute;
-    z-index:100;
+    z-index:10;
     background-color:black;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     
