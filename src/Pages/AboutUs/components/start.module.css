@@ -108,22 +108,22 @@
 }
 .right .li .line{
     top: 250px;
-    right: 525px;
+    right: 457px;
     height: 85px;
 }
 .right .li .line1{
     top: 220px;
-    left: 925px;
+    left: 904px;
     height: 85px;
     transform: rotate(90deg);
 }
 .right .re .line{
     top: 450px;
-    right: 300px;
+    right: 214px;
     height: 88px;
 }
 .right .re .line1{
-    top: 485px;
+    top: 475px;
     left: 1200px;
     height: 85px;
 }
