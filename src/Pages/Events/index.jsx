@@ -1,10 +1,11 @@
+import Animation from "./components/animation"
+import Bg from "./components/bg"
+
 export default function Events(){   
     return (
-        <div>
-        <h1>Events</h1>
-        <p>
-            This is the events page. This is where we talk about our events.
-        </p>
-        </div>
+        <>
+        <Bg />
+        <Animation />
+        </>
     );
 }
