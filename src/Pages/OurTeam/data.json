@@ -2,79 +2,98 @@
     "core": [
         {
             "key": "1",
-            "naam": "Aarav Dudeja"
+            "naam": "Aarav Dudeja",
+            "linkedin_acc": "https://www.linkedin.com/in/aarav-dudeja-0290711bb/"
         },
         {
             "key": "2",
-            "naam": "Akshat Nathani"
+            "naam": "Akshat Nathani",
+            "linkedin_acc": "https://www.linkedin.com/in/akshatnathani/"
         },
         {
             "key": "3",
-            "naam": "Arjun Angirus"
+            "naam": "Arjun Angirus",
+            "linkedin_acc": "https://www.linkedin.com/in/arjun-angirus-1986a2286/"
         },
         {
             "key": "4",
-            "naam": "Harshit Arora"
+            "naam": "Harshit Arora",
+            "linkedin_acc": "https://www.linkedin.com/in/harshit-arora-here/"
         },
         {
             "key": "5",
-            "naam": "Jeevant Verma"
+            "naam": "Jeevant Verma",
+            "linkedin_acc": "https://www.linkedin.com/in/jeevant-verma-8a7096297"
         },
         {
             "key": "6",
-            "naam": "Krish Bansal"
+            "naam": "Krish Bansal",
+            "linkedin_acc": "https://www.linkedin.com/in/krish-bansal-/"
         },
         {
             "key": "7",
-            "naam": "Lakshay Singla"
+            "naam": "Lakshay Singla",
+            "linkedin_acc": "https://www.linkedin.com/in/lakshay-singla-2ab9ba289/"
         },
         {
             "key": "8",
-            "naam": "Manan Garg"
+            "naam": "Manan Garg",
+            "linkedin_acc": "https://www.linkedin.com/in/manan-garg11/"
         },
         {
             "key": "9",
-            "naam": "Mannat Miglani"
+            "naam": "Mannat Miglani",
+            "linkedin_acc": "https://www.linkedin.com/in/mannat-kaur-miglani-75a365277/"
         },
         {
             "key": "10",
-            "naam": "Nitya Gupta"
+            "naam": "Nitya Gupta",
+            "linkedin_acc": "https://www.linkedin.com/in/nitya-gupta-394203273/"
         },
         {
             "key": "11",
-            "naam": "Noor Mangewala"
+            "naam": "Noor Mangewala",
+            "linkedin_acc": "https://www.linkedin.com/in/noor-mangewala-69b18929b/"
         },
         {
             "key": "12",
-            "naam": "Pawandeep Gill"
+            "naam": "Pawandeep Gill",
+            "linkedin_acc": "https://www.linkedin.com/in/pawandeep-singh-gill-883772293/"
         },
         {
             "key": "13",
-            "naam": "Preetinder Badhesha"
+            "naam": "Preetinder Badhesha",
+            "linkedin_acc": "https://www.linkedin.com/in/preetinder-singh-badesha/"
         },
         {
             "key": "14",
-            "naam": "Purnika Malhotra"
+            "naam": "Purnika Malhotra",
+            "linkedin_acc": "https://www.linkedin.com/in/purnika-malhotra-8b649729a/"
         },
         {
             "key": "15",
-            "naam": "Sanyam Wadhwa"
+            "naam": "Sanyam Wadhwa",
+            "linkedin_acc": "https://www.linkedin.com/in/sanyam-wadhwa-688b8529a/"
         },
         {
             "key": "16",
-            "naam": "Vaibhavi Jain"
+            "naam": "Vaibhavi Jain",
+            "linkedin_acc": "https://www.linkedin.com/in/vaibhavi-jain-8a674429b/"
         },
         {
             "key": "17",
-            "naam": "Vanshika Goel"
+            "naam": "Vanshika Goel",
+            "linkedin_acc": "https://www.linkedin.com/in/vanshika-goel-9b8635287/"
         },
         {
             "key": "18",
-            "naam": "Vishnu Prasad"
+            "naam": "Vishnu Prasad",
+            "linkedin_acc": "https://www.linkedin.com/in/vishnu-prasad-833404214/"
         },
         {
             "key": "19",
-            "naam": "Yuvansh Pathak"
+            "naam": "Yuvansh Pathak",
+            "linkedin_acc": "https://www.linkedin.com/in/yuvansh-pathak/"
         }
         
         
