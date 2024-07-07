@@ -4,6 +4,7 @@ import styles1 from "../Style/core&exe.module.css";
 import data from "../data.json";
 import Card from "./Card";
 import NamesOnly from "./NamesOnly";
+import NameLink from "./NameLink";
 
 const Navbar = () => {
   const [members, setMembers] = useState(data["secretaries"]);
@@ -63,7 +64,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      {fade && (target === "core" || target === "executives") ? (
+      {/* {fade && (target === "core" || target === "executives") ? (
         <div className="members-names">
           <div className={styles1.namelist}>
             {members.map((el) => (
@@ -84,9 +85,43 @@ const Navbar = () => {
             ))}
           </div>
         </div>
+      )} */}
+       {fade && (target === "executives") && (
+        <div className="members-names">
+          <div className={styles1.namelist}>
+            {members.map((el) => (
+              <NamesOnly naam={el.naam} key={el.key} />
+            ))}
+          </div>
+        </div>
+      )}
+      {fade && (target === "core") && (
+        <div className="members-names">
+          <div className={styles1.namelist}>
+            {members.map((el) => (
+              <NameLink naam={el.naam} key={el.key} linkedin_acc={el.linkedin_acc}/>
+            ))}
+          </div>
+        </div>
+      )}
+      {(!fade || (target !== "core" && target !== "executives")) && (
+        <div className="members-list">
+          <div className={styles.wrapper}>
+            {members.map((el) => (
+              <Card
+                img={el.img}
+                title={el.title}
+                linkedin_acc={el.linkedin_acc}
+                key={el.key}
+              />
+            ))}
+          </div>
+        </div>
       )}
     </>
   );
 };
 
 export default Navbar;
+
+
