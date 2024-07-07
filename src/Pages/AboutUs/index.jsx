@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import Bg from "./components/bg"; 
 import Start from "./components/start";
 import Peel from "./components/Peeling";
@@ -19,21 +19,29 @@ import Image11 from './assets/image11.jpg'
 
 const Images= [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8, Image9, Image10, Image11]
 const Index = () => {
+  const [isWindowWideEnough, setIsWindowWideEnough] = useState(window.innerWidth > 426);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsWindowWideEnough(window.innerWidth > 426);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <>
-    <Bg />
+      <Bg />
       <div className={style.wrapper}>
-      
-      <Start/>
-      <Animation imagesURL={Images}/>
-      <div className={style.empty} />
-      
-     
-      <MainProject/>
+        <Start />
+        {isWindowWideEnough && <Animation imagesURL={Images} />}
+        <div className={style.empty} />
+        <MainProject />
       </div>
-    </> 
-  )
-
-}
+    </>
+  );
+};
 
 export default Index;
