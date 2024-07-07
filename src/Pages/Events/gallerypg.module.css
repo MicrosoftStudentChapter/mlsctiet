@@ -9,6 +9,27 @@
 
 }
 
+.li{
+  position: absolute;
+  top: 65px;
+  left: 50px;
+}
+.line{
+  position: absolute;
+  background-color: #FFFF;
+  width: 1px;
+  height: 125px;   
+}
+.line1{
+  position: absolute;
+  background-color: #FFFF;
+  width: 1px;
+  height: 125px;
+  transform: rotate(90deg);
+  left: 45px;
+  top: -45px;
+}
+
 
 .page {
   display: grid;
@@ -28,6 +49,12 @@
   
 }
 
+.title {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
 
 
 
@@ -106,3 +133,4 @@
     border-bottom-left-radius: 27%;
     
   }
+  

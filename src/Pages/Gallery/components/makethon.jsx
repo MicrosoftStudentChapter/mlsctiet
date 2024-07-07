@@ -7,6 +7,10 @@ const Makeathon = () => {
   return (
     <>
       <div className={styles.p2}>
+      <div className={styles.li}>
+          <div className={styles.line}></div>
+          <div className={styles.line1}></div>
+      </div>
       
         <div className={styles.page}>
           <div className={styles.content}>

@@ -2,6 +2,26 @@
   position: relative;
   z-index: 2;
 }
+.li{
+  position: absolute;
+  top: 65px;
+  left: 50px;
+}
+.line{
+  position: absolute;
+  background-color: #FFFF;
+  width: 1px;
+  height: 125px;   
+}
+.line1{
+  position: absolute;
+  background-color: #FFFF;
+  width: 1px;
+  height: 125px;
+  transform: rotate(90deg);
+  left: 45px;
+  top: -45px;
+}
 .container {
   color: #ffffff;
   font-family: 'Arial, sans-serif';
