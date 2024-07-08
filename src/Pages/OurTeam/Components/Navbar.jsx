@@ -64,28 +64,6 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      {/* {fade && (target === "core" || target === "executives") ? (
-        <div className="members-names">
-          <div className={styles1.namelist}>
-            {members.map((el) => (
-              <NamesOnly naam={el.naam} key={el.key} />
-            ))}
-          </div>
-        </div>
-      ) : (
-        <div className="members-list">
-          <div className={styles.wrapper}>
-            {members.map((el) => (
-              <Card
-                img={el.img}
-                title={el.title}
-                linkedin_acc={el.linkedin_acc}
-                key={el.key}
-              />
-            ))}
-          </div>
-        </div>
-      )} */}
        {fade && (target === "executives") && (
         <div className="members-names">
           <div className={styles1.namelist}>
@@ -104,17 +82,41 @@ const Navbar = () => {
           </div>
         </div>
       )}
-      {(!fade || (target !== "core" && target !== "executives")) && (
+      {(!fade || (target == "secretaries")) && (
         <div className="members-list">
-          <div className={styles.wrapper}>
-            {members.map((el) => (
+        <div className={styles.wrapper}>
+          {members.map((el, index) => {
+            if (index === 0 || index === 3) {
+              return <div className={styles.emptyCard} key={`empty-${index}`} />;
+            }
+            return (
               <Card
                 img={el.img}
                 title={el.title}
                 linkedin_acc={el.linkedin_acc}
-                key={el.key}
+                key={el.title}
               />
-            ))}
+            );
+          })}
+        </div>
+      </div>
+    )}
+     {(!fade || (target == "heads")) && (
+        <div className="members-list">
+          <div className={styles.wrapper}>
+          {members.map((el, index) => {
+            if (index === 4 || index === 7) {
+              return <div className={styles.emptyCard} key={`empty-${index}`} />;
+            }
+            return (
+              <Card
+                img={el.img}
+                title={el.title}
+                linkedin_acc={el.linkedin_acc}
+                key={el.title}
+              />
+            );
+          })}
           </div>
         </div>
       )}
