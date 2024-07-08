@@ -10,10 +10,10 @@ export default function Start() {
                     <p className={style.header}>
                         About:
                     </p>
-                    {/* <div className={style.li}>
+                    <div className={style.li}>
                         <div className={style.line}></div>
                         <div className={style.line1}></div>
-                    </div> */}
+                    </div>
                         <div className={style.logo}>
                             <img src={logo} alt="jai mlsc" />
                         </div>
@@ -32,14 +32,14 @@ export default function Start() {
                     </div>
                         {/* <img src="{team}" alt="mlsc" /> */}
                         
-                    {/* <div className={style.li}>
+                    <div className={style.li}>
                         <div className={style.line}></div>
                         <div className={style.line1}></div>
                     </div>
                     <div className={style.re}>
                         <div className={style.line}></div>
                         <div className={style.line1}></div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </>
