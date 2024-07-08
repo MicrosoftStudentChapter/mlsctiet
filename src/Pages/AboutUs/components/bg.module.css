@@ -291,15 +291,27 @@ font-family: aboutfont;
 }
 @media screen and (max-width: 475px){
     .v2{
-        right:-13px;
+        left: 95.5vw;
     }
     .v3{
-        right:0px;
+        display: none;
     }
     .text{
         left:26px;
-        top:-6px;
+        
         font-size: 13px;
+    }
+    .h1{
+        width: 91.5vw;
+    }
+    .h2{
+        width: 91.5vw;
+    }
+    .h3{
+        width: 91.5vw;
+    }
+    .right{
+        display: none;
     }
 }
 @media screen and (max-width:320px){

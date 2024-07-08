@@ -24,12 +24,12 @@ const Index = () => {
     <Bg />
       <div className={style.wrapper}>
       
-      <Start/>
+      <Start/> 
       <Animation imagesURL={Images}/>
       <div className={style.empty} />
       
      
-      <MainProject/>
+           <MainProject/>
       </div>
     </> 
   )
