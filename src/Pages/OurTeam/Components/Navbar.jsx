@@ -19,7 +19,7 @@ const Navbar = () => {
   }
 
   useEffect(() => {
-    const timer = setTimeout(() => setFade(false), 300);
+    const timer = setTimeout(() => setFade(false), 300); // Duration of the fade effect
     return () => clearTimeout(timer);
   }, [target]);
 
@@ -42,20 +42,18 @@ const Navbar = () => {
         </ul>
       </div>
 
-      {fade ? (
-        <div className="members-names">
+      <div className={`members-list ${fade ? styles.fade : ""}`}>
+        {target === "executives" || target === "core" ? (
           <div className={styles1.namelist}>
             {members.map((el) =>
               target === "executives" ? (
                 <NamesOnly naam={el.naam} key={el.key} />
-              ) : target === "core" ? (
+              ) : (
                 <NameLink naam={el.naam} key={el.key} linkedin_acc={el.linkedin_acc} />
-              ) : null
+              )
             )}
           </div>
-        </div>
-      ) : (
-        <div className="members-list">
+        ) : (
           <div className={styles.wrapper}>
             {members.map((el, index) => {
               if (
@@ -74,8 +72,8 @@ const Navbar = () => {
               );
             })}
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </>
   );
 };
