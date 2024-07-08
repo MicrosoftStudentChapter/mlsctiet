@@ -5,22 +5,22 @@ import style from "./projects.module.css";
 gsap.registerPlugin(useGSAP);
 
 const Para = (props) => {
-    const {projectimg} = style;
+    const {projectimg, poke} = style;
     const imageRef = useRef();
     const projectRef = useRef();
     
     useGSAP(() => {
         imageRef.current = gsap.timeline({paused:true})
-            .to(`${projectimg}`,{
-            backgroundColor:"red",
-            color:"red",
-            opacity:1,
+            .to(`${poke}`,{
+            
+            rotate: 360,
+            
         });
     });
 
     const onMouseEnter = ({ }) => {
         
-        imageRef.current.play();
+        //imageRef.current.play();
         console.log("enter");
       };
     
@@ -30,7 +30,7 @@ const Para = (props) => {
       };
 
     return ( 
-    <p onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} >{props.text}</p> 
+    <p onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} ref={imageRef} className={style.poke} >{props.text}</p> 
     )
 }
 
