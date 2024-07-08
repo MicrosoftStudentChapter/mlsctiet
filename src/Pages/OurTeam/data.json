@@ -100,66 +100,87 @@
     ],
     "secretaries": [
         {
+            "title": "",
+            "img": "",
+            "linkedin_acc": ""
+        },
+        {
             "title": "Tanmay Mann",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689232312/MLSC_WEBSITE/rsz_12rsz_18_one3qy_j48pzq.png",
+            "img": "EB-Photos/Tanmay_Mann-removebg-preview.png",
             "linkedin_acc": "https://www.linkedin.com/in/tanmay-mann-9990ba255/"
         },
         {
             "title": "Agrim Goyal",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689237227/MLSC_WEBSITE/rsz_comapplepasteboardqfg9za_dnohww_yo5d51.png",
+            "img": "EB-Photos/Agrim_Goyal-removebg-preview.png",
             "linkedin_acc": "https://www.linkedin.com/in/agrimgoyal/"
         },
         {
-            "title": "Dev Mehta",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689233546/MLSC_WEBSITE/rsz_1_giy5fk_m8ocby.png",
-            "linkedin_acc": "https://www.linkedin.com/in/dev-mehta-089a86264/"
-        },
-        {
-            "title": "Prisha Kandhari",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689236895/MLSC_WEBSITE/rsz_copy_of_sukhmanidi_2x_j5iwrf_t9jz2p.png",
-            "linkedin_acc": "https://www.linkedin.com/in/prisha-kandhari/"
+            "title": "",
+            "img": "",
+            "linkedin_acc": ""
         },
         {
             "title": "Preksha Jain",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689261155/MLSC_WEBSITE/ikshan-resize-preview_p5o4nf.png",
+            "img": "EB-Photos/Preksha_Jain-removebg-preview.png",
             "linkedin_acc": "https://www.linkedin.com/in/preksha-jain21/"
         },
         {
+            "title": "Prisha Kandhari",
+            "img": "EB-Photos/Prisha_Kandhari2-removebg-preview.png",
+            "linkedin_acc": "https://www.linkedin.com/in/prisha-kandhari/"
+        },
+        {
+            "title": "Dev Mehta",
+            "img": "EB-Photos/Dev_Mehta2-removebg-preview.png",
+            "linkedin_acc": "https://www.linkedin.com/in/dev-mehta-089a86264/"
+        },
+        {
             "title": "Jahanvi Srivastava",
-            "img": "https://res.cloudinary.com/dy1pmolax/image/upload/v1689323676/team_page/Untitled_500_788_px_zg2d1s.png",
+            "img": "EB-Photos/Jahanvi_Srivastava-removebg-preview.png",
             "linkedin_acc": "https://www.linkedin.com/in/jahanvi-srivastava-59b68724b/"
         }
+        
     ],
     "heads": [
         {
             "title": "Navdeep Singh Sidhu",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689238386/MLSC_WEBSITE/rsz_4_skkkrd_byzsna.png",
+            "img": "EB-Photos/Navdeep_Singh_Sidhu.png",
             "linkedin_acc": "https://www.linkedin.com/in/navdeep-singh-sidhu/"
         },
         {
             "title": "Mankirat Singh",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689322310/MLSC_WEBSITE/rsz_jai-removebg-preview_xbgbj4.png",
+            "img": "EB-Photos/Mankirat_Singh.png",
             "linkedin_acc": "https://www.linkedin.com/in/mankiratsingh1315/"
         },
         {
             "title": "Krishnam Agarwal",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689239189/MLSC_WEBSITE/rsz_img-20230615-wa0004-removebg-preview_nalcj1_kqdjak.png",
+            "img": "EB-Photos/Krishnam_Agarwal.png",
             "linkedin_acc": "https://www.linkedin.com/in/krishnam-agarwal-a79906264/"
         },
         {
             "title": "Palakpreet Kaur",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689239306/MLSC_WEBSITE/rsz_7_d287x0_h0thic.png",
+            "img": "EB-Photos/Palakpreet_Kaur-removebg-preview.png",
             "linkedin_acc": "https://www.linkedin.com/in/palakpreet-kaur-01a999250/"
         },
         {
+            "title": "",
+            "img": "",
+            "linkedin_acc": ""
+        },
+        {
             "title": "Ananay Rampal",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689437272/MLSC_WEBSITE/swipe_2_1_vqnxvq.png",
+            "img": "EB-Photos/Ananay_Rampal-removebg-preview.png",
             "linkedin_acc": "https://www.linkedin.com/in/ananay-rampal-8746bb259/"
         },
         {
             "title": "Vanika Sahni",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689239763/MLSC_WEBSITE/rsz_dhruvbhaiya_2x_as18dd_nvi6od.png",
+            "img": "EB-Photos/Vanika_Sahni-removebg-preview.png",
             "linkedin_acc": "https://www.linkedin.com/in/vanika-sahni-668502252/"
+        },
+        {
+            "title": "",
+            "img": "",
+            "linkedin_acc": ""
         }
     ],
     "executives": 
