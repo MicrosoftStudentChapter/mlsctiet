@@ -579,3 +579,9 @@ top: 17px;
     font-size: 1.4rem;
   }
 }
+
+@media (max-width: 1000px) {
+  .emptyCard {
+    display: none;
+  }
+}
