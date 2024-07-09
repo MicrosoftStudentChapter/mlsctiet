@@ -20,8 +20,6 @@
     "react-router-dom": "^6.24.0",
     "react-tooltip": "^5.27.0",
     "three": "^0.166.0"
-    "react-router-dom": "^6.24.0",
-    "react-tooltip": "^5.27.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
