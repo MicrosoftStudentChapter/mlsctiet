@@ -4,6 +4,24 @@
   font-family: title;
   src: url(../../Gallery/assets/Sprat-Regularlight.otf);
 }
+.track {
+  --size: clamp(200px, 40vmin, 50rem);
+  /* height: var(--size); */
+  /* width: 100%; */
+   height: 100%; 
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  gap: var(--size-4);
+  list-style-type: none;
+  margin: 0;
+  padding: var(--size-4) 33%;
+  scroll-snap-type: y mandatory;
+  -webkit-mask: radial-gradient(circle, #0000 0 30%, #000 30.5%) calc(var(--size) * 0.5) 50% / 100% 300%,
+                linear-gradient(90deg, black, black) 0 50% / var(--size-4) 100% no-repeat,
+                linear-gradient(90deg, black, black) 100% 50% / var(--size-4) 100% no-repeat;
+}
+
 .p2{
   position: relative;
   z-index: 2;

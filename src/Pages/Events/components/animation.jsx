@@ -68,6 +68,7 @@ const Animation = () => {
 
   return (
     <>
+    <div className={styles.track}>
     <div className="section">
       <div className={styles.p2}>
         <div className={styles.page}>
@@ -123,6 +124,7 @@ const Animation = () => {
               <img src={groupImage} alt="Group" className={styles.image1} />         
             </div>
           </div>
+    </div>
     </div>
   </>
   
