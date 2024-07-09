@@ -14,11 +14,13 @@
     top: 60px;
     right: 70px;
 }
+
 .image{
     width: 30vw;
     height: 25vh;
     z-index: 1;
-    object-fit: fill;
+    object-fit: cover;
+
    
 }
 .meow{border-radius: 12px;
@@ -27,6 +29,7 @@
     overflow: hidden;
     z-index: 1;
     gap: 0;
+
 }
 
 .Alumnicap{ display: flex;
@@ -46,20 +49,20 @@
 .hl{
     border: #f4efef 0.25px solid;
     width: 12vw;
-    height:0;
-    top: 0%;
+    height:0%;
+    top: 150%;
     left: 50%;
-    transform: translate(15%, 75%);
+    transform: translate(-162%, 10975%);
     margin-bottom: -10vh;
     
 }
 .vl{
     border-left: #FFF6F6 2px solid;
-    height: 12vh;
-    width:0px;
+    height: 16vh;
+    width:13px;
     top: 50%;
-    transform: translate(0,  75%);
-    margin-left: -18vw;
+    transform: translate(265%,  45%);
+   
 }
 
 
