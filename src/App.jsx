@@ -11,7 +11,7 @@ import NavbarI from "./Components/NavbarI/NavbarI";
 function App() {
   return (
     <Router>
-      <NavbarI />
+      {/* <NavbarI /> */}
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
         <Route path="/events" element={<Events />} />

@@ -247,28 +247,26 @@
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 475px) {
     .header {
-        font-size: 4vh;
-        margin: 12vh;
-        margin-left: 9vw;
+        font-size: 9vh;
+        top: 11vh;
+        left: 7vw;
+        margin: 0vh;
     }
-
-    .logo img {
-        height: 14vh;
-    }
-
     .logo {
-        top: 67vh;
-        left: 9vw;
+        display: none;
     }
-
+    
+   
     .text {
-        font-size: 0.7rem;
+        top:8vh;
+        left: 0vw;
+        font-size: 0.85rem;
         padding: 2vh;
         height: 55%;
-        margin-left: 2vw;
-        margin-top: 7vh;
+        width: 86vw;
+        position: absolute;
     }
 
     .ytp-button {
@@ -283,7 +281,8 @@
     .ima {
         height: 13vh;
         width: 29vw;
-        margin-left: -5vw;
+        bottom: 10vh;
+
     }
 
     .html5-video-player a {
