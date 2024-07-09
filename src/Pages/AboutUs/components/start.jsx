@@ -24,8 +24,7 @@ export default function Start() {
                             (about MLSC)
                         </span>     
                         <p className={style.p2}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, placeat. Iste repudiandae eius temporibus doloribus eveniet? Quibusdam cum et atque minus aperiam deleniti at in hic odit exercitationem adipisci accusantium est, nesciunt repellat doloribus quia nisi, dolore consequuntur possimus reiciendis impedit cupiditate fuga expedita delectus? Exercitationem fuga magnam assumenda quam?
-                        </p>
+                        We at Microsoft Learn Student Chapter believe that youth encompassed with appropriate technology holds the potential to revolutionize the world we perceive today and we have done a fair share in that through multiple events organised over the years. Microsoft Learn Student Chapter was institutionalized by the virtue of providing students a systemic platform for cultivating technical skills and a spirit of teamwork. Our vision is to create a community of computer enthusiasts with a mindset of development.                        </p>
                     </div>
                     <div className={style.ima}>
                          

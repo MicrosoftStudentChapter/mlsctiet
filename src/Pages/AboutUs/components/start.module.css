@@ -250,17 +250,25 @@
 @media screen and (max-width: 475px) {
     .header {
         font-size: 9vh;
-        top: 11vh;
+        top: 9.5vh;
         left: 7vw;
         margin: 0vh;
     }
     .logo {
         display: none;
     }
-    
+    .li{
+        display: none;
+    }
+    .right .li{
+        display: none;
+    }
+    .right .re{
+        display: none;
+    }
    
     .text {
-        top:8vh;
+        top:10vh;
         left: 0vw;
         font-size: 0.85rem;
         padding: 2vh;
@@ -269,28 +277,29 @@
         position: absolute;
     }
 
-    .ytp-button {
+    /* .ytp-button {
         height: 15px;
         top: 70%;
-    }
+    } */
 
-    .svideo {
+    /* .svideo {
         height: 22%;
-    }
+    } */
 
     .ima {
-        height: 13vh;
-        width: 29vw;
-        bottom: 10vh;
-
+        height: 26vh;
+        width: 50vw;
+        bottom: 6.5vh;
+        left: 22vw;
+        position: absolute;
     }
 
-    .html5-video-player a {
+    /* .html5-video-player a {
 
         font-size: 7px;
         position: relative;
         top: -11px;
-    }
+    } */
 }
 
 @media screen and (max-width: 376px) {
