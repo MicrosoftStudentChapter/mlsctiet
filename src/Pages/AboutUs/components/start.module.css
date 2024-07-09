@@ -194,7 +194,12 @@
 }
     }
 
+ /* @media screen and (min-width: 768px) and (max-width: 1000px) {
+    .text{
+        position: absolute;
 
+    }
+ } */
 
 @media screen and (max-width: 769px) {
     .header {
@@ -214,7 +219,7 @@
     }
 
     .text {
-        font-size: 0.9rem;
+        font-size: 0.74rem;
         padding: 4vh;
         height: 55%;
     }
