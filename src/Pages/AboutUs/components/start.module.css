@@ -106,27 +106,27 @@
 }
 
 .right .li .line {
-    top: 250px;
-    right: 457px;
+    top: 300px;
+    right: 500px;
     height: 85px;
 }
 
 .right .li .line1 {
-    top: 220px;
-    left: 904px;
+    top: 270px;
+    left: 950px;
     height: 85px;
     transform: rotate(90deg);
 }
 
 .right .re .line {
-    top: 450px;
+    top: 550px;
     right: 214px;
     height: 88px;
 }
 
 .right .re .line1 {
-    top: 475px;
-    left: 1200px;
+    top: 575px;
+    left: 1290px;
     height: 85px;
 }
 
@@ -144,8 +144,8 @@
 
 @media screen and (max-width: 1025px) {
     .header {
-        margin: 13vh;
-        margin-left: 7vw;
+        margin: 0vh;
+        margin-left: 1.5vw;
     }
 
     .text {
@@ -165,19 +165,27 @@
     }
     .right .li .line1 {
         top: 242px;
-    left: 589px;
-    height: 85px;
-    transform: rotate(90deg);
+        left: 589px;
+        height: 85px;
+        transform: rotate(90deg);
     }
     .right .re .line {
         top: 485px;
-    right: 99px;
-    height: 88px;
+        right: 99px;
+        height: 88px;
 }
 .right .re .line1{
     top: 80vh;
     left: 88vw;
     height: 85px;
+}
+
+.svideo{
+    top:56.5vh;
+}
+
+.p2{
+    font-size: small;
 }
     }
 
@@ -191,8 +199,8 @@
 @media screen and (max-width: 900px) {
     .header {
         font-size: 8vh;
-        margin: 15vh;
-        margin-left: 8vw;
+        margin: 1vh;
+        margin-left: 4vw;
     }
 
     .logo {
@@ -243,12 +251,17 @@
     .header {
         font-size: 9vh;
         top: 9.5vh;
-        left: 33vw;
+        left: 0;
         margin: 0vh;
-        background-color: black;
+        /* background-color: black; */
+        width: 100%;
+        text-align: center;
     }
     .logo {
         display: none;
+    }
+    .right{
+        width: 100%;
     }
     .li{
         display: none;
@@ -264,7 +277,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        top:10vh;
+        top: 6vh;
         left: 3vw;
         font-size: 0.85rem;
         padding: 2vh;
@@ -287,7 +300,7 @@
 
     .ima {
         height: 26vh;
-        width: 50vw;
+        width: 275px;
         bottom: -7vh;
         right: 0vw;
         position: absolute;
@@ -310,3 +323,43 @@
         text-align: initial;
     }
 }
+
+@media screen and (min-width: 550px) and (max-width:1023px) {
+    .right .li{
+        display: none;
+    }
+    .right .re{
+        display: none;
+    }
+}
+
+@media screen and (min-width:550px) and (max-width:850px) {
+    .svideo{
+        top:65vh;
+    }
+    .header{
+        margin-left:5vh;
+    }
+}
+
+@media screen and (min-width:550px) and (max-width:780px){
+    .p2{
+        font-size: 10px;
+    }
+}
+
+/* @media screen and (min-width: 1025px) and (max-width:2500px){
+    .header{
+        margin-left: 1.5vw;
+    }
+    .logo{
+        scale: 1.5;
+        left: 10vw;
+    }
+    .right .li{
+        display: none;
+    }
+    .right .re{
+        display: none;
+    }
+} */
