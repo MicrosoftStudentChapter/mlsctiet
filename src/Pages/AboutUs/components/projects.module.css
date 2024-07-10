@@ -110,7 +110,7 @@
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 450px) {
     .leftSection {
         display: none;
     }
@@ -135,6 +135,7 @@
         font-size: 1.2rem;
         margin: 3px 0;
         margin-left: 15px;
+        text-align: center;
     }
 
     .projecth p {
@@ -153,6 +154,7 @@
 
     .active .accordionContent {
         display: block;
+        
     }
 
     @keyframes fadeIn {

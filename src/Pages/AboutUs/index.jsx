@@ -19,7 +19,7 @@ import Image11 from './assets/image11.jpg'
 
 const Images= [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8, Image9, Image10, Image11]
 const Index = () => {
-  const [isWindowWideEnough, setIsWindowWideEnough] = useState(window.innerWidth > 426);
+  const [isWindowWideEnough, setIsWindowWideEnough] = useState(window.innerWidth > 450);
 
   useEffect(() => {
     const handleResize = () => {
@@ -38,7 +38,8 @@ const Index = () => {
 
         <Start />
         {isWindowWideEnough && <Animation imagesURL={Images} />}
-        <div className={style.empty} />
+
+        {isWindowWideEnough && <div className={style.empty} />}
         <MainProject />
 
       </div>

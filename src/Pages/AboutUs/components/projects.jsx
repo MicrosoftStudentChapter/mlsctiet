@@ -79,7 +79,7 @@ const Projects = (props) => {
                 <div className={style.mainProjectsContainer}>
                     <div className={style.projectsContainer}>
                         <Peel />
-                        {windowWidth > 426 ? (
+                        {windowWidth > 450 ? (
                             <>
                                 <div className={style.leftSection}>
                                     <div className={style.projecth}>
