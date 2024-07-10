@@ -35,10 +35,12 @@ const Index = () => {
     <>
       <Bg />
       <div className={style.wrapper}>
+
         <Start />
         {isWindowWideEnough && <Animation imagesURL={Images} />}
         <div className={style.empty} />
         <MainProject />
+
       </div>
     </>
   );

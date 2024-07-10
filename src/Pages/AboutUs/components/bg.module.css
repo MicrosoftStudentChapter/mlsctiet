@@ -278,7 +278,42 @@ font-family: aboutfont;
         width:96%;
     }
 }
-@media screen and (max-width: 768px){
+/* @media screen and (min-width: 769px) and (max-width: 1000px) {
+    .v2{
+        left: 95.5vw;
+    }
+    .v3{
+        display: none;
+    }
+    .text{
+        left:26px;
+        top: 2vh;
+        font-size: 13px;
+    }
+    .h1{
+        width: 93.2vw;
+        bottom: 5vh;
+    }
+    .h2{
+        width: 91vw;
+    }
+    .h3{
+        width: 91vw;
+    }
+    .right{
+        display: none;
+    }
+    .bluetext{
+        left: 5vh;
+    }
+    .rotatedText{
+        font-size: 13px;
+    }
+    .rotatedTextContainer{
+        left: 0.2vh;
+    }
+} */
+@media screen and (max-width: 900px){
     .h1{
         width:94.5%;
     }
@@ -289,17 +324,39 @@ font-family: aboutfont;
         width:94.5%;
     }
 }
-@media screen and (max-width: 475px){
+@media screen and (max-width: 550px){
     .v2{
-        right:-13px;
+        left: 95.5vw;
     }
     .v3{
-        right:0px;
+        display: none;
     }
     .text{
         left:26px;
-        top:-6px;
+        top: 2vh;
         font-size: 13px;
+    }
+    .h1{
+        width: 91vw;
+        bottom: 5vh;
+    }
+    .h2{
+        width: 91vw;
+    }
+    .h3{
+        width: 91vw;
+    }
+    .right{
+        display: none;
+    }
+    .bluetext{
+        left: 5vh;
+    }
+    .rotatedText{
+        font-size: 13px;
+    }
+    .rotatedTextContainer{
+        left: 0.2vh;
     }
 }
 @media screen and (max-width:320px){
