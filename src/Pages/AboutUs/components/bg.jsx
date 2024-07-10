@@ -32,10 +32,10 @@ export default function Bg() {
                     <div className={style.hor}>
                         <div className={style.h1}></div>
 
-                        <div>
+                        {/* <div> */}
                             <div className={style.h2}></div>
                             <div className={style.h3}></div>
-                        </div>
+                        {/* </div> */}
                     </div>
 
                     <div className={style.ver}>
