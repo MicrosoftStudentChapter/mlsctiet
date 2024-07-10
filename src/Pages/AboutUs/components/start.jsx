@@ -8,7 +8,7 @@ export default function Start() {
             <div className={style.main}>
                 <div className={style.left}>
                     <p className={style.header}>
-                        About:
+                        About
                     </p>
                     <div className={style.li}>
                         <div className={style.line}></div>
@@ -26,10 +26,8 @@ export default function Start() {
                         <p className={style.p2}>
                         We at Microsoft Learn Student Chapter believe that youth encompassed with appropriate technology holds the potential to revolutionize the world we perceive today and we have done a fair share in that through multiple events organised over the years. Microsoft Learn Student Chapter was institutionalized by the virtue of providing students a systemic platform for cultivating technical skills and a spirit of teamwork. Our vision is to create a community of computer enthusiasts with a mindset of development.                        </p>
                     </div>
-                    <div className={style.ima}>
-                         
-                           {/* <img src="{team}" alt="mlsc" /> */}
-                        
+                    <div className={style.svideo}>
+                    <iframe src="https://www.youtube.com/embed/Iwl-0ja8hqQ?si=l5TLotLk6dnRjn9-?autoplay=1" className={style.ima}></iframe>
                     </div>
                     <div className={style.li}>
                         <div className={style.line}></div>

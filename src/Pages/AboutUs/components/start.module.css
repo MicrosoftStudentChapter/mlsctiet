@@ -12,11 +12,11 @@
     font-size: 11vh;
     font-family: headerfont;
     color: white;
-    margin: 11vh;
+    
     position: absolute;
-    /* top: 80px; */
-    /* left: -19px; */
-    margin-left: 10vh;
+    top: 12vh;
+    left: 4.3vw;
+    
 }
 
 .main {
@@ -73,13 +73,13 @@
 }
 
 .text {
-    /* position: absolute; */
+    position: absolute;
     display: flex;
     flex-direction: column;
     height: 50%;
     width: 40vw;
     /* left: 57vw; */
-    /* top: 15vh; */
+    top: 2vh;
     /* background: red; */
     justify-content: center;
     /* align-items: center; */
@@ -99,22 +99,6 @@
     color: #FFFF;
     font-family: ff;
 }
-
-.ima {
-    /* position: relative; */
-    /* top: 340px;
-   left: 200px; */
-    background-image: url(/src/Pages/AboutUs/assets/team.png);
-    height: 24vh;
-    width: 17vw;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    z-index: 10000;
-    /* background-attachment: fixed; */
-
-}
-
 .right .li {
 
     bottom: 65px;
@@ -147,12 +131,15 @@
 }
 
 .svideo {
+    position: absolute;
     /* width: 50vw; */
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     height: 30%;
+    z-index: 69;
+    bottom: 18vh;
     /* background: yellow; */
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 @media screen and (max-width: 1025px) {
@@ -201,7 +188,7 @@
     }
  } */
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 900px) {
     .header {
         font-size: 8vh;
         margin: 15vh;
@@ -252,12 +239,13 @@
     }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 550px) {
     .header {
         font-size: 9vh;
         top: 9.5vh;
-        left: 7vw;
+        left: 33vw;
         margin: 0vh;
+        background-color: black;
     }
     .logo {
         display: none;
@@ -273,43 +261,52 @@
     }
    
     .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         top:10vh;
-        left: 0vw;
+        left: 3vw;
         font-size: 0.85rem;
         padding: 2vh;
         height: 55%;
         width: 86vw;
         position: absolute;
     }
+    .p2{
+        text-align: center;
+    }
 
-    /* .ytp-button {
+    .ytp-button {
         height: 15px;
         top: 70%;
-    } */
+    }
 
-    /* .svideo {
+    .svideo {
         height: 22%;
-    } */
+    }
 
     .ima {
         height: 26vh;
         width: 50vw;
-        bottom: 6.5vh;
-        left: 22vw;
+        bottom: -7vh;
+        right: 0vw;
         position: absolute;
     }
 
-    /* .html5-video-player a {
+    .html5-video-player a {
 
         font-size: 7px;
         position: relative;
         top: -11px;
-    } */
+    }
 }
 
 @media screen and (max-width: 376px) {
     .text {
         margin-top: 12vh;
         margin-bottom: 3vh;
+    }
+    .p2{
+        text-align: initial;
     }
 }

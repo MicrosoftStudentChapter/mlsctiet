@@ -278,7 +278,7 @@ font-family: aboutfont;
         width:96%;
     }
 }
-@media screen and (min-width: 769px) and (max-width: 1000px) {
+/* @media screen and (min-width: 769px) and (max-width: 1000px) {
     .v2{
         left: 95.5vw;
     }
@@ -312,8 +312,8 @@ font-family: aboutfont;
     .rotatedTextContainer{
         left: 0.2vh;
     }
-}
-@media screen and (max-width: 768px){
+} */
+@media screen and (max-width: 900px){
     .h1{
         width:94.5%;
     }
@@ -324,7 +324,7 @@ font-family: aboutfont;
         width:94.5%;
     }
 }
-@media screen and (max-width: 475px){
+@media screen and (max-width: 550px){
     .v2{
         left: 95.5vw;
     }
