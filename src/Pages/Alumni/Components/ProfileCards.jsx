@@ -37,6 +37,39 @@ const ProfileCards = () => {
           <h2>Aakash Agrawal<br/><span>Chartered Accountant C.A</span></h2>
         </div>
       </div>
+      <div className={styles.box}>
+        <div className={styles.imgBox}>
+          <img
+            src="https://image.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
+            alt="Aakash Agrawal"
+          />
+        </div>
+        <div className={styles.content}>
+          <h2>Aakash Agrawal<br/><span>Chartered Accountant C.A</span></h2>
+        </div>
+      </div>
+      <div className={styles.box}>
+        <div className={styles.imgBox}>
+          <img
+            src="https://image.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
+            alt="Aakash Agrawal"
+          />
+        </div>
+        <div className={styles.content}>
+          <h2>Aakash Agrawal<br/><span>Chartered Accountant C.A</span></h2>
+        </div>
+      </div>
+      <div className={styles.box}>
+        <div className={styles.imgBox}>
+          <img
+            src="https://image.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg"
+            alt="Aakash Agrawal"
+          />
+        </div>
+        <div className={styles.content}>
+          <h2>Aakash Agrawal<br/><span>Chartered Accountant C.A</span></h2>
+        </div>
+      </div>
     </div>
   );
 };
