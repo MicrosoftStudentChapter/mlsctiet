@@ -33,16 +33,16 @@ body {
 .box {
   position: relative;
   width: 30rem;
-  height: 30rem;
+  height: 40rem;
   margin: 4rem;
 }
 
 .box:hover .imgBox {
-  transform: translate(-3.5rem, -3.5rem);
+  transform: translate(-1rem, -3rem);
 }
 
 .box:hover .content {
-  transform: translate(3.5rem, 3.5rem);
+  transform: translate(0.5rem, 3.5rem);
 }
 
 .imgBox {
@@ -57,7 +57,7 @@ body {
 
 .imgBox img {
   width: 30rem;
-  height: 30rem;
+  height: 40rem;
   object-fit: cover;
   resize: both;
 }
