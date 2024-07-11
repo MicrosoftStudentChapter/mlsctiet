@@ -1,5 +1,9 @@
+@font-face {
+    font-family: Sprat;
+    src: url(C:\Users\purni\OneDrive\Desktop\mlscfolder\mlsctiet\src\Pages\Alumni\Assets\zingalalahuhu.otf);
+}
+
 .scrollDiv {
-    background-color: rgb(239, 234, 228);
     width: 92vw;
     overflow-y: scroll;
     -ms-overflow-style: none;
@@ -8,33 +12,96 @@
     position: fixed;
     top: 60px;
     right: 70px;
+    justify-content: center;
+}
+
+.image {
+    width: 30vw;
+    background-color: rgb(207, 149, 75);
+    border: 2px solid #1e1e1e;
+    height: 25vh;
+    z-index: 1;
+    display: flex;
+}
+
+.image img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.meow {
+    border-radius: 12px;
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    z-index: 1;
+    gap: 0;
+}
+
+.Alumnicap {
+    display: flex;
+    width: 35vw;
+    height: 28vh;
+    background-color: #1e1e1e;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 12px;
+    bottom: 28vh;
+    position: relative;
+    z-index: 1;
+}
+
+.hl {
+    border: #f4efef 0.25px solid;
+    width: 11vw;
+    height: 0%;
+    top: 150%;
+    left: 50%;
+    transform: translate(-162%, 10975%);
+    margin-bottom: -10vh;
+}
+
+.vl {
+    border-left: #FFF6F6 2px solid;
+    height: 17vh;
+    width: 13px;
+    top: 50%;
+    transform: translate(265%, 45%);
+}
+
+.caption {
+    top: 50%;
+    left: 50%;
+    transform: translate(15%, 31%);
+    font-size: 75px;
+    font-family: Sprat;
+    color: #FFF6F6;
 }
 
 .scrollDiv::-webkit-scrollbar {
     display: none;
 }
 
-
-.one{
+.one {
     width: inherit;
     height: 70vh;
     background-color: brown;
 }
 
-.two{
+.two {
     width: inherit;
     height: 70vh;
     background-color: rgb(42, 165, 71);
 }
 
-.three{
+.three {
     width: inherit;
     height: 70vh;
     background-color: rgb(165, 155, 42);
 }
 
-.start{
+.start {
     width: inherit;
     height: 75vh;
-    background-color: coral;
 }
