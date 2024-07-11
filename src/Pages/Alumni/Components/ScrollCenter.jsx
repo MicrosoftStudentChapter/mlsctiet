@@ -1,19 +1,14 @@
 import styles from "../Style/scroll.module.css";
-import Cards from "./Card";
-
-const cards = [
-    { title: 'Akshat Nathani', copy: 'Core Member', button: 'facebook', image: '1517021897933-0e0319cfbc28' },
-    { title: 'Preetinder', copy: 'Core Member', button: 'View Trips', image: '1533903345306-15d1c30952de' },
-    { title: 'Desert Destinations', copy: 'It\'s the desert you\'ve always dreamed of', button: 'Book Now', image: '1545243424-0ce743321e11' },
-    { title: 'Explore The Galaxy', copy: 'Seriously, straight up, just blast off into outer space today', button: 'Book Now', image: '1531306728370-e2ebd9d7bb99' }
-  ];
+import ProfileCards from './ProfileCards';
 
 function ScrollCenter({ currentYear }) {
   
   return (
     <>
-      <div className={styles.scrollDiv}>
-        <div className={styles.start}>
+     <div className={styles.scrollDiv}>
+     <div className={styles.start}>
+      <div className={styles.grid}>
+      
           <div className={styles.meow}>
             <div className={styles.image}><img src="https://thaparuniv-my.sharepoint.com/personal/tmann_be22_thapar_edu/Documents/MLSC%20PICS%2023-24/MAKEATHON6/Day%202/DSLR-1/IMG_4281.JPG?csf=1&web=1&e=ylHV7e&CID=fc600aee-c131-4e8a-9749-77d51cfd8c70" alt="Image 1"></img></div>
             <div className={styles.image}><img src="https://thaparuniv-my.sharepoint.com/personal/tmann_be22_thapar_edu/Documents/MLSC%20PICS%2023-24/MAKEATHON6/Day%201/DSLR-1/IMG_6822.JPG?csf=1&web=1&e=kqaHsY&CID=f541a31e-8c68-4947-8ef4-571009e09e29" alt="Image 2"></img></div>
@@ -34,18 +29,11 @@ function ScrollCenter({ currentYear }) {
      </div>
       {currentYear === 2019 && (
         <div>
-          2019
-          <div className={styles.two}></div>
+          <ProfileCards />
+          {/* <div className={styles.two}></div>
           <div className={styles.one}></div>
-          <div className={styles.three}></div>
-        </div>
-        {currentYear === 2019 && (
-          <div>
-            <div className={styles.two}></div>
-            <div className={styles.one}></div>
-            <div className={styles.three}></div>
-          </div>
-        )}
+          <div className={styles.three}></div> */}
+        </div>)}
         {currentYear === 2020 && (
           <div>
             <div className={styles.three}></div>
@@ -62,6 +50,7 @@ function ScrollCenter({ currentYear }) {
         )}
         {currentYear === 2022 && (
           <div>
+            {/* <ProfileCards /> */}
             <div className={styles.two}></div>
             <div className={styles.one}></div>
             <div className={styles.three}></div>
@@ -69,9 +58,10 @@ function ScrollCenter({ currentYear }) {
         )}
         {currentYear === 2023 && (
           <div>
-            <div className={styles.two}></div>
+            <ProfileCards />
+            {/* <div className={styles.two}></div>
             <div className={styles.one}></div>
-            <div className={styles.three}></div>
+            <div className={styles.three}></div> */}
           </div>
         )}
       </div>
