@@ -4,7 +4,6 @@ import style from "../Style/bg.module.css";
 export default function Bg() {
     return (
         <>
-            
             <p className={style.text}>A legacy of innovation</p>
             <div className={style.parent}>
                 <div className={style.triangle}></div>
@@ -17,7 +16,6 @@ export default function Bg() {
                     </p>
                 </div>
                 <div className={style.left}>
-                    
                     <div className={style.rotatedTextContainer}>
                         <p className={style.rotatedText}>A legacy of innovation</p>
                     </div>
@@ -29,10 +27,8 @@ export default function Bg() {
                             <div className={style.h3}></div>
                         </div>
                     </div>
-
                     <div className={style.ver}>
-                        <div className={style.v1}></div>
-                       
+                        <div className={style.v1}></div>  
                     </div>
                 </div>
                 <div className={style.cen}></div>
@@ -50,8 +46,7 @@ export default function Bg() {
                         </div>
                     </div>
                     <div className={style.ver}>
-                        <div className={style.v1}></div>
-                        
+                        <div className={style.v1}></div>   
                     </div>
                 </div>
 
