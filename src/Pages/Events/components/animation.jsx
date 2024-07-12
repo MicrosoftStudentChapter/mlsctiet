@@ -1,133 +1,128 @@
-import React, { useEffect } from 'react';
-import "../components/animation.css"
-import styles from "../components/makethon.module.css"
-import groupImage from '../components/background.png';  
+import React from 'react';
+import { gsap } from 'gsap'; 
+import $ from 'jquery';
+import style from './animation.module.css' 
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { Observer } from 'gsap/Observer';
+import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
+import eventsData from './data.json';
+
+import Event from './Event';
+
+gsap.registerPlugin(ScrollTrigger, Observer, ScrollToPlugin);
+gsap.config({ autoRefreshEvents: "load, resize", invalidateOnRefresh: true });
 
 const Animation = () => {
-  let i = 1;
-  let mouseWheel = true;
 
-  useEffect(() => {
-    const handleMouseWheel = (e) => {
-      if (!mouseWheel) {
-        return false;
+  const { ring, ind } = style;
+  const n= eventsData.length;
+  let ist = 0;
+  
+  function handleScroll(e) {
+    console.log('hi')
+    if (ist === 0) {
+      ist = 1;
+      let deltaY = e.originalEvent ? e.originalEvent.deltaY : e.deltaY;
+      if (deltaY === undefined) {
+        deltaY = e.wheelDelta ? -e.wheelDelta : e.detail;
       }
-      mouseWheel = false;
-      setTimeout(function () {
-        mouseWheel = true;
-      }, 750); 
-
-      e = window.event || e;
-      const delta = Math.max(-1, Math.min(1, e.wheelDelta || -e.detail));
-      const h = window.innerHeight;
-      const sections = document.getElementsByClassName("section");
-
-      if (i <= sections.length && i >= 0) {
-        
-        if (delta < 0) {
-          window.scrollTo({
-            top: h * i,
-            behavior: "smooth"
-          });
-          i++;
-        } else {
-          // Scrolling up
-          window.scrollTo({
-            top: h * i,
-            behavior: "smooth"
-          });
-          i--;
-        }
-      } else {
-        i = 1;
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth"
-        });
-      }
-    };
-
-    
-    if (document.addEventListener) {
-      document.addEventListener("mousewheel", handleMouseWheel, false); // IE9, Chrome, Safari, Opera
-      document.addEventListener("DOMMouseScroll", handleMouseWheel, false); // Firefox
-    } else {
-      document.attachEvent("onmousewheel", handleMouseWheel); // IE 6/7/8
+      gsap.to(`.${ring}`, {
+        duration: 1,
+        onComplete: () => { ist = 0; },
+        rotationX: '-=' + (deltaY > 0 ? ((348/n) % 360) : (-(348/n) % 360)),
+      });
     }
+  }
+  $(window).on('wheel', handleScroll);
+
+  let yPos = 0;
+
+$(window).on('mousedown touchstart', dragStart);
+$(window).on('mouseup touchend', dragEnd);  
+
+function dragStart(e){ 
+  if (e.touches) e.clientY = e.touches[0].clientY;
+  yPos = Math.round(e.clientY);
+  gsap.set(`.${ring}`, {cursor:'grabbing'})
+  $(window).on('mousemove touchmove', handleDrag);
+}
+
+function handleDrag(e){
+  if (e.touches) e.clientY = e.touches[0].clientY;  
+  if (ist === 0) {
+    ist = 1;
+    gsap.to(`.${ring}`, {
+      duration: 1,
+      onComplete: () => { ist = 0; },
+      rotationX: '-=' +( (Math.round(e.clientY)-yPos)>0? ((348/n) % 360) : (-(348/n) % 360)),
+    });
+    console.log((Math.round(e.clientY)-yPos));
+  }
+  yPos = Math.round(e.clientY);
+}
+
+
+function drag(e){
+  if (e.touches) e.clientY = e.touches[0].clientY;    
+
+  gsap.to(`.${ring}`, {
+    rotationX: '-=' +( (Math.round(e.clientY)-yPos)>0? ((348/n) % 360) : (-(348/n) % 360)),
+    onUpdate:()=>{ gsap.set(`.${ind}`, { backgroundPosition:(i)=>getBgPos(i) }) }
+  });
+  
+  yPos = Math.round(e.clientY);
+}
+
+
+function dragEnd(e){
+  $(window).off('mousemove touchmove', handleDrag);
+  gsap.set(`.${ring}`, {cursor:'grab'});
+}
+
+
+function getBgPos(i){ //returns the background-position string to create parallax movement in each image
+  return '0px ' + ( 100-gsap.utils.wrap(0,360,gsap.getProperty('.ring', 'rotationX')-180-i*36)/360*500 )+'px';
+}
+
+  useGSAP(() => {
+    console.log('hello');
+    gsap.timeline()
+      .set(`.${ring}`, { rotationX: -360 }) 
+      .set(`.${ind}`, {
+        rotateX: (i) => i * -(360/n), 
+        transformOrigin: '50% 50% 800px',
+        z: -800, 
+        // backgroundImage: (i) => `url(https://picsum.photos/id/${i+32}/600/400/)`,
+        backfaceVisibility: 'hidden' 
+      })
+      .from(`.${ind}`, {
+        duration: 1.5,
+        y: 200, 
+        // transformOrigin: '50% 50% 500px',
+        opacity: 0, 
+        stagger: 0.2,
+        ease: 'expo' 
+      });
 
     
+
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      if (document.removeEventListener) {
-        document.removeEventListener("mousewheel", handleMouseWheel, false);
-        document.removeEventListener("DOMMouseScroll", handleMouseWheel, false);
-      } else {
-        document.detachEvent("onmousewheel", handleMouseWheel);
-      }
+      window.removeEventListener('scroll', handleScroll);
     };
-  }, []); 
+  }, []);
 
   return (
-    <>
-    <div className={styles.track}>
-    <div className="section">
-      <div className={styles.p2}>
-        <div className={styles.page}>
-          <div className={styles.content}>
-            <div className={styles.parent1}>
-              <h1 className={styles.title}>Makeathon 6</h1>
-              <p className={styles.about1}>
-                <span className={styles.aboutTitle}>(about)</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in rep
-              </p>
-            </div>
-            <div className={styles.imageContainer1}>
-              <div className={styles.border1}>
-                <div className={styles.animate1}></div>
-              </div>
-              <img src={groupImage} alt="Group" className={styles.image1} />
-            </div>
+    <div className={style.wind}> 
+      <div className={style.stage}>
+        <div className={style.container2}>
+          <div className={ring}>
+              <Event/>
           </div>
         </div>
       </div>
     </div>
-  
-    <div className="section">
-    <div className={styles.content2}>   
-            <div className={styles.imageContainer2}>
-              <div className={styles.border2}>
-                <div className={styles.animate2}></div>
-              </div>
-              <img src={groupImage} alt="Group" className={styles.image2} />         
-            </div>
-            <div className={styles.parent2}>
-              <h1 className={styles.title2}>Makeathon 5</h1>
-              <p className={styles.about2}>
-                <span className={styles.aboutTitle}>(about)</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in rep
-              </p>
-            </div>
-          </div>
-
-
-    </div>
-  
-    <div className="section">
-    <div className={styles.content}>
-            <div className={styles.parent3}>
-            <h1 className={styles.title}>Makeathon 4</h1>
-            <p className={styles.about1}>
-              <span className={styles.aboutTitle}>(about)</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in rep
-            </p>
-            </div>
-            <div className={styles.imageContainer1}>
-              <div className={styles.border1}>
-                <div className={styles.animate1}></div>
-              </div>
-              <img src={groupImage} alt="Group" className={styles.image1} />         
-            </div>
-          </div>
-    </div>
-    </div>
-  </>
-  
   );
 };
 
