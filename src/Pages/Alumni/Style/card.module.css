@@ -94,6 +94,18 @@ body {
   letter-spacing: 2px;
 }
 
+/* New LinkedIn icon styles */
+.linkedin {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.linkedin img {
+  width: 2rem;
+  height: 2rem;
+}
+
 @media (max-width: 600px) {
   .box:hover .content {
     transform: translate(0, 3.5rem);
