@@ -13,6 +13,7 @@ const ProfileCards = () => {
         </div>
         <div className={styles.content}>
           <h2>Apoorva Didi<br/><span>Gen Sec</span></h2>
+          
         </div>
       </div>
       <div className={styles.box}>
@@ -95,7 +96,7 @@ const ProfileCards = () => {
       <div className={styles.box}>
         <div className={styles.imgBox}>
           <img
-            src="https://res.cloudinary.com/dy1pmolax/image/upload/v1720785366/alumni_page/2024/pmnctbuxvmw6u5ekpbav.jpg"
+            src="https://res.cloudinary.com/dy1pmolax/image/upload/v1720785366/alumni_page/2024/pmnctbuxvmw6u5ekpbav.jpg  "
             alt="Aakash Agrawal"
           />
         </div>

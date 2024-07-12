@@ -105,3 +105,9 @@
     width: inherit;
     height: 75vh;
 }
+
+@media (max-width: 830px) {
+    .start {
+      display: none;
+    }
+  } 

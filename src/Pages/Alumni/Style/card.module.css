@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@font-face {
+  font-family: dmMono;
+  src: url(../assets/DMMono-Regular.ttf);
+}
 
 *,
 *::after,
@@ -16,7 +19,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   background-color: #f0f0f0;
-  font-family: 'Poppins', sans-serif;
+  font-family: dmMono;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,6 +76,7 @@ body {
   justify-content: center;
   background-color: #fff;
   z-index: 1;
+  font-family: dmMono;
   align-items: flex-end;
   text-align: center;
   transition: 0.5s ease-in-out;
@@ -82,7 +86,7 @@ body {
   display: block;
   font-size: 2rem;
   color: #111;
-  font-weight: 500;
+  font-weight: 1000;
   line-height: 2rem;
   letter-spacing: 1px;
 }
