@@ -276,16 +276,16 @@
     .header {
         font-size: 9vh;
         top: 9.5vh;
-        left: 0;
+        left: 33vw;
         margin: 0vh;
         /* background-color: black; */
-        width: 81%;
+        width: 34%;
         text-align: center;
         /* background: #000000f0; */
-        margin-left: 31px;
+        /* margin-left: 31px; */
         /* margin-right: 49px; */
-        backdrop-filter: blur(10px);
-        z-index: 15;
+        /* backdrop-filter: blur(10px); */
+        z-index: -10000;
     }
     .logo {
         display: none;
@@ -314,7 +314,8 @@
         height: 55%;
         width: 86vw;
         position: absolute;
-        backdrop-filter: blur(10px);
+        z-index: -10000;
+        /* backdrop-filter: blur(10px); */
     }
     .p2{
         text-align: center;

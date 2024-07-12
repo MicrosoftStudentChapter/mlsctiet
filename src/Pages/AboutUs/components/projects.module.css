@@ -1,6 +1,6 @@
 .mainProjectsContainer{
     position: relative;
-    z-index: 11;
+    z-index: 10000;
 }
 
 .peel{

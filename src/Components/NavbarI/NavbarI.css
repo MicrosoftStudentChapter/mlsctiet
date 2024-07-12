@@ -3,7 +3,7 @@ nav {
     width: max-content;
     display: block;
     padding: 0.7rem 4rem;
-    z-index: 15;
+    z-index: 10001;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);

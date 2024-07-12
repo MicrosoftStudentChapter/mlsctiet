@@ -33,16 +33,17 @@ const Index = () => {
 
   return (
     <>
-      <Bg />
+     <Bg />
       <div className={style.wrapper}>
-
+       
         <Start />
         {isWindowWideEnough && <Animation imagesURL={Images} />}
 
         {isWindowWideEnough && <div className={style.empty} />}
         <MainProject />
 
-      </div>
+      </div> 
+      
     </>
   );
 };
