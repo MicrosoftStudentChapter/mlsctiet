@@ -29,8 +29,9 @@ export default function Bg() {
                     <div className={style.rotatedTextContainer}>
                         <p className={style.rotatedText}>A legacy of innovation</p>
                     </div>
+                    <div className={style.h1}></div>
                     <div className={style.hor}>
-                        <div className={style.h1}></div>
+                        
 
                         {/* <div> */}
                             <div className={style.h2}></div>

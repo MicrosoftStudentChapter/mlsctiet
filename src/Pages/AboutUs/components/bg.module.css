@@ -325,6 +325,9 @@ font-family: aboutfont;
     }
 }
 @media screen and (max-width: 550px){
+    .mainBgContainer{
+        z-index: 1000;
+    }
     .v2{
         left: 95.5vw;
     }
@@ -335,6 +338,7 @@ font-family: aboutfont;
         left:26px;
         top: 2vh;
         font-size: 13px;
+        z-index: 1;
     }
     .h1{
         width: 91vw;
@@ -345,6 +349,12 @@ font-family: aboutfont;
     }
     .h3{
         width: 91vw;
+    }
+    .hor{
+        background-color: black;
+        height: 50px;
+        width: 100vh;
+        position: absolute;
     }
     .right{
         display: none;
