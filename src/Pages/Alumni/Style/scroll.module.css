@@ -42,19 +42,19 @@
 
 .Alumnicap {
     display: flex;
-    width: 35vw;
-    height: 28vh;
+    width: 31vw;
+    height: 26vh;
     background-color: #1e1e1e;
     border-top-right-radius: 32px;
     border-bottom-left-radius: 12px;
-    bottom: 28vh;
+    bottom: 26vh;
     position: relative;
     z-index: 1;
 }
 
 .hl {
     border: #f4efef 0.25px solid;
-    width: 11vw;
+    width: 9vw;
     height: 0%;
     top: 150%;
     left: 50%;
@@ -64,16 +64,16 @@
 
 .vl {
     border-left: #FFF6F6 2px solid;
-    height: 17vh;
+    height: 14vh;
     width: 13px;
     top: 50%;
-    transform: translate(265%, 45%);
+    transform: translate(265%,70%);
 }
 
 .caption {
     top: 50%;
     left: 50%;
-    transform: translate(15%, 31%);
+    transform: translate(20%, 43%);
     font-size: 75px;
     font-family: Sprat;
     color: #FFF6F6;

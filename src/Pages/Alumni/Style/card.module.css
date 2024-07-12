@@ -98,11 +98,39 @@ body {
   letter-spacing: 2px;
 }
 
+.linkedin {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.linkedin img {
+  width: 2rem;
+  height: 2rem;
+}
+
 @media (max-width: 600px) {
   .box:hover .content {
     transform: translate(0, 3.5rem);
   }
   .box:hover .imgBox {
     transform: translate(0, -3.5rem);
+  }
+}
+
+@media (max-width: 1300px) {
+  .content span {
+    color: #555;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+}
+@media (max-width: 1300px) {
+  .content span {
+    color: #555;
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 2px;
   }
 }
