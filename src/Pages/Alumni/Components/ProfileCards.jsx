@@ -7,18 +7,18 @@ const ProfileCards = () => {
       <div className={styles.box}>
         <div className={styles.imgBox}>
           <img
-            src="https://img.freepik.com/free-photo/portrait-handsome-young-man-makes-okay-gesture-demonstrates-agreement-likes-idea-smiles-happily-wears-optical-glasses-yellow-hat-t-shirt-models-indoor-its-fine-thank-you-hand-sign_273609-30676.jpg?size=626&ext=jpg"
-            alt="Karan Singh"
+            src="https://thaparuniv-my.sharepoint.com/personal/tmann_be22_thapar_edu/Documents/MLSC%20PICS%2023-24/Soc%20fair%20Hard%20Creativity/IMG_6487.jpeg?csf=1&web=1&e=VBLXpu&CID=3bd1190b-56c0-433e-a19a-2a2909b267c7"
+            alt="didi"
           />
         </div>
         <div className={styles.content}>
-          <h2>Karan Singh<br/><span>Graphic Designer</span></h2>
+          <h2>Apoorva Didi<br/><span>Gen Sec</span></h2>
         </div>
       </div>
       <div className={styles.box}>
         <div className={styles.imgBox}>
           <img
-            src="https://image.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg"
+            src="https://thaparuniv-my.sharepoint.com/personal/tmann_be22_thapar_edu/Documents/MLSC%20PICS%2023-24/Soc%20fair%20Hard%20Creativity/IMG_6487.jpeg?csf=1&web=1&e=VBLXpu&CID=3bd1190b-56c0-433e-a19a-2a2909b267c7"
             alt="Dolly Seth"
           />
         </div>
