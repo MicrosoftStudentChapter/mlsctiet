@@ -15,6 +15,7 @@
     justify-content: center;
 }
 
+
 .image {
     width: 30vw;
     background-color: rgb(207, 149, 75);
@@ -106,3 +107,8 @@
     height: 75vh;
 }
 
+@media (max-width: 830px) {
+    .start {
+      display: none;
+    }
+  } 
