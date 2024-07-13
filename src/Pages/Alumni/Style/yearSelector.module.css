@@ -28,4 +28,10 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 10px; /* Add space between buttons */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.selected {
+  background-color: #0078D4;
+  color: #000000;
 }
