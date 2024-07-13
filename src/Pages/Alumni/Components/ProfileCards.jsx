@@ -1,11 +1,10 @@
 import React from 'react';
 import styles from '../Style/card.module.css';
-import profiles from '../data/profiles.json'; // Assuming profiles.json is in the data folder
 
-const ProfileCards = () => {
+const ProfileCards = ({ data }) => {
   return (
     <div className={styles.container}>
-      {profiles.map((profile, index) => (
+      {data.map((profile, index) => (
         <div className={styles.box} key={index}>
           <div className={styles.imgBox}>
             <img src={profile.image} alt={profile.alt} />
