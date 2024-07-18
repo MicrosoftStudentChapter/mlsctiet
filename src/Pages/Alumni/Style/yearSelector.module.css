@@ -5,7 +5,8 @@
 
 .yearDiv {
   position: fixed;
-  top: 10vh;
+  top: 50%;
+  transform: translateY(-50%);
   right: 20px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -19,13 +20,17 @@
   height: 15vh;
   width: 40px;
   font-size: 1.5rem;
-  border: 2px solid #465058;
+  border: 1.5px solid #465058;
   color: #FFFFFF;
   font-family: dmMono;
-  cursor: pointer; 
-  display: flex;           
-  align-items: center;      
-  justify-content: center;  
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, color 0.3s; 
 }
 
-
+.selected {
+  background-color: #465058;
+  color: #000000;
+}
