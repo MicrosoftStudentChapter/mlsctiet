@@ -72,14 +72,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-
+.description{
+    width: 40vw;
+    margin-top: 5vh;
+    text-align: center;
+}
 .projectimg{
     
     height: 250px;
     width: 250px;
     border: 2px solid white;
+    background-image: url('../assets/logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 @media screen and (max-width: 1025px){
