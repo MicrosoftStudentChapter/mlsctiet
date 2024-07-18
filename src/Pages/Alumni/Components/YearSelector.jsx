@@ -1,8 +1,17 @@
+import React, { useState } from 'react';
 import styles from "../Style/yearSelector.module.css";
+
+
+// JSON data for years
+const yearData = [
+  { year: 2023 },
+  { year: 2022 }
+  // { year: 2020 },
+  // { year: 2019 }
+];
 
 function YearSelector({ toggleShowYear }) {
   const [selectedYear, setSelectedYear] = useState(2023);
-
   const handleYearClick = (year) => {
     setSelectedYear(year);
     toggleShowYear(year);
@@ -10,21 +19,15 @@ function YearSelector({ toggleShowYear }) {
 
   return (
     <div className={styles.yearDiv}>
-      <div className={styles.yearButton} onClick={() => toggleShowYear(2023)}>
-        20<br />23
-      </div>
-      <div className={styles.yearButton} onClick={() => toggleShowYear(2022)}>
-        20<br />22
-      </div>
-      <div className={styles.yearButton} onClick={() => toggleShowYear(2021)}>
-        20<br />21
-      </div>
-      <div className={styles.yearButton} onClick={() => toggleShowYear(2020)}>
-        20<br />20
-      </div>
-      <div className={styles.yearButton} onClick={() => toggleShowYear(2019)}>
-        20<br />19
-      </div>
+      {yearData.map((item, index) => (
+        <div
+          key={index}
+          className={`${styles.yearButton} ${selectedYear === item.year ? styles.selected : ''}`}
+          onClick={() => handleYearClick(item.year)}
+        >
+          20<br />{item.year % 100}
+        </div>
+      ))}
     </div>
   );
 }

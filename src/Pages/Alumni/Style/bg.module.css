@@ -216,7 +216,7 @@ font-family: dmMono;
     }
     .text{
         left:26px;
-        top:-6px;
+        top:5px;
         font-size: 13px;
     }
 }

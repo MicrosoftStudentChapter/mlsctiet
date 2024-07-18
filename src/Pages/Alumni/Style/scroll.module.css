@@ -43,15 +43,40 @@
 
 .Alumnicap {
     display: flex;
+    justify-content: center; 
+    align-items: center;
     width: 41vw;
     height: 26vh;
     background-color: #1e1e1e;
     border-top-right-radius: 32px;
     border-bottom-left-radius: 12px;
-    bottom: 25.75vh;
     position: relative;
+    bottom: 25.75vh;
     z-index: 1;
+    overflow: hidden; 
 }
+
+.Alumnicap img {
+    width: auto;
+    margin-top: 10%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain; 
+}
+
+.meetAlumni{
+    margin-top: 2.5%; 
+    margin-bottom: 8%; 
+    margin-left: 5%; 
+    max-width: 40vw;
+    max-height: 10vh;
+}
+
+.meetAlumni img{ 
+    max-width: 100%;
+    max-height: 100%;
+}
+
 
 .hl {
     border: #f4efef 0.25px solid;
