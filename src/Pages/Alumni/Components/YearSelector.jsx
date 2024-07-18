@@ -1,6 +1,13 @@
 import styles from "../Style/yearSelector.module.css";
 
 function YearSelector({ toggleShowYear }) {
+  const [selectedYear, setSelectedYear] = useState(2023);
+
+  const handleYearClick = (year) => {
+    setSelectedYear(year);
+    toggleShowYear(year);
+  };
+
   return (
     <div className={styles.yearDiv}>
       <div className={styles.yearButton} onClick={() => toggleShowYear(2023)}>
