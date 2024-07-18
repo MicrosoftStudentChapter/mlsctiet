@@ -84,7 +84,7 @@
     
     height: 250px;
     width: 250px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     background-image: url('../assets/logo.png');
     background-repeat: no-repeat;
     background-size: cover;

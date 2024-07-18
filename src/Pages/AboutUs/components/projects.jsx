@@ -17,9 +17,9 @@ const Projects = (props) => {
     const title = ["Linky", "IRC-Server", "MLSC-ChatBot", "makeathon6-app", "recruitment Quiz Portal"];
     const description = ["Linky is an open-source project designed to provide redirect solutions with custom-named links using any pre-existing domain name. This solution is perfect for creating short, memorable links that can redirect users to any URL, simplifying the sharing and management of links."
         , "Internet Relay Chat is a forum made for group discussions made and popular in pre-socical media era. IRC servers usually follow TCP protocols and a tree topology. In today's world this is a very obsolete technology but it helps to learn the basics of how messages are commuted between computers connected on a local area network."
-        , "ye teesri"
+        , "The MLSC Chatbot is an interactive tool where users can ask all their questions about MLSC. It provides quick and accurate answers, helping users understand and navigate various aspects of MLSC with ease."
         , "It is an app designed for Makeathon 6, a 24-hour hackathon, to manage participants efficiently.One of its standout features is the mentor calling system, which allows participants to connect with mentors from specific domains, ensuring they receive expert guidance and support throughout the event. This functionality streamlines the mentor-participant interaction, enhancing the overall experience and productivity of the hackathon."
-        , "aur ye lo paanchvi"]
+        , "The Recruitment Quiz Portal is a specialized platform used during the MLSC recruitment process. It administers quizzes to assess candidates' knowledge and skills, streamlining the evaluation and selection process."]
 
     const [activeIndex, setActiveIndex] = useState(0);
     const [hoveredIndex, setHoveredIndex] = useState(null);
