@@ -27,10 +27,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.3s, color 0.3s; 
+
+  margin-bottom: 10px; /* Add space between buttons */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
 }
 
 .selected {
-  background-color: #465058;
+  background-color: #0078D4;
   color: #000000;
 }
