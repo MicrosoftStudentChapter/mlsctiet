@@ -3,23 +3,32 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import style from './projects.module.css';
 import Peel from "./Peeling";
-import Image1 from '../assets/image1.jpg';
-import Image2 from '../assets/image2.jpg';
-import Image3 from '../assets/image3.jpg';
-import Image4 from '../assets/image4.jpg';
-import Image5 from '../assets/image5.jpg';
-import Image6 from '../assets/image6.jpg';
+import Image1 from '../assets/Linky.jpeg';
+import Image2 from '../assets/irc.png';
+import Image3 from '../assets/chatbot.png';
+import Image4 from '../assets/makeathon.png';
+import Image5 from '../assets/quiz.png';
+import { Link } from "react-router-dom";
+// import Image6 from '../assets/image6.jpg';
+import logo from '../assets/logo.png'
 gsap.registerPlugin(useGSAP);
 
 const Projects = (props) => {
-    const Images = [Image1, Image2, Image3, Image4, Image5, Image6];
-    const title = ["linky", "hello2", "hello3", "hello4", "hello5", "hello6"];
-    const description = ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, placeat. Iste repudiandae eius temporibus doloribus eveni" , "ye dusri description" , "ye teesri" , "ye rahi chauthi" , "aur ye lo paanchvi"  , "bs ye last hai"]
+    const Images = [Image1, Image2, Image3, Image4, Image5];
+    const title = ["Linky", "IRC-Server", "MLSC-ChatBot", "makeathon6-app", "recruitment Quiz Portal"];
+    const description = ["Linky is an open-source project designed to provide redirect solutions with custom-named links using any pre-existing domain name. This solution is perfect for creating short, memorable links that can redirect users to any URL, simplifying the sharing and management of links."
+        , "Internet Relay Chat is a forum made for group discussions made and popular in pre-socical media era. IRC servers usually follow TCP protocols and a tree topology. In today's world this is a very obsolete technology but it helps to learn the basics of how messages are commuted between computers connected on a local area network."
+        , "The MLSC Chatbot is an interactive tool where users can ask all their questions about MLSC. It provides quick and accurate answers, helping users understand and navigate various aspects of MLSC with ease."
+        , "It is an app designed for Makeathon 6, a 24-hour hackathon, to manage participants efficiently.One of its standout features is the mentor calling system, which allows participants to connect with mentors from specific domains, ensuring they receive expert guidance and support throughout the event. This functionality streamlines the mentor-participant interaction, enhancing the overall experience and productivity of the hackathon."
+        , "The Recruitment Quiz Portal is a specialized platform used during the MLSC recruitment process. It administers quizzes to assess candidates' knowledge and skills, streamlining the evaluation and selection process."
+    ];
+    const links = ["https://github.com/MicrosoftStudentChapter/Linky.git" , "https://github.com/MicrosoftStudentChapter/IRC-Server.git" , "https://github.com/MicrosoftStudentChapter/MLSC-ChatBot.git" , "https://github.com/MicrosoftStudentChapter/makeathon6-app.git" , ""];
 
     const [activeIndex, setActiveIndex] = useState(0);
+    const [hoveredIndex, setHoveredIndex] = useState(null);
+    const [clickedIndex, setClickedIndex] = useState(null); // New state for clicked element
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     const [contentHeight, setContentHeight] = useState(0);
-    
 
     const container = useRef();
     const imgRef = useRef();
@@ -31,15 +40,17 @@ const Projects = (props) => {
         if (windowWidth > 426) {
             gsap.from(imgRef.current, { x: -1000, y: -1000, immediateRender: false });
             gsap.to(imgRef.current, { backgroundImage: `url(${Images[index]})`, opacity: 1 });
+            setHoveredIndex(index);
         }
     });
 
-    const onMouseLeave = contextSafe(() => {
-        if (windowWidth > 426) {
-            gsap.to(imgRef.current, { backgroundImage: `url(${Image1})`, opacity: 0 });
-            console.log("left");
-        }
-    });
+    // const onMouseLeave = contextSafe(() => {
+    //     if (windowWidth > 426) {
+    //         gsap.to(imgRef.current, { backgroundImage: `url(${Image1})`, opacity: 0 });
+    //         console.log("left");
+    //         setHoveredIndex(null);
+    //     }
+    // });
 
     const handleAccordionClick = (index) => {
         if (index === activeIndex) {
@@ -50,6 +61,10 @@ const Projects = (props) => {
             const contentHeight = contentRef.current[index]?.scrollHeight || 0;
             setContentHeight(contentHeight);
         }
+    };
+
+    const handleClick = (index) => {
+        setClickedIndex(index);
     };
 
     useEffect(() => {
@@ -87,8 +102,22 @@ const Projects = (props) => {
                                     </div>
                                     <div className={style.projectimagediv}>
                                         <div className={style.projectimg} ref={imgRef}>
-                                            Image here
+                                            {/* Image here */}
+                                            {/* <img src={logo} alt="error" className={style.projectimg} ></img> */}
                                         </div>
+                                        {hoveredIndex !== null && (
+                                            <div >
+                                                 <p className={style.description}>
+                            {description[hoveredIndex]}
+                            <span>
+                                <Link to={links[hoveredIndex]} target="_blank" style={{ color: '#5aaeff' , textDecoration: 'none'}}  className={style.projectlink}>
+                                    <br />{'{'} Link {'}'}
+                                </Link>
+                            </span>
+                        </p>
+                                                
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
                                 <div className={style.rightSection}>
@@ -96,10 +125,13 @@ const Projects = (props) => {
                                         <div key={index} className={style.projectHeading}>
                                             <p
                                                 ref={el => (paraRef.current[index] = el)}
-                                                onMouseEnter={() => onMouseEnter(index)}
-                                                onMouseLeave={onMouseLeave}
+                                                onClick={() => {
+                                                    handleClick(index);
+                                                    onMouseEnter(index);
+                                                }}
+                                                className={clickedIndex === index ? style.whiteText : ""}
                                             >
-                                                {index + 1}
+                                                {title[index]}
                                             </p>
                                         </div>
                                     ))}

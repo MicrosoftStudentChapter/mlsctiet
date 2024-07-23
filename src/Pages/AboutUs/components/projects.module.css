@@ -44,6 +44,7 @@
     color: #8f8a84;
     width: 88.5%;
     margin-left: 75px;
+    cursor: pointer;
 }
 .projectHeading p{
     font-size: 2.5rem;
@@ -51,11 +52,16 @@
     margin-left: 32px;
     
 }
-.projectHeading p:hover{
-    /* font-size: 2.5rem; */
+.projectHeading p:active{
     color: white;
 }
-
+.projectHeading p:hover{
+    
+    color: white;
+}
+.whiteText{
+    color: white;
+}
 .projecth{
     height: 20%;
     display: flex;
@@ -72,14 +78,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-
+.description{
+    width: 40vw;
+    margin-top: 5vh;
+    text-align: center;
+}
 .projectimg{
     
     height: 250px;
     width: 250px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
+    background-image: url('../assets/logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 @media screen and (max-width: 1025px){
@@ -152,11 +167,13 @@
         /* height: 50vh; */
     }
 
+    .projectlink:hover{
+        text-decoration: underline;
+    }
     .active .accordionContent {
         display: block;
         
     }
-
     @keyframes fadeIn {
         from { opacity: 0; }
         to { opacity: 1; }
