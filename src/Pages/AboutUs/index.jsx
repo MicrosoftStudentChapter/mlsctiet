@@ -1,23 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import Bg from "./components/bg"; 
 import Start from "./components/start";
-import Peel from "./components/Peeling";
 import MainProject from "./components/mainProject";
-import style from './index.module.css'
-import Animation from './components/animation'
-import Image1 from './assets/image1.jpg'
-import Image2 from './assets/image2.jpg'
-import Image3 from './assets/image3.jpg'
-import Image4 from './assets/image4.jpg'
-import Image5 from './assets/image5.jpg'
-import Image6 from './assets/image6.jpg'
-import Image7 from './assets/image7.jpg'
-import Image8 from './assets/image8.jpg'
-import Image9 from './assets/image9.jpg'
-import Image10 from './assets/image10.jpg'
-import Image11 from './assets/image11.jpg'
+import style from './index.module.css';
+import Animation from './components/animation';
 
-const Images= [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8, Image9, Image10, Image11]
+const Images = [
+  'https://res.cloudinary.com/dy1pmolax/image/upload/v1723134459/about_page/about1.jpg',
+  'https://res.cloudinary.com/dy1pmolax/image/upload/v1723134421/about_page/about2.jpg',
+  'https://res.cloudinary.com/dy1pmolax/image/upload/v1723133724/about_page/about3.jpg',
+  'https://res.cloudinary.com/dy1pmolax/image/upload/v1723133722/about_page/about4.jpg',
+  'https://res.cloudinary.com/dy1pmolax/image/upload/v1723134500/about_page/about5.jpg',
+  'https://res.cloudinary.com/dy1pmolax/image/upload/v1723133727/about_page/IMG_7317.jpg',
+  'https://res.cloudinary.com/dy1pmolax/image/upload/v1723133723/about_page/about7.jpg',
+  'https://res.cloudinary.com/dy1pmolax/image/upload/v1723134361/about_page/about8.jpg',
+  'https://res.cloudinary.com/dy1pmolax/image/upload/v1723133727/about_page/IMG_7507.jpg',
+  'https://res.cloudinary.com/dy1pmolax/image/upload/v1723133724/about_page/about11.jpg',
+  'https://res.cloudinary.com/dy1pmolax/image/upload/v1723133722/about_page/1705670358990.jpeg.jpg'
+];
+
 const Index = () => {
   const [isWindowWideEnough, setIsWindowWideEnough] = useState(window.innerWidth > 450);
 
@@ -33,17 +34,12 @@ const Index = () => {
 
   return (
     <>
-     <Bg />
+      <Bg />
       <div className={style.wrapper}>
-       
         <Start />
         {isWindowWideEnough && <Animation imagesURL={Images} />}
-
         {isWindowWideEnough && <div className={style.empty} />}
-        <MainProject />
-
-      </div> 
-      
+        <MainProject />      </div>
     </>
   );
 };
