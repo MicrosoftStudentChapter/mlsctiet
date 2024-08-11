@@ -17,7 +17,7 @@ const Peel = () => {
                        
             start: 'top bottom', // when the top of the trigger hits the top of the viewport
             end: 'bottom 100%',
-            markers: true,
+            markers: false,
             toggleActions: "restart pause reverse pause",
             
             

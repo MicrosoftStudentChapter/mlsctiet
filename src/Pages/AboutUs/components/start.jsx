@@ -1,5 +1,4 @@
 import style from "./start.module.css";
-import logo from "../assets/logo.png"
 import team from "../assets/team.png"
 
 export default function Start() {
@@ -14,9 +13,6 @@ export default function Start() {
                         <div className={style.line}></div>
                         <div className={style.line1}></div>
                     </div>
-                        <div className={style.logo}>
-                            <img src={logo} alt="jai mlsc" />
-                        </div>
                 </div>
                 <div className={style.right}>
                     <div className={style.text}>
