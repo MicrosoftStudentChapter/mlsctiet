@@ -9,24 +9,23 @@ import Image3 from '../assets/chatbot.png';
 import Image4 from '../assets/makeathon.png';
 import Image5 from '../assets/quiz.png';
 import { Link } from "react-router-dom";
-// import Image6 from '../assets/image6.jpg';
-import logo from '../assets/MLSC-logo.png'
+import logo from '../assets/MLSC-logo.png';
 gsap.registerPlugin(useGSAP);
 
 const Projects = (props) => {
     const Images = [Image1, Image2, Image3, Image4, Image5];
     const title = ["Linky", "IRC-Server", "MLSC-ChatBot", "makeathon6-app", "recruitment Quiz Portal"];
-    const description = ["Linky is an open-source project designed to provide redirect solutions with custom-named links using any pre-existing domain name. This solution is perfect for creating short, memorable links that can redirect users to any URL, simplifying the sharing and management of links."
-        , "Internet Relay Chat is a forum made for group discussions made and popular in pre-socical media era. IRC servers usually follow TCP protocols and a tree topology. In today's world this is a very obsolete technology but it helps to learn the basics of how messages are commuted between computers connected on a local area network."
-        , "The MLSC Chatbot is an interactive tool where users can ask all their questions about MLSC. It provides quick and accurate answers, helping users understand and navigate various aspects of MLSC with ease."
-        , "It is an app designed for Makeathon 6, a 24-hour hackathon, to manage participants efficiently.One of its standout features is the mentor calling system, which allows participants to connect with mentors from specific domains, ensuring they receive expert guidance and support throughout the event. This functionality streamlines the mentor-participant interaction, enhancing the overall experience and productivity of the hackathon."
-        , "The Recruitment Quiz Portal is a specialized platform used during the MLSC recruitment process. It administers quizzes to assess candidates' knowledge and skills, streamlining the evaluation and selection process."
-    ];
-    const links = ["https://github.com/MicrosoftStudentChapter/Linky.git" , "https://github.com/MicrosoftStudentChapter/IRC-Server.git" , "https://github.com/MicrosoftStudentChapter/MLSC-ChatBot.git" , "https://github.com/MicrosoftStudentChapter/makeathon6-app.git" , ""];
+    const description =["Linky is an open-source project designed to provide redirect solutions with custom-named links using any pre-existing domain name. This solution is perfect for creating short, memorable links that can redirect users to any URL, simplifying the sharing and management of links."
+                , "Internet Relay Chat is a forum made for group discussions made and popular in pre-socical media era. IRC servers usually follow TCP protocols and a tree topology. In today's world this is a very obsolete technology but it helps to learn the basics of how messages are commuted between computers connected on a local area network."
+                , "The MLSC Chatbot is an interactive tool where users can ask all their questions about MLSC. It provides quick and accurate answers, helping users understand and navigate various aspects of MLSC with ease."
+                , "An app designed for Makeathon 6, featuring a mentor calling system that connects participants with domain-specific mentors, ensuring expert guidance and streamlined support during the 24-hour hackathon."
+                , "The Recruitment Quiz Portal is a specialized platform used during the MLSC recruitment process. It administers quizzes to assess candidates' knowledge and skills, streamlining the evaluation and selection process."
+            ];
+    const links = ["https://github.com/MicrosoftStudentChapter/Linky.git", "https://github.com/MicrosoftStudentChapter/IRC-Server.git", "https://github.com/MicrosoftStudentChapter/MLSC-ChatBot.git", "https://github.com/MicrosoftStudentChapter/makeathon6-app.git", ""];
 
     const [activeIndex, setActiveIndex] = useState(0);
-    const [hoveredIndex, setHoveredIndex] = useState(null);
-    const [clickedIndex, setClickedIndex] = useState(null); // New state for clicked element
+    const [hoveredIndex, setHoveredIndex] = useState(0);
+    const [clickedIndex, setClickedIndex] = useState(0);
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     const [contentHeight, setContentHeight] = useState(0);
 
@@ -43,14 +42,6 @@ const Projects = (props) => {
             setHoveredIndex(index);
         }
     });
-
-    // const onMouseLeave = contextSafe(() => {
-    //     if (windowWidth > 426) {
-    //         gsap.to(imgRef.current, { backgroundImage: `url(${Image1})`, opacity: 0 });
-    //         console.log("left");
-    //         setHoveredIndex(null);
-    //     }
-    // });
 
     const handleAccordionClick = (index) => {
         if (index === activeIndex) {
@@ -86,6 +77,11 @@ const Projects = (props) => {
         if (contentRef.current[0]) {
             setContentHeight(contentRef.current[0].scrollHeight);
         }
+
+       
+        if (windowWidth > 426) {
+            gsap.to(imgRef.current, { backgroundImage: `url(${Images[0]})`, opacity: 1 });
+        }
     }, []);
 
     return (
@@ -103,19 +99,17 @@ const Projects = (props) => {
                                     <div className={style.projectimagediv}>
                                         <div className={style.projectimg} ref={imgRef}>
                                             {/* Image here */}
-                                            {/* <img src={logo} alt="error" className={style.projectimg} ></img> */}
                                         </div>
                                         {hoveredIndex !== null && (
-                                            <div >
-                                                 <p className={style.description}>
-                            {description[hoveredIndex]}
-                            <span>
-                                <Link to={links[hoveredIndex]} target="_blank" style={{ color: '#5aaeff' , textDecoration: 'none'}}  className={style.projectlink}>
-                                    <br />{'{'} Link {'}'}
-                                </Link>
-                            </span>
-                        </p>
-                                                
+                                            <div>
+                                                <p className={style.description}>
+                                                    {description[hoveredIndex]}
+                                                    <span>
+                                                        <Link to={links[hoveredIndex]} target="_blank" style={{ color: '#5aaeff', textDecoration: 'none' }} className={style.projectlink}>
+                                                            <br />{'{'} Link {'}'}
+                                                        </Link>
+                                                    </span>
+                                                </p>
                                             </div>
                                         )}
                                     </div>
@@ -140,8 +134,8 @@ const Projects = (props) => {
                         ) : (
                             <div className={style.rightSection}>
                                 <div className={style.projecth}>
-                                        <p>Projects:</p>
-                                    </div>
+                                    <p>Projects:</p>
+                                </div>
                                 {Images.map((image, index) => (
                                     <div
                                         key={index}
@@ -157,11 +151,10 @@ const Projects = (props) => {
                                             className={style.accordionContent}
                                         >
                                             <div className={style.accordianDiv}>
-                                            <div className={style.projectimage}>
-                                                <img src={Images[index]} alt="error" className={style.accordianimg}/>
-                                            </div>
-                                            <span> {description[index]}
-                                            </span>
+                                                <div className={style.projectimage}>
+                                                    <img src={Images[index]} alt="error" className={style.accordianimg} />
+                                                </div>
+                                                <span> {description[index]}</span>
                                             </div>
                                         </div>
                                     </div>
