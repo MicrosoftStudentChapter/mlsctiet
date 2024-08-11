@@ -64,14 +64,6 @@
     top: -45px;
 }
 
-.logo {
-    position: absolute;
-    /* height: 50px;
-    width: 50px; */
-    top: 65vh;
-    left: 4vw;
-}
-
 .text {
     position: absolute;
     display: flex;

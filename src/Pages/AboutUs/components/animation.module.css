@@ -24,8 +24,8 @@ body{
 
 .imageDiv {
   z-index: 2;
-  width: 275px;
-  height: 175px; 
+  width: 300px;
+  height: 200px; 
   border-radius: 10px;
   background-repeat: no-repeat;
   background-size: contain;

@@ -10,7 +10,7 @@ import Image4 from '../assets/makeathon.png';
 import Image5 from '../assets/quiz.png';
 import { Link } from "react-router-dom";
 // import Image6 from '../assets/image6.jpg';
-import logo from '../assets/logo.png'
+import logo from '../assets/MLSC-logo.png'
 gsap.registerPlugin(useGSAP);
 
 const Projects = (props) => {

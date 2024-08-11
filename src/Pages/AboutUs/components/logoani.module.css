@@ -1,0 +1,7 @@
+.mlsclogo {
+  position: absolute;
+  top: 42.5vh;
+  left: 15vw;
+  position: fixed;
+  z-index: 100000;
+}

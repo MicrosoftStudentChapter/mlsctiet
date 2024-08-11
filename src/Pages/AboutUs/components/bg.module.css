@@ -169,7 +169,7 @@ font-family: aboutfont;
     .circlesContainer {
         position: absolute;
         top: 8px;
-        right: 30px;
+        right: 50px;
         display: flex;
         gap: 10px;
       }

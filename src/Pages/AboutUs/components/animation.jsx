@@ -24,7 +24,7 @@ const Animation = ({ imagesURL }) => {
         scrub: true,
         pin: true,
         pinSpacing: false,
-        markers: true,
+        markers: false,
       },
     });
   },{scope: boxRef.current});
