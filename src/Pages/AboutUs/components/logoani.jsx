@@ -14,8 +14,8 @@ const logoani = () => {
 
   useGSAP(() => {
     gsap.to(logoRef.current, {
-      x: "75.75vw",
-      y: "-17vw",
+      x: window.innerWidth > 768 ? "75.75vw" : "73vw",
+      y: window.innerWidth > 768 ? "-17vw" : "-25vw",
       delay: 0.5,
       ease: "power3.out",
       scrollTrigger:{
@@ -23,7 +23,7 @@ const logoani = () => {
         scroller: "body",
         start: "top +250px top",
         end: "bottom +315px top",
-        markers: true,
+        markers: false,
         scrub: true
       }
     });
@@ -46,7 +46,7 @@ const logoani = () => {
 
   return (
     <div ref={logoRef} className= {mlsclogo}>
-      <img ref={imageRef} src={logo} alt="jai mlsc" style={{height: "250px"}}/>
+      <img ref={imageRef} src={logo} className ={style.image }alt="jai mlsc"/>
     </div>
   )
 }
