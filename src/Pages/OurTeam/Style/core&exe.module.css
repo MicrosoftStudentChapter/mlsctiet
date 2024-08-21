@@ -37,8 +37,13 @@
   }
   .names:hover{
     color:palevioletred;
-    
   }
+    .link{
+      text-decoration: none;
+      color: inherit;
+      position: relative;
+    }
+    
   @media screen and (min-width: 150px) and (max-width:360px){
     .members1{
         margin-bottom: 150px;

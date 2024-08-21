@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
 .ourteam {
   width: 100%;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   min-height: 100vh;
   background-color: black;
   margin-bottom: 180px;
@@ -138,7 +138,7 @@
 }
 /* ----------------CARD-------------------- */
 .wrapper {
-  padding-top: 3%;
+  padding-top: 5%;
   margin-left: 27%;
   display: grid;
   width: 50%;
@@ -148,7 +148,7 @@
   grid-auto-rows: 339px;
   /* gap: 5rem; */
   column-gap: 3rem;
-  row-gap: 1.5rem;
+  row-gap: 2.75rem;
   justify-content: center;
   align-items: center;
   margin-bottom: 12%;
@@ -293,9 +293,9 @@ hr {
     .card:hover .card__image {
       transform-origin: bottom;
        
-      transform: scale(1.20);
+      transform: scale(1.25);
       overflow: visible;
-      transition: 0.55s;
+      transition: 0.6s;
       width: 78%;
       position: relative;
       left: 20px;
@@ -303,10 +303,18 @@ hr {
       border-radius: 4px;
     }
     .card:hover .card__body {
-      transform: scale(1.0);
+      transform: scale(1.25);
       overflow: visible;
-      transition: 0.85s;
+      transition: 0.6s;
       border: palevioletred solid 1px;
+    } 
+    .card:hover .card__title {
+      transform: scale(1.1) translateY(25px);
+      transition: 0.6s;
+    } 
+    .card:hover .card__btn {
+      transform: scale(1.0) translateY(25px);
+      transition: 0.6s;
     } 
   }
   
@@ -569,5 +577,11 @@ top: 17px;
     color: whitesmoke; 
     text-decoration: underline palevioletred;
     font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .emptyCard {
+    display: none;
   }
 }

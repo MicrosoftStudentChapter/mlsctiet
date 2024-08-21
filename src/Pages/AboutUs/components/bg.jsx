@@ -1,4 +1,5 @@
 import style from "./bg.module.css";
+import Peel from "./Peeling";
 // import "@fontsource/dm-mono";
 // import "@fontsource/dm-mono/400.css";
 // import "@fontsource/dm-mono/400-italic.css";
@@ -6,8 +7,11 @@ import style from "./bg.module.css";
 
 
 export default function Bg() {
-    return (
-        <>
+    return (<>
+        
+            
+            
+        <div className={style.mainBgContainer}>
             {/* <div className={style.heading}></div> */}
             <p className={style.text}>A legacy of innovation</p>
             <div className={style.parent}>
@@ -25,13 +29,14 @@ export default function Bg() {
                     <div className={style.rotatedTextContainer}>
                         <p className={style.rotatedText}>A legacy of innovation</p>
                     </div>
+                    <div className={style.h1}></div>
                     <div className={style.hor}>
-                        <div className={style.h1}></div>
+                        
 
-                        <div>
+                        {/* <div> */}
                             <div className={style.h2}></div>
                             <div className={style.h3}></div>
-                        </div>
+                        {/* </div> */}
                     </div>
 
                     <div className={style.ver}>
@@ -66,6 +71,9 @@ export default function Bg() {
                 </div>
 
             </div>
+        </div>
+        
+        
         </>
 
 
