@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Makeathon1",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ullam in facilis quibusdam ex beatae consectetur qui quis itaque nostrum deleniti alias, odit quaerat vel, quasi quidem neque. Dolorum, atque?",
+    "image": "/Gallery/makeathon6.JPG"
+  },
+  {
+    "title": "Makeathon2",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ullam in facilis quibusdam ex beatae consectetur qui quis itaque nostrum deleniti alias, odit quaerat vel, quasi quidem neque. Dolorum, atque?",
+    "image": "/Gallery/makeathon6.JPG"
+  },
+  {
+    "title": "Makeathon3",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ullam in facilis quibusdam ex beatae consectetur qui quis itaque nostrum deleniti alias, odit quaerat vel, quasi quidem neque. Dolorum, atque?",
+    "image": "/Gallery/makeathon6.JPG"
+  },
+  {
+    "title": "Makeathon4",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ullam in facilis quibusdam ex beatae consectetur qui quis itaque nostrum deleniti alias, odit quaerat vel, quasi quidem neque. Dolorum, atque?",
+    "image": "/Gallery/makeathon6.JPG"
+  },
+  {
+    "title": "Makeathon5",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ullam in facilis quibusdam ex beatae consectetur qui quis itaque nostrum deleniti alias, odit quaerat vel, quasi quidem neque. Dolorum, atque?",
+    "image": "/Gallery/makeathon6.JPG"
+  },
+  {
+    "title": "Makeathon6",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ullam in facilis quibusdam ex beatae consectetur qui quis itaque nostrum deleniti alias, odit quaerat vel, quasi quidem neque. Dolorum, atque?",
+    "image": "/Gallery/makeathon6.JPG"
+  },
+  {
+    "title": "Makeathon7",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ullam in facilis quibusdam ex beatae consectetur qui quis itaque nostrum deleniti alias, odit quaerat vel, quasi quidem neque. Dolorum, atque?",
+    "image": "/Gallery/makeathon6.JPG"
+  }
+]

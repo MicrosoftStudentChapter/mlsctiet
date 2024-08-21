@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+@font-face {
+  font-family: sprat;
+  src: url('./assets/Sprat-Regular.otf');
+}
+
+.Event_container{
+  height:100vh;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.sideone{
+  width: 100%;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-family: sprat;
+  color: white;
+  font-size: 3em;
+  font-weight: lighter;
+  /* margin: 2vh; */
+}
+
+.bluetext{
+  font-family: "DM Mono", monospace;
+  color:#3498db;
+  font-weight:italics;
+}
+
+.description{
+  font-family: "DM Mono", monospace;
+  /* margin: 2vh; */
+  color: white;
+  width:fit-content;
+}
+
+.sidetwo{
+  width:100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.picborder{
+  position: absolute;
+  border: 2px solid white;
+  height:40vh;
+  width:60%;
+  /* margin-bottom:5vh;
+  margin-left:5vh; */
+}
+
+.image {
+  z-index: 0;
+  height: 40vh;
+  width: 60%;
+  /* margin-top: 5vh;
+  margin-right: 5vh; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
