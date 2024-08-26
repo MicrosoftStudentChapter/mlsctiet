@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+@font-face {
+  font-family: sprat;
+  src: url('./assets/Sprat-Regular.otf');
+}
+
 .main {
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+}
+
+.text{
+  color: white;
+  font-family: sprat;
 }
 
 .slider {
