@@ -1,0 +1,88 @@
+
+[
+    {
+      "name": "Adamay Mann",
+      "role": "General Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,w_2500,h_3400,x_1748,y_593/v1689152667/alumni_page/2022/IMG_5270_ysqcpb.jpg",
+      "alt": "Adamay Mann",
+      "linkedin": "https://www.linkedin.com/in/adamaymann7/"
+    },
+    {
+      "name": "Shivansh Kapoor",
+      "role": "Financial Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,w_2500,h_3401,x_1779,y_600/v1689152672/alumni_page/2022/IMG_5309_sej6ag.jpg",
+      "alt": "Shivansh Kapoor",
+      "linkedin": "https://www.linkedin.com/in/shivansh-kapoor-2135231b9/"
+    },
+  
+    {
+      "name": "Shreya Chopra",
+      "role": "Joint Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,w_2500,h_3401,x_1790,y_600/v1689152675/alumni_page/2022/IMG_5298_z5znda.jpg",
+      "alt": "Shreya Chopra",
+      "linkedin": "https://www.linkedin.com/in/shreya-chopra-43a112200/"
+    },
+    {
+      "name": "Anannya Singh",
+      "role": "Joint Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,w_2500,h_3401,x_1816,y_600/v1689152666/alumni_page/2022/IMG_5304_uu01w7.jpg",
+      "alt": "Anannya Singh",
+      "linkedin": "https://www.linkedin.com/in/anannyasingh/"
+    },
+    {
+      "name": "Rudransh Arora",
+      "role": "Joint Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,w_2500,h_3602,x_1848,y_399/v1689152669/alumni_page/2022/IMG_5279_ornwul.jpg",
+      "alt": "Rudransh Arora",
+      "linkedin": "https://www.linkedin.com/in/rudransh-arora/"
+    },
+    {
+      "name": "Meharamt Singh",
+      "role": "Joint Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,w_2500,h_3700,x_1896,y_300/v1689152667/alumni_page/2022/IMG_5367_rpkhap.jpg",
+      "alt": "Meharamt Singh",
+      "linkedin": "https://www.linkedin.com/in/meharamt-singh/"
+    },
+    {
+      "name": "Mitesh Jindal",
+      "role": "Technical Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,w_2500,h_3601,x_1801,y_400/v1689152673/alumni_page/2022/IMG_5276_ivcvtj.jpg",
+      "alt": "Mitesh Jindal",
+      "linkedin": "https://www.linkedin.com/in/miteshjindal/"
+    },
+    {
+      "name": "Yamini Bansal",
+      "role": "Creativity Head",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,w_2500,h_3401,x_1748,y_600/v1689152672/alumni_page/2022/IMG_5353_axwfdd.jpg",
+      "alt": "Yamini Bansal",
+      "linkedin": "https://www.linkedin.com/in/yamini-bansal-4037301bb/"
+    },
+    {
+      "name": "Khushi Prasad",
+      "role": "Event Management Head",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,w_2500,h_3401,x_1774,y_600/v1689152667/alumni_page/2022/IMG_5308_oktaxo.jpg",
+    "alt": "Khushi Prasad",
+      "linkedin": "https://www.linkedin.com/in/khushiprasad/"
+    },
+    {
+        "name": "Anamika Srivastava",
+      "role": "Content Head",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,w_2500,h_3403,x_1926,y_598/v1689152670/alumni_page/2022/IMG_5323_jnefbv.jpg",
+      "alt": "Anamika Srivastava",
+      "linkedin": "https://www.linkedin.com/in/itsanamika/"
+    },
+    {
+        "name": "Neha Agarwal",
+      "role": "Publicity Head",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,w_2500,h_3402,x_1733,y_599/v1689152674/alumni_page/2022/IMG_5376_ul7icn.jpg",
+      "alt": "Neha Agarwal",
+      "linkedin": "https://www.linkedin.com/in/neha-agarwal-7807581b9/"
+    },
+    {
+        "name": "Kunal Demla",
+      "role": "Design Head",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,w_2600,h_3700,x_2168,y_300/v1689152673/alumni_page/2022/IMG_5284_wffssi.jpg",
+      "alt": "Kunal Demla",
+      "linkedin": "https://www.linkedin.com/in/kunaldemla/"
+    }
+  ]

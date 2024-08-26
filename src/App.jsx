@@ -4,6 +4,7 @@ import LandingPage from "./Pages/LandingPage";
 import OurTeam from "./Pages/OurTeam";
 import Alumni from "./Pages/Alumni";
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AboutUs from "./Pages/AboutUs";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavbarI from "./Components/NavbarI/NavbarI";

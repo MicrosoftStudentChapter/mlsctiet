@@ -1,0 +1,100 @@
+
+[
+    {
+      "name": "Apoorva",
+      "role": "General Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,g_face,h_1.00,w_0.50/alumni_page/2024/gzqbeg8c5ygut0tfywqs.jpg",
+      "alt": "Apoorva Didi",
+      "linkedin": "https://www.linkedin.com/in/apoorva11/"
+    },
+    {
+      "name": "Utkarsh Tripathi",
+      "role": "Financial Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/v1720785210/alumni_page/2024/pmwm7fcdshkkrszyuqo6.png",
+      "alt": "Utkarsh Tripathi",
+      "linkedin": "https://www.linkedin.com/in/utkarsh-tripathi-80a0ab192/"
+    },
+    {
+      "name": "Aryan Garg",
+      "role": "Joint Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/v1720785160/alumni_page/2024/tmja3fgainncgkqvkpht.png",
+      "alt": "Aryan Garg",
+      "linkedin": "https://www.linkedin.com/in/aryangarg401/"
+    },
+    {
+      "name": "Sukhmani Arora",
+      "role": "Joint Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/v1721301963/alumni_page/2024/yv6i5lz4kknpj2fgx8yb.jpg",
+      "alt": "Sukhmani Arora",
+      "linkedin": "https://www.linkedin.com/in/arora-sukhmani/"
+    },
+    {
+      "name": "Ikshan Bhardwaj",
+      "role": "Joint Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,g_center,h_1.00,w_0.70/alumni_page/2024/fkxlme1b2ts5mb2mho44.jpg",
+      "alt": "Ikshan Bhardwaj",
+      "linkedin": "https://www.linkedin.com/in/ikshan-bhardwaj/"
+    },
+    {
+      "name": "Nimish Medatwal",
+      "role": "Joint Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/v1720785085/alumni_page/2024/o5y75rjcq1juzhynbcbd.png",
+      "linkedin": "https://www.linkedin.com/in/nimishmedatwal/"
+    },
+    {
+      "name": "Uday Beswal",
+      "role": "Technical Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/v1721297007/alumni_page/2024/wm4numfu72kdsswglwov.jpg ",
+      "alt": "Uday Beswal",
+      "linkedin": "https://www.linkedin.com/in/uday-beswal-64a68a229/"
+    },
+    {
+      "name": "Akshat Jaimini",
+      "role": "Technical Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,g_auto,h_1000,w_600/alumni_page/2024/xrgsuqnor6wvroqnx3u2.jpg",
+      "alt": "Akshat Jaimini",
+      "linkedin": "https://www.linkedin.com/in/akshat-jaimini-05a610203/"
+    },
+    {
+      "name": "Prakriti Garg",
+      "role": "Creativity&Design Head",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/v1720785366/alumni_page/2024/pmnctbuxvmw6u5ekpbav.jpg",
+      "alt": "Prakriti Garg",
+      "linkedin": "https://www.linkedin.com/in/prakriti-garg18/"
+    },
+    {
+      "name": "Vishist Bhagabati",
+      "role": "Event Management Head",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/v1720785023/alumni_page/2024/swzvmhkxajgcftigymaz.png",
+    "alt": "Vishist Bhagabati",
+      "linkedin": "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAADjU5xwB7xYpmyhSFcY_pMaK48dwyU6EqGQ&keywords=vishist bhagabati&origin=RICH_QUERY_SUGGESTION&position=0&searchId=ab10670f-17d5-4e62-921e-51e4a03654a7&sid=%3BDv&spellCorrectionEnabled=false"
+    },
+    {
+        "name": "Sehaj Jot Singh",
+      "role": "Marketing Head",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,g_auto,h_0.60,w_0.50/alumni_page/2024/nggv2jcwaj7emzvurmet.jpg",
+      "alt": "Sehaj Jot Singh",
+      "linkedin": "https://www.linkedin.com/in/sehaj-jot-singh/"
+    },
+    {
+        "name": "Dhruv Bansal",
+      "role": "Head of Public Relations",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,g_auto,h_0.70,w_0.75/alumni_page/2024/znlb88xujvxjzllwbmqd.jpg",
+      "alt": "Dhruv Bansal",
+      "linkedin": "https://www.linkedin.com/in/dhruv-bansal-348141229/"
+    },
+    {
+        "name": "Tithi Srivastava",
+      "role": "UI/UX Head",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,g_auto,h_0.50,w_0.40/alumni_page/2024/m2xkzlnpv086y76exfs9.jpg",
+      "alt": "Tithi Srivastava",
+      "linkedin": "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAADfN5oAByMJLdakaP5sydC-e5xezMWp1wYk&keywords=tithi srivastava&origin=RICH_QUERY_SUGGESTION&position=0&searchId=42b73015-19a0-4a26-a629-45a95e69adf3&sid=xcp&spellCorrectionEnabled=false"
+    },
+    {
+        "name": "Chetandeep Singh",
+      "role": "Logistics Head",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/c_crop,g_auto,h_0.40,w_0.40/alumni_page/2024/lyhhfbo9fvtpwqxkyoei.jpg",
+      "alt": "Chetandeep Singh",
+      "linkedin": "https://www.linkedin.com/in/chetandeep-singh-0b326021b/"
+    }
+  ]
