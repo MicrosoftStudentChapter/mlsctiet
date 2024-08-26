@@ -10,16 +10,24 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
     "@react-three/drei": "^9.107.2",
     "@react-three/fiber": "^8.16.8",
+    "core-js": "^3.37.1",
+    "gsap": "^3.12.5",
+    "jquery": "^3.7.1",
+    "jquery-mousewheel": "^3.1.13",
     "react": "^18.3.1",
     "react-detect-click-outside": "^1.1.7",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
     "react-remove-scroll-bar": "^2.3.6",
     "react-router-dom": "^6.24.0",
+    "react-scroll": "^1.9.0",
+    "react-skroll": "^0.7.3",
     "react-tooltip": "^5.27.0",
     "three": "^0.166.1"
+    "require-context": "^1.1.0",
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

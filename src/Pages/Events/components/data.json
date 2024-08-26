@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Makeathon 6",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ullam in facilis quibusdam ex beatae consectetur qui quis itaque nostrum deleniti alias, odit quaerat vel, quasi quidem neque. Dolorum, atque?",
+    "image": "/Events/Makeathon6.png"
+  },
+  {
+    "title": "Techmeet 2023",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ullam in facilis quibusdam ex beatae consectetur qui quis itaque nostrum deleniti alias, odit quaerat vel, quasi quidem neque. Dolorum, atque?",
+    "image": "/Events/Techmeet2023.png"
+  },
+  {
+    "title": "Google Speaker Session",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ullam in facilis quibusdam ex beatae consectetur qui quis itaque nostrum deleniti alias, odit quaerat vel, quasi quidem neque. Dolorum, atque?",
+    "image": "/Events/GoogleSession.png"
+  }
+]

@@ -3,7 +3,7 @@ nav {
     width: max-content;
     display: block;
     padding: 0.7rem 4rem;
-    z-index: 5;
+    z-index: 10001;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -12,7 +12,8 @@ nav {
     gap: 2rem;
     backdrop-filter: blur(15px);
     border-radius: 50px;
-    border: 1px solid #ea638c;
+    /* border: 1px solid #ea638c; */
+    border: 1px solid #0078d4;
 }
 
 nav a {
@@ -29,11 +30,13 @@ nav a:hover {
 nav a.active {
     color: white;
     border-radius: 50%;
-    background-color: #ea638c;
+    /* background-color: #ea638c; */
+    background-color: #0078d4;
 }
 
 .active1 {
-    background-color: #ea638c;
+    /* background-color: #ea638c; */
+    background-color: #0078d4;
 }
 
 .show-on-phone {
@@ -53,7 +56,8 @@ nav a.active {
     left: -36px;
     z-index: 1;
     border-radius: 10px;
-    border: 1px solid #ea638c;
+    /* border: 1px solid #ea638c; */
+    border: 1px solid #0078d4;
     background: #4c4b4b69;
 }
 

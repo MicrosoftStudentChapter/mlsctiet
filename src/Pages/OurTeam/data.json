@@ -2,295 +2,580 @@
     "core": [
         {
             "key": "1",
-            "naam": "Aarav Dudeja"
+            "naam": "Aarav Dudeja",
+            "linkedin_acc": "https://www.linkedin.com/in/aarav-dudeja-0290711bb/"
         },
         {
             "key": "2",
-            "naam": "Akshat Nathani"
+            "naam": "Akshat Nathani",
+            "linkedin_acc": "https://www.linkedin.com/in/akshatnathani/"
         },
         {
             "key": "3",
-            "naam": "Arjun Angirus"
+            "naam": "Arjun Angirus",
+            "linkedin_acc": "https://www.linkedin.com/in/arjun-angirus-1986a2286/"
         },
         {
             "key": "4",
-            "naam": "Harshit Arora"
+            "naam": "Harshit Arora",
+            "linkedin_acc": "https://www.linkedin.com/in/harshit-arora-here/"
         },
         {
             "key": "5",
-            "naam": "Jeevant Verma"
+            "naam": "Jeevant Verma",
+            "linkedin_acc": "https://www.linkedin.com/in/jeevant-verma-8a7096297"
         },
         {
             "key": "6",
-            "naam": "Krish Bansal"
+            "naam": "Krish Bansal",
+            "linkedin_acc": "https://www.linkedin.com/in/krish-bansal-/"
         },
         {
             "key": "7",
-            "naam": "Lakshay Singla"
+            "naam": "Lakshay Singla",
+            "linkedin_acc": "https://www.linkedin.com/in/lakshay-singla-2ab9ba289/"
         },
         {
             "key": "8",
-            "naam": "Manan Garg"
+            "naam": "Manan Garg",
+            "linkedin_acc": "https://www.linkedin.com/in/manan-garg11/"
         },
         {
             "key": "9",
-            "naam": "Mannat Miglani"
+            "naam": "Mannat Miglani",
+            "linkedin_acc": "https://www.linkedin.com/in/mannat-kaur-miglani-75a365277/"
         },
         {
             "key": "10",
-            "naam": "Nitya Gupta"
+            "naam": "Nitya Gupta",
+            "linkedin_acc": "https://www.linkedin.com/in/nitya-gupta-394203273/"
         },
         {
             "key": "11",
-            "naam": "Noor Mangewala"
+            "naam": "Noor Mangewala",
+            "linkedin_acc": "https://www.linkedin.com/in/noor-mangewala-69b18929b/"
         },
         {
             "key": "12",
-            "naam": "Pawandeep Gill"
+            "naam": "Pawandeep Gill",
+            "linkedin_acc": "https://www.linkedin.com/in/pawandeep-singh-gill-883772293/"
         },
         {
             "key": "13",
-            "naam": "Preetinder Badhesha"
+            "naam": "Preetinder Badhesha",
+            "linkedin_acc": "https://www.linkedin.com/in/preetinder-singh-badesha/"
         },
         {
             "key": "14",
-            "naam": "Purnika Malhotra"
+            "naam": "Purnika Malhotra",
+            "linkedin_acc": "https://www.linkedin.com/in/purnika-malhotra-8b649729a/"
         },
-        
-        
         {
             "key": "15",
-            "naam": "Sanyam Wadhwa"
+            "naam": "Sanyam Wadhwa",
+            "linkedin_acc": "https://www.linkedin.com/in/sanyam-wadhwa-688b8529a/"
         },
         {
             "key": "16",
-            "naam": "Vaibhavi Jain"
+            "naam": "Vaibhavi Jain",
+            "linkedin_acc": "https://www.linkedin.com/in/vaibhavi-jain-8a674429b/"
         },
         {
             "key": "17",
-            "naam": "Vanshika Goel"
+            "naam": "Vanshika Goel",
+            "linkedin_acc": "https://www.linkedin.com/in/vanshika-goel-9b8635287/"
         },
         {
             "key": "18",
-            "naam": "Vishnu Prasad"
+            "naam": "Vishnu Prasad",
+            "linkedin_acc": "https://www.linkedin.com/in/vishnu-prasad-833404214/"
         },
         {
             "key": "19",
-            "naam": "Yuvansh Pathak"
+            "naam": "Yuvansh Pathak",
+            "linkedin_acc": "https://www.linkedin.com/in/yuvansh-pathak/"
         }
         
         
     ],
     "secretaries": [
         {
-            "title": "Apoorva",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689232312/MLSC_WEBSITE/rsz_12rsz_18_one3qy_j48pzq.png",
-            "linkedin_acc": "https://www.linkedin.com/in/apoorva11/"
+            "title": "",
+            "img": "",
+            "linkedin_acc": ""
         },
         {
-            "title": "Utkarsh Tripathi",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689237227/MLSC_WEBSITE/rsz_comapplepasteboardqfg9za_dnohww_yo5d51.png",
-            "linkedin_acc": "https://www.linkedin.com/in/utkarsh-tripathi-80a0ab192/"
+            "title": "Tanmay Mann",
+            "img": "EB-Photos/Tanmay_Mann.png",
+            "linkedin_acc": "https://www.linkedin.com/in/tanmay-mann-9990ba255/"
         },
         {
-            "title": "Aryan Garg",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689233546/MLSC_WEBSITE/rsz_1_giy5fk_m8ocby.png",
-            "linkedin_acc": "https://www.linkedin.com/in/aryangarg401/"
+            "title": "Agrim Goyal",
+            "img": "EB-Photos/Agrim_Goyal.png",
+            "linkedin_acc": "https://www.linkedin.com/in/agrimgoyal/"
         },
         {
-            "title": "Sukhmani Arora",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689236895/MLSC_WEBSITE/rsz_copy_of_sukhmanidi_2x_j5iwrf_t9jz2p.png",
-            "linkedin_acc": "https://www.linkedin.com/in/arora-sukhmani/"
+            "title": "",
+            "img": "",
+            "linkedin_acc": ""
         },
         {
-            "title": "Ikshan Bhardwaj",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689261155/MLSC_WEBSITE/ikshan-resize-preview_p5o4nf.png",
-            "linkedin_acc": "https://www.linkedin.com/in/ikshan-bhardwaj/"
+            "title": "Preksha Jain",
+            "img": "EB-Photos/Preksha_Jain.png",
+            "linkedin_acc": "https://www.linkedin.com/in/preksha-jain21/"
         },
         {
-            "title": "Nimish Medatwal",
-            "img": "https://res.cloudinary.com/dy1pmolax/image/upload/v1689323676/team_page/Untitled_500_788_px_zg2d1s.png",
-            "linkedin_acc": "https://www.linkedin.com/in/nimishmedatwal/"
+            "title": "Prisha Kandhari",
+            "img": "EB-Photos/Prisha_Kandhari.png",
+            "linkedin_acc": "https://www.linkedin.com/in/prisha-kandhari/"
         },
         {
-            "title": "Uday Beswal",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689238386/MLSC_WEBSITE/rsz_4_skkkrd_byzsna.png",
-            "linkedin_acc": "https://www.linkedin.com/in/uday-beswal-64a68a229/"
+            "title": "Dev Mehta",
+            "img": "EB-Photos/Dev_Mehta.png",
+            "linkedin_acc": "https://www.linkedin.com/in/dev-mehta-089a86264/"
         },
         {
-            "title": "Akshat Jaimini",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689322310/MLSC_WEBSITE/rsz_jai-removebg-preview_xbgbj4.png",
-            "linkedin_acc": "https://www.linkedin.com/in/akshat-jaimini-05a610203/"
+            "title": "Jahanvi Srivastava",
+            "img": "EB-Photos/Jahanvi_Srivastava.png",
+            "linkedin_acc": "https://www.linkedin.com/in/jahanvi-srivastava-59b68724b/"
         }
+        
     ],
     "heads": [
         {
-            "title": "Prakriti Garg",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689239189/MLSC_WEBSITE/rsz_img-20230615-wa0004-removebg-preview_nalcj1_kqdjak.png",
-            "linkedin_acc": "https://www.linkedin.com/in/prakriti-garg18/"
+            "title": "Navdeep Singh Sidhu",
+            "img": "EB-Photos/Navdeep_Singh_Sidhu.png",
+            "linkedin_acc": "https://www.linkedin.com/in/navdeep-singh-sidhu/"
         },
         {
-            "title": "Vishist Bhagabati",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689239306/MLSC_WEBSITE/rsz_7_d287x0_h0thic.png",
-            "linkedin_acc": "https://www.linkedin.com/in/vishist-bhagabati-738398227/"
+            "title": "Mankirat Singh",
+            "img": "EB-Photos/Mankirat_Singh.png",
+            "linkedin_acc": "https://www.linkedin.com/in/mankiratsingh1315/"
         },
         {
-            "title": "Sehaj Jot Singh",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689437272/MLSC_WEBSITE/swipe_2_1_vqnxvq.png",
-            "linkedin_acc": "https://www.linkedin.com/in/sehaj-jot-singh-164869245/"
+            "title": "Krishnam Agarwal",
+            "img": "EB-Photos/Krishnam_Agarwal.png",
+            "linkedin_acc": "https://www.linkedin.com/in/krishnam-agarwal-a79906264/"
         },
         {
-            "title": "Dhruv Bansal",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689239763/MLSC_WEBSITE/rsz_dhruvbhaiya_2x_as18dd_nvi6od.png",
-            "linkedin_acc": "https://www.linkedin.com/in/dhruv-bansal-348141229/"
+            "title": "Palakpreet Kaur",
+            "img": "EB-Photos/Palakpreet_Kaur.png",
+            "linkedin_acc": "https://www.linkedin.com/in/palakpreet-kaur-01a999250/"
         },
         {
-            "title": "Tithi Srivastava",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689437468/MLSC_WEBSITE/grid_landscape_kscete.png",
-            "linkedin_acc": "https://www.linkedin.com/in/tithi-srivastava-000666221/"
+            "title": "",
+            "img": "",
+            "linkedin_acc": ""
         },
         {
-            "title": "Chetandeep Singh",
-            "img": "https://res.cloudinary.com/vigkrishna/image/upload/v1689322846/MLSC_WEBSITE/rsz_comapplepasteboardkzedw4_yr0x6i_d1unlh.png",
-            "linkedin_acc": "https://www.linkedin.com/in/chetandeep-singh-0b326021b/"
+            "title": "Ananay Rampal",
+            "img": "EB-Photos/Ananay_Rampal.png",
+            "linkedin_acc": "https://www.linkedin.com/in/ananay-rampal-8746bb259/"
+        },
+        {
+            "title": "Vanika Sahni",
+            "img": "EB-Photos/Vanika_Sahni.png",
+            "linkedin_acc": "https://www.linkedin.com/in/vanika-sahni-668502252/"
+        },
+        {
+            "title": "",
+            "img": "",
+            "linkedin_acc": ""
         }
     ],
-    "executives": [
+    "executives": 
+    [
         {
             "key": 1,
-            "naam": "Abhilasha Tiwari"
+            "naam": "Aartha"
         },
         {
             "key": 2,
-            "naam": "Aditya Sapra"
+            "naam": "Aarushi"
         },
         {
             "key": 3,
-            "naam": "Akhilesh"
+            "naam": "Aarzoo Mehta"
         },
         {
             "key": 4,
-            "naam": "Ananay Rampal"
+            "naam": "Abheet Singh"
         },
         {
             "key": 5,
-            "naam": "Ananya Jindal"
+            "naam": "Aditi"
         },
         {
             "key": 6,
-            "naam": "Ananya"
+            "naam": "Aditya"
         },
         {
             "key": 7,
-            "naam": "Ananya Saluja"
+            "naam": "Ajinkya Hon"
         },
         {
             "key": 8,
-            "naam": "Anirudh Garg"
+            "naam": "Ananya Singh"
         },
         {
             "key": 9,
-            "naam": "Anushka Phogat"
+            "naam": "Aneesh"
         },
         {
             "key": 10,
-            "naam": "Anuvind Walia"
+            "naam": "Aniket Saxena"
         },
         {
             "key": 11,
-            "naam": "Armaan Khan"
+            "naam": "Anishka Chawla"
         },
         {
             "key": 12,
-            "naam": "Arnav Gupta"
+            "naam": "Anushka Srivastava"
         },
         {
             "key": 13,
-            "naam": "Avishi Mittal"
+            "naam": "Anvvi Malik"
         },
         {
             "key": 14,
-            "naam": "Ayushi Rathore"
+            "naam": "Aradhya Agarwal"
         },
         {
             "key": 15,
-            "naam": "Debaditya Barman"
+            "naam": "Archit Aggarwal"
         },
         {
             "key": 16,
-            "naam": "Dev Goyal"
+            "naam": "Armaan Garg"
         },
         {
             "key": 17,
-            "naam": "Harshit"
+            "naam": "Arman Garg"
         },
         {
             "key": 18,
-            "naam": "Kanishk Aggarwal"
+            "naam": "Arman Saini"
         },
         {
             "key": 19,
-            "naam": "Krishnansh Goswami"
+            "naam": "Arnav Joshi"
         },
         {
             "key": 20,
-            "naam": "Parusha"
+            "naam": "Arnav Singh"
         },
         {
             "key": 21,
-            "naam": "Priyanshu Bisht"
+            "naam": "Avneet"
         },
         {
             "key": 22,
-            "naam": "Raghav Jindal"
+            "naam": "Daksh Singh"
         },
         {
             "key": 23,
-            "naam": "Rajat Goyal"
+            "naam": "Daras Kaur"
         },
         {
             "key": 24,
-            "naam": "Rakshith Kashyap"
+            "naam": "Deepesh"
         },
         {
             "key": 25,
-            "naam": "Rohit Arora"
+            "naam": "Devansh Chhabra"
         },
         {
             "key": 26,
-            "naam": "Saanvi"
+            "naam": "Devansh Kashyap"
         },
         {
             "key": 27,
-            "naam": "Samriddh Negi"
+            "naam": "Devansh Wadhwani"
         },
         {
             "key": 28,
-            "naam": "Sanchit"
+            "naam": "Dishavpreet Kaur"
         },
         {
             "key": 29,
-            "naam": "Sarthak Kala"
+            "naam": "Divit"
         },
         {
             "key": 30,
-            "naam": "Suhani Mathur"
+            "naam": "Divyansh Goel"
         },
         {
             "key": 31,
-            "naam": "Uday Pratap Singh Atwal"
+            "naam": "Diya Jain"
         },
         {
             "key": 32,
-            "naam": "Vamshi Raja"
+            "naam": "Eaknoor Singh"
         },
         {
             "key": 33,
-            "naam": "Yuvraj Gupta"
+            "naam": "Ganga Singh"
         },
         {
             "key": 34,
-            "naam": "Yuvraj Saini"
+            "naam": "Garvita Bhatnagar"
+        },
+        {
+            "key": 35,
+            "naam": "Harnoor Singh"
+        },
+        {
+            "key": 36,
+            "naam": "Harshil Walia"
+        },
+        {
+            "key": 37,
+            "naam": "Isha Gupta"
+        },
+        {
+            "key": 38,
+            "naam": "Ishita Bery"
+        },
+        {
+            "key": 39,
+            "naam": "Ishita Goyal"
+        },
+        {
+            "key": 40,
+            "naam": "Ishita Gupta"
+        },
+        {
+            "key": 41,
+            "naam": "Ishita Singh Oberoi"
+        },
+        {
+            "key": 42,
+            "naam": "Jaiditya Abhineet Kapoor"
+        },
+        {
+            "key": 43,
+            "naam": "Jatin Kakkar"
+        },
+        {
+            "key": 44,
+            "naam": "Kanishka"
+        },
+        {
+            "key": 45,
+            "naam": "Karan"
+        },
+        {
+            "key": 46,
+            "naam": "Kaushik Arora"
+        },
+        {
+            "key": 47,
+            "naam": "Kavya Mahajan"
+        },
+        {
+            "key": 48,
+            "naam": "Keval Ambani"
+        },
+        {
+            "key": 49,
+            "naam": "Khushi Agarwal"
+        },
+        {
+            "key": 50,
+            "naam": "Kinjal"
+        },
+        {
+            "key": 51,
+            "naam": "Kusham Lata"
+        },
+        {
+            "key": 52,
+            "naam": "Lahari Reddy"
+        },
+        {
+            "key": 53,
+            "naam": "Lakshay Sharma"
+        },
+        {
+            "key": 54,
+            "naam": "Lakshita Gupta"
+        },
+        {
+            "key": 55,
+            "naam": "Laxmi"
+        },
+        {
+            "key": 56,
+            "naam": "Mehar Walia"
+        },
+        {
+            "key": 57,
+            "naam": "Mehul Luthra"
+        },
+        {
+            "key": 58,
+            "naam": "Mitul Pabri"
+        },
+        {
+            "key": 59,
+            "naam": "Naman Singh"
+        },
+        {
+            "key": 60,
+            "naam": "Neha Garg"
+        },
+        {
+            "key": 61,
+            "naam": "Nehal Malhotra"
+        },
+        {
+            "key": 62,
+            "naam": "Nia Malik"
+        },
+        {
+            "key": 63,
+            "naam": "Nidhi"
+        },
+        {
+            "key": 64,
+            "naam": "Nishesh Singla"
+        },
+        {
+            "key": 65,
+            "naam": "Noor Tandon"
+        },
+        {
+            "key": 66,
+            "naam": "Pallika Malhotra"
+        },
+        {
+            "key": 67,
+            "naam": "Parth Biyani"
+        },
+        {
+            "key": 68,
+            "naam": "Parth Jain"
+        },
+        {
+            "key": 69,
+            "naam": "Pooja Bisht"
+        },
+        {
+            "key": 70,
+            "naam": "Pragati Agarwal"
+        },
+        {
+            "key": 71,
+            "naam": "Pratham Handa"
+        },
+        {
+            "key": 72,
+            "naam": "Pratishtha"
+        },
+        {
+            "key": 73,
+            "naam": "Priyanshi"
+        },
+        {
+            "key": 74,
+            "naam": "Riddhi Jain"
+        },
+        {
+            "key": 75,
+            "naam": "Radhika Singh"
+        },
+        {
+            "key": 76,
+            "naam": "Rajas Bhatnagar"
+        },
+        {
+            "key": 77,
+            "naam": "Saksham Dua"
+        },
+        {
+            "key": 78,
+            "naam": "Saksham Singh"
+        },
+        {
+            "key": 79,
+            "naam": "Saksham Sharma"
+        },
+        {
+            "key": 80,
+            "naam": "Sanil Grover"
+        },
+        {
+            "key": 81,
+            "naam": "Shantanu Singhal"
+        },
+        {
+            "key": 82,
+            "naam": "Simran"
+        },
+        {
+            "key": 83,
+            "naam": "Siya"
+        },
+        {
+            "key": 84,
+            "naam": "Tanya Verma"
+        },
+        {
+            "key": 85,
+            "naam": "Tejasveer Singh Sodhi"
+        },
+        {
+            "key": 86,
+            "naam": "Udita Singh"
+        },
+        {
+            "key": 87,
+            "naam": "Uma Chatterjee"
+        },
+        {
+            "key": 88,
+            "naam": "Vansh Dixit"
+        },
+        {
+            "key": 89,
+            "naam": "Vansh Gumber"
+        },
+        {
+            "key": 90,
+            "naam": "Vansh Gupta"
+        },
+        {
+            "key": 91,
+            "naam": "Vansh Verma"
+        },
+        {
+            "key": 92,
+            "naam": "Vedika Gupta"
+        },
+        {
+            "key": 93,
+            "naam": "Vikas Verma"
+        },
+        {
+            "key": 94,
+            "naam": "Vishard Mehta"
+        },
+        {
+            "key": 95,
+            "naam": "Yash"
+        },
+        {
+            "key": 96,
+            "naam": "Yashi Singh"
+        },
+        {
+            "key": 97,
+            "naam": "Yashika Bhalla"
+        },
+        {
+            "key": 98,
+            "naam": "Zaigham"
         }
     ]
 }
