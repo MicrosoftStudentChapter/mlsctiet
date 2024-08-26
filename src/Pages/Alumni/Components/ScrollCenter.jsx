@@ -7,11 +7,11 @@ import MeetVector from "../Assets/meet_vector.svg";
 
 const imageData = [
   {
-    "src": "https://thaparuniv-my.sharepoint.com/personal/tmann_be22_thapar_edu/Documents/MLSC%20PICS%2023-24/MAKEATHON6/Day%202/DSLR-1/IMG_4281.JPG?csf=1&web=1&e=ylHV7e&CID=fc600aee-c131-4e8a-9749-77d51cfd8c70",
+    "src": "https://res.cloudinary.com/dy1pmolax/image/upload/v1688814166/gallery_page/2019/2_2019_tcxpdt.jpg",
     "alt": "Image 1"
   },
   {
-    "src": "https://thaparuniv-my.sharepoint.com/personal/tmann_be22_thapar_edu/Documents/MLSC%20PICS%2023-24/MAKEATHON6/Day%201/DSLR-1/IMG_6822.JPG?csf=1&web=1&e=kqaHsY&CID=f541a31e-8c68-4947-8ef4-571009e09e29",
+    "src": "https://res.cloudinary.com/dy1pmolax/image/upload/v1688813371/gallery_page/2021/8_Large_prqsdg.jpg",
     "alt": "Image 2"
   },
   {
@@ -19,7 +19,7 @@ const imageData = [
     "alt": "Image 3"
   },
   {
-    "src": "https://thaparuniv-my.sharepoint.com/personal/tmann_be22_thapar_edu/Documents/MLSC%20PICS%2023-24/MAKEATHON6/Day%201/Agrim/PXL_20240224_113420624.MP.jpg?csf=1&web=1&e=cE7BAo&CID=3037b7f8-6c21-4b97-8ca3-213a704a0346",
+    "src": "https://res.cloudinary.com/dy1pmolax/image/upload/v1688813371/gallery_page/2021/9_Large_femzxd.jpg",
     "alt": "Image 4"
   },
   {
@@ -27,7 +27,7 @@ const imageData = [
     "alt": "Image 5"
   },
   {
-    "src": "https://thaparuniv-my.sharepoint.com/personal/tmann_be22_thapar_edu/Documents/MLSC%20PICS%2023-24/Induction%20Day/PXL_20231104_145204437.MP.jpg?csf=1&web=1&e=Z1Pzk7&CID=8ce394be-c6f6-4d47-b4fc-587165caf1f6",
+    "src": "https://res.cloudinary.com/dy1pmolax/image/upload/v1688824564/gallery_page/2022/8_Large_jmcoep.jpg",
     "alt": "Image 6"
   },
   {
