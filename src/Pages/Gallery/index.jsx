@@ -1,11 +1,8 @@
-
-import Bg from "./components/bg"; 
-
-export default function AboutUs(){
+import Gallerypg from "./components/gallery";
+export default function Gallery(){
     return (
-        <div>
-            < Bg/>
-
-        </div>
+        <>
+            <Gallerypg/>
+        </>
     );
 }

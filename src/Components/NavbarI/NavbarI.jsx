@@ -54,16 +54,16 @@ const NavbarI = () => {
                     {/* <Link className={location.pathname === "/team" && 'active1'} onClick={checkClosingDropUp} to={'/team'}>Team</Link> */}
                     {/* <Link className={location.pathname === "/gallery" && 'active1'} onClick={checkClosingDropUp} to={'/gallery'}>Gallery</Link> */}
                     <Link className={location.pathname === "/sponsors" && 'active1'} onClick={checkClosingDropUp} to={'/sponsors'}>Sponsors</Link>
-                    <Link className={location.pathname === "/gallery" && 'active1'} onClick={checkClosingDropUp} to={'/gallery'}>Gallery</Link>
+                    {/* <Link className={location.pathname === "/gallery" && 'active1'} onClick={checkClosingDropUp} to={'/gallery'}>Gallery</Link> */}
                     <Link style={{ borderBottomRightRadius: '10px', borderBottomLeftRadius: '10px' }} className={location.pathname === "/team" && 'active1'} onClick={checkClosingDropUp} to={'/team'}>Team</Link>
                 </div>
             </a>
             <Link data-tooltip-content="Events" className={`hide-on-phone my-anchor-element ${location.pathname === "/events" && 'active'}`} to={'/events'}>
                 <BsCalendarEvent size={25} />
             </Link>
-            <Link data-tooltip-content="Gallery" className={`hide-on-phone my-anchor-element ${location.pathname === "/gallery" && 'active'}`} to={'/gallery'}>
+            {/* <Link data-tooltip-content="Gallery" className={`hide-on-phone my-anchor-element ${location.pathname === "/gallery" && 'active'}`} to={'/gallery'}>
                 <RiGalleryLine size={25} />
-            </Link>
+            </Link> */}
             <Link data-tooltip-content="Team" className={`hide-on-phone my-anchor-element ${location.pathname === "/team" && 'active'}`} to={'/team'}>
                 <RiTeamFill size={25} />
             </Link>

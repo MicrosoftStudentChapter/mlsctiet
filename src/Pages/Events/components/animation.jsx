@@ -55,22 +55,10 @@ function handleDrag(e){
     gsap.to(`.${ring}`, {
       duration: 1,
       onComplete: () => { ist = 0; },
-      rotationX: '-=' +( (Math.round(e.clientY)-yPos)>0? ((348/n) % 360) : (-(348/n) % 360)),
+      rotationX: '-=' +( (Math.round(e.clientY)-yPos)>0? (-(348/n) % 360) : ((348/n) % 360)),
     });
     console.log((Math.round(e.clientY)-yPos));
   }
-  yPos = Math.round(e.clientY);
-}
-
-
-function drag(e){
-  if (e.touches) e.clientY = e.touches[0].clientY;    
-
-  gsap.to(`.${ring}`, {
-    rotationX: '-=' +( (Math.round(e.clientY)-yPos)>0? ((348/n) % 360) : (-(348/n) % 360)),
-    onUpdate:()=>{ gsap.set(`.${ind}`, { backgroundPosition:(i)=>getBgPos(i) }) }
-  });
-  
   yPos = Math.round(e.clientY);
 }
 
@@ -81,7 +69,7 @@ function dragEnd(e){
 }
 
 
-function getBgPos(i){ //returns the background-position string to create parallax movement in each image
+function getBgPos(i){
   return '0px ' + ( 100-gsap.utils.wrap(0,360,gsap.getProperty('.ring', 'rotationX')-180-i*36)/360*500 )+'px';
 }
 
