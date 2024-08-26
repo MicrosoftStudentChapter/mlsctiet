@@ -11,11 +11,11 @@
   box-sizing: border-box;
 }
 
-html {
+/* html {
   font-size: 62.5%;
-}
+} */
 
-body {
+/* body {
   width: 100vw;
   min-height: 100vh;
   
@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .container {
   position: relative;

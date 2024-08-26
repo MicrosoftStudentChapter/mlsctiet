@@ -2,10 +2,10 @@
     font-family: dmMono;
     src: url(../assets/DMMono-Regular.ttf);
 }
-body{
+/* body{
     position: fixed;
     background-color: #1e1e1e;
-}
+} */
 .parent{
     display: flex;
 }
