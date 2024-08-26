@@ -26,8 +26,8 @@
     "react-scroll": "^1.9.0",
     "react-skroll": "^0.7.3",
     "react-tooltip": "^5.27.0",
-    "three": "^0.166.1"
-    "require-context": "^1.1.0",
+    "three": "^0.166.1",
+    "require-context": "^1.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
