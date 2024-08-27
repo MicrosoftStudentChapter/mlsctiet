@@ -1,4 +1,4 @@
-import Carousel from "react-spring-3d-carousel-2";
+import Carousel from "react-spring-3d-carousel";
 import { useState, useEffect } from "react";
 import { config } from "react-spring";
 
