@@ -1,8 +1,8 @@
 /*-----This File Is For Graphics----- */
 import React from "react";
-import styles from "./../Style/ourteam.module.css";
-import image7 from "./../Assets/image7.png";
-import group59 from "./../Assets/Group59.png";
+import styles from "../Style/ourteam.module.css";
+import image7 from "../Assets/image7.png";
+import group59 from "../Assets/Group59.png";
 const Graphics = () => {
     return (
         <div className={styles.graphicsdiv}>
