@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Makeathon 6",
+    "description": "MLSC is poised to showcase its prowess through its upcoming mega flagship event, Makethon6, slated for the end of February. This eagerly anticipated event promises to be a showcase of ingenuity, where students will come together to ideate, innovate, and create solutions to real-world problems, cementing MLSC's reputation as a hub for budding technocrats and visionaries.",
+    "image": "/Events/Makeathon6.png"
+  },
+  {
+    "title": "Techmeet 2023",
+    "description": "Tech Meet is a event, which consist of various workshops for developing the technical aspect of students and make them learn newer technologies like Ethical Hacking, Game Development, Machine learning and artificial intelligence, Web development and many more.",
+    "image": "/Events/Techmeet2023.png"
+  },
+  {
+    "title": "Google Speaker Session",
+    "description": "An immersive speaker session designed to ignite your curiosity and fuel your passion for tech. A captivating intellectual adventure with the highly skilled Mr. Akshat Mohan Awasthi as he immerses himself in the comprehensive study of cloud computing.",
+    "image": "/Events/GoogleSession.png"
+  }
+]

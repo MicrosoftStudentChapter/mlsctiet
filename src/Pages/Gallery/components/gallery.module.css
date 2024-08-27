@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+@font-face {
+  font-family: sprat;
+  src: url('./assets/Sprat-Regular.otf');
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.text{
+  color: white;
+  font-family: sprat;
+}
+
+.slider {
+  width: 100%;
+  height: 64vh;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 10% 90%,
+    transparent
+  );
+  display: flex;
+}
+
+.list {
+  display: flex;
+  width: 100%;
+  min-width: calc(var(--width) * var(--quantity));
+  position: relative;
+  align-items: center;
+}
+
+.border {
+  width: 380px;
+  height: 260px;
+  border: 2px solid #ffffff;
+  position: absolute;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  margin-left: 20px;
+  margin-top: 10px;
+  z-index: -10;
+  border-bottom-right-radius: 20px;
+}
+
+.item {
+  position: absolute;
+  width: var(--width);  
+  left: 100%;
+  padding-top: 20px;
+  padding-right: 20px;
+  animation: autoRun 50s linear infinite;
+  transition: filter 0.5s, transform 0.3s ease; /* Add transform to transition */
+  animation-delay: calc((50s / var(--quantity)) * (var(--position) - 1) - 50s) !important;
+  transform: translateY(calc(var(--offset) * 50px));
+}
+
+.item img {
+  width: 100%;
+}
+
+@keyframes autoRun {
+  from {
+    left: 100%;
+  }
+  to {
+    left: calc(var(--width) * -1);
+  }
+}
+
+.slider:hover .item {
+  animation-play-state: paused !important;
+  filter: grayscale(1);
+}
+
+.slider .item:hover {
+  filter: grayscale(0);
+}
+
+.slider[reverse="true"] .item {
+  animation: reversePlay 50s linear infinite;
+}
+
+@keyframes reversePlay {
+  from {
+    left: calc(var(--width) * -1);
+  }
+  to {
+    left: 100%;
+  }
+}
+@media screen and (max-width:450px){
+  .item img{
+    width: 79%;
+  }
+  .border{
+    width: 297px;
+    height: 210px;
+  }
+}

@@ -1,0 +1,257 @@
+@font-face {
+    font-family: Sprat;
+    src: url(C:\Users\purni\OneDrive\Desktop\mlscfolder\mlsctiet\src\Pages\Alumni\Assets\zingalalahuhu.otf);
+}
+
+.scrollDiv {
+    width: 92vw;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    height: 80vh;
+    position: fixed;
+    top: 60px;
+    right: 70px;
+    justify-content: center;
+}
+
+
+.image {
+    width: 30vw;
+    background-color: rgb(207, 149, 75);
+    border: 2px solid #1e1e1e;
+    height: 25vh;
+    z-index: 1;
+    display: flex;
+}
+
+.image img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.meow {
+    border-radius: 12px;
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    z-index: 1;
+    gap: 0;
+}
+
+.Alumnicap {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 41vw;
+    height: 26vh;
+    background-color: #1e1e1e;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 12px;
+    position: relative;
+    bottom: 25.75vh;
+    z-index: 1;
+    overflow: hidden; 
+}
+
+.Alumnicap img {
+    width: auto;
+    margin-top: 10%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain; 
+}
+
+.meetAlumni{
+    margin-top: 2.5%; 
+    margin-bottom: 8%; 
+    margin-left: 5%; 
+    max-width: 40vw;
+    max-height: 10vh;
+}
+
+.meetAlumni img{ 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.hl {
+    border: #f4efef 0.25px solid;
+    width: 13vw;
+    height: 1px;
+    top: 150%;
+    left: 50%;
+    transform: translate(-141%, 11975%);
+   
+}
+
+.vl {
+    border-left: #FFF6F6 2px solid;
+    height: 14vh;
+    width: 13px;
+    top: 50%;
+    transform: translate(440%,77%);
+}
+
+.caption {
+    top: 50%;
+    left: 50%;
+    transform: translate(20%, 43%);
+    font-size: 75px;
+    font-family: Sprat;
+    color: #FFF6F6;
+}
+
+.scrollDiv::-webkit-scrollbar {
+    display: none;
+}
+
+.one {
+    width: inherit;
+    height: 70vh;
+    background-color: brown;
+}
+
+.two {
+    width: inherit;
+    height: 70vh;
+    background-color: rgb(42, 165, 71);
+}
+
+.three {
+    width: inherit;
+    height: 70vh;
+    background-color: rgb(165, 155, 42);
+}
+
+.start {
+   width: inherit;
+    height: 75vh;
+}
+
+@media (max-width: 830px) {
+    .start {
+      display: none;
+    }
+  } 
+
+@media (min-width :830px) and (max-width:975px) {
+    .hl{
+        border: #f4efef 0.25px solid;
+        width: 13vw;
+        height: 1px;
+        top: 150%;
+        left: 50%;
+        transform: translate(-125%, 12475%);
+       
+    }
+    .vl {
+        border-left: #FFF6F6 2px solid;
+        height: 9vh;
+        width: 13px;
+        top: 50%;
+        transform: translate(325%,134%);
+    }
+    .caption {
+        top: 80%;
+        left: 50%;
+        transform: translate(30%, 169%);
+        font-size: 40px;
+        font-family: Sprat;
+        color: #FFF6F6;
+        height: 80px;
+    }
+   
+    
+    
+}
+@media (min-width:975px)  and (max-width:1200px) {
+    .hl{
+        border: #f4efef 0.25px solid;
+        width: 15vw;
+        height: 1px;
+        top: 150%;
+        left: 50%;
+        transform: translate(-135%, 13075%);
+       
+    }
+    .vl {
+        border-left: #FFF6F6 2px solid;
+        height: 9vh;
+        width: 13px;
+        top: 50%;
+        transform: translate(450%,141%);
+    }
+    .caption {
+        top: 80%;
+        left: 50%;
+        transform: translate(30%, 169%);
+        font-size: 58px;
+        font-family: Sprat;
+        color: #FFF6F6;
+        height: 80px;
+    }
+    }
+@media (min-width:1200px) and (max-width : 1400px) {
+    .hl{
+        border: #f4efef 0.25px solid;
+        width: 10vw;
+        height: 1px;
+        top: 150%;
+        left: 50%;
+        transform: translate(-155%, 12375%);
+       
+    }
+    .vl {
+        border-left: #FFF6F6 2px solid;
+        height: 11vh;
+        width: 13px;
+        top: 50%;
+        transform: translate(430%,89%);
+    }
+    .caption {
+        top: 80%;
+        left: 50%;
+        transform: translate(30%, 149%);
+        font-size: 55px;
+        font-family: Sprat;
+        color: #FFF6F6;
+        height: 80px;
+    }
+   }
+   @media (max-width: 1250px) {
+    .start{
+        padding-left: 20px;
+    }
+    
+   }
+   @media (max-width: 1000px) {
+    .start{
+        padding-left: 15px;
+    }
+    .image{
+   width: 29vw;
+    }
+    
+   }
+   @media (max-width: 975px) {
+    .start{
+        padding-left: 35px;
+    }
+    .image{
+        width: 28vw;
+    }
+    
+   }
+   @media (max-width: 830px) {
+    .start{
+        padding-left: 15px;
+    }
+    .image{
+        width: 25vw;
+    }
+    
+   }

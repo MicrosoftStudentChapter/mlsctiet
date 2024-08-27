@@ -2,6 +2,7 @@
 body, html {
 	width: 100%;
 	height: 100%;
+	
 }
 
 .horzMain {
@@ -24,6 +25,8 @@ body, html {
 	border-top: 2px solid rgb(1, 85, 140);
 	background-color: black;
 }
+
+
 .movingGrid {
 	position: absolute;
 	top: -29px;

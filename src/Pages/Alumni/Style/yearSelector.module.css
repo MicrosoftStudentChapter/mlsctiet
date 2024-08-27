@@ -1,0 +1,38 @@
+@font-face {
+  font-family: dmMono;
+  src: url("../Assets/DMMono.ttf");
+}
+
+.yearDiv {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.yearButton {
+  height: 15vh;
+  width: 40px;
+  font-size: 1.5rem;
+  border: 1.5px solid #465058;
+  color: #FFFFFF;
+  font-family: dmMono;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 10px; /* Add space between buttons */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.selected {
+  background-color: #0078D4;
+  color: #000000;
+}

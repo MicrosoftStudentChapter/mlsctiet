@@ -1,0 +1,21 @@
+.mlsclogo {
+  position: absolute;
+  top: 42.5vh;
+  left: 15vw;
+  position: fixed;
+  z-index: 100000;
+}
+
+.image{
+  height: 250px;
+}
+
+@media screen and (max-width: 768px){
+  .image{
+    height: 150px;
+  }
+  .mlsclogo {
+    top: 39vh;
+    left: 9vw;
+  }
+}
