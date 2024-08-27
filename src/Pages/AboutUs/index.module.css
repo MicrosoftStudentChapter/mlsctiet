@@ -18,7 +18,7 @@ body{
 
 .empty{
   width:100%;
-  height:160vh;
+  height:210vh;
 }
 
 @media screen and (max-width: 426px){
