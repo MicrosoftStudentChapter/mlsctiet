@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./../Style/ourteam.module.css";
-import linkedin from "./../Assets/linkedin.png";
+import styles from "../Style/ourteam.module.css";
+import linkedin from "../Assets/linkedin.png";
 import data from "../data.json";
 
 const Card = (props) => {
