@@ -24,10 +24,16 @@ body{
 
 .imageDiv {
   z-index: 2;
-  width: 300px;
-  height: 200px; 
+  width: 400px;
+  height: 300px; 
   border-radius: 10px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+@media screen and (max-width:780px){
+  .imageDiv{
+    height: 200px;
+    width: 300px;
+  }
 }

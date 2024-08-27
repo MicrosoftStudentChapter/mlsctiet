@@ -99,3 +99,12 @@
     left: 100%;
   }
 }
+@media screen and (max-width:450px){
+  .item img{
+    width: 79%;
+  }
+  .border{
+    width: 297px;
+    height: 210px;
+  }
+}

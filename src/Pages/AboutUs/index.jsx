@@ -5,6 +5,7 @@ import MainProject from "./components/mainProject";
 import style from './index.module.css';
 import Animation from './components/animation';
 import Logoani from './components/logoani';
+// import Chatbot from "../../../components/Chatbot/chatbot"
 
 const Images = [
   'https://res.cloudinary.com/dy1pmolax/image/upload/v1723134459/about_page/about1.jpg',
@@ -37,6 +38,7 @@ const Index = () => {
     <>
       {isWindowWideEnough && <Logoani/>}
       <Bg />
+      
       <div className={style.wrapper}>
         <Start />
         {isWindowWideEnough && <Animation imagesURL={Images} />}

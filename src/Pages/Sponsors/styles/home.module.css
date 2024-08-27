@@ -1,0 +1,664 @@
+.main {
+  /* padding-left: 5rem; */
+  background-color: #0d1213;
+  /* width: fit-content; */
+  /* padding-right: 5rem; */
+  max-width: 100%;
+  overflow-x: hidden;
+  animation: fadeIn 1s;
+}
+
+.siteContent {
+  padding: 0 1rem;
+}
+
+.sideBar {
+  width: 4vw;
+  height: 20vw;
+  margin-left: 96vw;
+  margin-bottom: -10vw;
+}
+
+.mySwiper {
+  width: 100vw;
+  height: 30rem;
+
+  /* following are the properties for flex box */
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: nowrap; */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+/* .centre{
+  width: 40vw;
+  height: 40rem;
+} */
+.heading {
+  padding-top: 2rem;
+  text-align: center;
+  color: #fff6eb;
+  font-size: 6rem;
+}
+
+.sponsorUsHead {
+  color: white;
+  font-size: 500%;
+  font-weight: bold;
+  text-align: right;
+  margin-left: 17.5%;
+  margin-right: 10%;
+}
+
+.carousel1 {
+  margin-top: 2rem;
+  width: 50wh;
+  height: 30wh;
+  position: relative;
+  border-radius: 30px;
+  /* following are the properties for flex box */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.spnsrlogo1 {
+  height: 100px;
+  z-index: 4;
+  margin-left: 3rem;
+  width: max-content;
+  align-items: center;
+  vertical-align: center;
+}
+
+.container1 {
+  order: 1;
+  position: relative;
+  flex-basis: 30%;
+  max-width: fit-content;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container2 {
+  order: 3;
+  flex-basis: 55%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4rem;
+}
+
+.container2 h2 {
+  color: #fff6eb;
+  font-size: 2.5vw;
+  max-height: fit-content;
+  padding-right: 1vw;
+}
+
+/* --------------------------- */
+.subheading {
+  font-size: 550%;
+  color: white;
+  padding: 0 1rem;
+}
+
+.listStyle {
+  text-decoration-color: white;
+}
+
+.sponsorText {
+  color: #fa3966;
+  display: inline-block;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+}
+
+.sponsorPara {
+  color: white;
+  display: inline-block;
+  font-size: 130%;
+  padding: 1rem;
+}
+
+.sponsorForm {
+  padding: 2.5vw;
+}
+
+.why {
+  margin-left: -5vw;
+}
+
+.circle {
+  position: absolute;
+  width: 18vw;
+  height: 20vw;
+  margin-top: 5vw;
+  margin-bottom: -15vw;
+}
+
+.submitButton {
+  width: fit-content;
+  background-color: #1f90e6;
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  color: white;
+  border: #fff6eb;
+  align-items: center;
+  margin-bottom: 5.5rem;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.spnsorformsubmit {
+  align-items: center;
+}
+
+.submissionStatus {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-size: larger;
+}
+
+.errormssg {
+  color: red;
+}
+
+.success {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.contactField {
+  color: white;
+  background-color: rgb(25, 24, 24, 0.5);
+  backdrop-filter: blur(5vw);
+  font-size: 1.5vw;
+  margin: 1rem 5vw 1rem 5vw;
+  align-items: center;
+  padding: 1vw;
+  border-radius: 15px;
+  outline-color: rgb(154, 238, 255);
+  display: flex;
+  border-color: rgb(67, 112, 236);
+  border-width: 2px;
+  width: 80vw;
+}
+
+.contactText {
+  color: white;
+  background-color: rgb(25, 24, 24, 0.5);
+  backdrop-filter: blur(5px);
+  align-content: center;
+  /* margin: 1rem; */
+  /* margin: 0 5vw 1rem 5vw; */
+  margin: 1rem 5vw 1rem 5vw;
+  padding: 1rem;
+  border-radius: 15px;
+  outline-color: rgb(154, 238, 255);
+  /* display: flex; */
+  border-color: rgb(67, 112, 236);
+  border-width: 2px;
+  font-size: 1.5vw;
+  width: 80vw;
+  height: 10vw;
+}
+
+
+.whysponsorus {
+  display: flex;
+  flex-direction: row;
+  margin-top: -10%;
+  margin-bottom: -20%;
+  flex-direction: column;
+  width: 100%;
+  height: 1300px;
+  /* background-position-x: right; */
+  background-position-y: 200px;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://res.cloudinary.com/dy1pmolax/image/upload/v1688827338/sponsors_page/.bgsponsors_4x_rcguc3.png");
+
+  background-size: 100% 100%;
+  /* background-origin: border-box; */
+}
+
+.ctContainer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+}
+
+.ctContainer1 {
+  display: flex;
+  flex-basis: 60%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .heading {
+    text-align: center;
+  }
+
+  .sponsorUsHead {
+    text-align: center;
+  }
+
+  .carousel2 img {
+    height: 13vh;
+  }
+
+
+
+  .ctContainer2 {
+    margin-top: 1rem;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ctContainer1 {
+    margin-top: 1rem;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contactField {
+    font-size: 0.7rem;
+  }
+
+  .contactText {
+    font-size: 0.7rem;
+  }
+
+}
+
+
+@media screen and (max-width: 1400px) {
+  .whysponsorus {
+    padding-bottom: 10rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .subheading {
+    font-size: 350%;
+  }
+
+  .submitButton {
+    font-size: 1rem;
+  }
+
+  .whysponsorus {
+    padding-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .whysponsorus {
+    padding-top: 8rem;
+    padding-bottom: 15rem;
+    margin-top: -20%;
+  }
+
+  .subheading {
+    font-size: 300%;
+  }
+}
+
+@media screen and (max-width: 676px) {
+  .heading {
+    font-size: 320%;
+  }
+
+  .whysponsorus {
+    padding-top: 15rem;
+    margin-top: -30%;
+    font-size: 90%;
+  }
+
+  .submitButton {
+    font-size: 0.75rem;
+  }
+
+  .subheading {
+    font-size: 300%;
+    margin-top: -20%;
+  }
+
+  .sponsorUsHead {
+    font-size: 280%;
+    /* text-align: right;
+    margin-left: 800px; */
+    margin-top: -15%;
+  }
+
+  .container1 {
+    margin-right: 7vw;
+  }
+
+  .spnsrlogo1 {
+    height: 8rem;
+  }
+
+  .spnsorformsubmit {
+    padding-left: 0vw;
+  }
+
+  .sponsorForm {
+    padding: 0.1px;
+  }
+
+  .mySwiper {
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+
+  .whysponsorus {
+    padding-top: 12rem;
+    margin-top: -40vh;
+  }
+
+  .submitButton {
+    padding: 0.75rem 1rem;
+  }
+
+  .heading {
+    font-size: 240%;
+  }
+
+  .subheading {
+    font-size: 240%;
+  }
+
+  .sponsorUsHead {
+    font-size: 200%;
+  }
+
+  .sponsorPara {
+    /* padding-left: 0.3rem; */
+    justify-self: flex-end;
+    font-size: 110%;
+  }
+}
+
+@media screen and (max-width: 472px) {
+
+  /* .main {
+    padding-left: 2rem;
+  } */
+  .whysponsorus {
+    padding-top: 15rem;
+    margin-top: -40vh;
+  }
+
+  .heading {
+    font-size: 240%;
+  }
+
+  .subheading {
+    font-size: 200%;
+  }
+
+  .sponsorUsHead {
+    font-size: 200%;
+    margin-top: -30%;
+  }
+
+  .spnsrlogo1 {
+    height: 5rem;
+  }
+
+  .container1 {
+    height: 10rem;
+  }
+
+  .container2 {
+    margin-top: 2rem;
+    /* margin-left: 1rem; */
+    justify-content: center;
+    text-align: center;
+  }
+
+  .sponsorHead {
+    font-size: 40px;
+  }
+
+  .sponsorText {
+    text-align: center;
+  }
+
+  .carousel2 {
+    width: 70vw;
+    height: 43vw;
+    padding-top: 2vh;
+    /* padding-right: 2vw; */
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    /* padding-left: 5vw; */
+    flex-direction: column;
+  }
+
+  .mySwiper {
+    height: 80vh;
+  }
+
+  .carousel2 img {
+    /* margin-top: -90%; */
+    height: fit-content;
+  }
+
+  .contactField {
+    margin: 5px 0 5px 0;
+    padding: 5px;
+  }
+
+  .contactText {
+    margin-top: 5px;
+    width: 73vw;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .heading {
+    font-size: 200%;
+  }
+
+  .whysponsorus {
+    padding-top: 10rem;
+  }
+
+  .subheading {
+    font-size: 180%;
+  }
+
+  .sponsorUsHead {
+    font-size: 160%;
+  }
+
+  .carousel1 {
+    flex-direction: column;
+  }
+
+  .carousel2 img {
+    height: 8vh;
+  }
+
+  .sponsorPara {
+    font-size: 95%;
+  }
+
+  .contactField {
+    margin: 5px 0 5px 0;
+    padding: 5px;
+  }
+
+  .contactText {
+    margin-top: 5px;
+    width: 73vw;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+
+  .heading {
+    font-size: 150%;
+    margin-top: -30%;
+    margin-bottom: -30%;
+  }
+
+  .whysponsorus {
+    /* padding-top: 13rem; */
+    height: 500px;
+    margin-bottom: 15%;
+    margin-top: -80%;
+  }
+
+  .subheading {
+    margin-left: -60%;
+    font-size: 140%;
+    text-align: center;
+    margin-top: 55%;
+    margin-bottom: 10%;
+  }
+
+  .sponsorPara {
+    font-size: 65%;
+    padding: 3%;
+  }
+
+  .contactField {
+    margin: 5px 0 5px 0;
+    padding: 5px;
+  }
+
+  .contactText {
+    margin-top: 5px;
+    width: 73vw;
+  }
+}
+
+@media screen and (max-width: 372px) {
+  .whysponsorus {
+    height: 500px;
+    margin-bottom: 10%;
+    margin-top: -80%;
+  }
+
+  .heading {
+    font-size: 150%;
+    margin-top: -30%;
+  }
+
+  .subheading {
+    margin-left: -60%;
+    font-size: 140%;
+    text-align: center;
+    margin-top: 60%;
+    margin-bottom: 10%;
+  }
+
+  .sponsorUsHead {
+    font-size: 120%;
+    margin-top: -5%;
+    /* margin-left: -10%; */
+  }
+
+  .sponsorPara {
+    font-size: 65%;
+    padding: 3%;
+  }
+
+  .spnsrlogo1 {
+    top: 6vh;
+    left: 16vw;
+    height: 18vw;
+  }
+
+  .container1 {
+    margin-right: 0px;
+    padding: 0 0 0 0;
+  }
+
+
+  .mySwiper {
+    width: 80vw;
+  }
+
+  .contactField {
+    margin: 5px 0 5px 0;
+    padding: 5px;
+  }
+
+  .contactText {
+    margin-top: 5px;
+    width: 73vw;
+  }
+}
+
+@media screen and (max-width: 322px) {
+
+  .whysponsorus {
+    height: 500px;
+    margin-bottom: 10%;
+    margin-top: -80%;
+    font-size: 0.87rem;
+  }
+
+  .subheading {
+    margin-left: -60%;
+    font-size: 140%;
+    text-align: center;
+    margin-top: 80%;
+    margin-bottom: 10%;
+  }
+
+  .carousel2 {
+    width: 65vw;
+    padding-left: 0vw;
+    margin-left: 0px;
+  }
+
+  .carousel2 img {
+    height: 5vh;
+  }
+
+  .contactField {
+    margin: 5px 0 5px 0;
+    padding: 5px;
+  }
+
+  .contactText {
+    margin-top: 5px;
+    width: 73vw;
+  }
+}
