@@ -7,7 +7,7 @@
 
 .wind, .stage {
   overflow:hidden;
-  background:#000;
+  /* background:#000; */
 }
 
 .ind, .ring , .container ,.stage,.wind {
