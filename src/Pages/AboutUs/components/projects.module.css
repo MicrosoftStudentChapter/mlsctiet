@@ -9,7 +9,7 @@
     width:100vw;
     position:absolute;
     z-index:10;
-    background-color:black;
+    background-color:#1e1e1e;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     
     top:0;
