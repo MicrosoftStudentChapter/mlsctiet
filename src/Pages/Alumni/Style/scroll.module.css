@@ -255,3 +255,19 @@
     }
     
    }
+   @media (max-width: 800px) {
+    .meetAlumni{
+        margin-top: 2.5%; 
+        margin-bottom: 8%; 
+        margin-left: 5%; 
+        max-width: 40vw;
+        max-height: 10vh;
+    }
+    
+    .meetAlumni img{ 
+        max-width: 100%;
+        max-height: 100%;
+        position: relative;
+        left:50%;
+    }
+   }
