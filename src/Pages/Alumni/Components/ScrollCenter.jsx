@@ -3,7 +3,7 @@ import styles from "../Style/scroll.module.css";
 import ProfileCards from './ProfileCards';
 import YearSelector from './YearSelector';
 import AlumniSvg from "../Assets/alumni_vector.svg";
-import MeetVector from "../Assets/meet_vector.svg";
+import MeetVector from "../Assets/2.png";
 
 const imageData = [
   {

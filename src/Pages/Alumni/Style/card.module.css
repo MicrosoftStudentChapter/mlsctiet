@@ -23,9 +23,9 @@
 
 .box {
   position: relative;
-  width: 30rem;
-  height: 40rem;
-  margin: 4rem;
+  width: 20rem;
+  height: 27rem;
+  margin: 3rem;
   /* font-size: 62.5%; */
 
 }
@@ -49,8 +49,8 @@
 }
 
 .imgBox img {
-  width: 30rem;
-  height: 40rem;
+  width: 20rem;
+  height: 27rem;
   object-fit: cover;
   resize: both;
 }
@@ -61,7 +61,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 1.5rem;
+  padding: 1rem;
   display: flex;
   justify-content: center;
   background-color: #fff;
@@ -75,7 +75,7 @@
 
 .content h2 {
   display: block;
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: #111;
   font-weight: 1000;
   line-height: 2rem;
@@ -84,7 +84,7 @@
 
 .content span {
   color: #555;
-  font-size: 1.4rem;
+  font-size: 0.9rem;
   font-weight: 300;
   letter-spacing: 2px;
 }
@@ -112,14 +112,14 @@
 @media (max-width: 1500px) {
   .content span {
     color: #555;
-    font-size: 1rem;
+    font-size: 0.6rem;
     font-weight: 300;
     letter-spacing: 2px;
   }
 
   .content h2 {
     display: block;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #111;
     font-weight: 1000;
     line-height: 2rem;
@@ -139,9 +139,9 @@
 
   .box {
     position: relative;
-    width: 25rem;
-    height: 35rem;
-    margin: 4rem;
+    width: 17rem;
+    height: 23rem;
+    margin: 3rem;
   }
   
   .box:hover .imgBox {
@@ -163,8 +163,8 @@
   }
   
   .imgBox img {
-    width: 25rem;
-    height: 35rem;
+    width: 17rem;
+    height: 23rem;
     object-fit: cover;
     resize: both;
   }
@@ -192,7 +192,7 @@
 @media (max-width: 1200px) {
   .content span {
     color: #555;
-    font-size: 1rem;
+    font-size: 0.6rem;
     font-weight: 200;
     letter-spacing: 2px;
   }
@@ -203,7 +203,7 @@
 
   .content span {
     color: #555;
-    font-size: 1rem;
+    font-size: 0.6rem;
     font-weight: 200;
     letter-spacing: 2px;
   }
@@ -211,7 +211,7 @@
 
   .content h2 {
     display: block;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: #111;
     font-weight: 1000;
     line-height: 2rem;
@@ -242,9 +242,9 @@
 
   .box {
     position: relative;
-    width: 25rem;
-    height: 35rem;
-    margin: 4rem;
+    width: 17rem;
+    height: 23rem;
+    margin: 3rem;
   }
   
   .box:hover .imgBox {
@@ -266,8 +266,8 @@
   }
   
   .imgBox img {
-    width: 25rem;
-    height: 35rem;
+    width: 17rem;
+    height: 23rem;
     object-fit: cover;
     resize: both;
   }
@@ -276,8 +276,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 25rem;
-    height: 35rem;
+    width: 17rem;
+    height: 23rem;
     padding: 1.5rem;
     display: flex;
     justify-content: center;
@@ -294,14 +294,14 @@
 @media (max-width: 400px) {
   .content span {
     color: #555;
-    font-size: 0.7rem;
+    font-size: 0.45rem;
     font-weight: 200;
     letter-spacing: 2px;
   }
 
   .content h2 {
     display: block;
-    font-size: 1rem;
+    font-size: 0.6rem;
     color: #111;
     font-weight: 1000;
     line-height: 2rem;
@@ -332,9 +332,9 @@
 
   .box {
     position: relative;
-    width: 20rem;
-    height: 30rem;
-    margin: 4rem;
+    width: 13rem;
+    height: 20rem;
+    margin: 3rem;
   }
   
   .box:hover .imgBox {
@@ -356,8 +356,8 @@
   }
   
   .imgBox img {
-    width: 20rem;
-    height: 30rem;
+    width: 13rem;
+    height: 20rem;
     object-fit: cover;
     resize: both;
   }
@@ -366,8 +366,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 20rem;
-    height: 30rem;
+    width: 13rem;
+    height: 20rem;
     padding: 1.5rem;
     display: flex;
     justify-content: center;
