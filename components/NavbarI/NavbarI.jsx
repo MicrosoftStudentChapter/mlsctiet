@@ -42,7 +42,7 @@ const NavbarI = () => {
             <Link data-tooltip-content="About" className={`my-anchor-element ${location.pathname === "/about" && 'active'}`} to={'/about'}>
                 <AiOutlineInfoCircle size={25} />
             </Link>
-            <Link data-tooltip-content="Community" className={`my-anchor-element ${location.pathname === "/community" && 'active'}`} to={'/community'}>
+            <Link data-tooltip-content="Alumni" className={`my-anchor-element ${location.pathname === "/alumni" && 'active'}`} to={'/alumni'}>
                 <RiCommunityLine size={25} />
             </Link>
             <a className='show-on-phone dropup' ref={closeRef} href="#">
