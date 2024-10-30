@@ -123,7 +123,7 @@ const Projects = (props) => {
                                                     handleClick(index);
                                                     onMouseEnter(index);
                                                 }}
-                                                className={clickedIndex === index ? style.whiteText : ""}
+                                                className={clickedIndex === index ? style.whiteText : style.grayText}
                                             >
                                                 {title[index]}
                                             </p>

@@ -47,20 +47,24 @@
     margin-left: 75px;
     cursor: pointer;
 }
+.grayText{
+    color: gray;
+}
 .projectHeading p{
     font-size: 2.5rem;
     margin-top: 31px;
     margin-left: 32px;
+    /* color: gray; */
     
 }
 .projectHeading p:active{
     color: white;
 }
 .projectHeading p:hover{
-    
     color: white;
 }
 .whiteText{
+    /* color: red; */
     color: white;
 }
 .projecth{
