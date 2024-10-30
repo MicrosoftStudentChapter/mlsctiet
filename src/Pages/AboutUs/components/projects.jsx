@@ -143,7 +143,9 @@ const Projects = (props) => {
                                         onClick={() => handleAccordionClick(index)}
                                         style={{ height: activeIndex === index ? contentHeight + 40 : 40 }}
                                     >
-                                        <p ref={el => (paraRef.current[index] = el)}>
+                                        <p ref={el => (paraRef.current[index] = el)}
+                                             className={clickedIndex === index ? style.whiteText : style.grayText}
+                                            >
                                             {title[index]}
                                         </p>
                                         <div
