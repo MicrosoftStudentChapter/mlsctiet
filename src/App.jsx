@@ -10,6 +10,8 @@ import NavbarI from "./Components/NavbarI/NavbarI";
 import Sponsors from "./Pages/Sponsors";
 import Chatbot from "../components/Chatbot/chatbot"
 
+//random addition
+
 function App() {
   return (
     <Router>
