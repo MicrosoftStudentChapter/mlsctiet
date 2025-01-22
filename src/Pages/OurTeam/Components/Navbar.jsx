@@ -57,7 +57,7 @@ const Navbar = () => {
           <div className={styles.wrapper}>
             {members.map((el, index) => {
               if (
-                (target === "secretaries" && (index === 0 || index === 3)) ||
+                // (target === "secretaries" && (index === 0 || index === 3 || index === 4)) ||
                 (target === "heads" && (index === 4 || index === 7))
               ) {
                 return <div className={styles.emptyCard} key={`empty-${index}`} />;

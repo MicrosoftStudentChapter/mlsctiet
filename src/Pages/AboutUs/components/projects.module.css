@@ -190,4 +190,18 @@
         justify-content: center;
         align-items: center;
     }
+    .redirectButton{
+        /* margin-left: 40px; */
+        padding: 5px;
+        background-color: #0078D4;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    .linksection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

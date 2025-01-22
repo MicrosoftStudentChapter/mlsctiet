@@ -100,11 +100,6 @@
     ],
     "secretaries": [
         {
-            "title": "",
-            "img": "",
-            "linkedin_acc": ""
-        },
-        {
             "title": "Tanmay Mann",
             "img": "EB-Photos/Tanmay_Mann.png",
             "linkedin_acc": "https://www.linkedin.com/in/tanmay-mann-9990ba255/"
@@ -115,11 +110,6 @@
             "linkedin_acc": "https://www.linkedin.com/in/agrimgoyal/"
         },
         {
-            "title": "",
-            "img": "",
-            "linkedin_acc": ""
-        },
-        {
             "title": "Preksha Jain",
             "img": "EB-Photos/Preksha_Jain.png",
             "linkedin_acc": "https://www.linkedin.com/in/preksha-jain21/"
@@ -128,16 +118,6 @@
             "title": "Prisha Kandhari",
             "img": "EB-Photos/Prisha_Kandhari.png",
             "linkedin_acc": "https://www.linkedin.com/in/prisha-kandhari/"
-        },
-        {
-            "title": "Dev Mehta",
-            "img": "EB-Photos/Dev_Mehta.png",
-            "linkedin_acc": "https://www.linkedin.com/in/dev-mehta-089a86264/"
-        },
-        {
-            "title": "Jahanvi Srivastava",
-            "img": "EB-Photos/Jahanvi_Srivastava.png",
-            "linkedin_acc": "https://www.linkedin.com/in/jahanvi-srivastava-59b68724b/"
         }
         
     ],
