@@ -7,10 +7,13 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AboutUs from "./Pages/AboutUs";
 import NavbarI from "./Components/NavbarI/NavbarI";
+import Sponsors from "./Pages/Sponsors";
+import Chatbot from "../components/Chatbot/chatbot"
 
 function App() {
   return (
     <Router>
+      <Chatbot/>
       <NavbarI />
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
@@ -19,6 +22,7 @@ function App() {
 				<Route path="/alumni" element={<Alumni />} />
         <Route path="/team" element={<OurTeam />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/sponsors" element={<Sponsors/>} />
       </Routes>
     </Router>
   );

@@ -1,0 +1,15 @@
+/* html{
+  font-size: 62.5%;
+
+} */
+.AlumniContainer{
+    width: 100vw;
+    min-height: 100vh;
+    
+    font-family: dmMono;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  } 
+  
