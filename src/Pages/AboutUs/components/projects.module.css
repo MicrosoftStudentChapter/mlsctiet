@@ -9,7 +9,7 @@
     width:100vw;
     position:absolute;
     z-index:10;
-    background-color:black;
+    background-color:#1e1e1e;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     
     top:0;
@@ -47,20 +47,24 @@
     margin-left: 75px;
     cursor: pointer;
 }
+.grayText{
+    color: gray;
+}
 .projectHeading p{
     font-size: 2.5rem;
     margin-top: 31px;
     margin-left: 32px;
+    /* color: gray; */
     
 }
 .projectHeading p:active{
     color: white;
 }
 .projectHeading p:hover{
-    
     color: white;
 }
 .whiteText{
+    /* color: red; */
     color: white;
 }
 .projecth{
@@ -194,6 +198,20 @@
     }
     .accordianDiv{
         display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .redirectButton{
+        /* margin-left: 40px; */
+        padding: 5px;
+        background-color: #0078D4;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    .linksection{
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }

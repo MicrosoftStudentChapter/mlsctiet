@@ -20,11 +20,14 @@ export default function Carroussel(props) {
   }, [props.offset, props.showArrows, props.autoPlay]);
 
   useEffect(() => {
-    setInterval(1000, () => {
-      console.log("Running", goToSlide);
-      setGoToSlide(goToSlide + (1 % 3));
-    });
-  }, []);
+    if (autoPlay) {
+      const intervalId = setInterval(() => {
+        setGoToSlide((prevSlide) => (prevSlide + 1) % cards.length);
+      }, props.interval * 1000); 
+      
+      return () => clearInterval(intervalId); 
+    }
+  }, [autoPlay, cards.length, props.interval]);
 
   return (
     <div
@@ -36,8 +39,6 @@ export default function Carroussel(props) {
         offsetRadius={offsetRadius}
         showNavigation={showArrows}
         animationConfig={config.gentle}
-        autoPlay={true}
-        interval={2}
       />
     </div>
   );

@@ -21,7 +21,7 @@ const Projects = (props) => {
                 , "An app designed for Makeathon 6, featuring a mentor calling system that connects participants with domain-specific mentors, ensuring expert guidance and streamlined support during the 24-hour hackathon."
                 , "The Recruitment Quiz Portal is a specialized platform used during the MLSC recruitment process. It administers quizzes to assess candidates' knowledge and skills, streamlining the evaluation and selection process."
             ];
-    const links = ["https://github.com/MicrosoftStudentChapter/Linky.git", "https://github.com/MicrosoftStudentChapter/IRC-Server.git", "https://github.com/MicrosoftStudentChapter/MLSC-ChatBot.git", "https://github.com/MicrosoftStudentChapter/makeathon6-app.git", ""];
+    const links = ["https://generate.mlsctiet.com/", "https://github.com/MicrosoftStudentChapter/IRC-Server.git", "https://github.com/MicrosoftStudentChapter/MLSC-ChatBot.git", "https://github.com/MicrosoftStudentChapter/makeathon6-app.git", ""];
 
     const [activeIndex, setActiveIndex] = useState(0);
     const [hoveredIndex, setHoveredIndex] = useState(0);
@@ -123,7 +123,7 @@ const Projects = (props) => {
                                                     handleClick(index);
                                                     onMouseEnter(index);
                                                 }}
-                                                className={clickedIndex === index ? style.whiteText : ""}
+                                                className={clickedIndex === index ? style.whiteText : style.grayText}
                                             >
                                                 {title[index]}
                                             </p>
@@ -143,7 +143,9 @@ const Projects = (props) => {
                                         onClick={() => handleAccordionClick(index)}
                                         style={{ height: activeIndex === index ? contentHeight + 40 : 40 }}
                                     >
-                                        <p ref={el => (paraRef.current[index] = el)}>
+                                        <p ref={el => (paraRef.current[index] = el)}
+                                             className={clickedIndex === index ? style.whiteText : style.grayText}
+                                            >
                                             {title[index]}
                                         </p>
                                         <div
@@ -151,8 +153,13 @@ const Projects = (props) => {
                                             className={style.accordionContent}
                                         >
                                             <div className={style.accordianDiv}>
-                                                <div className={style.projectimage}>
-                                                    <img src={Images[index]} alt="error" className={style.accordianimg} />
+                                                <div className={style.linksection}>
+                                                    <div className={style.projectimage}>
+                                                        <img src={Images[index]} alt="error" className={style.accordianimg} />
+                                                    </div>
+                                                    <a href={links[index]} target="_blank" rel="noopener noreferrer">
+                                                        <button className={style.redirectButton}>Link</button>
+                                                    </a>
                                                 </div>
                                                 <span> {description[index]}</span>
                                             </div>
