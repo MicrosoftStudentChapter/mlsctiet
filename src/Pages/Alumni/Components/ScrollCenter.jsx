@@ -89,8 +89,16 @@ function ScrollCenter({ currentYear }) {
             </div>
             <ProfileCards data={profileData} />
           </div>
+        )}{
+          currentYear === 2023 && (
+          <div>
+            <div className={styles.meetAlumni}>
+              <img src={MeetVector} alt="MeetAlumni" />
+            </div>
+            <ProfileCards data={profileData} />
+          </div>
         )}
-        {currentYear === 2023 && (
+        {currentYear === 2024 && (
           <div>
             <div className={styles.meetAlumni}>
               <img src={MeetVector} alt="MeetAlumni" />
