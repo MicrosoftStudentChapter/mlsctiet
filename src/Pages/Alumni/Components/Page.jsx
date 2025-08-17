@@ -5,7 +5,7 @@ import ScrollCenter from "./ScrollCenter";
 import { useState } from "react";
 
 function Page() {
-  const [currentYear, setCurrentYear] = useState(2023);
+  const [currentYear, setCurrentYear] = useState(2024);
 
   const toggleShowYear = (year) => {
     if (currentYear === year) return;
