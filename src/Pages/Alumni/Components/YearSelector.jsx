@@ -4,6 +4,7 @@ import styles from "../Style/yearSelector.module.css";
 
 // JSON data for years
 const yearData = [
+  { year: 2024 },
   { year: 2023 },
   { year: 2022 }
   // { year: 2020 },
@@ -11,7 +12,7 @@ const yearData = [
 ];
 
 function YearSelector({ toggleShowYear }) {
-  const [selectedYear, setSelectedYear] = useState(2023);
+  const [selectedYear, setSelectedYear] = useState(2024);
   const handleYearClick = (year) => {
     setSelectedYear(year);
     toggleShowYear(year);

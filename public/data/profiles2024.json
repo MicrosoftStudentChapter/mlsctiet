@@ -1,0 +1,74 @@
+
+[
+    {
+      "name": "Tanmay Mann",
+      "role": "General Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/v1755275008/Tanmay_advsin.jpg",
+      "alt": "Tanmay Mann",
+      "linkedin": "https://www.linkedin.com/in/tanmay-mann/"
+    },
+    {
+      "name": "Agrim Goyal",
+      "role": "Financial Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/v1755415882/Agrim_j3mbvz.jpg",
+      "alt": "Agrim Goyal",
+      "linkedin": "https://www.linkedin.com/in/agrimgoyal/"
+    },
+  
+    {
+      "name": "Prisha Kandhari",
+      "role": "Joint Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/v1755254440/Prisha_f71cp6.jpg",
+      "alt": "Prisha Kandhari",
+      "linkedin": "https://www.linkedin.com/in/prisha-kandhari/"
+    },
+    {
+      "name": "Preksha Jain",
+      "role": "Joint Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/v1755415909/preksha_xffvcy.jpg",
+      "alt": "Preksha Jain",
+      "linkedin": "https://www.linkedin.com/in/preksha-jain21/"
+    },
+    {
+      "name": "Navdeep Singh Sidhu",
+      "role": "Technical Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/v1755254394/Navdeep_wqsjzb.jpg",
+      "alt": "Navdeep Singh Sidhu",
+      "linkedin": "https://www.linkedin.com/in/navdeep-singh-sidhu/"
+    },
+    {
+      "name": "Mankirat Singh",
+      "role": "Technical Secretary",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/v1755254335/Mankirat_xja9tw.jpg",
+      "alt": "Mankirat Singh",
+      "linkedin": "https://www.linkedin.com/in/mankiratsingh1315/"
+    },
+    {
+      "name": "Ananay Rampal",
+      "role": "Event Management & Logistics Head",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/v1755415897/Ananay_vkvz9g.jpg",
+    "alt": "Ananay Rampal",
+      "linkedin": "https://www.linkedin.com/in/ananay-rampal/"
+    },
+    {
+        "name": "Vanika Sahni",
+      "role": "Content Head",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/v1755275012/Vanika_yrfyzx.jpg",
+      "alt": "Vanika Sahni",
+      "linkedin": "https://www.linkedin.com/in/vanika-sahni-668502252/"
+    },
+    {
+        "name": "Palakpreet Kaur",
+      "role": "Marketing Head",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/v1755275009/Palak_gdbnm0.jpg",
+      "alt": "Palakpreet Kaur",
+      "linkedin": "https://www.linkedin.com/in/palakpreet-kaur-01a999250/"
+    },
+    {
+        "name": "Krishnam Agarwal",
+      "role": "Design Head",
+      "image": "https://res.cloudinary.com/dy1pmolax/image/upload/v1755254251/Krishnam_km8cpb.jpg",
+      "alt": "Krishnam Agarwal",
+      "linkedin": "https://www.linkedin.com/in/krishnam-agarwal-a79906264/"
+    }
+  ]
